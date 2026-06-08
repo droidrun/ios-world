@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248A238E2D97475C97013213 /* WorkspaceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4F7C0EF45C48C2A8739E3A /* WorkspaceModels.swift */; };
+		F9EFBB585D0A43C6B4AA48B1 /* SeedDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C615728FAF16407D9FF9B54B /* SeedDataFactory.swift */; };
+		C7CE9821A04E44F8BC7486D2 /* WorkspacePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D8433F8D4474F9149066E /* WorkspacePersistence.swift */; };
+		5D0FD754167C403A9CE1EC5D /* workspace_snapshot.json in Resources */ = {isa = PBXBuildFile; fileRef = CECCC91E2D014F0491EB6DB1 /* workspace_snapshot.json */; };
+		C648D9E0905645538B9DFB96 /* AccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098BF2AB5A6D465AA7C5001D /* AccessibilityID.swift */; };
+		B8A4C50E9D764DA8A8AEC75A /* AppFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF39FB7DFC540459292C578 /* AppFormatters.swift */; };
+		2EBC05D225BD49AA88F28006 /* String+Slug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FC18F13F074843811A3067 /* String+Slug.swift */; };
+		5A9AD8C22AE4427A84A1C692 /* SlidesActionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD78223C1294553B6822560 /* SlidesActionCoordinator.swift */; };
+		99BCE959DA6E4E469C82A036 /* SlidesEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C129E93D09242DEA91A7EEB /* SlidesEditorViewModel.swift */; };
+		236E84ABE797413FBA43E090 /* SlidesHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E947894624645FDB8626B34 /* SlidesHomeViewModel.swift */; };
+		EC9459E546B94EB8A67E1233 /* SlidesSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E18BBA03494A3597B86044 /* SlidesSearchViewModel.swift */; };
+		B2C15A93D2814D44914489F4 /* WorkspaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10DA82E6804A0A81BC3AEF /* WorkspaceStore.swift */; };
+		F51CDA2FAF4D41F7BF8ED37E /* SlideDeckRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9998877FE4E39B03B866F /* SlideDeckRowView.swift */; };
+		D10E8C56DEA94186B13D2467 /* WorkspaceChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15597874ECAB415BABE26297 /* WorkspaceChrome.swift */; };
+		FA188B46A0B84C39887ADA5B /* SlidesEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC9967A9F474C9CAAA03844 /* SlidesEditorView.swift */; };
+		33378D0A8C214D28B0D6779D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8875B65DA404855AC5EEA0F /* HomeView.swift */; };
+		0E9DFB88A84844F2AC049219 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F644C9DEF74F51931696A1 /* MoreView.swift */; };
+		0225CE88ECCA40C6971073DC /* RecentDecksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BEE7EC17C464182686DDE /* RecentDecksView.swift */; };
+		3B9AAD0165FD43F5875ED49F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13D81FBE14242ADA78BD8C7 /* SearchView.swift */; };
+		7E647A7E994243F6B4CFCA58 /* SharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B226C9286A847F789339666 /* SharedView.swift */; };
+		914971D1EC494410BD641684 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FFE57D7DE149259753AA7A /* RootTabView.swift */; };
+		58BA1836BBF54803B533C146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34492A5BCF427C86134748 /* Assets.xcassets */; };
+		78F843A360D341C9BE7DAC1E /* CloudSlidesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D828ABD674CA4B59D29DC /* CloudSlidesApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47ECCD70A8B14B95A5A04C51 /* CloudSlides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CloudSlides.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4F7C0EF45C48C2A8739E3A /* WorkspaceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceModels.swift"; sourceTree = "<group>"; };
+		C615728FAF16407D9FF9B54B /* SeedDataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeedDataFactory.swift"; sourceTree = "<group>"; };
+		F69D8433F8D4474F9149066E /* WorkspacePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspacePersistence.swift"; sourceTree = "<group>"; };
+		CECCC91E2D014F0491EB6DB1 /* workspace_snapshot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "workspace_snapshot.json"; sourceTree = "<group>"; };
+		098BF2AB5A6D465AA7C5001D /* AccessibilityID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessibilityID.swift"; sourceTree = "<group>"; };
+		5AF39FB7DFC540459292C578 /* AppFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppFormatters.swift"; sourceTree = "<group>"; };
+		36FC18F13F074843811A3067 /* String+Slug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Slug.swift"; sourceTree = "<group>"; };
+		8CD78223C1294553B6822560 /* SlidesActionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SlidesActionCoordinator.swift"; sourceTree = "<group>"; };
+		3C129E93D09242DEA91A7EEB /* SlidesEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SlidesEditorViewModel.swift"; sourceTree = "<group>"; };
+		2E947894624645FDB8626B34 /* SlidesHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SlidesHomeViewModel.swift"; sourceTree = "<group>"; };
+		D5E18BBA03494A3597B86044 /* SlidesSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SlidesSearchViewModel.swift"; sourceTree = "<group>"; };
+		CF10DA82E6804A0A81BC3AEF /* WorkspaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceStore.swift"; sourceTree = "<group>"; };
+		15A9998877FE4E39B03B866F /* SlideDeckRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SlideDeckRowView.swift"; sourceTree = "<group>"; };
+		15597874ECAB415BABE26297 /* WorkspaceChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceChrome.swift"; sourceTree = "<group>"; };
+		5DC9967A9F474C9CAAA03844 /* SlidesEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SlidesEditorView.swift"; sourceTree = "<group>"; };
+		E8875B65DA404855AC5EEA0F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		40F644C9DEF74F51931696A1 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreView.swift"; sourceTree = "<group>"; };
+		033BEE7EC17C464182686DDE /* RecentDecksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecentDecksView.swift"; sourceTree = "<group>"; };
+		C13D81FBE14242ADA78BD8C7 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchView.swift"; sourceTree = "<group>"; };
+		2B226C9286A847F789339666 /* SharedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedView.swift"; sourceTree = "<group>"; };
+		F9FFE57D7DE149259753AA7A /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootTabView.swift"; sourceTree = "<group>"; };
+		AF34492A5BCF427C86134748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		BBD413D10CAB4D62A25A3F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		78BC0E5A7091400FA5F742EA /* CloudSlides.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CloudSlides.entitlements"; sourceTree = "<group>"; };
+		922D828ABD674CA4B59D29DC /* CloudSlidesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CloudSlidesApp.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C5097DA8F07B4CA8BA61F71F = {
+			isa = PBXGroup;
+			children = (
+				12AFED3C59644CB99F7FCE63 /* CloudSlides */,
+				6A7619E73BC04539ADFA5FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A7619E73BC04539ADFA5FCB = {
+			isa = PBXGroup;
+			children = (
+				47ECCD70A8B14B95A5A04C51 /* CloudSlides.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12AFED3C59644CB99F7FCE63 = {
+			isa = PBXGroup;
+			children = (
+				38FFB0CD3454465DACAD23FF /* Models */,
+				B0BEFD1515EA4B8F8935E86D /* Persistence */,
+				19CACAE1424340BB9711032D /* Resources */,
+				A7289F9E0A2748CB857118DA /* Utilities */,
+				3ADD5D2097D94E3E87F4CBAD /* ViewModels */,
+				C99FCB389A294D0BB2746BF2 /* Views */,
+				AF34492A5BCF427C86134748 /* Assets.xcassets */,
+				BBD413D10CAB4D62A25A3F16 /* Info.plist */,
+				78BC0E5A7091400FA5F742EA /* CloudSlides.entitlements */,
+				922D828ABD674CA4B59D29DC /* CloudSlidesApp.swift */,
+			);
+			path = "CloudSlides";
+			sourceTree = "<group>";
+		};
+		38FFB0CD3454465DACAD23FF = {
+			isa = PBXGroup;
+			children = (
+				4C4F7C0EF45C48C2A8739E3A /* WorkspaceModels.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		B0BEFD1515EA4B8F8935E86D = {
+			isa = PBXGroup;
+			children = (
+				C615728FAF16407D9FF9B54B /* SeedDataFactory.swift */,
+				F69D8433F8D4474F9149066E /* WorkspacePersistence.swift */,
+			);
+			path = "Persistence";
+			sourceTree = "<group>";
+		};
+		19CACAE1424340BB9711032D = {
+			isa = PBXGroup;
+			children = (
+				CECCC91E2D014F0491EB6DB1 /* workspace_snapshot.json */,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		A7289F9E0A2748CB857118DA = {
+			isa = PBXGroup;
+			children = (
+				098BF2AB5A6D465AA7C5001D /* AccessibilityID.swift */,
+				5AF39FB7DFC540459292C578 /* AppFormatters.swift */,
+				36FC18F13F074843811A3067 /* String+Slug.swift */,
+			);
+			path = "Utilities";
+			sourceTree = "<group>";
+		};
+		3ADD5D2097D94E3E87F4CBAD = {
+			isa = PBXGroup;
+			children = (
+				8CD78223C1294553B6822560 /* SlidesActionCoordinator.swift */,
+				3C129E93D09242DEA91A7EEB /* SlidesEditorViewModel.swift */,
+				2E947894624645FDB8626B34 /* SlidesHomeViewModel.swift */,
+				D5E18BBA03494A3597B86044 /* SlidesSearchViewModel.swift */,
+				CF10DA82E6804A0A81BC3AEF /* WorkspaceStore.swift */,
+			);
+			path = "ViewModels";
+			sourceTree = "<group>";
+		};
+		C99FCB389A294D0BB2746BF2 = {
+			isa = PBXGroup;
+			children = (
+				EB26A63E027F4DD1BA1584DE /* Common */,
+				FD69210E0E84443CB73AEC40 /* Editor */,
+				077E9F04272F4EE4B7446C14 /* Home */,
+				27E23C32B0834647A5F90B1E /* More */,
+				47AB9923D6BC4FC2ABA61915 /* Recents */,
+				253AD2A2860B41D59B0DC694 /* Search */,
+				14BF54BDCD2C43F59DFCA896 /* Shared */,
+				F9FFE57D7DE149259753AA7A /* RootTabView.swift */,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		EB26A63E027F4DD1BA1584DE = {
+			isa = PBXGroup;
+			children = (
+				15A9998877FE4E39B03B866F /* SlideDeckRowView.swift */,
+				15597874ECAB415BABE26297 /* WorkspaceChrome.swift */,
+			);
+			path = "Common";
+			sourceTree = "<group>";
+		};
+		FD69210E0E84443CB73AEC40 = {
+			isa = PBXGroup;
+			children = (
+				5DC9967A9F474C9CAAA03844 /* SlidesEditorView.swift */,
+			);
+			path = "Editor";
+			sourceTree = "<group>";
+		};
+		077E9F04272F4EE4B7446C14 = {
+			isa = PBXGroup;
+			children = (
+				E8875B65DA404855AC5EEA0F /* HomeView.swift */,
+			);
+			path = "Home";
+			sourceTree = "<group>";
+		};
+		27E23C32B0834647A5F90B1E = {
+			isa = PBXGroup;
+			children = (
+				40F644C9DEF74F51931696A1 /* MoreView.swift */,
+			);
+			path = "More";
+			sourceTree = "<group>";
+		};
+		47AB9923D6BC4FC2ABA61915 = {
+			isa = PBXGroup;
+			children = (
+				033BEE7EC17C464182686DDE /* RecentDecksView.swift */,
+			);
+			path = "Recents";
+			sourceTree = "<group>";
+		};
+		253AD2A2860B41D59B0DC694 = {
+			isa = PBXGroup;
+			children = (
+				C13D81FBE14242ADA78BD8C7 /* SearchView.swift */,
+			);
+			path = "Search";
+			sourceTree = "<group>";
+		};
+		14BF54BDCD2C43F59DFCA896 = {
+			isa = PBXGroup;
+			children = (
+				2B226C9286A847F789339666 /* SharedView.swift */,
+			);
+			path = "Shared";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70868E4CEDC3449F98A28F0D /* CloudSlides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9832B3E79DB04C57AC2A9B0C /* Build configuration list for PBXNativeTarget "CloudSlides" */;
+			buildPhases = (
+				50C925C4EEAB41C597920927 /* Sources */,
+				DEEF9D953C5643EBA1049BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CloudSlides";
+			productName = "CloudSlides";
+			productReference = 47ECCD70A8B14B95A5A04C51 /* CloudSlides.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4124E70CD6474F85A1BB0264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					70868E4CEDC3449F98A28F0D = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 4D5090FFBD174C309C793A44 /* Build configuration list for PBXProject "CloudSlides" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5097DA8F07B4CA8BA61F71F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70868E4CEDC3449F98A28F0D /* CloudSlides */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEF9D953C5643EBA1049BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0FD754167C403A9CE1EC5D /* workspace_snapshot.json in Resources */,
+				58BA1836BBF54803B533C146 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50C925C4EEAB41C597920927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248A238E2D97475C97013213 /* WorkspaceModels.swift in Sources */,
+				F9EFBB585D0A43C6B4AA48B1 /* SeedDataFactory.swift in Sources */,
+				C7CE9821A04E44F8BC7486D2 /* WorkspacePersistence.swift in Sources */,
+				C648D9E0905645538B9DFB96 /* AccessibilityID.swift in Sources */,
+				B8A4C50E9D764DA8A8AEC75A /* AppFormatters.swift in Sources */,
+				2EBC05D225BD49AA88F28006 /* String+Slug.swift in Sources */,
+				5A9AD8C22AE4427A84A1C692 /* SlidesActionCoordinator.swift in Sources */,
+				99BCE959DA6E4E469C82A036 /* SlidesEditorViewModel.swift in Sources */,
+				236E84ABE797413FBA43E090 /* SlidesHomeViewModel.swift in Sources */,
+				EC9459E546B94EB8A67E1233 /* SlidesSearchViewModel.swift in Sources */,
+				B2C15A93D2814D44914489F4 /* WorkspaceStore.swift in Sources */,
+				F51CDA2FAF4D41F7BF8ED37E /* SlideDeckRowView.swift in Sources */,
+				D10E8C56DEA94186B13D2467 /* WorkspaceChrome.swift in Sources */,
+				FA188B46A0B84C39887ADA5B /* SlidesEditorView.swift in Sources */,
+				33378D0A8C214D28B0D6779D /* HomeView.swift in Sources */,
+				0E9DFB88A84844F2AC049219 /* MoreView.swift in Sources */,
+				0225CE88ECCA40C6971073DC /* RecentDecksView.swift in Sources */,
+				3B9AAD0165FD43F5875ED49F /* SearchView.swift in Sources */,
+				7E647A7E994243F6B4CFCA58 /* SharedView.swift in Sources */,
+				914971D1EC494410BD641684 /* RootTabView.swift in Sources */,
+				78F843A360D341C9BE7DAC1E /* CloudSlidesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7EB832FD208446188670E59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudSlides/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudslides";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E0C90578C98B4C54AAF7E8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudSlides/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudslides";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		210D0ED2AC944B2F85197409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = "CloudSlides/CloudSlides.entitlements";
+				INFOPLIST_FILE = "CloudSlides/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudslides";
+				PRODUCT_NAME = "CloudSlides";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4996462973B14564B815442B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = "CloudSlides/CloudSlides.entitlements";
+				INFOPLIST_FILE = "CloudSlides/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudslides";
+				PRODUCT_NAME = "CloudSlides";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D5090FFBD174C309C793A44 /* Build configuration list for PBXProject "CloudSlides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EB832FD208446188670E59C /* Debug */,
+				E0C90578C98B4C54AAF7E8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9832B3E79DB04C57AC2A9B0C /* Build configuration list for PBXNativeTarget "CloudSlides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210D0ED2AC944B2F85197409 /* Debug */,
+				4996462973B14564B815442B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4124E70CD6474F85A1BB0264 /* Project object */;
+}

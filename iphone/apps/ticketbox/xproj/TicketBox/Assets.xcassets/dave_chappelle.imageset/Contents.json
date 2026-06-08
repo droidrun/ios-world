@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "dave_chappelle.jpg",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

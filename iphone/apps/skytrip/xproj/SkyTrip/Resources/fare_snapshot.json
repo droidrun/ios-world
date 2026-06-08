@@ -1,0 +1,436 @@
+{
+  "metadata": {
+    "providerLabel": "Amadeus Snapshot (Offline Import)",
+    "snapshotTimestamp": "2026-03-01T10:30:00Z",
+    "sourceDescription": "Pre-generated fares imported by offline data pipeline",
+    "lastUpdated": "2026-03-01T10:35:00Z"
+  },
+  "itineraries": [
+    {
+      "id": "SNAP_OW_001",
+      "tripType": "oneWay",
+      "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+      "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_OW_001_SEG_1",
+          "carrierCode": "DL",
+          "flightNumber": "421",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "departureTime": "2026-05-15T08:45:00Z",
+          "arrivalTime": "2026-05-15T13:32:00Z",
+          "durationMinutes": 287,
+          "terminal": "S",
+          "gate": "A13",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [],
+      "fare": {
+        "cabin": "mainCabin",
+        "fareBrand": "Main",
+        "price": 463,
+        "currency": "USD"
+      },
+      "badges": ["Best Value", "Main Cabin"],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_OW_002",
+      "tripType": "oneWay",
+      "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+      "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_OW_002_SEG_1",
+          "carrierCode": "DL",
+          "flightNumber": "527",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "departureTime": "2026-05-15T11:20:00Z",
+          "arrivalTime": "2026-05-15T16:11:00Z",
+          "durationMinutes": 291,
+          "terminal": "S",
+          "gate": "A15",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [],
+      "fare": {
+        "cabin": "comfortPlus",
+        "fareBrand": "Comfort+",
+        "price": 596,
+        "currency": "USD"
+      },
+      "badges": ["Comfort+"],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_OW_003",
+      "tripType": "oneWay",
+      "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+      "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_OW_003_SEG_1",
+          "carrierCode": "DL",
+          "flightNumber": "1883",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "ORD", "code": "ORD", "city": "Chicago", "name": "Chicago O'Hare International Airport", "state": "IL" },
+          "departureTime": "2026-05-15T13:05:00Z",
+          "arrivalTime": "2026-05-15T15:01:00Z",
+          "durationMinutes": 116,
+          "terminal": "S",
+          "gate": "A16",
+          "stops": 0,
+          "status": "onTime"
+        },
+        {
+          "id": "SNAP_OW_003_SEG_2",
+          "carrierCode": "DL",
+          "flightNumber": "2336",
+          "origin": { "id": "ORD", "code": "ORD", "city": "Chicago", "name": "Chicago O'Hare International Airport", "state": "IL" },
+          "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "departureTime": "2026-05-15T15:58:00Z",
+          "arrivalTime": "2026-05-15T19:39:00Z",
+          "durationMinutes": 221,
+          "terminal": "2",
+          "gate": "H14",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [],
+      "fare": {
+        "cabin": "firstClass",
+        "fareBrand": "First",
+        "price": 942,
+        "currency": "USD"
+      },
+      "badges": [],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_OW_004",
+      "tripType": "oneWay",
+      "origin": { "id": "JFK", "code": "JFK", "city": "New York", "name": "John F. Kennedy International Airport", "state": "NY" },
+      "destination": { "id": "SFO", "code": "SFO", "city": "San Francisco", "name": "San Francisco International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_OW_004_SEG_1",
+          "carrierCode": "DL",
+          "flightNumber": "891",
+          "origin": { "id": "JFK", "code": "JFK", "city": "New York", "name": "John F. Kennedy International Airport", "state": "NY" },
+          "destination": { "id": "SFO", "code": "SFO", "city": "San Francisco", "name": "San Francisco International Airport", "state": "CA" },
+          "departureTime": "2026-05-15T09:50:00Z",
+          "arrivalTime": "2026-05-15T15:15:00Z",
+          "durationMinutes": 325,
+          "terminal": "4",
+          "gate": "B12",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [],
+      "fare": {
+        "cabin": "mainCabin",
+        "fareBrand": "Main",
+        "price": 522,
+        "currency": "USD"
+      },
+      "badges": ["Main Cabin"],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_OW_005",
+      "tripType": "oneWay",
+      "origin": { "id": "BOS", "code": "BOS", "city": "Boston", "name": "Boston Logan International Airport", "state": "MA" },
+      "destination": { "id": "SEA", "code": "SEA", "city": "Seattle", "name": "Seattle-Tacoma International Airport", "state": "WA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_OW_005_SEG_1",
+          "carrierCode": "DL",
+          "flightNumber": "477",
+          "origin": { "id": "BOS", "code": "BOS", "city": "Boston", "name": "Boston Logan International Airport", "state": "MA" },
+          "destination": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "departureTime": "2026-05-15T11:05:00Z",
+          "arrivalTime": "2026-05-15T13:56:00Z",
+          "durationMinutes": 171,
+          "terminal": "A",
+          "gate": "B11",
+          "stops": 0,
+          "status": "onTime"
+        },
+        {
+          "id": "SNAP_OW_005_SEG_2",
+          "carrierCode": "DL",
+          "flightNumber": "1281",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "SEA", "code": "SEA", "city": "Seattle", "name": "Seattle-Tacoma International Airport", "state": "WA" },
+          "departureTime": "2026-05-15T14:53:00Z",
+          "arrivalTime": "2026-05-15T19:10:00Z",
+          "durationMinutes": 257,
+          "terminal": "S",
+          "gate": "A20",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [],
+      "fare": {
+        "cabin": "mainCabin",
+        "fareBrand": "Main",
+        "price": 474,
+        "currency": "USD"
+      },
+      "badges": ["Best Value"],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_OW_006",
+      "tripType": "oneWay",
+      "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+      "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_OW_006_SEG_1",
+          "carrierCode": "DL",
+          "flightNumber": "581",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "departureTime": "2026-05-15T06:25:00Z",
+          "arrivalTime": "2026-05-15T11:19:00Z",
+          "durationMinutes": 294,
+          "terminal": "S",
+          "gate": "A09",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [],
+      "fare": {
+        "cabin": "basicEconomy",
+        "fareBrand": "Basic",
+        "price": 349,
+        "currency": "USD"
+      },
+      "badges": [],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_RT_001",
+      "tripType": "roundTrip",
+      "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+      "destination": { "id": "SFO", "code": "SFO", "city": "San Francisco", "name": "San Francisco International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_RT_001_SEG_OUT_1",
+          "carrierCode": "DL",
+          "flightNumber": "409",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "SFO", "code": "SFO", "city": "San Francisco", "name": "San Francisco International Airport", "state": "CA" },
+          "departureTime": "2026-05-16T08:20:00Z",
+          "arrivalTime": "2026-05-16T13:23:00Z",
+          "durationMinutes": 303,
+          "terminal": "S",
+          "gate": "A14",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [
+        {
+          "id": "SNAP_RT_001_SEG_RET_1",
+          "carrierCode": "DL",
+          "flightNumber": "1906",
+          "origin": { "id": "SFO", "code": "SFO", "city": "San Francisco", "name": "San Francisco International Airport", "state": "CA" },
+          "destination": { "id": "ORD", "code": "ORD", "city": "Chicago", "name": "Chicago O'Hare International Airport", "state": "IL" },
+          "departureTime": "2026-05-20T11:10:00Z",
+          "arrivalTime": "2026-05-20T14:00:00Z",
+          "durationMinutes": 170,
+          "terminal": "2",
+          "gate": "E12",
+          "stops": 0,
+          "status": "onTime"
+        },
+        {
+          "id": "SNAP_RT_001_SEG_RET_2",
+          "carrierCode": "DL",
+          "flightNumber": "2239",
+          "origin": { "id": "ORD", "code": "ORD", "city": "Chicago", "name": "Chicago O'Hare International Airport", "state": "IL" },
+          "destination": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "departureTime": "2026-05-20T14:52:00Z",
+          "arrivalTime": "2026-05-20T16:28:00Z",
+          "durationMinutes": 96,
+          "terminal": "2",
+          "gate": "H16",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "fare": {
+        "cabin": "mainCabin",
+        "fareBrand": "Main",
+        "price": 634,
+        "currency": "USD"
+      },
+      "badges": ["Best Value"],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_RT_002",
+      "tripType": "roundTrip",
+      "origin": { "id": "JFK", "code": "JFK", "city": "New York", "name": "John F. Kennedy International Airport", "state": "NY" },
+      "destination": { "id": "SEA", "code": "SEA", "city": "Seattle", "name": "Seattle-Tacoma International Airport", "state": "WA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_RT_002_SEG_OUT_1",
+          "carrierCode": "DL",
+          "flightNumber": "313",
+          "origin": { "id": "JFK", "code": "JFK", "city": "New York", "name": "John F. Kennedy International Airport", "state": "NY" },
+          "destination": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "departureTime": "2026-05-15T09:00:00Z",
+          "arrivalTime": "2026-05-15T11:07:00Z",
+          "durationMinutes": 127,
+          "terminal": "4",
+          "gate": "B10",
+          "stops": 0,
+          "status": "onTime"
+        },
+        {
+          "id": "SNAP_RT_002_SEG_OUT_2",
+          "carrierCode": "DL",
+          "flightNumber": "1192",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "SEA", "code": "SEA", "city": "Seattle", "name": "Seattle-Tacoma International Airport", "state": "WA" },
+          "departureTime": "2026-05-15T12:00:00Z",
+          "arrivalTime": "2026-05-15T16:05:00Z",
+          "durationMinutes": 245,
+          "terminal": "S",
+          "gate": "A19",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [
+        {
+          "id": "SNAP_RT_002_SEG_RET_1",
+          "carrierCode": "DL",
+          "flightNumber": "384",
+          "origin": { "id": "SEA", "code": "SEA", "city": "Seattle", "name": "Seattle-Tacoma International Airport", "state": "WA" },
+          "destination": { "id": "JFK", "code": "JFK", "city": "New York", "name": "John F. Kennedy International Airport", "state": "NY" },
+          "departureTime": "2026-05-18T12:25:00Z",
+          "arrivalTime": "2026-05-18T18:00:00Z",
+          "durationMinutes": 335,
+          "terminal": "A",
+          "gate": "N18",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "fare": {
+        "cabin": "comfortPlus",
+        "fareBrand": "Comfort+",
+        "price": 708,
+        "currency": "USD"
+      },
+      "badges": ["Comfort+"],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_RT_003",
+      "tripType": "roundTrip",
+      "origin": { "id": "ORD", "code": "ORD", "city": "Chicago", "name": "Chicago O'Hare International Airport", "state": "IL" },
+      "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_RT_003_SEG_OUT_1",
+          "carrierCode": "DL",
+          "flightNumber": "611",
+          "origin": { "id": "ORD", "code": "ORD", "city": "Chicago", "name": "Chicago O'Hare International Airport", "state": "IL" },
+          "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "departureTime": "2026-05-17T07:10:00Z",
+          "arrivalTime": "2026-05-17T11:42:00Z",
+          "durationMinutes": 272,
+          "terminal": "2",
+          "gate": "H11",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [
+        {
+          "id": "SNAP_RT_003_SEG_RET_1",
+          "carrierCode": "DL",
+          "flightNumber": "614",
+          "origin": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "destination": { "id": "ORD", "code": "ORD", "city": "Chicago", "name": "Chicago O'Hare International Airport", "state": "IL" },
+          "departureTime": "2026-05-21T09:15:00Z",
+          "arrivalTime": "2026-05-21T13:25:00Z",
+          "durationMinutes": 250,
+          "terminal": "3",
+          "gate": "D17",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "fare": {
+        "cabin": "basicEconomy",
+        "fareBrand": "Basic",
+        "price": 411,
+        "currency": "USD"
+      },
+      "badges": [],
+      "sourceType": "snapshot"
+    },
+    {
+      "id": "SNAP_RT_004",
+      "tripType": "roundTrip",
+      "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+      "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+      "outboundSegments": [
+        {
+          "id": "SNAP_RT_004_SEG_OUT_1",
+          "carrierCode": "DL",
+          "flightNumber": "283",
+          "origin": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "destination": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "departureTime": "2026-05-15T07:50:00Z",
+          "arrivalTime": "2026-05-15T12:34:00Z",
+          "durationMinutes": 284,
+          "terminal": "S",
+          "gate": "A12",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "returnSegments": [
+        {
+          "id": "SNAP_RT_004_SEG_RET_1",
+          "carrierCode": "DL",
+          "flightNumber": "292",
+          "origin": { "id": "LAX", "code": "LAX", "city": "Los Angeles", "name": "Los Angeles International Airport", "state": "CA" },
+          "destination": { "id": "ATL", "code": "ATL", "city": "Atlanta", "name": "Hartsfield-Jackson Atlanta International Airport", "state": "GA" },
+          "departureTime": "2026-05-19T14:10:00Z",
+          "arrivalTime": "2026-05-19T18:20:00Z",
+          "durationMinutes": 250,
+          "terminal": "3",
+          "gate": "D08",
+          "stops": 0,
+          "status": "onTime"
+        }
+      ],
+      "fare": {
+        "cabin": "deltaOne",
+        "fareBrand": "Delta One",
+        "price": 1560,
+        "currency": "USD"
+      },
+      "badges": ["Delta One"],
+      "sourceType": "snapshot"
+    }
+  ]
+}

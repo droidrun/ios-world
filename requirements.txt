@@ -1,0 +1,16 @@
+# Pinned to tight ranges for reproducibility. For strict reproducibility across
+# machines, install pip-tools and run:
+#   pip-compile requirements.txt -o requirements-lock.txt
+appium-python-client>=4.1.0,<5
+pillow>=11.0.0,<13
+
+# LLM provider SDKs — the agent runner lazy-imports these per provider,
+# so a run only needs the SDK for the model it targets. We install all
+# four so `scripts/setup_env.sh` gives a working clone for every
+# provider path out of the box.
+anthropic>=0.60.0,<1
+openai>=1.60.0,<3
+google-genai>=1.0.0,<2
+
+# MCP server framework used by every mcps/<app>.py
+fastmcp>=3.0.0,<4

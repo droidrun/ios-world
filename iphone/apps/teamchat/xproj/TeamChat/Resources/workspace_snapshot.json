@@ -1,0 +1,3381 @@
+{
+  "metadata" : {
+    "lastUpdated" : "2026-02-13T13:00:00Z",
+    "snapshotTimestamp" : "2026-02-13T16:00:00Z",
+    "sourceLabel" : "Launch Systems Team",
+    "sourceType" : "snapshot"
+  },
+  "workspaces" : [
+    {
+      "assignedItemMessageIds" : [
+        "msg_001",
+        "msg_002",
+        "msg_003",
+        "msg_004",
+        "msg_005",
+        "msg_006"
+      ],
+      "channels" : [
+        {
+          "channelName" : "general",
+          "descriptionTopic" : "Daily coordination, rollups, and team-wide updates",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_general",
+          "isMuted" : false,
+          "isPrivate" : false,
+          "isStarred" : true,
+          "lastMessageAt" : "2026-02-06T22:00:00Z",
+          "lastMessagePreview" : "Reminder: if you update a customer-facing workflow, note it in the pinned checklist.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah",
+            "member_tessa_monroe"
+          ],
+          "mentionCount" : 1,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_001",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Launch Systems Team launch checklist is refreshed with the overnight updates.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_blair_morgan"
+                  ]
+                },
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_devon_hart"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-06T14:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_002",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "Please drop blockers before the 10:30 sync so the rollup stays clean. @jordana",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Devon Hart",
+              "senderId" : "member_devon_hart",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_002_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_002",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-06T16:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_002_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_002",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-06T16:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-06T16:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_003",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The mobile release branch is green and the support macros are synced.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Imani Brooks",
+              "senderId" : "member_imani_brooks",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-06T18:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_004",
+              "isUnread" : true,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "Posting the handoff summary here so everyone has one source of truth. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_jules_park"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jules Park",
+              "senderId" : "member_jules_park",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-06T20:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-06T22:09:00Z",
+              "id" : "msg_005",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Reminder: if you update a customer-facing workflow, note it in the pinned checklist.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Kai Santos",
+              "senderId" : "member_kai_santos",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_005_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_005",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-06T22:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_005_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_005",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-06T22:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-06T22:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : true,
+          "pinnedItemsPlaceholderCount" : 3,
+          "unreadCount" : 2
+        },
+        {
+          "channelName" : "announcements",
+          "descriptionTopic" : "Milestones, stakeholder updates, and executive notes",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_announcements",
+          "isMuted" : false,
+          "isPrivate" : false,
+          "isStarred" : false,
+          "lastMessageAt" : "2026-02-07T08:00:00Z",
+          "lastMessagePreview" : "A local placeholder PDF is attached for offline review.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah",
+            "member_tessa_monroe"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_006",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Leadership approved the staged rollout plan for tomorrow morning.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Devon Hart",
+              "senderId" : "member_devon_hart",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-07T00:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_007",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Publishing the final stakeholder brief after QA signs off the release candidate.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Imani Brooks",
+              "senderId" : "member_imani_brooks",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_007_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_007",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-07T02:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_007_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_007",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-07T02:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-07T02:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_008",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Please keep this channel high signal; operational chatter should stay in the working channels.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_imani_brooks"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jules Park",
+              "senderId" : "member_jules_park",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-07T04:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-07T06:09:00Z",
+              "id" : "msg_009",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The status page copy and customer note are both finalized.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Kai Santos",
+              "senderId" : "member_kai_santos",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-07T06:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "pdf",
+                  "id" : "msg_010_a_pdf",
+                  "localPath" : "Resources\/placeholder_launch_brief.pdf",
+                  "subtitle" : "Offline placeholder PDF",
+                  "title" : "Executive launch brief.pdf"
+                }
+              ],
+              "id" : "msg_010",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "A local placeholder PDF is attached for offline review.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_lena_ortiz"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_010_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_010",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-07T08:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_010_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_010",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-07T08:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-07T08:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 1,
+          "unreadCount" : 0
+        },
+        {
+          "channelName" : "product",
+          "descriptionTopic" : "Roadmap decisions, launch scope, and release readiness",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_product",
+          "isMuted" : false,
+          "isPrivate" : false,
+          "isStarred" : false,
+          "lastMessageAt" : "2026-02-07T18:00:00Z",
+          "lastMessagePreview" : "Please review the feature link card before it gets pinned.",
+          "linksPlaceholderCount" : 8,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah",
+            "member_tessa_monroe"
+          ],
+          "mentionCount" : 1,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_011",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Scope is locked for the first rollout wave; only regression fixes can be added now.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Imani Brooks",
+              "senderId" : "member_imani_brooks",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-07T10:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_012",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "Need confirmation on whether the onboarding nudge ships to all cohorts or only the pilot. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_devon_hart"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Jules Park",
+              "senderId" : "member_jules_park",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_012_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_012",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-07T12:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_012_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_012",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-07T12:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-07T12:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-07T14:09:00Z",
+              "id" : "msg_013",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The experiment flags are documented and ready for the launch runbook.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Kai Santos",
+              "senderId" : "member_kai_santos",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-07T14:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_014",
+              "isUnread" : true,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "I updated the local backlog with the final owner map and rollout gates. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_kai_santos"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-07T16:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "link",
+                  "id" : "msg_015_a_link",
+                  "localPath" : "Resources\/placeholder_launch_tracker.link",
+                  "subtitle" : "internal:\/\/launch\/tracker",
+                  "title" : "Launch tracker"
+                }
+              ],
+              "id" : "msg_015",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Please review the feature link card before it gets pinned.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_kai_santos"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Micah Chen",
+              "senderId" : "member_micah_chen",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_015_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_015",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-07T18:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_015_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_015",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-07T18:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-07T18:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 2,
+          "unreadCount" : 2
+        },
+        {
+          "channelName" : "eng-mobile",
+          "descriptionTopic" : "iOS and Android implementation details, QA, and release blockers",
+          "filesPlaceholderCount" : 5,
+          "id" : "channel_eng_mobile",
+          "isMuted" : false,
+          "isPrivate" : false,
+          "isStarred" : true,
+          "lastMessageAt" : "2026-02-08T04:00:00Z",
+          "lastMessagePreview" : "I attached a local image placeholder for the regression capture.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_016",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Latest CI pass is clean on the release branch and analytics are firing.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_blair_morgan"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jules Park",
+              "senderId" : "member_jules_park",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-07T20:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-07T22:09:00Z",
+              "id" : "msg_017",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "We still have one flaky notification test, but the fallback path is verified. @jordana",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Kai Santos",
+              "senderId" : "member_kai_santos",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_017_r1",
+                  "messageText" : "Threading the concrete owner and device coverage here.",
+                  "parentMessageId" : "msg_017",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-07T22:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_017_r2",
+                  "messageText" : "I can post the final testing notes after the next build finishes.",
+                  "parentMessageId" : "msg_017",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-07T22:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-07T22:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_018",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Posting the final build verification notes so QA can cross-check device coverage.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_jules_park"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T00:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_019",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "If anyone sees launch animation jitter on older devices, note the exact build here. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_jules_park"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Micah Chen",
+              "senderId" : "member_micah_chen",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T02:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "image",
+                  "id" : "msg_020_a_image",
+                  "localPath" : "Resources\/placeholder_regression_capture.png",
+                  "subtitle" : "Offline image placeholder",
+                  "title" : "Regression capture.png"
+                }
+              ],
+              "id" : "msg_020",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I attached a local image placeholder for the regression capture.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_020_r1",
+                  "messageText" : "Threading the concrete owner and device coverage here.",
+                  "parentMessageId" : "msg_020",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-08T04:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_020_r2",
+                  "messageText" : "I can post the final testing notes after the next build finishes.",
+                  "parentMessageId" : "msg_020",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-08T04:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-08T04:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 1,
+          "unreadCount" : 0
+        },
+        {
+          "channelName" : "design",
+          "descriptionTopic" : "Prototypes, accessibility reviews, and design handoff threads",
+          "filesPlaceholderCount" : 4,
+          "id" : "channel_design",
+          "isMuted" : false,
+          "isPrivate" : false,
+          "isStarred" : false,
+          "lastMessageAt" : "2026-02-08T14:00:00Z",
+          "lastMessagePreview" : "Content review is complete except for the fallback empty-state copy.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah",
+            "member_tessa_monroe"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_021",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Updated the confirmation states to tighten spacing on the compact layouts.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Kai Santos",
+              "senderId" : "member_kai_santos",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T06:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_022",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Accessibility contrast pass is done for the launch banner and settings screens.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_imani_brooks"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_022_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_022",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-08T08:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_022_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_022",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-08T08:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-08T08:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "image",
+                  "id" : "msg_023_a_image",
+                  "localPath" : "Resources\/placeholder_handoff_boards.png",
+                  "subtitle" : "Offline image placeholder",
+                  "title" : "Final handoff boards.png"
+                }
+              ],
+              "id" : "msg_023",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Attaching the latest handoff image placeholder so mobile can compare final spacing.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_imani_brooks"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T10:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_024",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Please keep iconography feedback in-thread so the implementation notes stay readable.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Owen Price",
+              "senderId" : "member_owen_price",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T12:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-08T14:09:00Z",
+              "id" : "msg_025",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Content review is complete except for the fallback empty-state copy.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_025_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_025",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-08T14:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_025_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_025",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-08T14:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-08T14:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 1,
+          "unreadCount" : 2
+        },
+        {
+          "channelName" : "support-ops",
+          "descriptionTopic" : "Escalations, customer impact, and incident coordination",
+          "filesPlaceholderCount" : 4,
+          "id" : "channel_support_ops",
+          "isMuted" : false,
+          "isPrivate" : false,
+          "isStarred" : false,
+          "lastMessageAt" : "2026-02-09T00:00:00Z",
+          "lastMessagePreview" : "The contact center brief is ready once launch timing is confirmed.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_026",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Escalation volume is stable; only two tickets are waiting on engineering follow-up.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_devon_hart"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T16:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_027",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "The latest support macro set is uploaded locally for review. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_devon_hart"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Micah Chen",
+              "senderId" : "member_micah_chen",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_027_r1",
+                  "messageText" : "Support impact is low for now, but I'll keep the customer-facing note ready.",
+                  "parentMessageId" : "msg_027",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-08T18:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_027_r2",
+                  "messageText" : "I'll update the escalation tracker after we confirm rollout timing.",
+                  "parentMessageId" : "msg_027",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-08T18:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-08T18:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_028",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Please tag anything customer-visible so we can track it in the handoff note.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T20:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "pdf",
+                  "id" : "msg_029_a_pdf",
+                  "localPath" : "Resources\/placeholder_escalation_rubric.pdf",
+                  "subtitle" : "Offline placeholder PDF",
+                  "title" : "Escalation rubric.pdf"
+                }
+              ],
+              "editedAt" : "2026-02-08T22:09:00Z",
+              "id" : "msg_029",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "Attaching the updated escalation rubric PDF placeholder. @jordana",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Owen Price",
+              "senderId" : "member_owen_price",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-08T22:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_030",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The contact center brief is ready once launch timing is confirmed.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_kai_santos"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_030_r1",
+                  "messageText" : "Support impact is low for now, but I'll keep the customer-facing note ready.",
+                  "parentMessageId" : "msg_030",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-09T00:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_030_r2",
+                  "messageText" : "I'll update the escalation tracker after we confirm rollout timing.",
+                  "parentMessageId" : "msg_030",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-09T00:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-09T00:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 2,
+          "unreadCount" : 0
+        },
+        {
+          "channelName" : "launch-war-room",
+          "descriptionTopic" : "Cross-functional launch command channel",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_launch_war_room",
+          "isMuted" : false,
+          "isPrivate" : false,
+          "isStarred" : true,
+          "lastMessageAt" : "2026-02-09T10:00:00Z",
+          "lastMessagePreview" : "Need explicit sign-off from mobile, QA, and support before the final switch.",
+          "linksPlaceholderCount" : 6,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah"
+          ],
+          "mentionCount" : 1,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_031",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The command timeline is live. Please keep owner updates short and timestamped.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_blair_morgan"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Micah Chen",
+              "senderId" : "member_micah_chen",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-09T02:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_032",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "Monitoring dashboards are healthy and the rollback gate is still open. @jordana",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_032_r1",
+                  "messageText" : "Adding the owner, ETA, and fallback plan in this thread.",
+                  "parentMessageId" : "msg_032",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-09T04:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_032_r2",
+                  "messageText" : "Acknowledged. I'll post a short incident-style summary once it's verified.",
+                  "parentMessageId" : "msg_032",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-09T04:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-09T04:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "link",
+                  "id" : "msg_033_a_link",
+                  "localPath" : "Resources\/placeholder_rollback_dashboard.link",
+                  "subtitle" : "internal:\/\/ops\/rollback-dashboard",
+                  "title" : "Rollback dashboard"
+                }
+              ],
+              "editedAt" : "2026-02-09T06:09:00Z",
+              "id" : "msg_033",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Shared the rollback dashboard link placeholder for offline review.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Owen Price",
+              "senderId" : "member_owen_price",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-09T06:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_034",
+              "isUnread" : true,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "If the launch slips, we can hold the support macro update until the next window. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_jules_park"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-09T08:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_035",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Need explicit sign-off from mobile, QA, and support before the final switch.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_lena_ortiz"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_035_r1",
+                  "messageText" : "Adding the owner, ETA, and fallback plan in this thread.",
+                  "parentMessageId" : "msg_035",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-09T10:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_035_r2",
+                  "messageText" : "Acknowledged. I'll post a short incident-style summary once it's verified.",
+                  "parentMessageId" : "msg_035",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-09T10:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-09T10:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : true,
+          "pinnedItemsPlaceholderCount" : 3,
+          "unreadCount" : 2
+        },
+        {
+          "channelName" : "random",
+          "descriptionTopic" : "Lightweight team chatter and non-critical updates",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_random",
+          "isMuted" : true,
+          "isPrivate" : false,
+          "isStarred" : false,
+          "lastMessageAt" : "2026-02-09T20:00:00Z",
+          "lastMessagePreview" : "Team coffee order closes in ten minutes if anyone wants in.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks",
+            "member_jules_park",
+            "member_kai_santos",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_owen_price",
+            "member_riley_shah",
+            "member_tessa_monroe"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_036",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Team coffee order closes in ten minutes if anyone wants in.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-09T12:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-09T14:09:00Z",
+              "id" : "msg_037",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The launch playlist is somehow mostly acceptable this time.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Owen Price",
+              "senderId" : "member_owen_price",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_037_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_037",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-09T14:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_037_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_037",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_imani_brooks",
+                  "timestamp" : "2026-02-09T14:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-09T14:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_038",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Sharing a low-stakes morale win: zero merge conflicts this morning.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_imani_brooks"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-09T16:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_039",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Reminder that the post-launch retro snacks are still undecided.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_kai_santos"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Tessa Monroe",
+              "senderId" : "member_tessa_monroe",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-09T18:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_040",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Team coffee order closes in ten minutes if anyone wants in.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_040_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_040",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-09T20:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_040_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_040",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-09T20:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-09T20:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 1,
+          "unreadCount" : 0
+        },
+        {
+          "channelName" : "leadership",
+          "descriptionTopic" : "Private staffing, launch tradeoffs, and cross-org decisions",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_leadership",
+          "isMuted" : false,
+          "isPrivate" : true,
+          "isStarred" : false,
+          "lastMessageAt" : "2026-02-10T06:00:00Z",
+          "lastMessagePreview" : "Staffing coverage is confirmed for the launch weekend follow-the-sun rotation.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_riley_shah"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_041",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Staffing coverage is confirmed for the launch weekend follow-the-sun rotation.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-09T22:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_042",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Need a final call on whether we expand the pilot after the first twelve hours.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_devon_hart"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Devon Hart",
+              "senderId" : "member_devon_hart",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_042_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_042",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-10T00:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_042_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_042",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_riley_shah",
+                  "timestamp" : "2026-02-10T00:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-10T00:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_043",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The board-facing summary is ready once the rollout window starts.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_jordan_avery"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-10T02:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_044",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Please keep external messaging notes in this thread only.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-10T04:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-10T06:09:00Z",
+              "id" : "msg_045",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Staffing coverage is confirmed for the launch weekend follow-the-sun rotation.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_blair_morgan"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_045_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_045",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_blair_morgan",
+                  "timestamp" : "2026-02-10T06:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_045_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_045",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-10T06:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-10T06:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 1,
+          "unreadCount" : 2
+        },
+        {
+          "channelName" : "incident-bridge",
+          "descriptionTopic" : "Private incident response bridge for high-severity issues",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_incident_bridge",
+          "isMuted" : false,
+          "isPrivate" : true,
+          "isStarred" : true,
+          "lastMessageAt" : "2026-02-10T16:00:00Z",
+          "lastMessagePreview" : "Keeping this bridge warm until the final monitoring checks are complete.",
+          "linksPlaceholderCount" : 6,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett",
+            "member_riley_shah"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_046",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Keeping this bridge warm until the final monitoring checks are complete.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_blair_morgan"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-10T08:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_047",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "If the error budget moves, post the exact metric and timestamp immediately. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_micah_chen"
+                  ]
+                }
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_047_r1",
+                  "messageText" : "Adding the owner, ETA, and fallback plan in this thread.",
+                  "parentMessageId" : "msg_047",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_lena_ortiz",
+                  "timestamp" : "2026-02-10T10:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_047_r2",
+                  "messageText" : "Acknowledged. I'll post a short incident-style summary once it's verified.",
+                  "parentMessageId" : "msg_047",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_micah_chen",
+                  "timestamp" : "2026-02-10T10:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-10T10:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_048",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "The customer escalation path is documented and owned for the next six hours.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-10T12:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-10T14:09:00Z",
+              "id" : "msg_049",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "Logging a local runbook reference so every responder has the same fallback steps. @jordana",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_nora_bennett"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-10T14:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_050",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Keeping this bridge warm until the final monitoring checks are complete.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_050_r1",
+                  "messageText" : "Adding the owner, ETA, and fallback plan in this thread.",
+                  "parentMessageId" : "msg_050",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_riley_shah",
+                  "timestamp" : "2026-02-10T16:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_050_r2",
+                  "messageText" : "Acknowledged. I'll post a short incident-style summary once it's verified.",
+                  "parentMessageId" : "msg_050",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_jordan_avery",
+                  "timestamp" : "2026-02-10T16:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-10T16:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 1,
+          "unreadCount" : 0
+        },
+        {
+          "channelName" : "hiring-panel",
+          "descriptionTopic" : "Private candidate review notes and interview synthesis",
+          "filesPlaceholderCount" : 2,
+          "id" : "channel_hiring_panel",
+          "isMuted" : true,
+          "isPrivate" : true,
+          "isStarred" : false,
+          "lastMessageAt" : "2026-02-11T02:00:00Z",
+          "lastMessagePreview" : "Consolidated the candidate debrief notes into one offline summary.",
+          "linksPlaceholderCount" : 3,
+          "memberIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_kai_santos",
+            "member_tessa_monroe"
+          ],
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_051",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Consolidated the candidate debrief notes into one offline summary.",
+              "reactions" : [
+                {
+                  "reactionCount" : 1,
+                  "reactionEmoji" : "👀",
+                  "userIds" : [
+                    "member_kai_santos"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Tessa Monroe",
+              "senderId" : "member_tessa_monroe",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-10T18:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_052",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Please leave calibration feedback before tomorrow's committee review.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_052_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_052",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-10T20:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_052_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_052",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_tessa_monroe",
+                  "timestamp" : "2026-02-10T20:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-10T20:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "editedAt" : "2026-02-10T22:09:00Z",
+              "id" : "msg_053",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Sharing the interview packet placeholder PDF for reference.",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_tessa_monroe"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-10T22:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_054",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Need one final thumbs-up on the rubric wording.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Kai Santos",
+              "senderId" : "member_kai_santos",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-11T00:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_055",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Consolidated the candidate debrief notes into one offline summary.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 2,
+              "senderDisplayName" : "Tessa Monroe",
+              "senderId" : "member_tessa_monroe",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_055_r1",
+                  "messageText" : "Threading this so the channel stays readable for everyone else.",
+                  "parentMessageId" : "msg_055",
+                  "reactions" : [
+                    {
+                      "reactionCount" : 1,
+                      "reactionEmoji" : "✅",
+                      "userIds" : [
+                        "member_jordan_avery"
+                      ]
+                    }
+                  ],
+                  "senderId" : "member_blair_morgan",
+                  "timestamp" : "2026-02-11T02:15:00Z"
+                },
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_055_r2",
+                  "messageText" : "I'll circle back with a short summary once the next step is complete.",
+                  "parentMessageId" : "msg_055",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_kai_santos",
+                  "timestamp" : "2026-02-11T02:30:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-11T02:00:00Z"
+            }
+          ],
+          "notifyOnAllMessages" : false,
+          "pinnedItemsPlaceholderCount" : 1,
+          "unreadCount" : 2
+        }
+      ],
+      "currentUserId" : "member_jordan_avery",
+      "dmConversations" : [
+        {
+          "id" : "dm_blair_morgan",
+          "isGroup" : false,
+          "isMuted" : false,
+          "lastMessageAt" : "2026-02-12T13:00:00Z",
+          "lastMessagePreview" : "Thanks - I updated the checklist and the local placeholder artifact.",
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_056",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Can you sanity-check the latest Blair Morgan note before I post it?",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_blair_morgan"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T10:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_057",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I left the main decision in thread so the context stays searchable later.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 1,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_057_r1",
+                  "messageText" : "Keeping the decision in thread so the follow-up stays searchable.",
+                  "parentMessageId" : "msg_057",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_jordan_avery",
+                  "timestamp" : "2026-02-12T11:20:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-12T11:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_058",
+              "isUnread" : false,
+              "mentionUserIds" : [
+                "member_jordan_avery"
+              ],
+              "messageText" : "If this slips, I can pick up first pass after the standup window.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T12:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_059",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Thanks - I updated the checklist and the local placeholder artifact.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T13:00:00Z"
+            }
+          ],
+          "name" : "Blair Morgan",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan"
+          ],
+          "unreadCount" : 1
+        },
+        {
+          "id" : "dm_devon_hart",
+          "isGroup" : false,
+          "isMuted" : false,
+          "lastMessageAt" : "2026-02-12T17:00:00Z",
+          "lastMessagePreview" : "Thanks - I updated the checklist and the local placeholder artifact.",
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_060",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Can you sanity-check the latest Devon Hart note before I post it?",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "✅",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_devon_hart"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T14:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_061",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I left the main decision in thread so the context stays searchable later.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Devon Hart",
+              "senderId" : "member_devon_hart",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T15:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "link",
+                  "id" : "msg_062_a_link",
+                  "localPath" : "Resources\/placeholder_scope_recap.link",
+                  "subtitle" : "internal:\/\/product\/scope-recap",
+                  "title" : "Scope recap"
+                }
+              ],
+              "id" : "msg_062",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "If this slips, I can pick up first pass after the standup window.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T16:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_063",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Thanks - I updated the checklist and the local placeholder artifact.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Devon Hart",
+              "senderId" : "member_devon_hart",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T17:00:00Z"
+            }
+          ],
+          "name" : "Devon Hart",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_devon_hart"
+          ],
+          "unreadCount" : 1
+        },
+        {
+          "id" : "dm_imani_brooks",
+          "isGroup" : false,
+          "isMuted" : false,
+          "lastMessageAt" : "2026-02-12T21:00:00Z",
+          "lastMessagePreview" : "Thanks - I updated the checklist and the local placeholder artifact.",
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_064",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Can you sanity-check the latest Imani Brooks note before I post it?",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_imani_brooks"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Imani Brooks",
+              "senderId" : "member_imani_brooks",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T18:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_065",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I left the main decision in thread so the context stays searchable later.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T19:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_066",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "If this slips, I can pick up first pass after the standup window.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Imani Brooks",
+              "senderId" : "member_imani_brooks",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T20:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "image",
+                  "id" : "msg_067_a_image",
+                  "localPath" : "Resources\/placeholder_build_comparison.png",
+                  "subtitle" : "Offline image placeholder",
+                  "title" : "Build comparison.png"
+                }
+              ],
+              "id" : "msg_067",
+              "isUnread" : true,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Thanks - I updated the checklist and the local placeholder artifact.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T21:00:00Z"
+            }
+          ],
+          "name" : "Imani Brooks",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_imani_brooks"
+          ],
+          "unreadCount" : 1
+        },
+        {
+          "id" : "dm_lena_ortiz",
+          "isGroup" : false,
+          "isMuted" : false,
+          "lastMessageAt" : "2026-02-13T01:00:00Z",
+          "lastMessagePreview" : "Thanks - I updated the checklist and the local placeholder artifact.",
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_068",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Can you sanity-check the latest Lena Ortiz note before I post it?",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "✅",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_lena_ortiz"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T22:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_069",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I left the main decision in thread so the context stays searchable later.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-12T23:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_070",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "If this slips, I can pick up first pass after the standup window.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T00:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_071",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Thanks - I updated the checklist and the local placeholder artifact.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Lena Ortiz",
+              "senderId" : "member_lena_ortiz",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T01:00:00Z"
+            }
+          ],
+          "name" : "Lena Ortiz",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_lena_ortiz"
+          ],
+          "unreadCount" : 0
+        },
+        {
+          "id" : "dm_nora_bennett",
+          "isGroup" : false,
+          "isMuted" : false,
+          "lastMessageAt" : "2026-02-13T05:00:00Z",
+          "lastMessagePreview" : "Thanks - I updated the checklist and the local placeholder artifact.",
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_072",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Can you sanity-check the latest Nora Bennett note before I post it?",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_nora_bennett"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T02:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_073",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I left the main decision in thread so the context stays searchable later.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T03:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_074",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "If this slips, I can pick up first pass after the standup window.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Nora Bennett",
+              "senderId" : "member_nora_bennett",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T04:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_075",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Thanks - I updated the checklist and the local placeholder artifact.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T05:00:00Z"
+            }
+          ],
+          "name" : "Nora Bennett",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_nora_bennett"
+          ],
+          "unreadCount" : 0
+        },
+        {
+          "id" : "dm_riley_shah",
+          "isGroup" : false,
+          "isMuted" : false,
+          "lastMessageAt" : "2026-02-13T09:00:00Z",
+          "lastMessagePreview" : "Thanks - I updated the checklist and the local placeholder artifact.",
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_076",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Can you sanity-check the latest Riley Shah note before I post it?",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "✅",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_riley_shah"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T06:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_077",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I left the main decision in thread so the context stays searchable later.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T07:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_078",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "If this slips, I can pick up first pass after the standup window.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T08:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_079",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Thanks - I updated the checklist and the local placeholder artifact.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Riley Shah",
+              "senderId" : "member_riley_shah",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T09:00:00Z"
+            }
+          ],
+          "name" : "Riley Shah",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_riley_shah"
+          ],
+          "unreadCount" : 0
+        },
+        {
+          "id" : "dm_launch_core",
+          "isGroup" : true,
+          "isMuted" : false,
+          "lastMessageAt" : "2026-02-13T13:00:00Z",
+          "lastMessagePreview" : "Thanks - I updated the checklist and the local placeholder artifact.",
+          "mentionCount" : 0,
+          "messages" : [
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_080",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Can you sanity-check the latest Launch Core note before I post it?",
+              "reactions" : [
+                {
+                  "reactionCount" : 2,
+                  "reactionEmoji" : "👍",
+                  "userIds" : [
+                    "member_jordan_avery",
+                    "member_blair_morgan"
+                  ]
+                }
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Imani Brooks",
+              "senderId" : "member_imani_brooks",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T10:00:00Z"
+            },
+            {
+              "attachments" : [
+                {
+                  "attachmentType" : "pdf",
+                  "id" : "msg_081_a_pdf",
+                  "localPath" : "Resources\/placeholder_rollout_owners.pdf",
+                  "subtitle" : "Offline placeholder PDF",
+                  "title" : "Rollout owners.pdf"
+                }
+              ],
+              "id" : "msg_081",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "I left the main decision in thread so the context stays searchable later.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 1,
+              "senderDisplayName" : "Jordan Avery",
+              "senderId" : "member_jordan_avery",
+              "threadReplies" : [
+                {
+                  "attachments" : [
+
+                  ],
+                  "id" : "msg_081_r1",
+                  "messageText" : "Keeping the decision in thread so the follow-up stays searchable.",
+                  "parentMessageId" : "msg_081",
+                  "reactions" : [
+
+                  ],
+                  "senderId" : "member_devon_hart",
+                  "timestamp" : "2026-02-13T11:20:00Z"
+                }
+              ],
+              "timestamp" : "2026-02-13T11:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_082",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "If this slips, I can pick up first pass after the standup window.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Blair Morgan",
+              "senderId" : "member_blair_morgan",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T12:00:00Z"
+            },
+            {
+              "attachments" : [
+
+              ],
+              "id" : "msg_083",
+              "isUnread" : false,
+              "mentionUserIds" : [
+
+              ],
+              "messageText" : "Thanks - I updated the checklist and the local placeholder artifact.",
+              "reactions" : [
+
+              ],
+              "replyCount" : 0,
+              "senderDisplayName" : "Devon Hart",
+              "senderId" : "member_devon_hart",
+              "threadReplies" : [
+
+              ],
+              "timestamp" : "2026-02-13T13:00:00Z"
+            }
+          ],
+          "name" : "Launch Core",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_blair_morgan",
+            "member_devon_hart",
+            "member_imani_brooks"
+          ],
+          "unreadCount" : 0
+        },
+        {
+          "id" : "dm_support_triage",
+          "isGroup" : true,
+          "isMuted" : true,
+          "lastMessageAt" : "2026-02-14T02:00:00Z",
+          "lastMessagePreview" : "No messages yet",
+          "mentionCount" : 0,
+          "messages" : [
+
+          ],
+          "name" : "Support Triage",
+          "participantIds" : [
+            "member_jordan_avery",
+            "member_lena_ortiz",
+            "member_micah_chen",
+            "member_nora_bennett"
+          ],
+          "unreadCount" : 0
+        }
+      ],
+      "draftsCount" : 5,
+      "id" : "workspace_launch_systems_team",
+      "lastUpdated" : "2026-02-13T13:00:00Z",
+      "members" : [
+        {
+          "displayName" : "Jordan Avery",
+          "id" : "member_jordan_avery",
+          "isCurrentUser" : true,
+          "presenceState" : "active",
+          "role" : "Engineering",
+          "title" : "Staff Automation Engineer",
+          "username" : "jordana"
+        },
+        {
+          "displayName" : "Blair Morgan",
+          "id" : "member_blair_morgan",
+          "isCurrentUser" : false,
+          "presenceState" : "active",
+          "role" : "Management",
+          "title" : "Engineering Manager",
+          "username" : "blairm"
+        },
+        {
+          "displayName" : "Devon Hart",
+          "id" : "member_devon_hart",
+          "isCurrentUser" : false,
+          "presenceState" : "away",
+          "role" : "Product",
+          "title" : "Product Lead",
+          "username" : "devonh"
+        },
+        {
+          "displayName" : "Imani Brooks",
+          "id" : "member_imani_brooks",
+          "isCurrentUser" : false,
+          "presenceState" : "active",
+          "role" : "Engineering",
+          "title" : "Senior iOS Engineer",
+          "username" : "imanib"
+        },
+        {
+          "displayName" : "Jules Park",
+          "id" : "member_jules_park",
+          "isCurrentUser" : false,
+          "presenceState" : "active",
+          "role" : "Engineering",
+          "title" : "Android Engineer",
+          "username" : "julesp"
+        },
+        {
+          "displayName" : "Kai Santos",
+          "id" : "member_kai_santos",
+          "isCurrentUser" : false,
+          "presenceState" : "away",
+          "role" : "Design",
+          "title" : "Design Lead",
+          "username" : "kais"
+        },
+        {
+          "displayName" : "Lena Ortiz",
+          "id" : "member_lena_ortiz",
+          "isCurrentUser" : false,
+          "presenceState" : "doNotDisturb",
+          "role" : "Support",
+          "title" : "Support Operations Lead",
+          "username" : "lenao"
+        },
+        {
+          "displayName" : "Micah Chen",
+          "id" : "member_micah_chen",
+          "isCurrentUser" : false,
+          "presenceState" : "offline",
+          "role" : "Operations",
+          "title" : "Site Reliability Engineer",
+          "username" : "micahc"
+        },
+        {
+          "displayName" : "Nora Bennett",
+          "id" : "member_nora_bennett",
+          "isCurrentUser" : false,
+          "presenceState" : "active",
+          "role" : "Quality",
+          "title" : "QA Engineer",
+          "username" : "norab"
+        },
+        {
+          "displayName" : "Owen Price",
+          "id" : "member_owen_price",
+          "isCurrentUser" : false,
+          "presenceState" : "away",
+          "role" : "Analytics",
+          "title" : "Data Analyst",
+          "username" : "owenp"
+        },
+        {
+          "displayName" : "Riley Shah",
+          "id" : "member_riley_shah",
+          "isCurrentUser" : false,
+          "presenceState" : "doNotDisturb",
+          "role" : "Leadership",
+          "title" : "Director of Product Operations",
+          "username" : "rileys"
+        },
+        {
+          "displayName" : "Tessa Monroe",
+          "id" : "member_tessa_monroe",
+          "isCurrentUser" : false,
+          "presenceState" : "active",
+          "role" : "People",
+          "title" : "Recruiter",
+          "username" : "tessam"
+        }
+      ],
+      "nextMessageSequence" : 84,
+      "savedItemMessageIds" : [
+        "msg_007",
+        "msg_008",
+        "msg_009",
+        "msg_010",
+        "msg_011",
+        "msg_012",
+        "msg_013",
+        "msg_014"
+      ],
+      "sourceType" : "snapshot",
+      "userProfile" : {
+        "displayName" : "Jordan Avery",
+        "id" : "member_jordan_avery",
+        "notificationPreference" : {
+          "huddleInvitesEnabled" : true,
+          "mentionOnly" : false,
+          "pushEnabled" : true,
+          "threadRepliesEnabled" : true
+        },
+        "presenceState" : "active",
+        "role" : "Engineering",
+        "statusText" : "On launch coverage",
+        "title" : "Staff Automation Engineer",
+        "username" : "jordana"
+      },
+      "workspaceName" : "Launch Systems Team"
+    }
+  ]
+}

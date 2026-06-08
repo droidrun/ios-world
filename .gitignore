@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
+
+# Secrets / local config
+.env
+.env.local
+*.pem
+
+# Xcode build output
+**/.derived_data/
+**/.derived_data_*/
+**/DerivedData/
+**/build/
+**/xcuserdata/
+**/*.xcuserstate
+
+# Benchmark run output (regenerated every run)
+results/
+artifacts/
+*.log
+logs/
+
+# Appium / npm install output (from scripts/setup_env.sh)
+node_modules/
+
+# Bootstrap-generated (machine-specific absolute paths)
+iphone/bootstrap/.app_manifest.json
+iphone/bootstrap/.last_*
+iphone/bootstrap/ContactImporter/ContactImporter.app/
+
+# Local MCP result artifacts
+mcps/*_results.json
+
+# Editors
+.idea/
+.vscode/

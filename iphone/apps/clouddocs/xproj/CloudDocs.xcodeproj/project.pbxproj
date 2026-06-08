@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D6B3CFE73304F3A8E674F11 /* WorkspaceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D1D2BFB15B4F2EB108AE99 /* WorkspaceModels.swift */; };
+		E2CAF762A8524F2B899AE05E /* SeedDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2946C1C604DF1B8353132 /* SeedDataFactory.swift */; };
+		436C414576FB4D409E410129 /* WorkspacePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11A2ECE14342C6ABB43909 /* WorkspacePersistence.swift */; };
+		99210C26C2E34B9596A908F3 /* workspace_snapshot.json in Resources */ = {isa = PBXBuildFile; fileRef = 31DA66718AA04F7CBA077CDF /* workspace_snapshot.json */; };
+		7160D80BE9684700BBBBE3E1 /* AccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4B91B550D14297BA4BEB2C /* AccessibilityID.swift */; };
+		4A9F72A1098F4F6EB7596284 /* AppFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C86757C85EA42DCBC0B49C6 /* AppFormatters.swift */; };
+		C817849AA45640FDB573DF25 /* String+Slug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42717B9C875D4695936992D7 /* String+Slug.swift */; };
+		054187E45B8D4EB4BA5B737C /* DocumentActionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F8C0006104D55A0994755 /* DocumentActionCoordinator.swift */; };
+		31F936CA6A504FD3B9D39480 /* DocumentEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96723AF155B43B489EA9970 /* DocumentEditorViewModel.swift */; };
+		8157FCA7BB214934BE233898 /* DocumentsHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328E9686E564696B4EDD747 /* DocumentsHomeViewModel.swift */; };
+		8F538A26CC2248E5B90354D6 /* DocumentsSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E7163CC394FA5ACE9D345 /* DocumentsSearchViewModel.swift */; };
+		E8CA7559DD164C4786C68839 /* WorkspaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2536A9C8BBF740A3805D79B9 /* WorkspaceStore.swift */; };
+		B213A57A63EB4AF5AF98BBD0 /* DocumentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D02E2D710A348DC9F84DFD1 /* DocumentRowView.swift */; };
+		06D22E9777284A83A8E6221A /* WorkspaceChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563A102ED5041EE8A79733C /* WorkspaceChrome.swift */; };
+		128D82109D1A4F78A733961B /* DocumentEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3123E6D09504721B02F04C8 /* DocumentEditorView.swift */; };
+		4EC0233224EA4D918C68CE39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27326A05F76E4CE1B4C9A7F9 /* HomeView.swift */; };
+		EDA872CC736D464689B75CB3 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F160009CB74D86BDBD50E3 /* MoreView.swift */; };
+		F1FA3C307D254F6893CEDC8A /* RecentDocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D858144CFAA4797AF665C6C /* RecentDocumentsView.swift */; };
+		85913A70AF4544FE8CB83B79 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E50870B3D374C749FC5DDF8 /* SearchView.swift */; };
+		8D8CEC1CD4C74F38BC60BC31 /* SharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5203ACE482AC4A0682444733 /* SharedView.swift */; };
+		4B8B0DF2A1FF4672AC503C0A /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3637BF719C84BB985AA2F1A /* RootTabView.swift */; };
+		A2F872CE24CE43D6AA397789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48695F0ABC845F1B43728BA /* Assets.xcassets */; };
+		74CBCF00C37C4498BF6AA129 /* CloudDocsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B5DBDDAFF471B91A9AF85 /* CloudDocsApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFA78B5D21C142D281DCC65C /* CloudDocs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CloudDocs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D1D2BFB15B4F2EB108AE99 /* WorkspaceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceModels.swift"; sourceTree = "<group>"; };
+		1CB2946C1C604DF1B8353132 /* SeedDataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeedDataFactory.swift"; sourceTree = "<group>"; };
+		0B11A2ECE14342C6ABB43909 /* WorkspacePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspacePersistence.swift"; sourceTree = "<group>"; };
+		31DA66718AA04F7CBA077CDF /* workspace_snapshot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "workspace_snapshot.json"; sourceTree = "<group>"; };
+		7F4B91B550D14297BA4BEB2C /* AccessibilityID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessibilityID.swift"; sourceTree = "<group>"; };
+		2C86757C85EA42DCBC0B49C6 /* AppFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppFormatters.swift"; sourceTree = "<group>"; };
+		42717B9C875D4695936992D7 /* String+Slug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Slug.swift"; sourceTree = "<group>"; };
+		A41F8C0006104D55A0994755 /* DocumentActionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentActionCoordinator.swift"; sourceTree = "<group>"; };
+		C96723AF155B43B489EA9970 /* DocumentEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentEditorViewModel.swift"; sourceTree = "<group>"; };
+		4328E9686E564696B4EDD747 /* DocumentsHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentsHomeViewModel.swift"; sourceTree = "<group>"; };
+		A98E7163CC394FA5ACE9D345 /* DocumentsSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentsSearchViewModel.swift"; sourceTree = "<group>"; };
+		2536A9C8BBF740A3805D79B9 /* WorkspaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceStore.swift"; sourceTree = "<group>"; };
+		3D02E2D710A348DC9F84DFD1 /* DocumentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentRowView.swift"; sourceTree = "<group>"; };
+		2563A102ED5041EE8A79733C /* WorkspaceChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceChrome.swift"; sourceTree = "<group>"; };
+		A3123E6D09504721B02F04C8 /* DocumentEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DocumentEditorView.swift"; sourceTree = "<group>"; };
+		27326A05F76E4CE1B4C9A7F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		71F160009CB74D86BDBD50E3 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreView.swift"; sourceTree = "<group>"; };
+		6D858144CFAA4797AF665C6C /* RecentDocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecentDocumentsView.swift"; sourceTree = "<group>"; };
+		2E50870B3D374C749FC5DDF8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchView.swift"; sourceTree = "<group>"; };
+		5203ACE482AC4A0682444733 /* SharedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedView.swift"; sourceTree = "<group>"; };
+		A3637BF719C84BB985AA2F1A /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootTabView.swift"; sourceTree = "<group>"; };
+		D48695F0ABC845F1B43728BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		07CEA5A2B2114BFE92C5CE0E /* CloudDocs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CloudDocs.entitlements"; sourceTree = "<group>"; };
+		FC6B5DBDDAFF471B91A9AF85 /* CloudDocsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CloudDocsApp.swift"; sourceTree = "<group>"; };
+		DD963602791E436D9CD8041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		DAA4240089CA443D85E7AAFF = {
+			isa = PBXGroup;
+			children = (
+				E5725D2D426F4917937CEDFC /* CloudDocs */,
+				3192A4331855488FB52E573C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3192A4331855488FB52E573C = {
+			isa = PBXGroup;
+			children = (
+				EFA78B5D21C142D281DCC65C /* CloudDocs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5725D2D426F4917937CEDFC = {
+			isa = PBXGroup;
+			children = (
+				A3291A830C924092B4403D5C /* Models */,
+				DB808BBF66F44130B4082F7D /* Persistence */,
+				8E8452EF8B2E47A080FB6E94 /* Resources */,
+				581FD7BD8349468CA85488B7 /* Utilities */,
+				DABB993C105C4BF89CEB8D7C /* ViewModels */,
+				D3791B36DE0F4DE5B63C6A64 /* Views */,
+				D48695F0ABC845F1B43728BA /* Assets.xcassets */,
+				07CEA5A2B2114BFE92C5CE0E /* CloudDocs.entitlements */,
+				FC6B5DBDDAFF471B91A9AF85 /* CloudDocsApp.swift */,
+				DD963602791E436D9CD8041A /* Info.plist */,
+			);
+			path = "CloudDocs";
+			sourceTree = "<group>";
+		};
+		A3291A830C924092B4403D5C = {
+			isa = PBXGroup;
+			children = (
+				70D1D2BFB15B4F2EB108AE99 /* WorkspaceModels.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		DB808BBF66F44130B4082F7D = {
+			isa = PBXGroup;
+			children = (
+				1CB2946C1C604DF1B8353132 /* SeedDataFactory.swift */,
+				0B11A2ECE14342C6ABB43909 /* WorkspacePersistence.swift */,
+			);
+			path = "Persistence";
+			sourceTree = "<group>";
+		};
+		8E8452EF8B2E47A080FB6E94 = {
+			isa = PBXGroup;
+			children = (
+				31DA66718AA04F7CBA077CDF /* workspace_snapshot.json */,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		581FD7BD8349468CA85488B7 = {
+			isa = PBXGroup;
+			children = (
+				7F4B91B550D14297BA4BEB2C /* AccessibilityID.swift */,
+				2C86757C85EA42DCBC0B49C6 /* AppFormatters.swift */,
+				42717B9C875D4695936992D7 /* String+Slug.swift */,
+			);
+			path = "Utilities";
+			sourceTree = "<group>";
+		};
+		DABB993C105C4BF89CEB8D7C = {
+			isa = PBXGroup;
+			children = (
+				A41F8C0006104D55A0994755 /* DocumentActionCoordinator.swift */,
+				C96723AF155B43B489EA9970 /* DocumentEditorViewModel.swift */,
+				4328E9686E564696B4EDD747 /* DocumentsHomeViewModel.swift */,
+				A98E7163CC394FA5ACE9D345 /* DocumentsSearchViewModel.swift */,
+				2536A9C8BBF740A3805D79B9 /* WorkspaceStore.swift */,
+			);
+			path = "ViewModels";
+			sourceTree = "<group>";
+		};
+		D3791B36DE0F4DE5B63C6A64 = {
+			isa = PBXGroup;
+			children = (
+				BC747F63B7F347B4A02BBBF4 /* Common */,
+				5D307FA732EF44C5974E1342 /* Editor */,
+				0DB4C720234D4C788EC684C3 /* Home */,
+				ED564030F4D240458550CDBC /* More */,
+				E185F3F20C56479F9D6CB792 /* Recents */,
+				0466F31D1CAF4153BF44F3CC /* Search */,
+				47F927C5956C4D22A4254FBF /* Shared */,
+				A3637BF719C84BB985AA2F1A /* RootTabView.swift */,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		BC747F63B7F347B4A02BBBF4 = {
+			isa = PBXGroup;
+			children = (
+				3D02E2D710A348DC9F84DFD1 /* DocumentRowView.swift */,
+				2563A102ED5041EE8A79733C /* WorkspaceChrome.swift */,
+			);
+			path = "Common";
+			sourceTree = "<group>";
+		};
+		5D307FA732EF44C5974E1342 = {
+			isa = PBXGroup;
+			children = (
+				A3123E6D09504721B02F04C8 /* DocumentEditorView.swift */,
+			);
+			path = "Editor";
+			sourceTree = "<group>";
+		};
+		0DB4C720234D4C788EC684C3 = {
+			isa = PBXGroup;
+			children = (
+				27326A05F76E4CE1B4C9A7F9 /* HomeView.swift */,
+			);
+			path = "Home";
+			sourceTree = "<group>";
+		};
+		ED564030F4D240458550CDBC = {
+			isa = PBXGroup;
+			children = (
+				71F160009CB74D86BDBD50E3 /* MoreView.swift */,
+			);
+			path = "More";
+			sourceTree = "<group>";
+		};
+		E185F3F20C56479F9D6CB792 = {
+			isa = PBXGroup;
+			children = (
+				6D858144CFAA4797AF665C6C /* RecentDocumentsView.swift */,
+			);
+			path = "Recents";
+			sourceTree = "<group>";
+		};
+		0466F31D1CAF4153BF44F3CC = {
+			isa = PBXGroup;
+			children = (
+				2E50870B3D374C749FC5DDF8 /* SearchView.swift */,
+			);
+			path = "Search";
+			sourceTree = "<group>";
+		};
+		47F927C5956C4D22A4254FBF = {
+			isa = PBXGroup;
+			children = (
+				5203ACE482AC4A0682444733 /* SharedView.swift */,
+			);
+			path = "Shared";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F748CE6B1B247B3ABB5A9A6 /* CloudDocs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D80920544B840799E2BCB2A /* Build configuration list for PBXNativeTarget "CloudDocs" */;
+			buildPhases = (
+				16C902A9D7EF4726AF65B491 /* Sources */,
+				3E016D115E6649358CC6C19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CloudDocs";
+			productName = "CloudDocs";
+			productReference = EFA78B5D21C142D281DCC65C /* CloudDocs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E4C3B681874A25B0E82974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					7F748CE6B1B247B3ABB5A9A6 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 7FCB8CCFD66C4148890388A3 /* Build configuration list for PBXProject "CloudDocs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA4240089CA443D85E7AAFF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F748CE6B1B247B3ABB5A9A6 /* CloudDocs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E016D115E6649358CC6C19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99210C26C2E34B9596A908F3 /* workspace_snapshot.json in Resources */,
+				A2F872CE24CE43D6AA397789 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C902A9D7EF4726AF65B491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6B3CFE73304F3A8E674F11 /* WorkspaceModels.swift in Sources */,
+				E2CAF762A8524F2B899AE05E /* SeedDataFactory.swift in Sources */,
+				436C414576FB4D409E410129 /* WorkspacePersistence.swift in Sources */,
+				7160D80BE9684700BBBBE3E1 /* AccessibilityID.swift in Sources */,
+				4A9F72A1098F4F6EB7596284 /* AppFormatters.swift in Sources */,
+				C817849AA45640FDB573DF25 /* String+Slug.swift in Sources */,
+				054187E45B8D4EB4BA5B737C /* DocumentActionCoordinator.swift in Sources */,
+				31F936CA6A504FD3B9D39480 /* DocumentEditorViewModel.swift in Sources */,
+				8157FCA7BB214934BE233898 /* DocumentsHomeViewModel.swift in Sources */,
+				8F538A26CC2248E5B90354D6 /* DocumentsSearchViewModel.swift in Sources */,
+				E8CA7559DD164C4786C68839 /* WorkspaceStore.swift in Sources */,
+				B213A57A63EB4AF5AF98BBD0 /* DocumentRowView.swift in Sources */,
+				06D22E9777284A83A8E6221A /* WorkspaceChrome.swift in Sources */,
+				128D82109D1A4F78A733961B /* DocumentEditorView.swift in Sources */,
+				4EC0233224EA4D918C68CE39 /* HomeView.swift in Sources */,
+				EDA872CC736D464689B75CB3 /* MoreView.swift in Sources */,
+				F1FA3C307D254F6893CEDC8A /* RecentDocumentsView.swift in Sources */,
+				85913A70AF4544FE8CB83B79 /* SearchView.swift in Sources */,
+				8D8CEC1CD4C74F38BC60BC31 /* SharedView.swift in Sources */,
+				4B8B0DF2A1FF4672AC503C0A /* RootTabView.swift in Sources */,
+				74CBCF00C37C4498BF6AA129 /* CloudDocsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FE7FD65DA7B4EC6B72D6DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudDocs/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.clouddocs";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1C2D7BFEFFF1415F8BF1A93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudDocs/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.clouddocs";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C76D09912EAE4E9A98781D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = "CloudDocs/CloudDocs.entitlements";
+				INFOPLIST_FILE = "CloudDocs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.clouddocs";
+				PRODUCT_NAME = "CloudDocs";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F536C57AF9EB4DF5884CF346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = "CloudDocs/CloudDocs.entitlements";
+				INFOPLIST_FILE = "CloudDocs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.clouddocs";
+				PRODUCT_NAME = "CloudDocs";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FCB8CCFD66C4148890388A3 /* Build configuration list for PBXProject "CloudDocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FE7FD65DA7B4EC6B72D6DAC /* Debug */,
+				1C2D7BFEFFF1415F8BF1A93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D80920544B840799E2BCB2A /* Build configuration list for PBXNativeTarget "CloudDocs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76D09912EAE4E9A98781D3B /* Debug */,
+				F536C57AF9EB4DF5884CF346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E4C3B681874A25B0E82974 /* Project object */;
+}

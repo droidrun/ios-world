@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "kendrick_lamar.jpg",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

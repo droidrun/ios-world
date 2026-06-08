@@ -1,0 +1,2269 @@
+{
+  "categories" : [
+    {
+      "displayOrder" : 0,
+      "id" : "produce",
+      "name" : "Produce",
+      "systemImage" : "leaf.fill"
+    },
+    {
+      "displayOrder" : 1,
+      "id" : "dairy_eggs",
+      "name" : "Dairy & Eggs",
+      "systemImage" : "takeoutbag.and.cup.and.straw.fill"
+    },
+    {
+      "displayOrder" : 2,
+      "id" : "meat_seafood",
+      "name" : "Meat & Seafood",
+      "systemImage" : "fish.fill"
+    },
+    {
+      "displayOrder" : 3,
+      "id" : "prepared",
+      "name" : "Prepared Meals",
+      "systemImage" : "fork.knife"
+    },
+    {
+      "displayOrder" : 4,
+      "id" : "frozen",
+      "name" : "Frozen",
+      "systemImage" : "snowflake"
+    },
+    {
+      "displayOrder" : 5,
+      "id" : "bakery",
+      "name" : "Bakery",
+      "systemImage" : "birthday.cake.fill"
+    },
+    {
+      "displayOrder" : 6,
+      "id" : "pantry",
+      "name" : "Pantry",
+      "systemImage" : "cabinet.fill"
+    },
+    {
+      "displayOrder" : 7,
+      "id" : "beverages",
+      "name" : "Beverages",
+      "systemImage" : "waterbottle.fill"
+    },
+    {
+      "displayOrder" : 8,
+      "id" : "household",
+      "name" : "Household",
+      "systemImage" : "house.fill"
+    },
+    {
+      "displayOrder" : 9,
+      "id" : "pet",
+      "name" : "Pet",
+      "systemImage" : "pawprint.fill"
+    },
+    {
+      "displayOrder" : 10,
+      "id" : "retail",
+      "name" : "Retail",
+      "systemImage" : "bag.fill"
+    }
+  ],
+  "metadata" : {
+    "lastUpdated" : "2026-03-06T15:30:00Z",
+    "providerLabel" : "Instacart Snapshot",
+    "snapshotTimestamp" : "2026-03-06T15:30:00Z",
+    "sourceType" : "snapshot"
+  },
+  "products" : [
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "produce",
+      "description" : "Kirkland Signature Green Seedless Grapes, 3 lbs in a 3 lb bowl pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "grapes_001",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "3 lb bowl",
+      "price" : 9.82,
+      "productName" : "Green Seedless Grapes, 3 lbs",
+      "storeID" : "costco",
+      "unitPrice" : "$3.27 \/ lb"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "produce",
+      "description" : "Kirkland Signature Organic Strawberries, 2 lbs in a 2 lb bowl pack. Organic option. Highlights: Organic. Available for delivery and pickup.",
+      "dietaryTags" : [
+        "Organic"
+      ],
+      "id" : "strawberries_002",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : true,
+      "isRecommended" : true,
+      "packageSize" : "2 lb bowl",
+      "price" : 11.18,
+      "productName" : "Organic Strawberries, 2 lbs",
+      "storeID" : "costco",
+      "unitPrice" : "$5.59 \/ lb"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "produce",
+      "description" : "Kirkland Signature Blueberries, 18 oz in a 18 oz bowl pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "blueberries_003",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "18 oz bowl",
+      "price" : 8.7,
+      "productName" : "Blueberries, 18 oz",
+      "storeID" : "costco",
+      "unitPrice" : "$0.48 \/ oz"
+    },
+    {
+      "brand" : "Driscoll's",
+      "categoryID" : "produce",
+      "description" : "Driscoll's Raspberries, 12 oz in a 12 oz bowl pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "raspberries_004",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 oz bowl",
+      "price" : 6.49,
+      "productName" : "Raspberries, 12 oz",
+      "storeID" : "costco",
+      "unitPrice" : "$0.54 \/ oz"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "meat_seafood",
+      "description" : "Kirkland Signature Kirkland Signature Fresh Farmed Atlantic Salmon Fillet in a about 3.11 lb \/ package pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "salmon_fresh_005",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "About 3.11 lb \/ package",
+      "price" : 42.45,
+      "productName" : "Kirkland Signature Fresh Farmed Atlantic Salmon Fillet",
+      "storeID" : "costco",
+      "unitPrice" : "$13.67 \/ lb"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "meat_seafood",
+      "description" : "Kirkland Signature Kirkland Signature Wild Sockeye Salmon Fillet in a about 2.0 lb \/ package pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "salmon_sockeye_006",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "About 2.0 lb \/ package",
+      "price" : 34.8,
+      "productName" : "Kirkland Signature Wild Sockeye Salmon Fillet",
+      "storeID" : "costco",
+      "unitPrice" : "$17.40 \/ lb"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "meat_seafood",
+      "description" : "Kirkland Signature Kirkland Signature Salmon Milano with Basil Pesto Butter in a about 1.8 lb \/ package pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "salmon_milano_007",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "About 1.8 lb \/ package",
+      "price" : 29.09,
+      "productName" : "Kirkland Signature Salmon Milano with Basil Pesto Butter",
+      "storeID" : "costco",
+      "unitPrice" : "$16.16 \/ lb"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "frozen",
+      "description" : "Kirkland Signature Kirkland Signature Farmed Atlantic Salmon, 6 oz - 8 oz in a 48 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "salmon_frozen_008",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "48 oz",
+      "price" : 42.28,
+      "productName" : "Kirkland Signature Farmed Atlantic Salmon, 6 oz - 8 oz",
+      "storeID" : "costco",
+      "unitPrice" : "$0.88 \/ oz"
+    },
+    {
+      "brand" : "MadeGood",
+      "categoryID" : "pantry",
+      "description" : "MadeGood MadeGood Organic Granola Minis Variety Pack in a 12 ct pack. Organic option. Highlights: Nut Free, Organic. Available for delivery and pickup.",
+      "dietaryTags" : [
+        "Nut Free",
+        "Organic"
+      ],
+      "id" : "madegood_009",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : true,
+      "isRecommended" : true,
+      "packageSize" : "12 ct",
+      "price" : 9.94,
+      "productName" : "MadeGood Organic Granola Minis Variety Pack",
+      "saleLabel" : "$4 off; limit 5",
+      "storeID" : "costco",
+      "unitPrice" : "12 ct"
+    },
+    {
+      "brand" : "Annie's",
+      "categoryID" : "bakery",
+      "description" : "Annie's Organic Cinnamon Rolls, 3 x 17.5 oz in a 17.5 oz pack. Organic option. Highlights: Organic. Available for delivery and pickup.",
+      "dietaryTags" : [
+        "Organic"
+      ],
+      "id" : "annies_010",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : true,
+      "isRecommended" : true,
+      "packageSize" : "17.5 oz",
+      "price" : 13.67,
+      "productName" : "Organic Cinnamon Rolls, 3 x 17.5 oz",
+      "saleLabel" : "$4.50 off",
+      "storeID" : "costco",
+      "unitPrice" : "17.5 oz"
+    },
+    {
+      "brand" : "Perdue",
+      "categoryID" : "frozen",
+      "description" : "Perdue Perdue Panko Breaded Chicken Breast Nuggets in a 64 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "nuggets_011",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "64 oz",
+      "price" : 12.3,
+      "productName" : "Perdue Panko Breaded Chicken Breast Nuggets",
+      "saleLabel" : "$4 off",
+      "storeID" : "costco",
+      "unitPrice" : "64 oz"
+    },
+    {
+      "brand" : "Mishpacha Bakery",
+      "categoryID" : "bakery",
+      "description" : "Mishpacha Bakery Hamantaschen in a 16 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "hamantaschen_012",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "16 oz",
+      "price" : 8.99,
+      "productName" : "Hamantaschen",
+      "storeID" : "costco",
+      "unitPrice" : "$0.56 \/ oz"
+    },
+    {
+      "brand" : "Costco Bakery",
+      "categoryID" : "bakery",
+      "description" : "Costco Bakery Salted Caramel Cake in a 1 cake pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "salted_caramel_013",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 cake",
+      "price" : 14.99,
+      "productName" : "Salted Caramel Cake",
+      "storeID" : "costco",
+      "unitPrice" : "1 cake"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "household",
+      "description" : "Kirkland Signature Toilet Paper in a 30 rolls pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "toilet_paper_014",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "30 rolls",
+      "price" : 24.99,
+      "productName" : "Toilet Paper",
+      "storeID" : "costco",
+      "unitPrice" : "$0.83 \/ roll"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "household",
+      "description" : "Kirkland Signature Paper Towels in a 12 x 160 sheets pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "paper_towels_015",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 x 160 sheets",
+      "price" : 22.49,
+      "productName" : "Paper Towels",
+      "storeID" : "costco",
+      "unitPrice" : "$1.87 \/ roll"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "pet",
+      "description" : "Kirkland Signature Adult Dog Food in a 40 lb pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dog_food_016",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "40 lb",
+      "price" : 39.99,
+      "productName" : "Adult Dog Food",
+      "storeID" : "costco",
+      "unitPrice" : "$1.00 \/ lb"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "household",
+      "description" : "Kirkland Signature Laundry Detergent in a 146 loads pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "laundry_017",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "146 loads",
+      "price" : 18.99,
+      "productName" : "Laundry Detergent",
+      "storeID" : "costco",
+      "unitPrice" : "$0.13 \/ load"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "dairy_eggs",
+      "description" : "Kirkland Signature Eggs in a 24 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "eggs_018",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "24 ct",
+      "price" : 6.79,
+      "productName" : "Eggs",
+      "storeID" : "costco",
+      "unitPrice" : "$0.28 each"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "beverages",
+      "description" : "Kirkland Signature Purified Water in a 40 x 16.9 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "water_019",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "40 x 16.9 fl oz",
+      "price" : 4.99,
+      "productName" : "Purified Water",
+      "storeID" : "costco",
+      "unitPrice" : "$0.12 \/ bottle"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "dairy_eggs",
+      "description" : "Kirkland Signature Whole Milk in a 1 gal pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "milk_020",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 gal",
+      "price" : 3.89,
+      "productName" : "Whole Milk",
+      "storeID" : "costco",
+      "unitPrice" : "$3.89 \/ gal"
+    },
+    {
+      "brand" : "Just Bare",
+      "categoryID" : "frozen",
+      "description" : "Just Bare Frozen Chicken Breast Bites in a 4 lb pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "protein_bites_021",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "4 lb",
+      "price" : 17.99,
+      "productName" : "Frozen Chicken Breast Bites",
+      "storeID" : "costco",
+      "unitPrice" : "$4.50 \/ lb"
+    },
+    {
+      "brand" : "Liquid I.V.",
+      "categoryID" : "beverages",
+      "description" : "Liquid I.V. Electrolyte Water Variety Pack in a 16 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "hydration_022",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "16 ct",
+      "price" : 24.99,
+      "productName" : "Electrolyte Water Variety Pack",
+      "storeID" : "costco",
+      "unitPrice" : "$1.56 each"
+    },
+    {
+      "brand" : "Costco Bakery",
+      "categoryID" : "bakery",
+      "description" : "Costco Bakery Butter Croissants in a 12 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "croissants_023",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "12 ct",
+      "price" : 7.99,
+      "productName" : "Butter Croissants",
+      "storeID" : "costco",
+      "unitPrice" : "$0.67 each"
+    },
+    {
+      "brand" : "Taylor Farms",
+      "categoryID" : "produce",
+      "description" : "Taylor Farms Caesar Salad Kit in a 24 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "caesar_salad_024",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "24 oz",
+      "price" : 6.49,
+      "productName" : "Caesar Salad Kit",
+      "storeID" : "costco",
+      "unitPrice" : "$0.27 \/ oz"
+    },
+    {
+      "brand" : "Earthbound Farm",
+      "categoryID" : "produce",
+      "description" : "Earthbound Farm Baby Spinach in a 16 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "spinach_025",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "16 oz",
+      "price" : 5.99,
+      "productName" : "Baby Spinach",
+      "storeID" : "costco",
+      "unitPrice" : "$0.37 \/ oz"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "produce",
+      "description" : "Kirkland Signature Hass Avocados in a 6 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "avocados_026",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "6 ct",
+      "price" : 8.49,
+      "productName" : "Hass Avocados",
+      "storeID" : "costco",
+      "unitPrice" : "$1.42 each"
+    },
+    {
+      "brand" : "LaCroix",
+      "categoryID" : "beverages",
+      "description" : "LaCroix Sparkling Water Variety Pack in a 24 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "sparkling_water_027",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "24 ct",
+      "price" : 11.99,
+      "productName" : "Sparkling Water Variety Pack",
+      "storeID" : "costco",
+      "unitPrice" : "$0.50 each"
+    },
+    {
+      "brand" : "Fairlife",
+      "categoryID" : "beverages",
+      "description" : "Fairlife Chocolate Protein Shakes in a 18 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "protein_shakes_028",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "18 ct",
+      "price" : 31.99,
+      "productName" : "Chocolate Protein Shakes",
+      "storeID" : "costco",
+      "unitPrice" : "$1.78 each"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "household",
+      "description" : "Kirkland Signature Paper Plates in a 186 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "paper_plates_029",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "186 ct",
+      "price" : 19.99,
+      "productName" : "Paper Plates",
+      "storeID" : "costco",
+      "unitPrice" : "$0.11 each"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "household",
+      "description" : "Kirkland Signature Kitchen Trash Bags in a 200 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "trash_bags_030",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "200 ct",
+      "price" : 19.49,
+      "productName" : "Kitchen Trash Bags",
+      "storeID" : "costco",
+      "unitPrice" : "$0.10 each"
+    },
+    {
+      "brand" : "Kirkland Signature",
+      "categoryID" : "beverages",
+      "description" : "Kirkland Signature Cold Brew Coffee in a 2 x 48 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "coffee_031",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "2 x 48 fl oz",
+      "price" : 9.99,
+      "productName" : "Cold Brew Coffee",
+      "storeID" : "costco",
+      "unitPrice" : "$0.10 \/ fl oz"
+    },
+    {
+      "brand" : "Chobani",
+      "categoryID" : "dairy_eggs",
+      "description" : "Chobani Greek Yogurt Cups in a 20 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "yogurt_032",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "20 ct",
+      "price" : 15.99,
+      "productName" : "Greek Yogurt Cups",
+      "storeID" : "costco",
+      "unitPrice" : "$0.80 each"
+    },
+    {
+      "brand" : "Good Lovin'",
+      "categoryID" : "pet",
+      "description" : "Good Lovin' Biscuit Dog Treats in a 24 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dog_treats_101",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "24 oz",
+      "price" : 9.99,
+      "productName" : "Biscuit Dog Treats",
+      "storeID" : "petco",
+      "unitPrice" : "$0.42 \/ oz"
+    },
+    {
+      "brand" : "So Phresh",
+      "categoryID" : "pet",
+      "description" : "So Phresh Clumping Cat Litter in a 35 lb pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cat_litter_104",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "35 lb",
+      "price" : 17.99,
+      "productName" : "Clumping Cat Litter",
+      "storeID" : "petco",
+      "unitPrice" : "$0.51 \/ lb"
+    },
+    {
+      "brand" : "WholeHearted",
+      "categoryID" : "pet",
+      "description" : "WholeHearted Salmon & Brown Rice Dog Food in a 24 lb pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "pet_food_123",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "24 lb",
+      "price" : 34.99,
+      "productName" : "Salmon & Brown Rice Dog Food",
+      "storeID" : "petco",
+      "unitPrice" : "$1.46 \/ lb"
+    },
+    {
+      "brand" : "Temptations",
+      "categoryID" : "pet",
+      "description" : "Temptations Crunchy Cat Treats in a 16 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cat_treats_124",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "16 oz",
+      "price" : 8.49,
+      "productName" : "Crunchy Cat Treats",
+      "storeID" : "petco",
+      "unitPrice" : "$0.53 \/ oz"
+    },
+    {
+      "brand" : "Leaps & Bounds",
+      "categoryID" : "pet",
+      "description" : "Leaps & Bounds Plush Rope Toy in a 1 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "pet_toy_125",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 ct",
+      "price" : 6.99,
+      "productName" : "Plush Rope Toy",
+      "storeID" : "petco",
+      "unitPrice" : "$6.99 each"
+    },
+    {
+      "brand" : "Simply Nature",
+      "categoryID" : "produce",
+      "description" : "Simply Nature Organic Bananas in a 1 bunch pack. Organic option. Highlights: Organic. Available for delivery and pickup.",
+      "dietaryTags" : [
+        "Organic"
+      ],
+      "id" : "bananas_102",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : true,
+      "isRecommended" : false,
+      "packageSize" : "1 bunch",
+      "price" : 2.19,
+      "productName" : "Organic Bananas",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.36 each"
+    },
+    {
+      "brand" : "Goldhen",
+      "categoryID" : "dairy_eggs",
+      "description" : "Goldhen Large Eggs in a 12 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "eggs_105",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 ct",
+      "price" : 3.49,
+      "productName" : "Large Eggs",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.29 each"
+    },
+    {
+      "brand" : "Simply Nature",
+      "categoryID" : "produce",
+      "description" : "Simply Nature Baby Spinach in a 10 oz pack. Organic option. Highlights: Organic. Available for delivery and pickup.",
+      "dietaryTags" : [
+        "Organic"
+      ],
+      "id" : "aldi_spinach_108",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : true,
+      "isRecommended" : true,
+      "packageSize" : "10 oz",
+      "price" : 3.29,
+      "productName" : "Baby Spinach",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.33 \/ oz"
+    },
+    {
+      "brand" : "Little Salad Bar",
+      "categoryID" : "produce",
+      "description" : "Little Salad Bar Chopped Caesar Salad Kit in a 11.3 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_salad_109",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "11.3 oz",
+      "price" : 3.79,
+      "productName" : "Chopped Caesar Salad Kit",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.34 \/ oz"
+    },
+    {
+      "brand" : "Specially Selected",
+      "categoryID" : "bakery",
+      "description" : "Specially Selected Sourdough Bread in a 24 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_bread_110",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "24 oz",
+      "price" : 4.29,
+      "productName" : "Sourdough Bread",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.18 \/ oz"
+    },
+    {
+      "brand" : "Reggano",
+      "categoryID" : "pantry",
+      "description" : "Reggano Bronze Cut Penne in a 16 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_pasta_111",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "16 oz",
+      "price" : 1.99,
+      "productName" : "Bronze Cut Penne",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.12 \/ oz"
+    },
+    {
+      "brand" : "Specially Selected",
+      "categoryID" : "pantry",
+      "description" : "Specially Selected Premium Marinara in a 24 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_sauce_112",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "24 oz",
+      "price" : 3.49,
+      "productName" : "Premium Marinara",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.15 \/ oz"
+    },
+    {
+      "brand" : "Friendly Farms",
+      "categoryID" : "dairy_eggs",
+      "description" : "Friendly Farms Greek Yogurt in a 32 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_yogurt_113",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "32 oz",
+      "price" : 4.59,
+      "productName" : "Greek Yogurt",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.14 \/ oz"
+    },
+    {
+      "brand" : "Belle Vie",
+      "categoryID" : "beverages",
+      "description" : "Belle Vie Sparkling Water Variety Pack in a 12 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_sparkling_114",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 ct",
+      "price" : 4.99,
+      "productName" : "Sparkling Water Variety Pack",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.42 each"
+    },
+    {
+      "brand" : "Kirkwood",
+      "categoryID" : "frozen",
+      "description" : "Kirkwood Breaded Chicken Breast Fillets in a 24 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_chicken_115",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "24 oz",
+      "price" : 8.99,
+      "productName" : "Breaded Chicken Breast Fillets",
+      "storeID" : "aldi",
+      "unitPrice" : "$0.37 \/ oz"
+    },
+    {
+      "brand" : "Nature's Nectar",
+      "categoryID" : "produce",
+      "description" : "Nature's Nectar Hass Avocados in a 4 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "aldi_avocados_116",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "4 ct",
+      "price" : 3.99,
+      "productName" : "Hass Avocados",
+      "storeID" : "aldi",
+      "unitPrice" : "$1.00 each"
+    },
+    {
+      "brand" : "up&up",
+      "categoryID" : "household",
+      "description" : "up&up Multi-Surface Cleaner in a 28 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cleaner_103",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "28 fl oz",
+      "price" : 4.49,
+      "productName" : "Multi-Surface Cleaner",
+      "storeID" : "target",
+      "unitPrice" : "$0.16 \/ fl oz"
+    },
+    {
+      "brand" : "Brightroom",
+      "categoryID" : "retail",
+      "description" : "Brightroom Storage Bins, 4 Pack in a 4 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "storage_bins_106",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "4 ct",
+      "price" : 18.99,
+      "productName" : "Storage Bins, 4 Pack",
+      "storeID" : "target",
+      "unitPrice" : "$4.75 each"
+    },
+    {
+      "brand" : "up&up",
+      "categoryID" : "household",
+      "description" : "up&up Paper Towels in a 6 mega rolls pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "target_paper_towels_117",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "6 mega rolls",
+      "price" : 8.99,
+      "productName" : "Paper Towels",
+      "storeID" : "target",
+      "unitPrice" : "$1.50 \/ roll"
+    },
+    {
+      "brand" : "Tide",
+      "categoryID" : "household",
+      "description" : "Tide Laundry Detergent Pods in a 42 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "target_laundry_118",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "42 ct",
+      "price" : 13.49,
+      "productName" : "Laundry Detergent Pods",
+      "storeID" : "target",
+      "unitPrice" : "$0.32 each"
+    },
+    {
+      "brand" : "Everspring",
+      "categoryID" : "household",
+      "description" : "Everspring Foaming Hand Soap in a 10 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "target_soap_119",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "10 fl oz",
+      "price" : 3.99,
+      "productName" : "Foaming Hand Soap",
+      "storeID" : "target",
+      "unitPrice" : "$0.40 \/ fl oz"
+    },
+    {
+      "brand" : "Good & Gather",
+      "categoryID" : "pantry",
+      "description" : "Good & Gather Chocolate Chip Snack Bars in a 12 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "target_snackbars_120",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 ct",
+      "price" : 5.49,
+      "productName" : "Chocolate Chip Snack Bars",
+      "storeID" : "target",
+      "unitPrice" : "$0.46 each"
+    },
+    {
+      "brand" : "Threshold",
+      "categoryID" : "retail",
+      "description" : "Threshold Sea Salt Soy Candle in a 14 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "target_candle_121",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "14 oz",
+      "price" : 11.99,
+      "productName" : "Sea Salt Soy Candle",
+      "storeID" : "target",
+      "unitPrice" : "$0.86 \/ oz"
+    },
+    {
+      "brand" : "Room Essentials",
+      "categoryID" : "retail",
+      "description" : "Room Essentials Cozy Throw Blanket in a 50 x 60 in pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "target_blanket_122",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "50 x 60 in",
+      "price" : 14.99,
+      "productName" : "Cozy Throw Blanket",
+      "storeID" : "target",
+      "unitPrice" : "$14.99 each"
+    },
+    {
+      "brand" : "Giant Eagle",
+      "categoryID" : "produce",
+      "description" : "Giant Eagle Navel Oranges in a 3 lb bag pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_oranges_129",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "3 lb bag",
+      "price" : 5.99,
+      "productName" : "Navel Oranges",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$2.00 \/ lb"
+    },
+    {
+      "brand" : "Giant Eagle",
+      "categoryID" : "meat_seafood",
+      "description" : "Giant Eagle Rotisserie Chicken in a 1 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_rotisserie_130",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "1 ct",
+      "price" : 8.99,
+      "productName" : "Rotisserie Chicken",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$8.99 each"
+    },
+    {
+      "brand" : "Giant Eagle",
+      "categoryID" : "dairy_eggs",
+      "description" : "Giant Eagle Whole Milk in a 1 gal pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_milk_207",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 gal",
+      "price" : 4.29,
+      "productName" : "Whole Milk",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$4.29 \/ gal"
+    },
+    {
+      "brand" : "Giant Eagle",
+      "categoryID" : "dairy_eggs",
+      "description" : "Giant Eagle Grade A Large Eggs in a 12 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_eggs_208",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 ct",
+      "price" : 3.79,
+      "productName" : "Grade A Large Eggs",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$0.32 each"
+    },
+    {
+      "brand" : "Market District Bakery",
+      "categoryID" : "bakery",
+      "description" : "Market District Bakery Italian Bread Loaf in a 20 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_bread_209",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "20 oz",
+      "price" : 3.99,
+      "productName" : "Italian Bread Loaf",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$0.20 \/ oz"
+    },
+    {
+      "brand" : "Oikos",
+      "categoryID" : "dairy_eggs",
+      "description" : "Oikos Vanilla Greek Yogurt in a 32 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_yogurt_210",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "32 oz",
+      "price" : 5.69,
+      "productName" : "Vanilla Greek Yogurt",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$0.18 \/ oz"
+    },
+    {
+      "brand" : "Taylor Farms",
+      "categoryID" : "produce",
+      "description" : "Taylor Farms Southwest Chopped Salad Kit in a 12.8 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_salad_211",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "12.8 oz",
+      "price" : 4.49,
+      "productName" : "Southwest Chopped Salad Kit",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$0.35 \/ oz"
+    },
+    {
+      "brand" : "Barilla",
+      "categoryID" : "pantry",
+      "description" : "Barilla Penne Rigate Pasta in a 16 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "giant_pasta_212",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "16 oz",
+      "price" : 2.19,
+      "productName" : "Penne Rigate Pasta",
+      "storeID" : "giant_eagle",
+      "unitPrice" : "$0.14 \/ oz"
+    },
+    {
+      "brand" : "Market District",
+      "categoryID" : "prepared",
+      "description" : "Market District Spicy Salmon Sushi Roll in a 8 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "market_sushi_201",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "8 ct",
+      "price" : 11.99,
+      "productName" : "Spicy Salmon Sushi Roll",
+      "storeID" : "market_district",
+      "unitPrice" : "$1.50 each"
+    },
+    {
+      "brand" : "Market District",
+      "categoryID" : "prepared",
+      "description" : "Market District Harvest Chicken Salad Bowl in a 1 bowl pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "market_chicken_salad_202",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 bowl",
+      "price" : 10.49,
+      "productName" : "Harvest Chicken Salad Bowl",
+      "storeID" : "market_district",
+      "unitPrice" : "$10.49 each"
+    },
+    {
+      "brand" : "Market District Bakery",
+      "categoryID" : "bakery",
+      "description" : "Market District Bakery Rustic Bread Loaf in a 18 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "market_bread_203",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "18 oz",
+      "price" : 4.79,
+      "productName" : "Rustic Bread Loaf",
+      "storeID" : "market_district",
+      "unitPrice" : "$0.27 \/ oz"
+    },
+    {
+      "brand" : "Market District",
+      "categoryID" : "prepared",
+      "description" : "Market District Mediterranean Pasta Salad in a 20 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "market_pasta_salad_204",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "20 oz",
+      "price" : 7.99,
+      "productName" : "Mediterranean Pasta Salad",
+      "storeID" : "market_district",
+      "unitPrice" : "$0.40 \/ oz"
+    },
+    {
+      "brand" : "La Colombe",
+      "categoryID" : "beverages",
+      "description" : "La Colombe Vanilla Cold Brew in a 42 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "market_cold_brew_205",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "42 fl oz",
+      "price" : 6.99,
+      "productName" : "Vanilla Cold Brew",
+      "storeID" : "market_district",
+      "unitPrice" : "$0.17 \/ fl oz"
+    },
+    {
+      "brand" : "DeLallo",
+      "categoryID" : "pantry",
+      "description" : "DeLallo Extra Virgin Olive Oil in a 25 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "market_olive_oil_206",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "25 fl oz",
+      "price" : 13.49,
+      "productName" : "Extra Virgin Olive Oil",
+      "storeID" : "market_district",
+      "unitPrice" : "$0.54 \/ fl oz"
+    },
+    {
+      "brand" : "Panera Bread",
+      "categoryID" : "prepared",
+      "description" : "Panera Bread Broccoli Cheddar Soup in a 16 oz bowl pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "panera_soup_131",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "16 oz bowl",
+      "price" : 8.79,
+      "productName" : "Broccoli Cheddar Soup",
+      "storeID" : "panera",
+      "unitPrice" : "$0.55 \/ oz"
+    },
+    {
+      "brand" : "Panera Bread",
+      "categoryID" : "prepared",
+      "description" : "Panera Bread Green Goddess Cobb Salad in a 1 bowl pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "panera_salad_132",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 bowl",
+      "price" : 12.49,
+      "productName" : "Green Goddess Cobb Salad",
+      "storeID" : "panera",
+      "unitPrice" : "$12.49 each"
+    },
+    {
+      "brand" : "Panera Bread",
+      "categoryID" : "prepared",
+      "description" : "Panera Bread Toasted Frontega Chicken Sandwich in a 1 sandwich pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "panera_sandwich_133",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 sandwich",
+      "price" : 13.29,
+      "productName" : "Toasted Frontega Chicken Sandwich",
+      "storeID" : "panera",
+      "unitPrice" : "$13.29 each"
+    },
+    {
+      "brand" : "Panera Bread",
+      "categoryID" : "bakery",
+      "description" : "Panera Bread Chocolate Croissant in a 1 pastry pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "panera_pastry_134",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 pastry",
+      "price" : 4.29,
+      "productName" : "Chocolate Croissant",
+      "storeID" : "panera",
+      "unitPrice" : "$4.29 each"
+    },
+    {
+      "brand" : "Panera Bread",
+      "categoryID" : "beverages",
+      "description" : "Panera Bread Passion Papaya Iced Tea in a 20 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "panera_tea_135",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "20 fl oz",
+      "price" : 3.99,
+      "productName" : "Passion Papaya Iced Tea",
+      "storeID" : "panera",
+      "unitPrice" : "$0.20 \/ fl oz"
+    },
+    {
+      "brand" : "Chipotle",
+      "categoryID" : "prepared",
+      "description" : "Chipotle Chicken Burrito Bowl in a 1 bowl pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "chipotle_bowl_136",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "1 bowl",
+      "price" : 12.85,
+      "productName" : "Chicken Burrito Bowl",
+      "storeID" : "chipotle",
+      "unitPrice" : "$12.85 each"
+    },
+    {
+      "brand" : "Chipotle",
+      "categoryID" : "prepared",
+      "description" : "Chipotle Steak Burrito in a 1 burrito pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "chipotle_burrito_137",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 burrito",
+      "price" : 13.65,
+      "productName" : "Steak Burrito",
+      "storeID" : "chipotle",
+      "unitPrice" : "$13.65 each"
+    },
+    {
+      "brand" : "Chipotle",
+      "categoryID" : "prepared",
+      "description" : "Chipotle Chips & Guacamole in a 1 order pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "chipotle_chips_138",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 order",
+      "price" : 5.9,
+      "productName" : "Chips & Guacamole",
+      "storeID" : "chipotle",
+      "unitPrice" : "$5.90 each"
+    },
+    {
+      "brand" : "Chipotle",
+      "categoryID" : "prepared",
+      "description" : "Chipotle Queso Blanco in a 4 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "chipotle_queso_139",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "4 oz",
+      "price" : 2.95,
+      "productName" : "Queso Blanco",
+      "storeID" : "chipotle",
+      "unitPrice" : "$0.74 \/ oz"
+    },
+    {
+      "brand" : "Chipotle",
+      "categoryID" : "beverages",
+      "description" : "Chipotle Mexican Coca-Cola in a 12 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "chipotle_drink_140",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 fl oz",
+      "price" : 3.45,
+      "productName" : "Mexican Coca-Cola",
+      "storeID" : "chipotle",
+      "unitPrice" : "$0.29 \/ fl oz"
+    },
+    {
+      "brand" : "CVS Health",
+      "categoryID" : "retail",
+      "description" : "CVS Health Daily Multivitamins in a 120 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "vitamins_107",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "120 ct",
+      "price" : 12.99,
+      "productName" : "Daily Multivitamins",
+      "storeID" : "cvs",
+      "unitPrice" : "$0.11 each"
+    },
+    {
+      "brand" : "Advil",
+      "categoryID" : "retail",
+      "description" : "Advil Pain Relief Caplets in a 80 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cvs_pain_relief_127",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "80 ct",
+      "price" : 13.99,
+      "productName" : "Pain Relief Caplets",
+      "storeID" : "cvs",
+      "unitPrice" : "$0.17 each"
+    },
+    {
+      "brand" : "Ricola",
+      "categoryID" : "retail",
+      "description" : "Ricola Honey Lemon Cough Drops in a 19 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cvs_cough_drops_128",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "19 ct",
+      "price" : 3.99,
+      "productName" : "Honey Lemon Cough Drops",
+      "storeID" : "cvs",
+      "unitPrice" : "$0.21 each"
+    },
+    {
+      "brand" : "Duracell",
+      "categoryID" : "retail",
+      "description" : "Duracell AA Alkaline Batteries in a 8 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cvs_batteries_213",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "8 ct",
+      "price" : 11.49,
+      "productName" : "AA Alkaline Batteries",
+      "storeID" : "cvs",
+      "unitPrice" : "$1.44 each"
+    },
+    {
+      "brand" : "Crest",
+      "categoryID" : "retail",
+      "description" : "Crest Whitening Toothpaste in a 5.7 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cvs_toothpaste_214",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "5.7 oz",
+      "price" : 5.99,
+      "productName" : "Whitening Toothpaste",
+      "storeID" : "cvs",
+      "unitPrice" : "$1.05 \/ oz"
+    },
+    {
+      "brand" : "Band-Aid",
+      "categoryID" : "retail",
+      "description" : "Band-Aid Flexible Fabric Bandages in a 100 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cvs_bandages_215",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "100 ct",
+      "price" : 8.79,
+      "productName" : "Flexible Fabric Bandages",
+      "storeID" : "cvs",
+      "unitPrice" : "$0.09 each"
+    },
+    {
+      "brand" : "Kleenex",
+      "categoryID" : "household",
+      "description" : "Kleenex Soft Facial Tissues in a 4 cube boxes pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cvs_tissues_216",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "4 cube boxes",
+      "price" : 7.49,
+      "productName" : "Soft Facial Tissues",
+      "storeID" : "cvs",
+      "unitPrice" : "$1.87 each"
+    },
+    {
+      "brand" : "Pantene",
+      "categoryID" : "retail",
+      "description" : "Pantene Moisture Repair Shampoo in a 17.9 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "cvs_shampoo_217",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "17.9 fl oz",
+      "price" : 7.99,
+      "productName" : "Moisture Repair Shampoo",
+      "storeID" : "cvs",
+      "unitPrice" : "$0.45 \/ fl oz"
+    },
+    {
+      "brand" : "GE",
+      "categoryID" : "retail",
+      "description" : "GE LED Light Bulbs Soft White in a 4 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "lowes_bulbs_218",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "4 ct",
+      "price" : 9.98,
+      "productName" : "LED Light Bulbs Soft White",
+      "storeID" : "lowes",
+      "unitPrice" : "$2.50 each"
+    },
+    {
+      "brand" : "Kobalt",
+      "categoryID" : "retail",
+      "description" : "Kobalt Power Drill Driver Kit in a 1 kit pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "lowes_drill_219",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "1 kit",
+      "price" : 79,
+      "productName" : "Power Drill Driver Kit",
+      "storeID" : "lowes",
+      "unitPrice" : "$79.00 each"
+    },
+    {
+      "brand" : "Project Source",
+      "categoryID" : "retail",
+      "description" : "Project Source Heavy Duty Storage Tote in a 27 gal pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "lowes_tote_220",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "27 gal",
+      "price" : 11.98,
+      "productName" : "Heavy Duty Storage Tote",
+      "storeID" : "lowes",
+      "unitPrice" : "$11.98 each"
+    },
+    {
+      "brand" : "HGTV Home",
+      "categoryID" : "retail",
+      "description" : "HGTV Home Interior Paint Sample in a 1 qt pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "lowes_paint_221",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 qt",
+      "price" : 5.48,
+      "productName" : "Interior Paint Sample",
+      "storeID" : "lowes",
+      "unitPrice" : "$5.48 \/ qt"
+    },
+    {
+      "brand" : "Style Selections",
+      "categoryID" : "retail",
+      "description" : "Style Selections Ceramic Planter Pot in a 12 in pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "lowes_planter_222",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 in",
+      "price" : 16.99,
+      "productName" : "Ceramic Planter Pot",
+      "storeID" : "lowes",
+      "unitPrice" : "$16.99 each"
+    },
+    {
+      "brand" : "Blue Hawk",
+      "categoryID" : "retail",
+      "description" : "Blue Hawk Work Gloves in a 1 pair pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "lowes_gloves_223",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 pair",
+      "price" : 8.49,
+      "productName" : "Work Gloves",
+      "storeID" : "lowes",
+      "unitPrice" : "$8.49 each"
+    },
+    {
+      "brand" : "Dollar Tree",
+      "categoryID" : "household",
+      "description" : "Dollar Tree Paper Plates in a 20 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dollar_tree_plates_224",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "20 ct",
+      "price" : 1.25,
+      "productName" : "Paper Plates",
+      "storeID" : "dollar_tree",
+      "unitPrice" : "$0.06 each"
+    },
+    {
+      "brand" : "LA's Totally Awesome",
+      "categoryID" : "household",
+      "description" : "LA's Totally Awesome Laundry Detergent in a 32 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dollar_tree_detergent_225",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "32 fl oz",
+      "price" : 1.25,
+      "productName" : "Laundry Detergent",
+      "storeID" : "dollar_tree",
+      "unitPrice" : "$0.04 \/ fl oz"
+    },
+    {
+      "brand" : "Benton's",
+      "categoryID" : "pantry",
+      "description" : "Benton's Chocolate Sandwich Cookies in a 14 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dollar_tree_snacks_226",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "14 oz",
+      "price" : 1.25,
+      "productName" : "Chocolate Sandwich Cookies",
+      "storeID" : "dollar_tree",
+      "unitPrice" : "$0.09 \/ oz"
+    },
+    {
+      "brand" : "Stars & Stripes",
+      "categoryID" : "beverages",
+      "description" : "Stars & Stripes Cola Soda in a 2 l pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dollar_tree_soda_227",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "2 L",
+      "price" : 1.25,
+      "productName" : "Cola Soda",
+      "storeID" : "dollar_tree",
+      "unitPrice" : "$0.63 \/ L"
+    },
+    {
+      "brand" : "Totally Awesome",
+      "categoryID" : "household",
+      "description" : "Totally Awesome All Purpose Cleaner in a 20 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dollar_tree_cleaner_228",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "20 fl oz",
+      "price" : 1.25,
+      "productName" : "All Purpose Cleaner",
+      "storeID" : "dollar_tree",
+      "unitPrice" : "$0.06 \/ fl oz"
+    },
+    {
+      "brand" : "Dollar Tree",
+      "categoryID" : "household",
+      "description" : "Dollar Tree Tall Kitchen Trash Bags in a 12 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "dollar_tree_bags_229",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "12 ct",
+      "price" : 1.25,
+      "productName" : "Tall Kitchen Trash Bags",
+      "storeID" : "dollar_tree",
+      "unitPrice" : "$0.10 each"
+    },
+    {
+      "brand" : "Artist's Loft",
+      "categoryID" : "retail",
+      "description" : "Artist's Loft Acrylic Paint Set in a 12 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "michaels_paint_230",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "12 ct",
+      "price" : 12.99,
+      "productName" : "Acrylic Paint Set",
+      "storeID" : "michaels",
+      "unitPrice" : "$1.08 each"
+    },
+    {
+      "brand" : "Artist's Loft",
+      "categoryID" : "retail",
+      "description" : "Artist's Loft Hardbound Sketchbook in a 1 book pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "michaels_sketchbook_231",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 book",
+      "price" : 9.99,
+      "productName" : "Hardbound Sketchbook",
+      "storeID" : "michaels",
+      "unitPrice" : "$9.99 each"
+    },
+    {
+      "brand" : "Creatology",
+      "categoryID" : "retail",
+      "description" : "Creatology Hot Glue Sticks in a 24 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "michaels_glue_232",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "24 ct",
+      "price" : 6.99,
+      "productName" : "Hot Glue Sticks",
+      "storeID" : "michaels",
+      "unitPrice" : "$0.29 each"
+    },
+    {
+      "brand" : "Loops & Threads",
+      "categoryID" : "retail",
+      "description" : "Loops & Threads Soft Yarn Skein in a 1 skein pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "michaels_yarn_233",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "1 skein",
+      "price" : 5.99,
+      "productName" : "Soft Yarn Skein",
+      "storeID" : "michaels",
+      "unitPrice" : "$5.99 each"
+    },
+    {
+      "brand" : "Studio Decor",
+      "categoryID" : "retail",
+      "description" : "Studio Decor Gallery Wall Frame in a 11 x 14 in pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "michaels_frame_234",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "11 x 14 in",
+      "price" : 14.99,
+      "productName" : "Gallery Wall Frame",
+      "storeID" : "michaels",
+      "unitPrice" : "$14.99 each"
+    },
+    {
+      "brand" : "Ashland",
+      "categoryID" : "retail",
+      "description" : "Ashland Seasonal Door Wreath in a 18 in pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "michaels_wreath_235",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "18 in",
+      "price" : 24.99,
+      "productName" : "Seasonal Door Wreath",
+      "storeID" : "michaels",
+      "unitPrice" : "$24.99 each"
+    },
+    {
+      "brand" : "General Mills",
+      "categoryID" : "pantry",
+      "description" : "General Mills Honey Oat Cereal in a 18 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "family_dollar_cereal_236",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "18 oz",
+      "price" : 4.95,
+      "productName" : "Honey Oat Cereal",
+      "storeID" : "family_dollar",
+      "unitPrice" : "$0.28 \/ oz"
+    },
+    {
+      "brand" : "Minute Maid",
+      "categoryID" : "beverages",
+      "description" : "Minute Maid Apple Juice in a 59 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "family_dollar_juice_237",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "59 fl oz",
+      "price" : 3.75,
+      "productName" : "Apple Juice",
+      "storeID" : "family_dollar",
+      "unitPrice" : "$0.06 \/ fl oz"
+    },
+    {
+      "brand" : "Bounty Essentials",
+      "categoryID" : "household",
+      "description" : "Bounty Essentials Paper Towels in a 4 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "family_dollar_paper_towels_238",
+      "inStock" : true,
+      "isBuyAgain" : true,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "4 ct",
+      "price" : 5.25,
+      "productName" : "Paper Towels",
+      "storeID" : "family_dollar",
+      "unitPrice" : "$1.31 each"
+    },
+    {
+      "brand" : "Colgate",
+      "categoryID" : "retail",
+      "description" : "Colgate Cavity Protection Toothpaste in a 6 oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "family_dollar_toothpaste_239",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "6 oz",
+      "price" : 2.95,
+      "productName" : "Cavity Protection Toothpaste",
+      "storeID" : "family_dollar",
+      "unitPrice" : "$0.49 \/ oz"
+    },
+    {
+      "brand" : "Glad",
+      "categoryID" : "household",
+      "description" : "Glad Kitchen Trash Bags in a 20 ct pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "family_dollar_trash_bags_240",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : false,
+      "packageSize" : "20 ct",
+      "price" : 4.5,
+      "productName" : "Kitchen Trash Bags",
+      "storeID" : "family_dollar",
+      "unitPrice" : "$0.23 each"
+    },
+    {
+      "brand" : "Purex",
+      "categoryID" : "household",
+      "description" : "Purex Liquid Laundry Detergent in a 75 fl oz pack. Available for delivery and pickup.",
+      "dietaryTags" : [
+
+      ],
+      "id" : "family_dollar_detergent_241",
+      "inStock" : true,
+      "isBuyAgain" : false,
+      "isOrganic" : false,
+      "isRecommended" : true,
+      "packageSize" : "75 fl oz",
+      "price" : 8.95,
+      "productName" : "Liquid Laundry Detergent",
+      "storeID" : "family_dollar",
+      "unitPrice" : "$0.12 \/ fl oz"
+    }
+  ],
+  "stores" : [
+    {
+      "accentColorHex" : "#0B67B0",
+      "addressLine" : "1420 Westgate Center Dr",
+      "deliveryFee" : 3.99,
+      "distanceMiles" : 2.1,
+      "etaText" : "By 5:30pm",
+      "id" : "costco",
+      "pickupFee" : 0,
+      "storeName" : "Costco",
+      "supportsDelivery" : true,
+      "supportsPickup" : false,
+      "tagline" : "Warehouse favorites and member pricing"
+    },
+    {
+      "accentColorHex" : "#0F376E",
+      "addressLine" : "220 Riverfront Ave",
+      "deliveryFee" : 2.99,
+      "distanceMiles" : 1.9,
+      "etaText" : "By 5:00pm",
+      "id" : "petco",
+      "pickupFee" : 0,
+      "storeName" : "Petco",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Pet food and supplies"
+    },
+    {
+      "accentColorHex" : "#163D9A",
+      "addressLine" : "510 Lakeview Pkwy",
+      "deliveryFee" : 1.99,
+      "distanceMiles" : 2.7,
+      "etaText" : "By 5:00pm",
+      "id" : "aldi",
+      "pickupFee" : 0,
+      "storeName" : "ALDI",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Low prices on weekly staples"
+    },
+    {
+      "accentColorHex" : "#BA2A32",
+      "addressLine" : "88 Market Square",
+      "deliveryFee" : 2.99,
+      "distanceMiles" : 1.4,
+      "etaText" : "By 5:00pm",
+      "id" : "giant_eagle",
+      "pickupFee" : 0,
+      "storeName" : "Giant Eagle",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Neighborhood grocery delivery"
+    },
+    {
+      "accentColorHex" : "#CC2430",
+      "addressLine" : "760 Southport Ave",
+      "deliveryFee" : 2.99,
+      "distanceMiles" : 3.1,
+      "etaText" : "By 5:00pm",
+      "id" : "target",
+      "pickupFee" : 0,
+      "storeName" : "Target",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Everyday essentials and home"
+    },
+    {
+      "accentColorHex" : "#6A302A",
+      "addressLine" : "41 Foundry St",
+      "deliveryFee" : 2.99,
+      "distanceMiles" : 2,
+      "etaText" : "By 5:00pm",
+      "id" : "market_district",
+      "pickupFee" : 0,
+      "storeName" : "Market District",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Prepared foods and pantry"
+    },
+    {
+      "accentColorHex" : "#5B4028",
+      "addressLine" : "1260 Oak Brook Blvd",
+      "deliveryFee" : 1.99,
+      "distanceMiles" : 2.3,
+      "etaText" : "By 4:45pm",
+      "id" : "panera",
+      "pickupFee" : 0,
+      "storeName" : "Panera Bread",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Soups, salads, and sandwiches"
+    },
+    {
+      "accentColorHex" : "#8F1E13",
+      "addressLine" : "930 State Line Rd",
+      "deliveryFee" : 1.99,
+      "distanceMiles" : 1.7,
+      "etaText" : "By 4:40pm",
+      "id" : "chipotle",
+      "pickupFee" : 0,
+      "storeName" : "Chipotle",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Bowls, burritos, and sides"
+    },
+    {
+      "accentColorHex" : "#D32C2C",
+      "addressLine" : "1400 Mason St",
+      "deliveryFee" : 1.99,
+      "distanceMiles" : 1.5,
+      "etaText" : "By 5:00pm",
+      "id" : "cvs",
+      "pickupFee" : 0,
+      "storeName" : "CVS",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Pharmacy and convenience"
+    },
+    {
+      "accentColorHex" : "#06297F",
+      "addressLine" : "980 Harbor Industrial Rd",
+      "deliveryFee" : 4.99,
+      "distanceMiles" : 4.2,
+      "etaText" : "By 6:00pm",
+      "id" : "lowes",
+      "pickupFee" : 0,
+      "storeName" : "Lowe's",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Home improvement"
+    },
+    {
+      "accentColorHex" : "#0B9635",
+      "addressLine" : "311 Ashland Commons",
+      "deliveryFee" : 1.99,
+      "distanceMiles" : 2.4,
+      "etaText" : "By 5:30pm",
+      "id" : "dollar_tree",
+      "pickupFee" : 0,
+      "storeName" : "Dollar Tree",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Low-cost household basics"
+    },
+    {
+      "accentColorHex" : "#D92B39",
+      "addressLine" : "744 Orchard Loop",
+      "deliveryFee" : 3.99,
+      "distanceMiles" : 3.4,
+      "etaText" : "By 6:15pm",
+      "id" : "michaels",
+      "pickupFee" : 0,
+      "storeName" : "Michaels",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Crafts and seasonal supplies"
+    },
+    {
+      "accentColorHex" : "#F36D1B",
+      "addressLine" : "520 Brighton Plaza",
+      "deliveryFee" : 2.49,
+      "distanceMiles" : 2.9,
+      "etaText" : "By 5:00pm",
+      "id" : "family_dollar",
+      "pickupFee" : 0,
+      "storeName" : "Family Dollar",
+      "supportsDelivery" : true,
+      "supportsPickup" : true,
+      "tagline" : "Quick everyday essentials"
+    }
+  ]
+}

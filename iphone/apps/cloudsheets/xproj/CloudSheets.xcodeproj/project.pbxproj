@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F65BC99959C940EEACA17CB5 /* WorkspaceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8219B1EB52A49CEAD5F0292 /* WorkspaceModels.swift */; };
+		2CE75C13FA25405BA78FBFD5 /* SeedDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC6535E3D3E4D1EA99F838E /* SeedDataFactory.swift */; };
+		34D93E53780E4770BA6713F8 /* WorkspacePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530B7D6B3A2A4FFC8455D03F /* WorkspacePersistence.swift */; };
+		364BEB9BD61C43F1A0C57040 /* workspace_snapshot.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D08122C6D0648689AA28C63 /* workspace_snapshot.json */; };
+		80FE5A644A9E42D18182B9DE /* AccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BB7D59A7714598BCE955BE /* AccessibilityID.swift */; };
+		D0285C0A16334D889F8F2885 /* AppFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F10B4AE7D58470E857A1CD8 /* AppFormatters.swift */; };
+		17772B5EC76D4F21B774D8E7 /* String+Slug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA4DDAC44104BC6939CF15B /* String+Slug.swift */; };
+		7921610C4D2449A38FB9CC00 /* SheetsHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92866CB9C2643DD8DF54A50 /* SheetsHomeViewModel.swift */; };
+		19F1983F4AE443E398D978CF /* SheetsSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239CB4B4998F4C6AA2782E5B /* SheetsSearchViewModel.swift */; };
+		6A4B923378AA449BB8F04397 /* SpreadsheetActionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA1535D4E24C7C807EFCD0 /* SpreadsheetActionCoordinator.swift */; };
+		890309A81D6E4079BE172CBC /* SpreadsheetEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F1C21416594EB68139D27C /* SpreadsheetEditorViewModel.swift */; };
+		5CEAE81D089F42B19BB60D57 /* WorkspaceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFBBDFC5CA547BAA5CF64D4 /* WorkspaceStore.swift */; };
+		B052402641D74C4CA97F815A /* SpreadsheetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9877A251D24727A9B377BD /* SpreadsheetRowView.swift */; };
+		96CEBD0F9FD34E8880665C66 /* WorkspaceChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7386258BF44424F93137F72 /* WorkspaceChrome.swift */; };
+		6AD4F4CC88A540659ECC585C /* SpreadsheetEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6718ADB810BD42288A504A8B /* SpreadsheetEditorView.swift */; };
+		50174315E8B44FC7B1808A8C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697809B2AA6948FDBF7867A0 /* HomeView.swift */; };
+		75DD92331C274AC9A3B77A6F /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88468CAB65F04929A6013F30 /* MoreView.swift */; };
+		4BEBBB1E188D4416B4394232 /* RecentSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7022F396B4C679FD79D38 /* RecentSheetsView.swift */; };
+		1780198750474B189490E239 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D4EADD0AA7426891067756 /* SearchView.swift */; };
+		A4D4F6AE4B634278AD3E0C0E /* SharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99625B4D5F4744C598B462A3 /* SharedView.swift */; };
+		ADFB48F4FDC243B58C0A6D36 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD64EF9F415482CB7C9C158 /* RootTabView.swift */; };
+		88360BCF655E4B57B393C531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52EC6F620CA43EFABD94177 /* Assets.xcassets */; };
+		5E8954B47BCF4C1FBF8FA8E7 /* CloudSheetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016956059F840CF8712A646 /* CloudSheetsApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D11EC1AC7EE54FE1839F3155 /* CloudSheets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CloudSheets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8219B1EB52A49CEAD5F0292 /* WorkspaceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceModels.swift"; sourceTree = "<group>"; };
+		CFC6535E3D3E4D1EA99F838E /* SeedDataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SeedDataFactory.swift"; sourceTree = "<group>"; };
+		530B7D6B3A2A4FFC8455D03F /* WorkspacePersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspacePersistence.swift"; sourceTree = "<group>"; };
+		4D08122C6D0648689AA28C63 /* workspace_snapshot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "workspace_snapshot.json"; sourceTree = "<group>"; };
+		58BB7D59A7714598BCE955BE /* AccessibilityID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessibilityID.swift"; sourceTree = "<group>"; };
+		1F10B4AE7D58470E857A1CD8 /* AppFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppFormatters.swift"; sourceTree = "<group>"; };
+		9DA4DDAC44104BC6939CF15B /* String+Slug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Slug.swift"; sourceTree = "<group>"; };
+		B92866CB9C2643DD8DF54A50 /* SheetsHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheetsHomeViewModel.swift"; sourceTree = "<group>"; };
+		239CB4B4998F4C6AA2782E5B /* SheetsSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheetsSearchViewModel.swift"; sourceTree = "<group>"; };
+		FACA1535D4E24C7C807EFCD0 /* SpreadsheetActionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetActionCoordinator.swift"; sourceTree = "<group>"; };
+		03F1C21416594EB68139D27C /* SpreadsheetEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetEditorViewModel.swift"; sourceTree = "<group>"; };
+		8CFBBDFC5CA547BAA5CF64D4 /* WorkspaceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceStore.swift"; sourceTree = "<group>"; };
+		9E9877A251D24727A9B377BD /* SpreadsheetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetRowView.swift"; sourceTree = "<group>"; };
+		D7386258BF44424F93137F72 /* WorkspaceChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkspaceChrome.swift"; sourceTree = "<group>"; };
+		6718ADB810BD42288A504A8B /* SpreadsheetEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpreadsheetEditorView.swift"; sourceTree = "<group>"; };
+		697809B2AA6948FDBF7867A0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		88468CAB65F04929A6013F30 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreView.swift"; sourceTree = "<group>"; };
+		24D7022F396B4C679FD79D38 /* RecentSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecentSheetsView.swift"; sourceTree = "<group>"; };
+		E4D4EADD0AA7426891067756 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchView.swift"; sourceTree = "<group>"; };
+		99625B4D5F4744C598B462A3 /* SharedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedView.swift"; sourceTree = "<group>"; };
+		BBD64EF9F415482CB7C9C158 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootTabView.swift"; sourceTree = "<group>"; };
+		D52EC6F620CA43EFABD94177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		CBE12AE1B70A4BAAA75FDF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		B5434E03483A4A5FA7A09D0F /* CloudSheets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CloudSheets.entitlements"; sourceTree = "<group>"; };
+		2016956059F840CF8712A646 /* CloudSheetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CloudSheetsApp.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		DA378E928AA24AB186892B47 = {
+			isa = PBXGroup;
+			children = (
+				6707DA35D1794130885ECEA8 /* CloudSheets */,
+				F0AA5BC5C82B41CABA0E783F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0AA5BC5C82B41CABA0E783F = {
+			isa = PBXGroup;
+			children = (
+				D11EC1AC7EE54FE1839F3155 /* CloudSheets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6707DA35D1794130885ECEA8 = {
+			isa = PBXGroup;
+			children = (
+				1185E91CF6644DE8BEE5B7CE /* Models */,
+				7C44243CC276446FA479B23D /* Persistence */,
+				4ED315E857534E3BAC06665A /* Resources */,
+				A22DB2A4C09349EAA300F40A /* Utilities */,
+				BB9386EF51BF410AB55A2094 /* ViewModels */,
+				555AA42EA6D8479598A0A1FF /* Views */,
+				D52EC6F620CA43EFABD94177 /* Assets.xcassets */,
+				CBE12AE1B70A4BAAA75FDF98 /* Info.plist */,
+				B5434E03483A4A5FA7A09D0F /* CloudSheets.entitlements */,
+				2016956059F840CF8712A646 /* CloudSheetsApp.swift */,
+			);
+			path = "CloudSheets";
+			sourceTree = "<group>";
+		};
+		1185E91CF6644DE8BEE5B7CE = {
+			isa = PBXGroup;
+			children = (
+				F8219B1EB52A49CEAD5F0292 /* WorkspaceModels.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		7C44243CC276446FA479B23D = {
+			isa = PBXGroup;
+			children = (
+				CFC6535E3D3E4D1EA99F838E /* SeedDataFactory.swift */,
+				530B7D6B3A2A4FFC8455D03F /* WorkspacePersistence.swift */,
+			);
+			path = "Persistence";
+			sourceTree = "<group>";
+		};
+		4ED315E857534E3BAC06665A = {
+			isa = PBXGroup;
+			children = (
+				4D08122C6D0648689AA28C63 /* workspace_snapshot.json */,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		A22DB2A4C09349EAA300F40A = {
+			isa = PBXGroup;
+			children = (
+				58BB7D59A7714598BCE955BE /* AccessibilityID.swift */,
+				1F10B4AE7D58470E857A1CD8 /* AppFormatters.swift */,
+				9DA4DDAC44104BC6939CF15B /* String+Slug.swift */,
+			);
+			path = "Utilities";
+			sourceTree = "<group>";
+		};
+		BB9386EF51BF410AB55A2094 = {
+			isa = PBXGroup;
+			children = (
+				B92866CB9C2643DD8DF54A50 /* SheetsHomeViewModel.swift */,
+				239CB4B4998F4C6AA2782E5B /* SheetsSearchViewModel.swift */,
+				FACA1535D4E24C7C807EFCD0 /* SpreadsheetActionCoordinator.swift */,
+				03F1C21416594EB68139D27C /* SpreadsheetEditorViewModel.swift */,
+				8CFBBDFC5CA547BAA5CF64D4 /* WorkspaceStore.swift */,
+			);
+			path = "ViewModels";
+			sourceTree = "<group>";
+		};
+		555AA42EA6D8479598A0A1FF = {
+			isa = PBXGroup;
+			children = (
+				94FCB6A904A343AEA0C61E3E /* Common */,
+				0DE24362244943219BC030C5 /* Editor */,
+				8D6AEA4D4E274A99953B9FB1 /* Home */,
+				205E2A618EEB4B6A8600753D /* More */,
+				729EC5971D8A4A99AF7A1156 /* Recents */,
+				3CC35A1FCF9E4BE597DDF754 /* Search */,
+				B1044540B2A7418E8C67B143 /* Shared */,
+				BBD64EF9F415482CB7C9C158 /* RootTabView.swift */,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		94FCB6A904A343AEA0C61E3E = {
+			isa = PBXGroup;
+			children = (
+				9E9877A251D24727A9B377BD /* SpreadsheetRowView.swift */,
+				D7386258BF44424F93137F72 /* WorkspaceChrome.swift */,
+			);
+			path = "Common";
+			sourceTree = "<group>";
+		};
+		0DE24362244943219BC030C5 = {
+			isa = PBXGroup;
+			children = (
+				6718ADB810BD42288A504A8B /* SpreadsheetEditorView.swift */,
+			);
+			path = "Editor";
+			sourceTree = "<group>";
+		};
+		8D6AEA4D4E274A99953B9FB1 = {
+			isa = PBXGroup;
+			children = (
+				697809B2AA6948FDBF7867A0 /* HomeView.swift */,
+			);
+			path = "Home";
+			sourceTree = "<group>";
+		};
+		205E2A618EEB4B6A8600753D = {
+			isa = PBXGroup;
+			children = (
+				88468CAB65F04929A6013F30 /* MoreView.swift */,
+			);
+			path = "More";
+			sourceTree = "<group>";
+		};
+		729EC5971D8A4A99AF7A1156 = {
+			isa = PBXGroup;
+			children = (
+				24D7022F396B4C679FD79D38 /* RecentSheetsView.swift */,
+			);
+			path = "Recents";
+			sourceTree = "<group>";
+		};
+		3CC35A1FCF9E4BE597DDF754 = {
+			isa = PBXGroup;
+			children = (
+				E4D4EADD0AA7426891067756 /* SearchView.swift */,
+			);
+			path = "Search";
+			sourceTree = "<group>";
+		};
+		B1044540B2A7418E8C67B143 = {
+			isa = PBXGroup;
+			children = (
+				99625B4D5F4744C598B462A3 /* SharedView.swift */,
+			);
+			path = "Shared";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5232A204561244E483F5C320 /* CloudSheets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F46345AA344B5DBEE45331 /* Build configuration list for PBXNativeTarget "CloudSheets" */;
+			buildPhases = (
+				D54BEFA291874A69AC7E8C9D /* Sources */,
+				635001B3CDB44A509A632787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CloudSheets";
+			productName = "CloudSheets";
+			productReference = D11EC1AC7EE54FE1839F3155 /* CloudSheets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA6D9507B0247DCACC99C40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					5232A204561244E483F5C320 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = EFDB9F3AF5054F9AB908EA4E /* Build configuration list for PBXProject "CloudSheets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA378E928AA24AB186892B47;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5232A204561244E483F5C320 /* CloudSheets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635001B3CDB44A509A632787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364BEB9BD61C43F1A0C57040 /* workspace_snapshot.json in Resources */,
+				88360BCF655E4B57B393C531 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54BEFA291874A69AC7E8C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65BC99959C940EEACA17CB5 /* WorkspaceModels.swift in Sources */,
+				2CE75C13FA25405BA78FBFD5 /* SeedDataFactory.swift in Sources */,
+				34D93E53780E4770BA6713F8 /* WorkspacePersistence.swift in Sources */,
+				80FE5A644A9E42D18182B9DE /* AccessibilityID.swift in Sources */,
+				D0285C0A16334D889F8F2885 /* AppFormatters.swift in Sources */,
+				17772B5EC76D4F21B774D8E7 /* String+Slug.swift in Sources */,
+				7921610C4D2449A38FB9CC00 /* SheetsHomeViewModel.swift in Sources */,
+				19F1983F4AE443E398D978CF /* SheetsSearchViewModel.swift in Sources */,
+				6A4B923378AA449BB8F04397 /* SpreadsheetActionCoordinator.swift in Sources */,
+				890309A81D6E4079BE172CBC /* SpreadsheetEditorViewModel.swift in Sources */,
+				5CEAE81D089F42B19BB60D57 /* WorkspaceStore.swift in Sources */,
+				B052402641D74C4CA97F815A /* SpreadsheetRowView.swift in Sources */,
+				96CEBD0F9FD34E8880665C66 /* WorkspaceChrome.swift in Sources */,
+				6AD4F4CC88A540659ECC585C /* SpreadsheetEditorView.swift in Sources */,
+				50174315E8B44FC7B1808A8C /* HomeView.swift in Sources */,
+				75DD92331C274AC9A3B77A6F /* MoreView.swift in Sources */,
+				4BEBBB1E188D4416B4394232 /* RecentSheetsView.swift in Sources */,
+				1780198750474B189490E239 /* SearchView.swift in Sources */,
+				A4D4F6AE4B634278AD3E0C0E /* SharedView.swift in Sources */,
+				ADFB48F4FDC243B58C0A6D36 /* RootTabView.swift in Sources */,
+				5E8954B47BCF4C1FBF8FA8E7 /* CloudSheetsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D278119B3CCF4679B2473782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudSheets/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudsheets";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDF4E73603F04310899B2BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CloudSheets/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudsheets";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF4D65906A44405086DF039E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = "CloudSheets/CloudSheets.entitlements";
+				INFOPLIST_FILE = "CloudSheets/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudsheets";
+				PRODUCT_NAME = "CloudSheets";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		841672459D6B4168B27E5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_ENTITLEMENTS = "CloudSheets/CloudSheets.entitlements";
+				INFOPLIST_FILE = "CloudSheets/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosworld.benchmark.cloudsheets";
+				PRODUCT_NAME = "CloudSheets";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDB9F3AF5054F9AB908EA4E /* Build configuration list for PBXProject "CloudSheets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D278119B3CCF4679B2473782 /* Debug */,
+				EDF4E73603F04310899B2BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F46345AA344B5DBEE45331 /* Build configuration list for PBXNativeTarget "CloudSheets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4D65906A44405086DF039E /* Debug */,
+				841672459D6B4168B27E5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA6D9507B0247DCACC99C40 /* Project object */;
+}

@@ -1,0 +1,27 @@
+# Local apps (organized under ../apps) — full release bootstrap list (all 26 apps)
+cinephile | ../apps/cinephile/xproj/Cinephile
+notes | ../apps/notes/xproj
+mail | ../apps/mail/xproj
+quickchat | ../apps/quickchat/xproj
+tasterank | ../apps/tasterank/xproj
+weather | ../apps/weather/xproj
+clock | ../apps/clock/xproj
+quickbite | ../apps/quickbite/xproj
+stayfinder | ../apps/stayfinder/xproj
+ticketbox | ../apps/ticketbox/xproj
+splitpay | ../apps/splitpay/xproj
+mybank | ../apps/mybank/xproj
+skytrip | ../apps/skytrip/xproj
+cityride | ../apps/cityride/xproj
+scorezone | ../apps/scorezone/xproj
+dinespot | ../apps/dinespot/xproj
+teamchat | ../apps/teamchat/xproj
+clouddrive | ../apps/clouddrive/xproj
+clouddocs | ../apps/clouddocs/xproj
+cloudsheets | ../apps/cloudsheets/xproj
+cloudslides | ../apps/cloudslides/xproj
+trailblaze | ../apps/trailblaze/xproj
+caltrack | ../apps/caltrack/xproj
+freshcart | ../apps/freshcart/xproj
+megamart | ../apps/megamart/xproj
+lockedin | ../apps/lockedin/xproj

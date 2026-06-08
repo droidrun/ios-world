@@ -1,0 +1,5222 @@
+[
+  {
+    "name": "caltrack-001",
+    "goal": "Log today's breakfast in CalTrack \u2014 search the food database for 'oatmeal', add a serving, and give me the calories and macros.",
+    "apps": [
+      "caltrack"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open CalTrack app and navigate to food logging section"
+      },
+      {
+        "criterion": "Tap the log food / add food button"
+      },
+      {
+        "criterion": "Search for 'oatmeal' in the food database"
+      },
+      {
+        "criterion": "Select oatmeal from search results"
+      },
+      {
+        "criterion": "Set serving size to 1 serving"
+      },
+      {
+        "criterion": "Confirm and save the food log entry"
+      },
+      {
+        "criterion": "Report the calorie count for the logged serving"
+      },
+      {
+        "criterion": "Report macros (protein, carbs, fat)"
+      }
+    ]
+  },
+  {
+    "name": "cinephile-001",
+    "goal": "Search for 'The Godfather' in Cinephile and add it to my Wishlist. What's the year and rating?",
+    "apps": [
+      "cinephile"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open Cinephile app and navigate to search"
+      },
+      {
+        "criterion": "Type 'The Godfather' in the search field"
+      },
+      {
+        "criterion": "Tap 'The Godfather' from search results"
+      },
+      {
+        "criterion": "Add the movie to Wishlist"
+      },
+      {
+        "criterion": "Report the release year of the movie"
+      },
+      {
+        "criterion": "Report the rating of the movie"
+      }
+    ]
+  },
+  {
+    "name": "cityride-001",
+    "goal": "Request a CityRideX ride in CityRide from Home (410 Brannan St) to Oracle Park. What's the estimated fare and ETA?",
+    "apps": [
+      "cityride"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open CityRide app"
+      },
+      {
+        "criterion": "Set pickup location to Home (410 Brannan St)"
+      },
+      {
+        "criterion": "Set destination to Oracle Park"
+      },
+      {
+        "criterion": "Select the CityRideX ride option"
+      },
+      {
+        "criterion": "Confirm the ride request"
+      },
+      {
+        "criterion": "Report the estimated fare"
+      },
+      {
+        "criterion": "Report the estimated ETA"
+      }
+    ]
+  },
+  {
+    "name": "clock-001",
+    "goal": "Set a new alarm for 6:45 AM labeled 'Gym' in the Clock app and confirm it's set.",
+    "apps": [
+      "clock"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open Clock app and navigate to the Alarm tab"
+      },
+      {
+        "criterion": "Tap the add alarm button"
+      },
+      {
+        "criterion": "Set the alarm time to 6:45 AM"
+      },
+      {
+        "criterion": "Set the alarm label to 'Gym'"
+      },
+      {
+        "criterion": "Save the alarm"
+      },
+      {
+        "criterion": "Confirm the alarm is set and active"
+      }
+    ]
+  },
+  {
+    "name": "clouddocs-004",
+    "goal": "Search my documents in CloudDocs for 'launch plan', open 'Mobile Launch Plan', and add a note about Q2 planning. Confirm the edit was saved.",
+    "apps": [
+      "clouddocs"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open CloudDocs app and tap the search field"
+      },
+      {
+        "criterion": "Type 'launch plan' in the search field"
+      },
+      {
+        "criterion": "Open the 'Mobile Launch Plan' document from results"
+      },
+      {
+        "criterion": "Enter edit mode on the document"
+      },
+      {
+        "criterion": "Add a note or text about Q2 planning"
+      },
+      {
+        "criterion": "Save the document and confirm the edit was saved"
+      }
+    ]
+  },
+  {
+    "name": "clouddrive-001",
+    "goal": "Open the Product Strategy folder in CloudDrive, find the most recently modified file, and star it. What's the file name and last modified date?",
+    "apps": [
+      "clouddrive"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open CloudDrive app and navigate to the Product Strategy folder"
+      },
+      {
+        "criterion": "Identify the most recently modified file in the folder"
+      },
+      {
+        "criterion": "Tap on the file options or context menu for that file"
+      },
+      {
+        "criterion": "Star the file"
+      },
+      {
+        "criterion": "Report the file name"
+      },
+      {
+        "criterion": "Report the last modified date"
+      }
+    ]
+  },
+  {
+    "name": "cloudsheets-003",
+    "goal": "Open the '2026 Open House Volunteers' spreadsheet in CloudSheets and update a volunteer's assignment status to 'Pending'. Which volunteer did you update and what's their new status?",
+    "apps": [
+      "cloudsheets"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open CloudSheets app and find the '2026 Open House Volunteers' spreadsheet"
+      },
+      {
+        "criterion": "Open the spreadsheet and review the volunteer data"
+      },
+      {
+        "criterion": "Locate a volunteer whose assignment status is not already 'Pending'"
+      },
+      {
+        "criterion": "Select the cell containing the volunteer's assignment status"
+      },
+      {
+        "criterion": "Edit the cell value to 'Pending'"
+      },
+      {
+        "criterion": "Confirm the change was saved in the spreadsheet"
+      },
+      {
+        "criterion": "Report which volunteer was updated and their new status"
+      }
+    ]
+  },
+  {
+    "name": "cloudslides-002",
+    "goal": "Open the '[Draft] Autonomous Agents' presentation in CloudSlides and edit slide 2 to add a bullet about 'safety' to the agenda list. What's the updated agenda?",
+    "apps": [
+      "cloudslides"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open CloudSlides app and find the '[Draft] Autonomous Agents' presentation"
+      },
+      {
+        "criterion": "Open the presentation"
+      },
+      {
+        "criterion": "Navigate to slide 2"
+      },
+      {
+        "criterion": "Tap slide 2's body text to enter edit mode"
+      },
+      {
+        "criterion": "Add a bullet point about 'safety' to slide 2's agenda"
+      },
+      {
+        "criterion": "Confirm the edit was saved"
+      },
+      {
+        "criterion": "Report the updated agenda content"
+      }
+    ]
+  },
+  {
+    "name": "dinespot-001",
+    "goal": "Search for restaurants in San Francisco with the 'Outdoor Seating' tag on DineSpot and make a reservation at Harborline Seafood. Confirm the reservation and give me the date, time, and party size.",
+    "apps": [
+      "dinespot"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open DineSpot app"
+      },
+      {
+        "criterion": "Set location to San Francisco or verify location is San Francisco"
+      },
+      {
+        "criterion": "Apply the 'Outdoor Seating' tag or filter"
+      },
+      {
+        "criterion": "Find and select Harborline Seafood from the results"
+      },
+      {
+        "criterion": "Select a date for the reservation"
+      },
+      {
+        "criterion": "Select a time for the reservation"
+      },
+      {
+        "criterion": "Set the party size"
+      },
+      {
+        "criterion": "Confirm the reservation"
+      },
+      {
+        "criterion": "Report the reservation date, time, and party size"
+      }
+    ]
+  },
+  {
+    "name": "freshcart-001",
+    "goal": "Order salmon and avocados from Natural Foods Market on FreshCart. Confirm the items were added to my cart and give me the total.",
+    "apps": [
+      "freshcart"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open FreshCart app and select Natural Foods Market store"
+      },
+      {
+        "criterion": "Search for 'salmon'"
+      },
+      {
+        "criterion": "Add salmon to cart"
+      },
+      {
+        "criterion": "Search for 'avocados'"
+      },
+      {
+        "criterion": "Add avocados to cart"
+      },
+      {
+        "criterion": "Navigate to cart to verify both items are present"
+      },
+      {
+        "criterion": "Proceed to checkout or confirm items in cart"
+      },
+      {
+        "criterion": "Report the cart total"
+      }
+    ]
+  },
+  {
+    "name": "lockedin-003",
+    "goal": "Search lockedin for a platform engineer and send them a message saying I admire their experience and would like to connect. Who did you message?",
+    "apps": [
+      "lockedin"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn app and navigate to the search function"
+      },
+      {
+        "criterion": "Search for 'platform engineers'"
+      },
+      {
+        "criterion": "Select a platform engineer from the search results"
+      },
+      {
+        "criterion": "Open the platform engineer's profile to view their experience"
+      },
+      {
+        "criterion": "Navigate to messaging or find the message option"
+      },
+      {
+        "criterion": "Compose an introductory message expressing admiration for their experience and desire to connect"
+      },
+      {
+        "criterion": "Send the message"
+      },
+      {
+        "criterion": "Report the name of the person messaged"
+      }
+    ]
+  },
+  {
+    "name": "lockedin-004",
+    "goal": "I received an InMail from Rachel Torres at Netflix about a Platform Engineering Lead role. Open LockedIn and read the full InMail, then compose a professional reply expressing interest with at least 3 specific questions about the team, tech stack, or role scope. Navigate to Jobs, find the Platform Engineering Lead posting at Netflix, and save it. Finally, tap 'Follow' on Netflix from the job detail to follow the company. What are the role details (comp range, location, team size), what questions did you ask Rachel, and confirm the job was saved and Netflix was followed.",
+    "apps": [
+      "lockedin"
+    ],
+    "category": "single_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn and navigate to the Messages/InMail tab"
+      },
+      {
+        "criterion": "Open Rachel Torres's InMail conversation"
+      },
+      {
+        "criterion": "Read the full InMail about the Platform Engineering Lead role at Netflix"
+      },
+      {
+        "criterion": "Compose a reply of at least 5 sentences expressing interest"
+      },
+      {
+        "criterion": "Include at least 3 specific questions about team, tech stack, or role scope"
+      },
+      {
+        "criterion": "Send the reply to Rachel Torres"
+      },
+      {
+        "criterion": "Navigate to the Jobs tab in LockedIn"
+      },
+      {
+        "criterion": "Search or filter to find the Platform Engineering Lead posting at Netflix"
+      },
+      {
+        "criterion": "Save the Netflix Platform Engineering Lead job"
+      },
+      {
+        "criterion": "Tap 'Follow' on Netflix from the job detail to follow the company"
+      },
+      {
+        "criterion": "Report role details: compensation range ($250-400K), location (on-site), team size (8)"
+      },
+      {
+        "criterion": "Report the 3+ questions asked in the reply"
+      }
+    ]
+  },
+  {
+    "name": "mail-002",
+    "goal": "Filter my Inbox in Mail to show only the Transactions category, then archive a QuickBite receipt. Confirm it was archived.",
+    "apps": [
+      "mail"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open Mail app and go to Inbox"
+      },
+      {
+        "criterion": "Tap the Transactions category filter"
+      },
+      {
+        "criterion": "Find a QuickBite receipt email in the filtered list"
+      },
+      {
+        "criterion": "Archive the QuickBite receipt email"
+      },
+      {
+        "criterion": "Confirm the email was archived"
+      }
+    ]
+  },
+  {
+    "name": "megamart-001",
+    "goal": "Search for 'PS5 Controller' on MegaMart and add one to my cart. What's the product name and price?",
+    "apps": [
+      "megamart"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open MegaMart app and tap the search field"
+      },
+      {
+        "criterion": "Type 'PS5 Controller' in the search field"
+      },
+      {
+        "criterion": "Select a PS5 Controller from search results"
+      },
+      {
+        "criterion": "Tap 'Add to Cart' button"
+      },
+      {
+        "criterion": "Report the product name"
+      },
+      {
+        "criterion": "Report the product price"
+      }
+    ]
+  },
+  {
+    "name": "mybank-003",
+    "goal": "Send $50 via Zelle to Maya Patel in MyBank and confirm the payment was sent.",
+    "apps": [
+      "mybank"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open MyBank app and navigate to Pay & Transfer"
+      },
+      {
+        "criterion": "Select Zelle as the payment method"
+      },
+      {
+        "criterion": "Choose Maya Patel as the recipient"
+      },
+      {
+        "criterion": "Enter $50 as the amount"
+      },
+      {
+        "criterion": "Add a memo or note for the payment"
+      },
+      {
+        "criterion": "Send the payment"
+      },
+      {
+        "criterion": "Confirm the payment was sent successfully"
+      }
+    ]
+  },
+  {
+    "name": "notes-001",
+    "goal": "Open the Work folder in Notes, find the 'Team Standup Notes' note, and add a new bullet point about a bug fix completed today. Confirm the note was updated.",
+    "apps": [
+      "notes"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open Notes app and navigate to the Work folder"
+      },
+      {
+        "criterion": "Find and open 'Team Standup Notes'"
+      },
+      {
+        "criterion": "Tap to edit the note"
+      },
+      {
+        "criterion": "Add a new bullet point about a bug fix completed today"
+      },
+      {
+        "criterion": "Save and confirm the note was updated"
+      }
+    ]
+  },
+  {
+    "name": "quickbite-001",
+    "goal": "Order a chicken bowl from Chipotle on QuickBite for delivery to 410 Brannan St and confirm the order was placed.",
+    "apps": [
+      "quickbite"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open QuickBite app and search or browse for Chipotle"
+      },
+      {
+        "criterion": "Select Chipotle from results"
+      },
+      {
+        "criterion": "Find and select a chicken bowl from the menu"
+      },
+      {
+        "criterion": "Confirm delivery address is 410 Brannan St"
+      },
+      {
+        "criterion": "Proceed to checkout and place the order"
+      },
+      {
+        "criterion": "Confirm the order was placed successfully"
+      }
+    ]
+  },
+  {
+    "name": "quickchat-003",
+    "goal": "Search my QuickChat for 'Brooklyn Half' and find the conversation where someone asked about my registration. Reply to that thread confirming I'm registered and ask about the race day meetup plan. Who was the conversation with, and confirm the reply was sent.",
+    "apps": [
+      "quickchat"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open QuickChat app and tap the search function"
+      },
+      {
+        "criterion": "Type 'Brooklyn Half' in the search field"
+      },
+      {
+        "criterion": "Review matching conversations; pick the one where someone asked about my registration"
+      },
+      {
+        "criterion": "Open the matching conversation thread"
+      },
+      {
+        "criterion": "Read the context about the Brooklyn Half race"
+      },
+      {
+        "criterion": "Compose a reply confirming registration and asking about the race day meetup plan"
+      },
+      {
+        "criterion": "Send the reply"
+      },
+      {
+        "criterion": "Report who the conversation was with"
+      },
+      {
+        "criterion": "Confirm the reply was sent"
+      }
+    ]
+  },
+  {
+    "name": "scorezone-003",
+    "goal": "Read a top headline article from the ScoreZone home feed, then check the Scores tab to see if the team mentioned in the article has a game scheduled today. What's the headline, the team name, and do they have a game today?",
+    "apps": [
+      "scorezone"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open ScoreZone app and navigate to the Home feed"
+      },
+      {
+        "criterion": "Browse top headlines on the home feed"
+      },
+      {
+        "criterion": "Tap a top headline article to read the full content"
+      },
+      {
+        "criterion": "Identify and note the team mentioned in the article"
+      },
+      {
+        "criterion": "Navigate to the Scores tab"
+      },
+      {
+        "criterion": "Search for the mentioned team's game schedule for today"
+      },
+      {
+        "criterion": "Report the headline of the article read"
+      },
+      {
+        "criterion": "Report the team name"
+      },
+      {
+        "criterion": "Report whether the team has a game today"
+      }
+    ]
+  },
+  {
+    "name": "skytrip-002",
+    "goal": "Search for flights from SFO to JFK for the next few days on SkyTrip and compare prices. What are the cheapest and most expensive options with their times and prices?",
+    "apps": [
+      "skytrip"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open SkyTrip app and navigate to the flight search"
+      },
+      {
+        "criterion": "Enter SFO as the origin airport"
+      },
+      {
+        "criterion": "Enter JFK as the destination airport"
+      },
+      {
+        "criterion": "Set travel dates for the next few days"
+      },
+      {
+        "criterion": "Execute the flight search"
+      },
+      {
+        "criterion": "Review and compare the flight results by price"
+      },
+      {
+        "criterion": "Report the cheapest flight option with time and price"
+      },
+      {
+        "criterion": "Report the most expensive flight option with time and price"
+      }
+    ]
+  },
+  {
+    "name": "splitpay-001",
+    "goal": "Send $32.50 to Maya Patel on SplitPay for 'dinner split' from my SplitPay balance and confirm the payment was sent.",
+    "apps": [
+      "splitpay"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open SplitPay app and tap pay or send money"
+      },
+      {
+        "criterion": "Search for and select Maya Patel as recipient"
+      },
+      {
+        "criterion": "Enter $32.50 as the amount"
+      },
+      {
+        "criterion": "Add the note 'dinner split'"
+      },
+      {
+        "criterion": "Select SplitPay balance as the payment source"
+      },
+      {
+        "criterion": "Send the payment"
+      },
+      {
+        "criterion": "Confirm the payment was sent successfully"
+      }
+    ]
+  },
+  {
+    "name": "stayfinder-001",
+    "goal": "Pull up my upcoming Catalina Island trip (dates shown in StayFinder) on StayFinder and check the listing details. What's the listing name, price per night, number of beds, and number of baths?",
+    "apps": [
+      "stayfinder"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open StayFinder app and navigate to the Trips tab"
+      },
+      {
+        "criterion": "Find and tap the Catalina Island trip (dates shown in StayFinder)"
+      },
+      {
+        "criterion": "View the listing details"
+      },
+      {
+        "criterion": "Report the listing name"
+      },
+      {
+        "criterion": "Report the price per night"
+      },
+      {
+        "criterion": "Report the number of beds"
+      },
+      {
+        "criterion": "Report the number of baths"
+      }
+    ]
+  },
+  {
+    "name": "tasterank-001",
+    "goal": "Search for 'Tartine Manufactory' in TasteRank, check out its score and cuisine details, and add it to my 'Want to Try' list. What's the TasteRank score and cuisine type?",
+    "apps": [
+      "tasterank"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open TasteRank app and tap the search icon"
+      },
+      {
+        "criterion": "Type 'Tartine Manufactory' in the search field"
+      },
+      {
+        "criterion": "Tap on Tartine Manufactory from search results"
+      },
+      {
+        "criterion": "View the restaurant's score and cuisine details"
+      },
+      {
+        "criterion": "Add the restaurant to the 'Want to Try' list"
+      },
+      {
+        "criterion": "Report the TasteRank score"
+      },
+      {
+        "criterion": "Report the cuisine type"
+      }
+    ]
+  },
+  {
+    "name": "teamchat-003",
+    "goal": "Check my DMs in TeamChat, find the most recent unread direct message, and send a reply. Who was it from, and confirm the reply was sent.",
+    "apps": [
+      "teamchat"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open TeamChat app and navigate to DMs tab"
+      },
+      {
+        "criterion": "Find the most recent unread direct message"
+      },
+      {
+        "criterion": "Open the unread conversation"
+      },
+      {
+        "criterion": "Read the message content to understand context"
+      },
+      {
+        "criterion": "Compose a reply of at least 5 words that references the original message content"
+      },
+      {
+        "criterion": "Send the reply"
+      },
+      {
+        "criterion": "Report who the message was from and confirm the reply was sent"
+      }
+    ]
+  },
+  {
+    "name": "ticketbox-004",
+    "goal": "Find the Ali Wong show at Great American Music Hall on TicketBox and check ticket prices and venue details. What's the show date, venue name, and price range?",
+    "apps": [
+      "ticketbox"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open TicketBox app and search for 'Ali Wong'"
+      },
+      {
+        "criterion": "Tap on the Ali Wong comedy show from results"
+      },
+      {
+        "criterion": "View ticket prices and venue details"
+      },
+      {
+        "criterion": "Report the show date"
+      },
+      {
+        "criterion": "Report the venue name"
+      },
+      {
+        "criterion": "Report the price range"
+      }
+    ]
+  },
+  {
+    "name": "trailblaze-004",
+    "goal": "Browse my recent activities on TrailBlaze and give kudos to a friend's workout. What's the friend's name and activity type?",
+    "apps": [
+      "trailblaze"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open TrailBlaze app and navigate to the Feed tab"
+      },
+      {
+        "criterion": "Browse recent activities and find a friend's workout"
+      },
+      {
+        "criterion": "Tap the kudos button on the friend's activity"
+      },
+      {
+        "criterion": "Report the friend's name"
+      },
+      {
+        "criterion": "Report the activity type"
+      }
+    ]
+  },
+  {
+    "name": "weather-004",
+    "goal": "Check the 7-day forecast in the Weather app for both San Francisco and Dallas. Which city will be warmer this weekend? Give me the weekend high temperatures for both.",
+    "apps": [
+      "weather"
+    ],
+    "category": "single_app",
+    "difficulty": "easy",
+    "rubric": [
+      {
+        "criterion": "Open Weather app and navigate to San Francisco"
+      },
+      {
+        "criterion": "Scroll to view the 7-day forecast for San Francisco"
+      },
+      {
+        "criterion": "Note the weekend high temperatures for San Francisco"
+      },
+      {
+        "criterion": "Navigate to Dallas weather page"
+      },
+      {
+        "criterion": "Scroll to view the 7-day forecast for Dallas"
+      },
+      {
+        "criterion": "Note the weekend high temperatures for Dallas"
+      },
+      {
+        "criterion": "Report weekend high temperatures for San Francisco"
+      },
+      {
+        "criterion": "Report weekend high temperatures for Dallas"
+      },
+      {
+        "criterion": "Report which city will be warmer this weekend"
+      }
+    ]
+  },
+  {
+    "name": "lockedin-001",
+    "goal": "Open lockedin and find a technical program manager job posting. Note the requirements and benefits, then create a new file in CloudDocs called 'Interview Prep' with a brief summary of the job and 2 questions to ask a recruiter. Email Leo Chen the doc sharing link and ask for any advice on my preparation. What's the company name and key skills, and confirm the doc was created and email sent.",
+    "apps": [
+      "lockedin",
+      "clouddocs",
+      "mail"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn and search for a technical program manager job posting"
+      },
+      {
+        "criterion": "Note the job requirements and benefits from the posting"
+      },
+      {
+        "criterion": "Create a new file in CloudDocs titled 'Interview Prep'"
+      },
+      {
+        "criterion": "Write a brief summary of the job in the document"
+      },
+      {
+        "criterion": "Include 2 questions to ask a recruiter in the document"
+      },
+      {
+        "criterion": "Get the sharing link for the CloudDocs document"
+      },
+      {
+        "criterion": "Email Leo Chen with the doc sharing link and ask for preparation advice"
+      },
+      {
+        "criterion": "Report the company name and key skills from the job posting"
+      },
+      {
+        "criterion": "Confirm the CloudDocs document was created"
+      },
+      {
+        "criterion": "Confirm the email was sent to Leo Chen"
+      }
+    ]
+  },
+  {
+    "name": "lockedin-002",
+    "goal": "Open lockedin and find a recent post from Elena Brooks celebrating a new role or achievement. Like it, leave a short congratulatory comment, and repost it. Then send Elena Brooks a direct message asking if she wants to get dinner to celebrate, and book a table for 2 on DineSpot for Saturday at dinner time in San Francisco. What restaurant did you book?",
+    "apps": [
+      "lockedin",
+      "dinespot",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn and find a recent post from Elena Brooks about a new role or achievement"
+      },
+      {
+        "criterion": "Like Elena Brooks' post"
+      },
+      {
+        "criterion": "Leave a short congratulatory comment on the post"
+      },
+      {
+        "criterion": "Repost Elena Brooks' post"
+      },
+      {
+        "criterion": "Send Elena Brooks a direct message asking about dinner to celebrate"
+      },
+      {
+        "criterion": "Open DineSpot and search for restaurants in San Francisco"
+      },
+      {
+        "criterion": "Book a table for 2 on Saturday at dinner time"
+      },
+      {
+        "criterion": "Report the restaurant name booked on DineSpot"
+      },
+      {
+        "criterion": "Confirm all LockedIn interactions (like, comment, repost) were completed"
+      }
+    ]
+  },
+  {
+    "name": "multi-001",
+    "goal": "Find a restaurant in San Francisco with outdoor seating on DineSpot (something like Harborline Seafood) and make a reservation for 6 people at 7 PM this Friday. Then post the restaurant name, time, and address in the #general TeamChat channel. Give me the restaurant name, reservation confirmation, and confirm the TeamChat message was posted.",
+    "apps": [
+      "dinespot",
+      "teamchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open DineSpot and search for restaurants in San Francisco"
+      },
+      {
+        "criterion": "Filter or find a restaurant with outdoor seating (e.g., Harborline Seafood)"
+      },
+      {
+        "criterion": "Make a reservation for 6 people at 7 PM Friday"
+      },
+      {
+        "criterion": "Open TeamChat and navigate to #general channel"
+      },
+      {
+        "criterion": "Post the restaurant name, time, and address in #general"
+      },
+      {
+        "criterion": "Report the restaurant name"
+      },
+      {
+        "criterion": "Report the reservation confirmation details"
+      },
+      {
+        "criterion": "Confirm the TeamChat message was posted"
+      }
+    ]
+  },
+  {
+    "name": "multi-002",
+    "goal": "Check my SkyTrip app for my upcoming SFO to JFK flight details \u2014 date, time, and terminal. Then open the Weather app and add New York to check the forecast for my travel dates. Create a note in Notes titled 'NYC Trip Prep' with the flight details and expected weather. What's the flight date, departure time, terminal, and weather summary?",
+    "apps": [
+      "skytrip",
+      "weather",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open SkyTrip and navigate to My Trips to find the upcoming SFO to JFK flight"
+      },
+      {
+        "criterion": "Note the flight date, departure time, and terminal from the trip details"
+      },
+      {
+        "criterion": "Open the Weather app and navigate to New York (already added as a location)"
+      },
+      {
+        "criterion": "Check the forecast for the travel dates"
+      },
+      {
+        "criterion": "Create a note in Notes titled 'NYC Trip Prep'"
+      },
+      {
+        "criterion": "Include flight details (date, time, terminal) in the note"
+      },
+      {
+        "criterion": "Include expected weather summary in the note"
+      },
+      {
+        "criterion": "Report the flight date, departure time, terminal, and weather summary"
+      }
+    ]
+  },
+  {
+    "name": "multi-003",
+    "goal": "Open FreshCart and order salmon, spinach, and blueberries from Natural Foods Market. Calculate a 20% tip on the grocery total, then send a SplitPay request to Leo Chen for half the total (including tip) with the note 'dinner party groceries'. What's the grocery total and tip amount, and confirm the SplitPay request was sent.",
+    "apps": [
+      "freshcart",
+      "splitpay"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open FreshCart and select Natural Foods Market store"
+      },
+      {
+        "criterion": "Search for and add salmon to the cart"
+      },
+      {
+        "criterion": "Search for and add spinach to the cart"
+      },
+      {
+        "criterion": "Search for and add blueberries to the cart"
+      },
+      {
+        "criterion": "Calculate 20% tip on the grocery total"
+      },
+      {
+        "criterion": "Open SplitPay and send a request to Leo Chen for half the total with tip"
+      },
+      {
+        "criterion": "Include the note 'dinner party groceries' on the SplitPay request"
+      },
+      {
+        "criterion": "Report the grocery total and tip amount"
+      },
+      {
+        "criterion": "Confirm the SplitPay request was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-005",
+    "goal": "Request a CityRideX from Home (410 Brannan St) to Work (201 Mission St) in the CityRide app. Then post a status update in TeamChat #support-ops that I'm running late, and check my Mail for any morning meeting invites. What's the CityRide ETA and are there any meeting invites?",
+    "apps": [
+      "cityride",
+      "teamchat",
+      "mail"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CityRide and request a CityRideX"
+      },
+      {
+        "criterion": "Set pickup at Home (410 Brannan St) and destination to Work (201 Mission St)"
+      },
+      {
+        "criterion": "Confirm the ride request"
+      },
+      {
+        "criterion": "Post a status update in TeamChat #support-ops about running late"
+      },
+      {
+        "criterion": "Check Mail inbox for morning meeting invites"
+      },
+      {
+        "criterion": "Report the CityRide ETA"
+      },
+      {
+        "criterion": "Report whether there are any meeting invites in Mail"
+      }
+    ]
+  },
+  {
+    "name": "multi-006",
+    "goal": "Book a table for 8 at Fiore Trattoria on DineSpot \u2014 it has outdoor seating and is vegetarian friendly. Order a birthday cake from Natural Foods Market on FreshCart. Send a group message in QuickChat to the 'Brunch Crew' group with the restaurant details, and request $35 from each person on SplitPay. Give me the reservation confirmation and confirm all SplitPay requests were sent.",
+    "apps": [
+      "dinespot",
+      "freshcart",
+      "quickchat",
+      "splitpay"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open DineSpot and find Fiore Trattoria"
+      },
+      {
+        "criterion": "Book a table for 8 at Fiore Trattoria with outdoor seating"
+      },
+      {
+        "criterion": "Open FreshCart and order a birthday cake from Natural Foods Market"
+      },
+      {
+        "criterion": "Send a group message in QuickChat to the 'Brunch Crew' group with restaurant details"
+      },
+      {
+        "criterion": "Open SplitPay and send a $35 request to each group member"
+      },
+      {
+        "criterion": "Report the reservation confirmation from DineSpot"
+      },
+      {
+        "criterion": "Confirm all SplitPay requests were sent"
+      },
+      {
+        "criterion": "Confirm the QuickChat message and FreshCart order were completed"
+      }
+    ]
+  },
+  {
+    "name": "multi-007",
+    "goal": "Check the Weather app and add Seattle to see forecasts. Search SkyTrip for flights from SFO to SEA around next weekend. Then update my Travel Packing List in Notes with the flight options and weather info. What's the cheapest flight option and the Seattle forecast?",
+    "apps": [
+      "notes",
+      "weather",
+      "skytrip"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Weather app and add Seattle as a location"
+      },
+      {
+        "criterion": "Check the Seattle weather forecast"
+      },
+      {
+        "criterion": "Open SkyTrip and search for flights from SFO to SEA around next weekend"
+      },
+      {
+        "criterion": "Identify the cheapest flight option"
+      },
+      {
+        "criterion": "Open Notes and find the Travel Packing List"
+      },
+      {
+        "criterion": "Update the Travel Packing List with flight options and weather info"
+      },
+      {
+        "criterion": "Report the cheapest flight option details"
+      },
+      {
+        "criterion": "Report the Seattle weather forecast"
+      }
+    ]
+  },
+  {
+    "name": "multi-008",
+    "goal": "Log a post-run protein shake in CalTrack (search for 'protein') and check my dashboard to see how it affects my daily calorie and protein progress. Then message Elena Brooks in QuickChat to confirm the Saturday Long Run plans. What's my calorie and protein progress vs goals, and confirm the message was sent.",
+    "apps": [
+      "caltrack",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CalTrack and search for 'protein' to find a protein shake"
+      },
+      {
+        "criterion": "Log the post-run protein shake"
+      },
+      {
+        "criterion": "Check the CalTrack dashboard for daily calorie and protein progress"
+      },
+      {
+        "criterion": "Open QuickChat and message Elena Brooks to confirm Saturday Long Run plans"
+      },
+      {
+        "criterion": "Report calorie progress vs goal"
+      },
+      {
+        "criterion": "Report protein progress vs goal"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-009",
+    "goal": "Open QuickBite and check my most recent Chipotle order details and total. Then check my MyBank credit card transactions for the corresponding charge and note the QuickBite total and the bank charge; report whether they roughly match. Also check my Mail inbox for a QuickBite receipt email, and add a note about the Chipotle expense to my Notes Shopping List. What are the order items, order total, bank charge amount, and email receipt amount?",
+    "apps": [
+      "mybank",
+      "mail",
+      "notes",
+      "quickbite"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open QuickBite and find the most recent Chipotle order"
+      },
+      {
+        "criterion": "Note the order details and total from QuickBite"
+      },
+      {
+        "criterion": "Open MyBank and check credit card transactions for the Chipotle charge"
+      },
+      {
+        "criterion": "Report the QuickBite order total and the bank charge amount"
+      },
+      {
+        "criterion": "Check Mail inbox for a QuickBite receipt email"
+      },
+      {
+        "criterion": "Note the receipt amount from the email"
+      },
+      {
+        "criterion": "Open Notes and add a note about the Chipotle expense to the Shopping List"
+      },
+      {
+        "criterion": "Report the order items from QuickBite"
+      },
+      {
+        "criterion": "Report the order total, bank charge amount, and email receipt amount"
+      },
+      {
+        "criterion": "Report the three amounts (QuickBite total, bank charge, email receipt)"
+      }
+    ]
+  },
+  {
+    "name": "multi-010",
+    "goal": "Search MegaMart for a PS5 headset and note the price. Open the 'Budget Tracker' document in CloudDocs and add a new row with the potential purchase. Check my MyBank credit card balance to see if I can afford it \u2014 if so, go back to MegaMart and add it to my cart. What's the headset price, my credit card balance, and did you add it to cart?",
+    "apps": [
+      "megamart",
+      "mybank",
+      "clouddocs"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open MegaMart and search for a PS5 headset"
+      },
+      {
+        "criterion": "Note the headset price"
+      },
+      {
+        "criterion": "Open CloudDocs and find the 'Budget Tracker' document"
+      },
+      {
+        "criterion": "Add a new row to the Budget Tracker with the potential purchase"
+      },
+      {
+        "criterion": "Open MyBank and check the credit card balance"
+      },
+      {
+        "criterion": "Determine if the credit card balance allows the purchase"
+      },
+      {
+        "criterion": "If affordable, return to MegaMart and add the headset to cart"
+      },
+      {
+        "criterion": "Report the headset price"
+      },
+      {
+        "criterion": "Report the credit card balance"
+      },
+      {
+        "criterion": "Report whether the headset was added to cart"
+      }
+    ]
+  },
+  {
+    "name": "multi-011",
+    "goal": "Check my StayFinder trips for the upcoming Catalina Island booking. Look up the weather for the San Francisco area around those dates in the Weather app. Check my TasteRank 'Want to Try' list for any restaurants to visit before my trip. Save everything in a new Notes note titled 'Catalina Trip Plan'. What are the listing details, weather forecast, and restaurant picks?",
+    "apps": [
+      "stayfinder",
+      "weather",
+      "tasterank",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open StayFinder and navigate to trips to find the Catalina Island booking"
+      },
+      {
+        "criterion": "Note the listing details (dates, property info) for the Catalina trip"
+      },
+      {
+        "criterion": "Open Weather app and check the San Francisco area forecast around the trip dates"
+      },
+      {
+        "criterion": "Open TasteRank and check the 'Want to Try' list for restaurant picks"
+      },
+      {
+        "criterion": "Create a new Notes note titled 'Catalina Trip Plan'"
+      },
+      {
+        "criterion": "Include listing details, weather forecast, and restaurant picks in the note"
+      },
+      {
+        "criterion": "Report the StayFinder listing details"
+      },
+      {
+        "criterion": "Report the weather forecast for the trip dates"
+      },
+      {
+        "criterion": "Report restaurant picks from TasteRank 'Want to Try' list"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ]
+  },
+  {
+    "name": "multi-012",
+    "goal": "Check my TrailBlaze profile for my most recent run distance and pace. Calculate what pace I'd need to beat my 10K PR of 42:18, then message Elena Brooks in QuickChat with my training update and target pace. What are my recent run stats and calculated target pace, and confirm the message was sent.",
+    "apps": [
+      "trailblaze",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TrailBlaze and check profile for the most recent run distance and pace"
+      },
+      {
+        "criterion": "Calculate the pace needed to beat a 10K PR of 42:18"
+      },
+      {
+        "criterion": "Open QuickChat and find the 'Saturday Long Run' group"
+      },
+      {
+        "criterion": "Message the group with training update and target pace"
+      },
+      {
+        "criterion": "Report the recent run stats (distance and pace)"
+      },
+      {
+        "criterion": "Report the calculated target pace for the 10K PR"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-013",
+    "goal": "Open CloudDocs and edit the 'Q2 Roadmap' to add a new section. Then open CloudSlides and add a new slide to the 'Conference Practice Deck' summarizing my changes. Finally, open the 'Bug Triage Log' spreadsheet in CloudSheets and update a cell to reflect the new plan. Confirm all three documents were updated.",
+    "apps": [
+      "clouddocs",
+      "cloudslides",
+      "cloudsheets"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CloudDocs and find the 'Q2 Roadmap' document"
+      },
+      {
+        "criterion": "Add a new section to the Q2 Roadmap"
+      },
+      {
+        "criterion": "Open CloudSlides and find the 'Conference Practice Deck'"
+      },
+      {
+        "criterion": "Add a new slide summarizing the changes"
+      },
+      {
+        "criterion": "Open CloudSheets and find the 'Bug Triage Log' spreadsheet"
+      },
+      {
+        "criterion": "Update a cell to reflect the new plan"
+      },
+      {
+        "criterion": "Confirm the CloudDocs document was updated"
+      },
+      {
+        "criterion": "Confirm the CloudSlides presentation was updated"
+      },
+      {
+        "criterion": "Confirm the CloudSheets spreadsheet was updated"
+      }
+    ]
+  },
+  {
+    "name": "multi-014",
+    "goal": "Search Cinephile for a popular movie and add it to a 'Movie Night' list. Order snacks from QuickBite (Shake Shack or Domino's), then message the 'Avery Fam' group in QuickChat with the movie choice and snack details. What's the movie title and food order details, and confirm the message was sent.",
+    "apps": [
+      "cinephile",
+      "quickbite",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Cinephile and search for a popular movie"
+      },
+      {
+        "criterion": "Add the movie to a 'Movie Night' list"
+      },
+      {
+        "criterion": "Open QuickBite and order snacks from Shake Shack or Domino's"
+      },
+      {
+        "criterion": "Complete the food order"
+      },
+      {
+        "criterion": "Open QuickChat and message the 'Avery Fam' group with movie choice and snack details"
+      },
+      {
+        "criterion": "Report the movie title"
+      },
+      {
+        "criterion": "Report the food order details"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-015",
+    "goal": "Check my TicketBox past tickets for the most recent event I attended \u2014 note the date and ticket price. Check my CityRide ride history for rides around that same date to estimate transportation cost. Calculate the total entertainment expense (ticket + ride), then open the 'Travel Budget' in CloudSheets and add a row with it. What's the event name, ticket price, ride cost, and total?",
+    "apps": [
+      "ticketbox",
+      "cityride",
+      "cloudsheets"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TicketBox and check past tickets for the most recent event"
+      },
+      {
+        "criterion": "Note the event date and ticket price"
+      },
+      {
+        "criterion": "Open CityRide and check ride history for rides around that date"
+      },
+      {
+        "criterion": "Note the transportation cost from ride history"
+      },
+      {
+        "criterion": "Calculate the total entertainment expense (ticket + ride)"
+      },
+      {
+        "criterion": "Open CloudSheets and find the 'Travel Budget' spreadsheet"
+      },
+      {
+        "criterion": "Add a row with the total entertainment expense"
+      },
+      {
+        "criterion": "Report the event name and date"
+      },
+      {
+        "criterion": "Report the ticket price and ride cost"
+      },
+      {
+        "criterion": "Report the total expense"
+      }
+    ]
+  },
+  {
+    "name": "multi-016",
+    "goal": "My friend Maya Patel sent me a SplitPay request. Check it in SplitPay and see what it's for, then check QuickChat to see if Maya messaged me about it. Pay the request from my SplitPay balance. What's the request amount and note, and confirm the payment was made.",
+    "apps": [
+      "splitpay",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open SplitPay and find Maya Patel's pending request"
+      },
+      {
+        "criterion": "Note the request amount and memo"
+      },
+      {
+        "criterion": "Open QuickChat and search for messages from Maya Patel about the request"
+      },
+      {
+        "criterion": "Pay the SplitPay request from the balance"
+      },
+      {
+        "criterion": "Report the request amount"
+      },
+      {
+        "criterion": "Report what the request is for (the note/memo)"
+      },
+      {
+        "criterion": "Confirm the payment was made"
+      }
+    ]
+  },
+  {
+    "name": "multi-017",
+    "goal": "Set a 6:30 AM alarm in Clock labeled 'Morning Run'. Check the Weather in San Francisco for tomorrow morning. Open TrailBlaze and find a running route in the Presidio area. Then check CalTrack for my calorie goal for tomorrow. What's the weather forecast, the route you found, and my daily calorie goal?",
+    "apps": [
+      "clock",
+      "weather",
+      "trailblaze",
+      "caltrack"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Clock and set a 6:30 AM alarm labeled 'Morning Run'"
+      },
+      {
+        "criterion": "Open Weather and check San Francisco forecast for tomorrow morning"
+      },
+      {
+        "criterion": "Open TrailBlaze and find a running route in the Presidio area"
+      },
+      {
+        "criterion": "Open CalTrack and check the calorie goal (via settings or profile for daily target)"
+      },
+      {
+        "criterion": "Report the weather forecast for tomorrow morning"
+      },
+      {
+        "criterion": "Report the running route found in the Presidio"
+      },
+      {
+        "criterion": "Report the daily calorie goal from CalTrack"
+      },
+      {
+        "criterion": "Confirm the alarm was set"
+      }
+    ]
+  },
+  {
+    "name": "multi-018",
+    "goal": "Check CalTrack for my daily calorie goal and protein target. Then browse FreshCart at Trader Joe's for groceries that fit my nutrition plan \u2014 add items like mandarin oranges and cookies as snacks plus healthy staples. Create a meal plan note in Notes. What are my calorie/protein targets and grocery items added, and confirm the note was created.",
+    "apps": [
+      "caltrack",
+      "freshcart",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CalTrack and check the daily calorie goal and protein target"
+      },
+      {
+        "criterion": "Open FreshCart and select Trader Joe's"
+      },
+      {
+        "criterion": "Browse and add mandarin oranges to the cart"
+      },
+      {
+        "criterion": "Browse and add cookies as snacks to the cart"
+      },
+      {
+        "criterion": "Add healthy staple items to the cart"
+      },
+      {
+        "criterion": "Create a meal plan note in Notes"
+      },
+      {
+        "criterion": "Report the calorie and protein targets"
+      },
+      {
+        "criterion": "Report the grocery items added"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      },
+      {
+        "criterion": "Confirm the FreshCart order was placed or items added"
+      }
+    ]
+  },
+  {
+    "name": "multi-019",
+    "goal": "Transfer $500 from Checking to Savings in MyBank. Open SplitPay and check my balance to make sure I have enough for upcoming payments, then review pending requests and pay any under $50. Update the 'Monthly Expense Log' in CloudSheets to reflect the transfer. What are the new bank balances, SplitPay balance, and any requests paid?",
+    "apps": [
+      "mybank",
+      "splitpay",
+      "clouddocs",
+      "cloudsheets"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open MyBank and transfer $500 from Checking to Savings"
+      },
+      {
+        "criterion": "Open SplitPay and check the balance"
+      },
+      {
+        "criterion": "Review pending SplitPay requests"
+      },
+      {
+        "criterion": "Pay any pending requests under $50"
+      },
+      {
+        "criterion": "Open CloudSheets and find the 'Monthly Expense Log' spreadsheet"
+      },
+      {
+        "criterion": "Update the Monthly Expense Log to reflect the $500 transfer"
+      },
+      {
+        "criterion": "Report the new bank balances (checking and savings)"
+      },
+      {
+        "criterion": "Report the SplitPay balance"
+      },
+      {
+        "criterion": "Report any requests that were paid"
+      },
+      {
+        "criterion": "Confirm the Monthly Expense Log was updated in CloudSheets"
+      }
+    ]
+  },
+  {
+    "name": "multi-022",
+    "goal": "Check SkyTrip for my next departure time and terminal. Request a CityRide Black to SFO and set an alarm in Clock for 30 minutes before departure so I know when to leave. Message Maya Patel in QuickChat that I booked my ride to the airport, including the departure time and date. What's the departure time, terminal, and CityRide ETA, and confirm the message was sent.",
+    "apps": [
+      "skytrip",
+      "cityride",
+      "clock",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open SkyTrip and find the next departure time and terminal"
+      },
+      {
+        "criterion": "Open CityRide and request a CityRide Black to SFO"
+      },
+      {
+        "criterion": "Open Clock and set an alarm for 30 minutes before the departure time"
+      },
+      {
+        "criterion": "Open QuickChat and find Maya Patel's conversation"
+      },
+      {
+        "criterion": "Message Maya Patel with ride booking details including time and date of departure"
+      },
+      {
+        "criterion": "Report the departure time and terminal"
+      },
+      {
+        "criterion": "Report the CityRide ETA"
+      },
+      {
+        "criterion": "Confirm the alarm was set at the correct time"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent to Maya Patel"
+      }
+    ]
+  },
+  {
+    "name": "multi-025",
+    "goal": "Browse MegaMart for a desk lamp under $50. Check CloudDocs 'Budget Tracker' to see my current monthly spending and figure out how much budget I'd have left after the purchase. If it's affordable, add the lamp to my MegaMart cart. What's the lamp name, price, and remaining budget, and was it added to cart?",
+    "apps": [
+      "megamart",
+      "clouddocs"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open MegaMart and browse for a desk lamp under $50"
+      },
+      {
+        "criterion": "Note the lamp name and price"
+      },
+      {
+        "criterion": "Open CloudDocs and find the 'Budget Tracker' document"
+      },
+      {
+        "criterion": "Check current monthly spending in the Budget Tracker"
+      },
+      {
+        "criterion": "Calculate remaining budget after the lamp purchase"
+      },
+      {
+        "criterion": "If affordable, add the lamp to the MegaMart cart"
+      },
+      {
+        "criterion": "Report the lamp name and price"
+      },
+      {
+        "criterion": "Report the remaining budget"
+      },
+      {
+        "criterion": "Report whether the lamp was added to cart"
+      }
+    ]
+  },
+  {
+    "name": "multi-028",
+    "goal": "Order dinner from Nobu on QuickBite for delivery to Home. Then post a message in TeamChat #launch-war-room with an update on deployment progress, and check #general for any team announcements. What's the food order total and are there any announcements in #general?",
+    "apps": [
+      "quickbite",
+      "teamchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open QuickBite and search for Nobu"
+      },
+      {
+        "criterion": "Order dinner items from Nobu for delivery to Home"
+      },
+      {
+        "criterion": "Open TeamChat and navigate to #launch-war-room"
+      },
+      {
+        "criterion": "Post a deployment progress update in #launch-war-room"
+      },
+      {
+        "criterion": "Check #general for any team announcements"
+      },
+      {
+        "criterion": "Report the food order total from QuickBite"
+      },
+      {
+        "criterion": "Report any announcements found in #general"
+      }
+    ]
+  },
+  {
+    "name": "multi-031",
+    "goal": "Check Weather in San Francisco for Saturday conditions. Set a 6:30 AM alarm in Clock labeled 'Saturday Run'. Log a protein shake in CalTrack (search 'protein') for post-run recovery and check my calorie progress vs my 2,450 goal. Then message Priya Raman in QuickChat with the weather conditions and how I'm feeling. What's the weather forecast and calorie progress, and confirm the message was sent.",
+    "apps": [
+      "weather",
+      "clock",
+      "caltrack",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Weather and check San Francisco forecast for Saturday"
+      },
+      {
+        "criterion": "Open Clock and set a 6:30 AM alarm labeled 'Saturday Run'"
+      },
+      {
+        "criterion": "Open CalTrack and search for 'protein' to find a protein shake"
+      },
+      {
+        "criterion": "Log the protein shake for post-run recovery"
+      },
+      {
+        "criterion": "Check calorie progress vs the 2,450 goal"
+      },
+      {
+        "criterion": "Open QuickChat and message Priya Raman with weather conditions and how feeling"
+      },
+      {
+        "criterion": "Report the Saturday weather forecast"
+      },
+      {
+        "criterion": "Report calorie progress vs goal"
+      },
+      {
+        "criterion": "Confirm the alarm was set"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-032",
+    "goal": "Read TeamChat #product and #launch-war-room for the latest updates. Open the 'Q2 Roadmap' in CloudDocs and add a new section with those updates. Update a cell in the 'QA Test Matrix' spreadsheet in CloudSheets. Add a new summary slide to the 'Product Demo Deck' in CloudSlides. Then post a wrap-up message in TeamChat #announcements summarizing what I updated. Confirm all four documents were updated and the TeamChat message was posted.",
+    "apps": [
+      "teamchat",
+      "clouddocs",
+      "cloudsheets",
+      "cloudslides"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TeamChat and read #product for latest updates"
+      },
+      {
+        "criterion": "Read #launch-war-room for latest updates"
+      },
+      {
+        "criterion": "Open CloudDocs and find the 'Q2 Roadmap'"
+      },
+      {
+        "criterion": "Add a new section to the Q2 Roadmap with TeamChat updates"
+      },
+      {
+        "criterion": "Open CloudSheets and update a cell in 'QA Test Matrix'"
+      },
+      {
+        "criterion": "Open CloudSlides and add a new summary slide to 'Product Demo Deck'"
+      },
+      {
+        "criterion": "Post a wrap-up message in TeamChat #announcements summarizing what was updated"
+      },
+      {
+        "criterion": "Confirm all four documents were updated"
+      },
+      {
+        "criterion": "Confirm the TeamChat #announcements message was posted"
+      }
+    ]
+  },
+  {
+    "name": "multi-034",
+    "goal": "Check all my MyBank account balances \u2014 checking, savings, and credit card. Review SplitPay pending requests and pay any under $50. Check MegaMart order history for recent purchases and review QuickBite past orders for food spending. Total my monthly discretionary spending. Open the 'Monthly Expense Log' spreadsheet in CloudSheets and add a new row with this month's totals. Also check the 'Device Testing Tasks' spreadsheet in CloudSheets for any work-related expenses to include. What are all the account balances and the monthly discretionary spending total?",
+    "apps": [
+      "mybank",
+      "splitpay",
+      "megamart",
+      "quickbite",
+      "cloudsheets"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open MyBank and check all account balances (checking, savings, credit card)"
+      },
+      {
+        "criterion": "Open SplitPay and review pending requests, pay any under $50"
+      },
+      {
+        "criterion": "Open MegaMart and check order history for recent purchases"
+      },
+      {
+        "criterion": "Open QuickBite and review past orders for food spending"
+      },
+      {
+        "criterion": "Total monthly discretionary spending across all sources"
+      },
+      {
+        "criterion": "Open CloudSheets and find 'Monthly Expense Log'"
+      },
+      {
+        "criterion": "Add a new row with this month's totals to the spreadsheet"
+      },
+      {
+        "criterion": "Check 'Travel Budget' spreadsheet for any outstanding travel expenses"
+      },
+      {
+        "criterion": "Report all account balances"
+      },
+      {
+        "criterion": "Report the monthly discretionary spending total"
+      },
+      {
+        "criterion": "Report any SplitPay requests that were paid"
+      }
+    ]
+  },
+  {
+    "name": "multi-035",
+    "goal": "Browse DineSpot for a restaurant in San Francisco with outdoor seating and make a reservation for 2 at 7 PM Saturday. Check TasteRank to see if any friends have reviewed restaurants in that neighborhood. Search Cinephile for a movie to watch afterward and add it to a 'Date Night' list. Compare CityRide prices (CityRideX vs Comfort) for the ride to the restaurant and estimate the total evening cost covering dinner and ride. Message Maya Patel in QuickChat with the full plan. What's the restaurant name, movie title, ride estimate, and total evening cost estimate?",
+    "apps": [
+      "tasterank",
+      "dinespot",
+      "cinephile",
+      "cityride",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open DineSpot and search for San Francisco restaurants with outdoor seating"
+      },
+      {
+        "criterion": "Make a reservation for 2 at 7 PM Saturday at a restaurant with outdoor seating"
+      },
+      {
+        "criterion": "Open TasteRank and check for friend reviews in the restaurant's neighborhood"
+      },
+      {
+        "criterion": "Open Cinephile and search for a movie to watch afterward"
+      },
+      {
+        "criterion": "Add the movie to a 'Date Night' list"
+      },
+      {
+        "criterion": "Open CityRide and compare CityRideX vs Comfort prices to the restaurant"
+      },
+      {
+        "criterion": "Estimate total evening cost covering dinner and ride (excluding movie ticket)"
+      },
+      {
+        "criterion": "Message Maya Patel in QuickChat with the full plan"
+      },
+      {
+        "criterion": "Report the restaurant name and reservation details"
+      },
+      {
+        "criterion": "Report the movie title"
+      },
+      {
+        "criterion": "Report the ride estimate (CityRideX vs Comfort comparison)"
+      },
+      {
+        "criterion": "Report the total evening cost estimate"
+      },
+      {
+        "criterion": "Confirm the reservation and message were completed"
+      }
+    ]
+  },
+  {
+    "name": "multi-036",
+    "goal": "Check Clock for my alarm time. Look at Weather in San Francisco for the morning forecast. Log breakfast (search 'oatmeal') in CalTrack. Request a CityRideX from Home (410 Brannan St) to Work (201 Mission St) in the CityRide app. Check TeamChat #support-ops for any weekend incidents and check Mail for morning meeting invites. What's the alarm time, weather forecast, CityRide ETA, and any TeamChat incidents or meeting invites?",
+    "apps": [
+      "clock",
+      "weather",
+      "caltrack",
+      "cityride",
+      "teamchat",
+      "mail"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Clock and check the alarm time"
+      },
+      {
+        "criterion": "Open Weather and check San Francisco morning forecast"
+      },
+      {
+        "criterion": "Open CalTrack and search for 'oatmeal' to log breakfast"
+      },
+      {
+        "criterion": "Log the oatmeal breakfast in CalTrack"
+      },
+      {
+        "criterion": "Open CityRide and request a CityRideX from 410 Brannan St to 201 Mission St"
+      },
+      {
+        "criterion": "Check TeamChat #support-ops for any weekend incidents"
+      },
+      {
+        "criterion": "Check Mail for morning meeting invites"
+      },
+      {
+        "criterion": "Report the alarm time"
+      },
+      {
+        "criterion": "Report the weather forecast"
+      },
+      {
+        "criterion": "Report the CityRide ETA"
+      },
+      {
+        "criterion": "Report any TeamChat incidents or meeting invites found"
+      }
+    ]
+  },
+  {
+    "name": "multi-037",
+    "goal": "Read TeamChat #eng-mobile and #launch-war-room for priorities. Check Mail for any urgent emails or meeting invites. Review the 'Feature Spec Draft' in CloudDocs. Open 'Bug Triage Log' in CloudSheets and update a cell with this week's focus. Star the important documents in CloudDrive's Product Strategy folder. Create a new Notes note titled 'Weekly Priorities' with my action items. What are the top priorities from TeamChat, and confirm all updates were made.",
+    "apps": [
+      "teamchat",
+      "mail",
+      "clouddocs",
+      "cloudsheets",
+      "clouddrive",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TeamChat and read #eng-mobile for priorities"
+      },
+      {
+        "criterion": "Read #launch-war-room for priorities"
+      },
+      {
+        "criterion": "Check Mail for urgent emails or meeting invites"
+      },
+      {
+        "criterion": "Open CloudDocs and review the 'Feature Spec Draft'"
+      },
+      {
+        "criterion": "Open CloudSheets and update a cell in 'Bug Triage Log' with this week's focus"
+      },
+      {
+        "criterion": "Open CloudDrive and star important documents in the Product Strategy folder"
+      },
+      {
+        "criterion": "Create a new Notes note titled 'Weekly Priorities' with action items"
+      },
+      {
+        "criterion": "Report the top priorities from TeamChat"
+      },
+      {
+        "criterion": "Confirm all updates were made (CloudSheets, CloudDrive, Notes)"
+      },
+      {
+        "criterion": "Confirm Mail was checked and report any findings"
+      }
+    ]
+  },
+  {
+    "name": "multi-039",
+    "goal": "Check CalTrack for my daily calorie goal (2,450) and protein target (170g), and review my weight progress (182.2 vs 176 goal). Browse FreshCart at Natural Foods Market for salmon, spinach, blueberries, and eggs, and total up the grocery cost. Check my SplitPay balance to make sure I can afford it. Update the Notes Shopping List with the new items and save a new recipe idea in the Shopping List note about trying a healthy meal. What's the grocery total, SplitPay balance, and calorie/protein targets, and confirm the recipe idea was saved.",
+    "apps": [
+      "caltrack",
+      "freshcart",
+      "splitpay",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CalTrack and check daily calorie goal (2,450) and protein target (170g)"
+      },
+      {
+        "criterion": "Review weight progress in CalTrack (current 182.2 vs goal 176)"
+      },
+      {
+        "criterion": "Open FreshCart and navigate to Natural Foods Market store"
+      },
+      {
+        "criterion": "Search for and add salmon, spinach, blueberries, and eggs to cart"
+      },
+      {
+        "criterion": "Note the total grocery cost from the cart"
+      },
+      {
+        "criterion": "Open SplitPay and check current balance"
+      },
+      {
+        "criterion": "Confirm SplitPay balance covers the grocery total"
+      },
+      {
+        "criterion": "Open Notes and update Shopping List with the new grocery items"
+      },
+      {
+        "criterion": "Add a recipe idea to the Notes Shopping List about trying a healthy meal"
+      },
+      {
+        "criterion": "Report grocery total, SplitPay balance, calorie/protein targets, and confirm recipe idea was added"
+      }
+    ]
+  },
+  {
+    "name": "multi-040",
+    "goal": "Find the Ali Wong show on TicketBox and check ticket prices at Great American Music Hall. Compare CityRide ride prices (CityRideX vs Black) to Nob Hill (the neighborhood near Great American Music Hall). Book dinner beforehand at Golden Gate Izakaya on DineSpot for 2 after 5pm. Check Weather in SF for the evening. Message Elena Brooks in QuickChat with the full plan \u2014 show time, dinner reservation, and ride estimate. What's the ticket price, ride estimate, dinner reservation confirmation, and weather forecast?",
+    "apps": [
+      "ticketbox",
+      "cityride",
+      "dinespot",
+      "weather",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TicketBox and find the Ali Wong show at Great American Music Hall"
+      },
+      {
+        "criterion": "Note the ticket price for the Ali Wong show"
+      },
+      {
+        "criterion": "Open CityRide and get a CityRideX price quote to Nob Hill"
+      },
+      {
+        "criterion": "Get a CityRide Black price quote to Nob Hill for comparison"
+      },
+      {
+        "criterion": "Open DineSpot and book dinner at Golden Gate Izakaya for 2 after 5 PM"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco evening forecast"
+      },
+      {
+        "criterion": "Open QuickChat and message Elena Brooks with the full plan including show time, dinner reservation, and ride estimate"
+      },
+      {
+        "criterion": "Report ticket price, ride estimate comparison, dinner reservation confirmation, and weather forecast"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent to Elena Brooks"
+      }
+    ]
+  },
+  {
+    "name": "multi-044",
+    "goal": "Check TrailBlaze for my 5K PR (19:42) and 10K PR (42:18) plus recent training runs. Calculate my target pace to break my 10K PR. Review my 'Workout Plan' note in Notes for the current training schedule. Check CalTrack to see if I've been hitting my calorie (2,450) and protein (170g) goals on training days. Check Weather in SF for this weekend's conditions. Message the 'Running Club Announcements' group in QuickChat with my training update and target pace for the weekend. What's the calculated target pace, nutrition compliance, and weekend weather, and confirm the message was sent.",
+    "apps": [
+      "trailblaze",
+      "notes",
+      "caltrack",
+      "weather",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TrailBlaze and check 5K PR (19:42) and 10K PR (42:18)"
+      },
+      {
+        "criterion": "Review recent training runs in TrailBlaze"
+      },
+      {
+        "criterion": "Calculate target pace needed to break the 10K PR of 42:18"
+      },
+      {
+        "criterion": "Open Notes and review 'Workout Plan' note for current training schedule"
+      },
+      {
+        "criterion": "Open CalTrack and check calorie intake vs 2,450 goal and protein vs 170g target on training days"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco weekend conditions"
+      },
+      {
+        "criterion": "Open QuickChat and message 'Running Club Announcements' group with training update and target pace"
+      },
+      {
+        "criterion": "Report calculated target pace, nutrition compliance, and weekend weather"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-046",
+    "goal": "Search DineSpot for Marina Oyster Club in San Francisco and make a reservation for 6 at 11 AM Saturday. Check TasteRank to see if any friends have reviewed the restaurant or nearby spots. Check Weather in SF for Saturday. Send SplitPay requests to each attendee for $15 from last month's brunch. Message the 'Brunch Crew' group in QuickChat with the restaurant name, time, and address. What's the restaurant name, reservation confirmation, and weather forecast, and confirm all SplitPay requests were sent.",
+    "apps": [
+      "tasterank",
+      "dinespot",
+      "weather",
+      "splitpay",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open DineSpot and search for Marina Oyster Club in San Francisco"
+      },
+      {
+        "criterion": "Make a reservation for 6 people at 11 AM Saturday"
+      },
+      {
+        "criterion": "Open TasteRank and check if friends have reviewed the restaurant or nearby spots"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco Saturday forecast"
+      },
+      {
+        "criterion": "Open SplitPay and send $15 requests to each attendee for last month's brunch"
+      },
+      {
+        "criterion": "Open QuickChat and message 'Brunch Crew' group with restaurant name, time, and address"
+      },
+      {
+        "criterion": "Report restaurant name, reservation confirmation, and weather forecast"
+      },
+      {
+        "criterion": "Confirm all SplitPay requests were sent"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      },
+      {
+        "criterion": "Multiple SplitPay requests were sent (one per attendee)"
+      }
+    ]
+  },
+  {
+    "name": "multi-048",
+    "goal": "Open the Product Strategy folder in CloudDrive and review files. Edit the 'Launch Retrospective' in CloudDocs to add a results section. Update the '2026 Open House Volunteers' spreadsheet in CloudSheets by editing a cell. Open 'Device Testing Tasks' in CloudSheets and update a cell with the current status. Add a new slide to the 'Q2 All-Hands' in CloudSlides summarizing the update. Star the updated files in CloudDrive. Post a summary in TeamChat #announcements about the documentation changes. Confirm all documents were updated and the TeamChat message was posted.",
+    "apps": [
+      "clouddrive",
+      "clouddocs",
+      "cloudsheets",
+      "cloudslides",
+      "teamchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CloudDrive Product Strategy folder and review files"
+      },
+      {
+        "criterion": "Open 'Launch Retrospective' in CloudDocs and add a results section"
+      },
+      {
+        "criterion": "Open '2026 Open House Volunteers' spreadsheet in CloudSheets and edit a cell"
+      },
+      {
+        "criterion": "Open 'Device Testing Tasks' spreadsheet in CloudSheets and update a cell with current status"
+      },
+      {
+        "criterion": "Open 'Q2 All-Hands' in CloudSlides and add a new summary slide"
+      },
+      {
+        "criterion": "Star the updated files in CloudDrive"
+      },
+      {
+        "criterion": "Post a summary in TeamChat #announcements about the documentation changes"
+      },
+      {
+        "criterion": "Confirm all four documents were updated and the TeamChat message was posted"
+      },
+      {
+        "criterion": "Two different CloudSheets spreadsheets were updated"
+      }
+    ]
+  },
+  {
+    "name": "multi-053",
+    "goal": "Search TicketBox for Dear Evan Hansen or The Lion King at the Orpheum Theatre. Book a pre-show dinner at Hayes Valley Bistro on DineSpot. Create a new CloudDocs document titled 'Team Outing Plan' with the show, dinner, and logistics. Post the plan in TeamChat #general. Message Grace Lin in QuickChat to confirm she's coming. Check CityRide prices for group transportation to Hayes Valley (near the Orpheum Theatre). What's the show choice, ticket price, dinner reservation, and ride estimate, and confirm all messages were sent.",
+    "apps": [
+      "ticketbox",
+      "dinespot",
+      "clouddocs",
+      "teamchat",
+      "quickchat",
+      "cityride"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TicketBox and search for Dear Evan Hansen or The Lion King at Orpheum Theatre"
+      },
+      {
+        "criterion": "Note the show choice and ticket price"
+      },
+      {
+        "criterion": "Open DineSpot and book a pre-show dinner at a San Francisco restaurant with outdoor seating"
+      },
+      {
+        "criterion": "Open CloudDocs and create a new document titled 'Team Outing Plan'"
+      },
+      {
+        "criterion": "Include show details, dinner reservation, and logistics in the document"
+      },
+      {
+        "criterion": "Post the plan in TeamChat #general"
+      },
+      {
+        "criterion": "Message Grace Lin in QuickChat to confirm attendance"
+      },
+      {
+        "criterion": "Open CityRide and check group transportation prices to the venue"
+      },
+      {
+        "criterion": "Report show choice, ticket price, dinner reservation, and ride estimate"
+      },
+      {
+        "criterion": "Confirm all messages were sent (TeamChat and QuickChat)"
+      }
+    ]
+  },
+  {
+    "name": "multi-055",
+    "goal": "Set a 5:45 AM alarm in Clock labeled 'Training Day'. Check Weather in SF for running conditions. Log a post-run protein shake and oatmeal breakfast in CalTrack, then check my protein progress vs the 170g target. Order a healthy lunch from QuickBite (Sugarfish Trust Me set). After work, browse FreshCart at Natural Foods Market for dinner ingredients \u2014 salmon and spinach. Create a 'Training Day Log' note in Notes. What's the weather forecast, protein progress, lunch order total, and grocery total?",
+    "apps": [
+      "clock",
+      "weather",
+      "caltrack",
+      "quickbite",
+      "freshcart",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Clock and set a 5:45 AM alarm labeled 'Training Day'"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco running conditions"
+      },
+      {
+        "criterion": "Open CalTrack and log a post-run protein shake"
+      },
+      {
+        "criterion": "Log oatmeal breakfast in CalTrack"
+      },
+      {
+        "criterion": "Check protein progress vs the 170g target in CalTrack"
+      },
+      {
+        "criterion": "Open QuickBite and order the Sugarfish Trust Me set for lunch"
+      },
+      {
+        "criterion": "Open FreshCart at Natural Foods Market and browse for salmon and spinach"
+      },
+      {
+        "criterion": "Add dinner ingredients to FreshCart cart"
+      },
+      {
+        "criterion": "Open Notes and create a 'Training Day Log' note"
+      },
+      {
+        "criterion": "Report weather forecast, protein progress, lunch order total, and grocery total"
+      }
+    ]
+  },
+  {
+    "name": "multi-061",
+    "goal": "Check ScoreZone for tonight's game schedule to see if any NBA, NFL, or MLB game is scheduled. If not, search Cinephile for a top-rated Thriller in Discover and add it to a 'Weeknight Watch' custom list. Also browse for a Drama film and add it as a backup. Message Kai Santos in QuickChat asking if he wants to come over and watch. What's on the game schedule or what movies did you pick, and confirm the message was sent.",
+    "apps": [
+      "scorezone",
+      "cinephile",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open ScoreZone and check tonight's game schedule"
+      },
+      {
+        "criterion": "Open Cinephile and search for a top-rated Thriller in Discover"
+      },
+      {
+        "criterion": "Add the Thriller film to a 'Weeknight Watch' custom list"
+      },
+      {
+        "criterion": "Browse for a Drama film as a backup option"
+      },
+      {
+        "criterion": "Add the Drama film to the 'Weeknight Watch' list"
+      },
+      {
+        "criterion": "Open QuickChat and message Kai Santos asking if he wants to come over and watch"
+      },
+      {
+        "criterion": "Report game schedule results or movie picks"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-068",
+    "goal": "Browse CloudDrive folders for any travel-related files. Check my StayFinder Sunset Sail experience booking for details. Create a new CloudDocs document titled 'Barcelona Experience Notes' with the booking info, itinerary ideas, and what to bring. Star the document in CloudDrive for quick access. Add a reminder about the Sunset Sail date to my 'Travel Packing List' note in Notes. What are the Sunset Sail booking details, and confirm the document was created and starred.",
+    "apps": [
+      "clouddrive",
+      "stayfinder",
+      "clouddocs",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CloudDrive and browse folders for travel-related files"
+      },
+      {
+        "criterion": "Open StayFinder and check Sunset Sail experience booking details"
+      },
+      {
+        "criterion": "Open CloudDocs and create a new document titled 'Barcelona Experience Notes'"
+      },
+      {
+        "criterion": "Include booking info, itinerary ideas, and what to bring in the document"
+      },
+      {
+        "criterion": "Star the new document in CloudDrive for quick access"
+      },
+      {
+        "criterion": "Open Notes and add a reminder to 'Travel Packing List' for the Sunset Sail date"
+      },
+      {
+        "criterion": "Report Sunset Sail booking details"
+      },
+      {
+        "criterion": "Confirm the CloudDocs document was created"
+      },
+      {
+        "criterion": "Confirm the document was starred in CloudDrive"
+      }
+    ]
+  },
+  {
+    "name": "multi-069",
+    "goal": "Search Cinephile for a popular Drama film and add it to my Wishlist. Book dinner at Harborline Seafood on DineSpot for 2 at 6:30 PM (it has outdoor seating). Compare CityRide prices (CityRideX vs Comfort) from Home to the Marina (near Harborline Seafood). Set a 1-hour timer in Clock to remind me to start getting ready. Message Iris Yamamoto in QuickChat with the dinner time, restaurant address, and movie pick. What's the movie title, reservation confirmation, and ride price comparison, and confirm the message was sent.",
+    "apps": [
+      "cinephile",
+      "dinespot",
+      "cityride",
+      "clock",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Cinephile and search for a popular Drama film"
+      },
+      {
+        "criterion": "Add the Drama film to Wishlist"
+      },
+      {
+        "criterion": "Open DineSpot and book dinner at Harborline Seafood for 2 at 6:30 PM"
+      },
+      {
+        "criterion": "Open CityRide and get CityRideX price quote from Home to the Marina"
+      },
+      {
+        "criterion": "Get CityRide Comfort price quote for comparison"
+      },
+      {
+        "criterion": "Open Clock and set a 1-hour timer to remind to get ready"
+      },
+      {
+        "criterion": "Open QuickChat and message Iris Yamamoto with dinner time, restaurant address, and movie pick"
+      },
+      {
+        "criterion": "Report movie title, reservation confirmation, and ride price comparison"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-071",
+    "goal": "View my Sunset Sail booking on StayFinder (Barcelona, $78). Check ScoreZone for any sports events happening that same weekend, and search TicketBox for events happening that same weekend. Browse Cinephile for sailing or ocean-themed movies and add one to my Wishlist. Create a 'May Weekend Plans' note in Notes with all the options. What are the Sunset Sail details, any events found, and the movie added, and confirm the note was created.",
+    "apps": [
+      "stayfinder",
+      "scorezone",
+      "ticketbox",
+      "cinephile",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open StayFinder and view Sunset Sail booking (Barcelona, $78, date shown in StayFinder)"
+      },
+      {
+        "criterion": "Open ScoreZone and check for sports events happening that same weekend"
+      },
+      {
+        "criterion": "Open TicketBox and search for events happening that same weekend"
+      },
+      {
+        "criterion": "Open Cinephile and browse for sailing or ocean-themed movies"
+      },
+      {
+        "criterion": "Add an ocean/sailing-themed movie to Wishlist"
+      },
+      {
+        "criterion": "Open Notes and create a 'May Weekend Plans' note with all options"
+      },
+      {
+        "criterion": "Report Sunset Sail details, events found, and movie added"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      },
+      {
+        "criterion": "Note includes information from all sources (StayFinder, ScoreZone, TicketBox, Cinephile)"
+      }
+    ]
+  },
+  {
+    "name": "multi-073",
+    "goal": "Start the stopwatch in Clock and record 3 lap splits at 1-minute intervals. Log a post-workout protein shake in CalTrack (search 'protein') and check my daily calorie progress vs the 2,450 goal. Order a recovery smoothie from QuickBite. Check Weather in SF for tomorrow's outdoor workout conditions. What are the lap times, calorie progress, smoothie order total, and tomorrow's weather forecast?",
+    "apps": [
+      "clock",
+      "caltrack",
+      "quickbite",
+      "weather"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Clock and start the stopwatch"
+      },
+      {
+        "criterion": "Record 3 lap splits at approximately 1-minute intervals using the Lap button"
+      },
+      {
+        "criterion": "Open CalTrack and search for 'protein' to log a post-workout protein shake"
+      },
+      {
+        "criterion": "Check daily calorie progress vs the 2,450 goal in CalTrack"
+      },
+      {
+        "criterion": "Open QuickBite and order a recovery smoothie"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco forecast for tomorrow"
+      },
+      {
+        "criterion": "Report the three lap split times"
+      },
+      {
+        "criterion": "Report calorie progress, smoothie order total, and tomorrow's weather forecast"
+      },
+      {
+        "criterion": "Stop the stopwatch after recording laps"
+      }
+    ]
+  },
+  {
+    "name": "multi-074",
+    "goal": "Check my pending SplitPay requests \u2014 there's one I don't recognize. Note the amount and memo, then search my QuickChat conversations with the requester to see if they mentioned it. Check my MyBank credit card transactions for a matching charge around the same amount. If there's a match, go ahead and pay the SplitPay request; if not, message the requester asking what it's for. What's the request amount and memo, was a matching charge found, and what action did you take?",
+    "apps": [
+      "splitpay",
+      "quickchat",
+      "mybank"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open SplitPay and check pending requests to find an unrecognized one"
+      },
+      {
+        "criterion": "Note the amount and memo of the unrecognized request"
+      },
+      {
+        "criterion": "Open QuickChat and search conversations with the requester for context"
+      },
+      {
+        "criterion": "Open MyBank and check credit card transactions for a matching charge"
+      },
+      {
+        "criterion": "Compare the SplitPay request amount with bank transactions"
+      },
+      {
+        "criterion": "Take the correct branch: if a matching MyBank charge was found, pay the SplitPay request; otherwise send a QuickChat message asking what it's for"
+      },
+      {
+        "criterion": "Report request amount, memo, whether a matching charge was found"
+      },
+      {
+        "criterion": "Report the action taken (payment or inquiry message)"
+      }
+    ]
+  },
+  {
+    "name": "multi-075",
+    "goal": "Check my TrailBlaze PRs \u2014 my current Half Marathon time is 1:35:12. Pull up my most recent long run distance and pace, and calculate the pace per mile I'd need to break 1:30:00. Check Weather in San Francisco for this Saturday's conditions. If rain is forecast, message the 'Running Club Announcements' group in QuickChat suggesting an indoor treadmill alternative; if it's clear, suggest the Presidio route. Update my 'Workout Plan' note in Notes with the adjusted target pace. What's the calculated target pace, Saturday weather, and the message sent, and confirm the note was updated.",
+    "apps": [
+      "trailblaze",
+      "weather",
+      "quickchat",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TrailBlaze and check Half Marathon PR (1:35:12)"
+      },
+      {
+        "criterion": "Pull up most recent long run distance and pace in TrailBlaze"
+      },
+      {
+        "criterion": "Calculate the pace per mile needed to break 1:30:00 for a half marathon"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco Saturday conditions"
+      },
+      {
+        "criterion": "Apply conditional logic: if rain suggest treadmill, if clear suggest Presidio route"
+      },
+      {
+        "criterion": "Open QuickChat and message the 'Running Club Announcements' group with the plan matching the forecast (treadmill if rain, Presidio route if clear)"
+      },
+      {
+        "criterion": "Open Notes and update 'Workout Plan' note with adjusted target pace"
+      },
+      {
+        "criterion": "Report calculated target pace (sub-6:52/mile), Saturday weather, and message content"
+      },
+      {
+        "criterion": "Confirm the note was updated"
+      }
+    ]
+  },
+  {
+    "name": "multi-076",
+    "goal": "Find my most recent Chipotle order in QuickBite and note the items and total. Search my Mail inbox for the QuickBite receipt email and note the receipt amount. Check my MyBank credit card transactions for the corresponding charge. Compare the amounts across all three sources \u2014 totals may differ due to tips, fees, or processing. What are the order items, QuickBite total, email receipt amount, bank charge, and any discrepancies?",
+    "apps": [
+      "quickbite",
+      "mail",
+      "mybank"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open QuickBite and find the most recent Chipotle order"
+      },
+      {
+        "criterion": "Note the order items and total from QuickBite"
+      },
+      {
+        "criterion": "Open Mail and search for the QuickBite receipt email"
+      },
+      {
+        "criterion": "Note the receipt amount from the email"
+      },
+      {
+        "criterion": "Open MyBank and check credit card transactions for the corresponding charge"
+      },
+      {
+        "criterion": "Compare amounts across all three sources (QuickBite, Mail, MyBank)"
+      },
+      {
+        "criterion": "Identify any discrepancies due to tips, fees, or processing"
+      },
+      {
+        "criterion": "Report order items, QuickBite total, email receipt amount, bank charge, and discrepancies"
+      }
+    ]
+  },
+  {
+    "name": "multi-077",
+    "goal": "Check my SkyTrip app for my upcoming SFO to SEA flight dates, then check my StayFinder bookings to see if the Catalina Island trip (dates shown in StayFinder) overlaps with any flights. If there's a conflict, post in TeamChat #support-ops that I need to reschedule. Either way, update my 'Travel Packing List' note in Notes with the confirmed travel dates for both trips. What are the flight dates, is there a conflict, and confirm the note was updated.",
+    "apps": [
+      "skytrip",
+      "stayfinder",
+      "teamchat",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open SkyTrip and check upcoming SFO to SEA flight dates"
+      },
+      {
+        "criterion": "Open StayFinder and check Catalina Island trip booking (dates shown in StayFinder)"
+      },
+      {
+        "criterion": "Compare flight dates with Catalina Island trip dates for conflicts"
+      },
+      {
+        "criterion": "Apply conditional logic: if conflict, post in TeamChat #support-ops about rescheduling"
+      },
+      {
+        "criterion": "Open Notes and update 'Travel Packing List' with confirmed travel dates for both trips"
+      },
+      {
+        "criterion": "Report flight dates and whether there is a conflict"
+      },
+      {
+        "criterion": "Confirm the note was updated"
+      },
+      {
+        "criterion": "Conditional TeamChat post: post in #support-ops if flight/trip dates conflict; skip the post if there is no conflict"
+      }
+    ]
+  },
+  {
+    "name": "multi-078",
+    "goal": "Open Notes and read the 'Gift Ideas - Mom's Birthday' note for the budget (~$200) and the birthday date shown in the note. Search MegaMart in the Beauty department for a gift and note the price. Check my MyBank credit card balance to confirm I can afford it and figure out how much budget remains. If there's budget left, search for a second smaller gift. Message Camille Hart in QuickChat asking if she wants to split the cost. What are the gift(s) chosen, price(s), remaining budget, and credit card balance, and confirm the message was sent.",
+    "apps": [
+      "notes",
+      "megamart",
+      "mybank",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Notes and read 'Gift Ideas - Mom's Birthday' note for budget (~$200) and birthday date"
+      },
+      {
+        "criterion": "Open MegaMart and search Beauty department for a gift"
+      },
+      {
+        "criterion": "Note the primary gift choice and price"
+      },
+      {
+        "criterion": "Open MyBank and check credit card balance"
+      },
+      {
+        "criterion": "Confirm credit card balance can cover the purchase"
+      },
+      {
+        "criterion": "Calculate remaining budget after primary gift"
+      },
+      {
+        "criterion": "If budget remains, search MegaMart for a second smaller gift"
+      },
+      {
+        "criterion": "Open QuickChat and message Camille Hart asking to split the cost"
+      },
+      {
+        "criterion": "Report gift(s) chosen, price(s), remaining budget, and credit card balance"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      },
+      {
+        "criterion": "Conditional logic followed for second gift based on remaining budget"
+      }
+    ]
+  },
+  {
+    "name": "multi-079",
+    "goal": "Browse DineSpot for Embarcadero Grill in San Francisco and check its seating options. Look up the neighborhood on TasteRank to see if friends have reviewed nearby spots. Check Weather in San Francisco for this evening \u2014 if it's clear, book a table with outdoor seating; if rain is expected, book indoor. Message Leo Chen in QuickChat with the restaurant name, time, and whether I got outdoor or indoor seating. What's the restaurant name, seating type chosen, weather conditions, and any TasteRank reviews found, and confirm the reservation and message.",
+    "apps": [
+      "tasterank",
+      "dinespot",
+      "weather",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open DineSpot and browse for Embarcadero Grill in San Francisco"
+      },
+      {
+        "criterion": "Check seating options for the restaurant on DineSpot"
+      },
+      {
+        "criterion": "Open TasteRank and look up the neighborhood for friend reviews"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco evening forecast"
+      },
+      {
+        "criterion": "Apply conditional logic: book outdoor seating if clear, indoor if rain expected"
+      },
+      {
+        "criterion": "Book the DineSpot reservation with the seating type matching the weather (outdoor if clear, indoor if rain expected)"
+      },
+      {
+        "criterion": "Open QuickChat and message Leo Chen with restaurant name, time, and seating choice"
+      },
+      {
+        "criterion": "Report restaurant name, seating type chosen, weather conditions, and TasteRank reviews"
+      },
+      {
+        "criterion": "Confirm reservation and message were completed"
+      }
+    ]
+  },
+  {
+    "name": "multi-080",
+    "goal": "Check my CalTrack dashboard for my remaining calorie budget vs my 2,450 goal. Calculate how many calories I need in my next meal to stay on track. Browse FreshCart at Natural Foods Market for recovery-friendly foods \u2014 salmon and spinach \u2014 that fit within a $25 grocery budget, and add items to my cart without exceeding it. What's my remaining calorie budget, target calories for next meal, items added, and grocery total?",
+    "apps": [
+      "caltrack",
+      "freshcart"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CalTrack dashboard and check remaining calorie budget vs 2,450 goal"
+      },
+      {
+        "criterion": "Calculate how many calories are needed in the next meal to stay on track"
+      },
+      {
+        "criterion": "Open FreshCart and navigate to Natural Foods Market"
+      },
+      {
+        "criterion": "Browse for recovery-friendly foods: salmon and spinach"
+      },
+      {
+        "criterion": "Add items to cart while staying within the $25 grocery budget"
+      },
+      {
+        "criterion": "Verify the grocery total does not exceed $25"
+      },
+      {
+        "criterion": "Report remaining calorie budget, target calories for next meal, items added, and grocery total"
+      },
+      {
+        "criterion": "Grocery total stays within the $25 budget constraint"
+      }
+    ]
+  },
+  {
+    "name": "multi-081",
+    "goal": "Read the latest messages in TeamChat #design for any feedback on my presentation. Open the 'Mobile Launch Plan' document in CloudDocs and update the relevant section based on that feedback. Then open the 'Conference Practice Deck' in CloudSlides and edit a slide to reflect the changes. Set a 15-minute timer in Clock to rehearse my updated talk. What feedback was received, and confirm all documents were updated and the timer was set.",
+    "apps": [
+      "teamchat",
+      "clouddocs",
+      "cloudslides",
+      "clock"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TeamChat #design and read latest messages for presentation feedback"
+      },
+      {
+        "criterion": "Open CloudDocs and update the 'Mobile Launch Plan' document based on the feedback"
+      },
+      {
+        "criterion": "Open CloudSlides 'Conference Practice Deck' and edit a slide to reflect the changes"
+      },
+      {
+        "criterion": "Open Clock and set a 15-minute timer to rehearse"
+      },
+      {
+        "criterion": "Report what feedback was received from TeamChat"
+      },
+      {
+        "criterion": "Confirm the CloudDocs document was updated"
+      },
+      {
+        "criterion": "Confirm the CloudSlides presentation was updated"
+      },
+      {
+        "criterion": "Confirm the timer was set"
+      }
+    ]
+  },
+  {
+    "name": "multi-083",
+    "goal": "Check all my MyBank account balances \u2014 checking, savings, and credit card. Review my SplitPay balance and any pending incoming or outgoing requests. Look at my most recent MegaMart order to see what I spent. Calculate my net liquid cash (checking + savings + SplitPay balance - credit card balance). Open the 'Budget Tracker' document in CloudDocs and add a comment noting my financial summary for the month. What are all the balances, net liquid cash calculation, and MegaMart order amount, and confirm the comment was added.",
+    "apps": [
+      "mybank",
+      "splitpay",
+      "megamart",
+      "clouddocs"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open MyBank and check checking account balance"
+      },
+      {
+        "criterion": "Check savings account balance in MyBank"
+      },
+      {
+        "criterion": "Check credit card balance in MyBank"
+      },
+      {
+        "criterion": "Open SplitPay and check balance and pending requests"
+      },
+      {
+        "criterion": "Open MegaMart and check most recent order and spending amount"
+      },
+      {
+        "criterion": "Calculate net liquid cash (checking + savings + SplitPay balance - credit card balance)"
+      },
+      {
+        "criterion": "Open CloudDocs 'Budget Tracker' and add a comment with financial summary"
+      },
+      {
+        "criterion": "Report all balances, net liquid cash calculation, and MegaMart order amount"
+      },
+      {
+        "criterion": "Confirm the comment was added to CloudDocs"
+      }
+    ]
+  },
+  {
+    "name": "multi-084",
+    "goal": "Check Weather in San Francisco for Saturday. Book brunch at SoMa Rooftop on DineSpot for 4 at around noon (outdoor seating if weather is good). Search TicketBox for an afternoon event \u2014 a Warriors game or a comedy show. Compare CityRide ride prices (CityRideX vs Comfort) from the Marina (brunch neighborhood) to the Mission District (event neighborhood). Book dinner at Golden Gate Izakaya on DineSpot for 4 at 7 PM. Estimate the full day per-person cost covering brunch, event tickets, rides, and dinner. Message the 'Brunch Crew' group in QuickChat with the complete Saturday itinerary and cost estimate. What are both reservation confirmations, the event choice, ride estimate, and per-person cost, and confirm the message was sent",
+    "apps": [
+      "weather",
+      "dinespot",
+      "ticketbox",
+      "cityride",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Weather and check San Francisco Saturday forecast"
+      },
+      {
+        "criterion": "Open DineSpot and book brunch at SoMa Rooftop for 4 around noon (outdoor seating if weather is good)"
+      },
+      {
+        "criterion": "Open TicketBox and search for an afternoon event (Warriors game or comedy show)"
+      },
+      {
+        "criterion": "Note the event choice and ticket price"
+      },
+      {
+        "criterion": "Open CityRide and compare CityRideX vs Comfort prices from Marina to Mission District"
+      },
+      {
+        "criterion": "Open DineSpot and book dinner at Golden Gate Izakaya for 4 at 7 PM"
+      },
+      {
+        "criterion": "Estimate full day per-person cost covering brunch, event tickets, rides, and dinner"
+      },
+      {
+        "criterion": "Open QuickChat and message 'Brunch Crew' group with complete Saturday itinerary and cost estimate"
+      },
+      {
+        "criterion": "Report both reservation confirmations, event choice, ride estimate, and per-person cost"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-085",
+    "goal": "Read TeamChat #product and #announcements for end-of-week status updates. Check Mail for any Friday items needing attention. Update the 'Mobile Launch Plan' in CloudDocs with weekly progress notes. Update a cell in the 'QA Test Matrix' spreadsheet in CloudSheets with this week's status. Disable the weekday alarms in Clock and set a 7:00 AM Saturday alarm labeled 'Weekend Run'. Check Weather in San Francisco for Saturday morning and check TrailBlaze for a suitable weekend route based on the weather. Message Priya Raman in QuickChat with the weather forecast and run plan. What's the weather forecast and route chosen, and confirm all documents, alarms, and messages were updated.",
+    "apps": [
+      "teamchat",
+      "mail",
+      "clouddocs",
+      "cloudsheets",
+      "clock",
+      "weather",
+      "trailblaze",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TeamChat and read #product for end-of-week status updates"
+      },
+      {
+        "criterion": "Read TeamChat #announcements for status updates"
+      },
+      {
+        "criterion": "Open Mail and check for any Friday items needing attention"
+      },
+      {
+        "criterion": "Open CloudDocs and update 'Mobile Launch Plan' with weekly progress notes"
+      },
+      {
+        "criterion": "Open CloudSheets and update a cell in 'QA Test Matrix' with this week's status"
+      },
+      {
+        "criterion": "Open Clock and disable weekday alarms"
+      },
+      {
+        "criterion": "Set a 7:00 AM Saturday alarm labeled 'Weekend Run' in Clock"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco Saturday morning forecast"
+      },
+      {
+        "criterion": "Open TrailBlaze and find a suitable weekend route based on weather"
+      },
+      {
+        "criterion": "Open QuickChat and message Priya Raman with weather forecast and run plan"
+      },
+      {
+        "criterion": "Report weather forecast and route chosen"
+      },
+      {
+        "criterion": "Confirm all documents, alarms, and messages were updated"
+      }
+    ]
+  },
+  {
+    "name": "multi-086",
+    "goal": "Check all MyBank account balances \u2014 checking, savings, and credit card. Review SplitPay balance and pay any pending requests under $50. Check MegaMart order history and tally recent spending. Review QuickBite past orders to total food delivery costs for the month. Browse FreshCart past orders for grocery spending. Categorize and total all discretionary spending across food delivery, groceries, online shopping, and peer payments. Update the Monthly Expense Log in CloudSheets with categorized monthly totals. Create a 'Budget Action Items' note in Notes with specific savings targets for next month. What are all account balances and categorized spending totals, and confirm both documents were created/updated.",
+    "apps": [
+      "mybank",
+      "splitpay",
+      "megamart",
+      "quickbite",
+      "freshcart",
+      "clouddocs",
+      "notes",
+      "cloudsheets"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open MyBank and check checking, savings, and credit card balances"
+      },
+      {
+        "criterion": "Open SplitPay, check balance, and pay any pending requests under $50"
+      },
+      {
+        "criterion": "Open MegaMart order history and tally recent spending"
+      },
+      {
+        "criterion": "Open QuickBite and review past orders to total food delivery costs for the month"
+      },
+      {
+        "criterion": "Open FreshCart and browse past orders for grocery spending"
+      },
+      {
+        "criterion": "Categorize all discretionary spending across food delivery, groceries, online shopping, and peer payments"
+      },
+      {
+        "criterion": "Total all discretionary spending across categories"
+      },
+      {
+        "criterion": "Open CloudSheets and update Monthly Expense Log with categorized monthly totals"
+      },
+      {
+        "criterion": "Open Notes and create 'Budget Action Items' note with specific savings targets for next month"
+      },
+      {
+        "criterion": "Report all account balances and categorized spending totals"
+      },
+      {
+        "criterion": "Confirm both documents were created/updated"
+      }
+    ]
+  },
+  {
+    "name": "multi-087",
+    "goal": "Check SkyTrip for my SFO to JFK flight details \u2014 confirmation code, departure time, seat, and terminal. View my boarding pass. Check Weather and add New York to see the forecast for my travel dates. Read my 'Travel Packing List' in Notes and update it with NYC-specific items based on the weather. Post in TeamChat #general about my upcoming time off and in #design with a work delegation plan. Check Mail for any travel confirmation emails. Message Sofia Kim in QuickChat that I'm headed to NYC and share the flight details. Set an alarm in Clock for my departure day morning. What are the flight details, boarding pass info, and NYC weather, and confirm all notifications and updates were made.",
+    "apps": [
+      "skytrip",
+      "weather",
+      "notes",
+      "teamchat",
+      "mail",
+      "quickchat",
+      "clock"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open SkyTrip and check SFO to JFK flight details (confirmation code, departure time, seat, terminal)"
+      },
+      {
+        "criterion": "View the boarding pass in SkyTrip"
+      },
+      {
+        "criterion": "Open Weather app and add New York to see forecast for travel dates"
+      },
+      {
+        "criterion": "Open Notes and read 'Travel Packing List'"
+      },
+      {
+        "criterion": "Update 'Travel Packing List' with NYC-specific items based on weather"
+      },
+      {
+        "criterion": "Post in TeamChat #general about upcoming time off"
+      },
+      {
+        "criterion": "Post in TeamChat #design with a work delegation plan"
+      },
+      {
+        "criterion": "Open Mail and check for travel confirmation emails"
+      },
+      {
+        "criterion": "Open QuickChat and message Sofia Kim about heading to NYC with flight details"
+      },
+      {
+        "criterion": "Open Clock and set an alarm for departure day morning"
+      },
+      {
+        "criterion": "Report flight details, boarding pass info, and NYC weather"
+      },
+      {
+        "criterion": "Confirm all notifications and updates were made"
+      },
+      {
+        "criterion": "Two separate TeamChat posts were made (#general and #design)"
+      }
+    ]
+  },
+  {
+    "name": "multi-088",
+    "goal": "Check TrailBlaze for this week's activities \u2014 total distance, number of runs, and weekly mileage pattern. Check CalTrack for daily calorie intake vs my 2,450 goal and protein intake vs my 170g target. Review my weight trend (182.2 lbs current vs 176 lbs goal) and determine my weekly calorie surplus or deficit. Check Weather in SF for conditions for my next outdoor run. Order a high-protein recovery meal from QuickBite (Sweetgreen salad or Sugarfish poke). Message the 'Running Club Announcements' group in QuickChat with my weekly stats and how I'm tracking. Update my 'Workout Plan' note in Notes with performance notes and adjustments. What's my weekly mileage, calorie surplus/deficit, weight trend, and weather forecast, and confirm the meal was ordered and note updated.",
+    "apps": [
+      "trailblaze",
+      "caltrack",
+      "weather",
+      "quickbite",
+      "quickchat",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TrailBlaze and check this week's activities (total distance, number of runs, weekly mileage pattern)"
+      },
+      {
+        "criterion": "Open CalTrack and check daily calorie intake vs 2,450 goal"
+      },
+      {
+        "criterion": "Check protein intake vs 170g target in CalTrack"
+      },
+      {
+        "criterion": "Review weight trend (182.2 current vs 176 goal) in CalTrack"
+      },
+      {
+        "criterion": "Determine weekly calorie surplus or deficit"
+      },
+      {
+        "criterion": "Open Weather app and check San Francisco conditions for next outdoor run"
+      },
+      {
+        "criterion": "Open QuickBite and order a high-protein recovery meal (Sweetgreen or Sugarfish)"
+      },
+      {
+        "criterion": "Open QuickChat and message 'Running Club Announcements' group with weekly stats and tracking update"
+      },
+      {
+        "criterion": "Open Notes and update 'Workout Plan' note with performance notes and adjustments"
+      },
+      {
+        "criterion": "Report weekly mileage, calorie surplus/deficit, weight trend, and weather forecast"
+      },
+      {
+        "criterion": "Confirm the meal was ordered and note was updated"
+      }
+    ]
+  },
+  {
+    "name": "multi-089",
+    "goal": "Search TicketBox for an upcoming event \u2014 either the Ali Wong comedy show at Great American Music Hall or a Warriors game at Chase Center \u2014 and note the ticket price. Search Cinephile for a backup movie option and add it to a 'Group Outing' custom list. Book a pre-event dinner at Fiore Trattoria on DineSpot for 4 at any time after 5 PM (outdoor seating, vegetarian friendly). Compare CityRide ride prices (CityRideX vs Comfort) from Home to SoMa (dinner neighborhood near Fiore Trattoria). Estimate the total per-person cost covering ticket, dinner, and ride share for 4. Send SplitPay requests to 3 friends for their estimated share. Message Leo Chen in QuickChat with the full plan including event, dinner, transport, and per-person cost. What's the event chosen, ticket price, per-person total, and reservation confirmation, and confirm all SplitPay requests and the message were sent.",
+    "apps": [
+      "ticketbox",
+      "cinephile",
+      "dinespot",
+      "cityride",
+      "splitpay",
+      "quickchat"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open TicketBox and search for Ali Wong show or Warriors game, note ticket price"
+      },
+      {
+        "criterion": "Open Cinephile and search for a backup movie option"
+      },
+      {
+        "criterion": "Add backup movie to a 'Group Outing' custom list in Cinephile"
+      },
+      {
+        "criterion": "Open DineSpot and book dinner at Fiore Trattoria for 4 after 5 PM (outdoor, vegetarian friendly)"
+      },
+      {
+        "criterion": "Open CityRide and compare CityRideX vs Comfort prices from Home to SoMa"
+      },
+      {
+        "criterion": "Estimate total per-person cost covering ticket, dinner, and ride share for 4"
+      },
+      {
+        "criterion": "Open SplitPay and send requests to 3 friends for their estimated share"
+      },
+      {
+        "criterion": "Open QuickChat and message Leo Chen with full plan including event, dinner, transport, and per-person cost"
+      },
+      {
+        "criterion": "Report event chosen, ticket price, per-person total, and reservation confirmation"
+      },
+      {
+        "criterion": "Confirm all SplitPay requests were sent"
+      },
+      {
+        "criterion": "Confirm the QuickChat message was sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-090",
+    "goal": "Browse the Product Strategy folder in CloudDrive and identify files that haven't been updated in the past two weeks. Open the 'Launch Retrospective' in CloudDocs and add a new section summarizing the latest All Hands storylines. Open the 'QA Test Matrix' spreadsheet in CloudSheets and update a cell with the current project status. Open the '[Draft] Autonomous Agents' presentation in CloudSlides and edit the title to mark it as final. Star the updated files in CloudDrive. Read TeamChat #random and #announcements for any feedback or requests. Check Mail for any documentation-related requests. Create a 'Documentation Sprint Notes' note in Notes summarizing what was updated and what still needs work. Confirm all documents were updated, files starred, and the summary note was created.",
+    "apps": [
+      "clouddrive",
+      "clouddocs",
+      "cloudsheets",
+      "cloudslides",
+      "teamchat",
+      "mail",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open CloudDrive and browse the Product Strategy folder to identify files not updated in the past two weeks"
+      },
+      {
+        "criterion": "Open CloudDocs 'Launch Retrospective' and add a new section summarizing the latest All Hands storylines"
+      },
+      {
+        "criterion": "Open CloudSheets 'QA Test Matrix' and update a cell with the current project status"
+      },
+      {
+        "criterion": "Open CloudSlides '[Draft] Autonomous Agents' and edit the title to mark it as final"
+      },
+      {
+        "criterion": "Star the updated files in CloudDrive"
+      },
+      {
+        "criterion": "Open TeamChat and read #random for feedback or requests"
+      },
+      {
+        "criterion": "Read TeamChat #announcements for feedback or requests"
+      },
+      {
+        "criterion": "Open Mail and check for documentation-related requests"
+      },
+      {
+        "criterion": "Open Notes and create 'Documentation Sprint Notes' summarizing what was updated and what still needs work"
+      },
+      {
+        "criterion": "Confirm all documents were updated"
+      },
+      {
+        "criterion": "Confirm files were starred in CloudDrive"
+      },
+      {
+        "criterion": "Confirm the summary note was created"
+      }
+    ]
+  },
+  {
+    "name": "multi-091",
+    "goal": "Open Notes and read the 'Gift Ideas - Mom's Birthday' note for the budget (~$200) and the birthday date shown in the note. Search MegaMart in the Beauty department for a primary gift and note the price. If there's budget left, search for a second smaller gift in the Home department. Check my MyBank credit card balance to confirm I can cover the total. Calculate the per-person cost if splitting with 2 siblings. Check Mail for any previous birthday-related emails or gift confirmations. Message the 'Avery Fam' group in QuickChat to coordinate who's buying what and share the budget split. Send a SplitPay request to one sibling for their share. What are the gift(s) chosen, total cost, per-person split, and credit card balance, and confirm the message and SplitPay request were sent.",
+    "apps": [
+      "notes",
+      "megamart",
+      "mybank",
+      "mail",
+      "quickchat",
+      "splitpay"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open Notes and read 'Gift Ideas - Mom's Birthday' note for budget (~$200) and the birthday date"
+      },
+      {
+        "criterion": "Open MegaMart and search Beauty department for a primary gift"
+      },
+      {
+        "criterion": "Note the primary gift price"
+      },
+      {
+        "criterion": "If budget remains, search Home department for a second smaller gift"
+      },
+      {
+        "criterion": "Open MyBank and check credit card balance to confirm affordability"
+      },
+      {
+        "criterion": "Calculate per-person cost if splitting with 2 siblings"
+      },
+      {
+        "criterion": "Open Mail and check for previous birthday-related emails or gift confirmations"
+      },
+      {
+        "criterion": "Open QuickChat and message 'Avery Fam' group to coordinate who is buying what and share the budget split"
+      },
+      {
+        "criterion": "Open SplitPay and send a request to one sibling for their share"
+      },
+      {
+        "criterion": "Report gift(s) chosen, total cost, per-person split, and credit card balance"
+      },
+      {
+        "criterion": "Confirm the QuickChat message and SplitPay request were sent"
+      }
+    ]
+  },
+  {
+    "name": "multi-092",
+    "goal": "Find Devi Anand's viral post on LockedIn about the RAG anti-pattern (2156 reactions, 347 comments, links to a deepmind.google article). React to the post with 'Insightful' and read the top comments for context. Then post a concise summary of the takeaway in TeamChat #product channel so the team benefits. Open Notes and create a new note titled 'Tech Reading Queue' with the article title, link, and your 2-3 key takeaways. What's the core anti-pattern Devi warns about, name at least 2 top commenters, and confirm the reaction + TeamChat post + note were all completed.",
+    "apps": [
+      "lockedin",
+      "teamchat",
+      "notes"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn and find Devi Anand's viral post about the RAG anti-pattern"
+      },
+      {
+        "criterion": "React to the post with 'Insightful'"
+      },
+      {
+        "criterion": "Read the top comments on the post for context"
+      },
+      {
+        "criterion": "Open TeamChat and navigate to #product channel"
+      },
+      {
+        "criterion": "Post a concise summary of the RAG anti-pattern takeaway in #product"
+      },
+      {
+        "criterion": "Open Notes and create a new note titled 'Tech Reading Queue'"
+      },
+      {
+        "criterion": "Add the article title, deepmind.google link, and 2-3 key takeaways to the note"
+      },
+      {
+        "criterion": "Report the core RAG anti-pattern Devi warns about"
+      },
+      {
+        "criterion": "Name at least 2 top commenters from the post"
+      },
+      {
+        "criterion": "Confirm the reaction, TeamChat post, and note were all completed"
+      }
+    ]
+  },
+  {
+    "name": "multi-093",
+    "goal": "My contact Rohan Mehta just announced a Series A raise on LockedIn. Engage with his milestone post \u2014 react via the reaction picker (Celebrate is the natural fit for a Series A) and comment a genuine congratulations. Then check my LockedIn messages with Rohan: he asked about joining his advisory network. Reply with specific availability for a call next week and a question about advisor compensation. Open Clock and set an alarm for 2 days from now at 10:00 AM labeled 'Rohan advisory call prep'. Finally, message Rohan on QuickChat with a personal congratulations. What's the raise amount and lead investor, and confirm the LockedIn celebrate/comment, reply, alarm, and QuickChat message were all done.",
+    "apps": [
+      "lockedin",
+      "quickchat",
+      "clock"
+    ],
+    "category": "multi_app",
+    "difficulty": "medium",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn and find Rohan Mehta's Series A milestone post in the feed"
+      },
+      {
+        "criterion": "React to the post with Celebrate via the reaction picker"
+      },
+      {
+        "criterion": "Post a genuine congratulatory comment on the post"
+      },
+      {
+        "criterion": "Open LockedIn Messages and find Rohan Mehta's conversation about advisory network"
+      },
+      {
+        "criterion": "Reply with specific availability for a call next week"
+      },
+      {
+        "criterion": "Include a question about advisor compensation or scope in the reply"
+      },
+      {
+        "criterion": "Open Clock and set an alarm for 2 days from now at 10:00 AM labeled 'Rohan advisory call prep'"
+      },
+      {
+        "criterion": "Open QuickChat and send Rohan Mehta a personal congratulations message"
+      },
+      {
+        "criterion": "Report the Series A raise amount and lead investor"
+      },
+      {
+        "criterion": "Confirm all four engagements were completed (reaction, comment, reply, alarm, QuickChat message)"
+      }
+    ]
+  },
+  {
+    "name": "mem-001",
+    "goal": "Check my SplitPay and MyBank transaction history for any recurring monthly payments I receive. Figure out who they're from and how much. If this month's payment hasn't come in yet, send a request for it. Let me know the recurring pattern \u2014 who, amount, frequency \u2014 and confirm the request was sent.",
+    "apps": [
+      "splitpay",
+      "mybank"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Open SplitPay and review transaction history for recurring or frequent payments"
+      },
+      {
+        "criterion": "Open MyBank and review transaction history for recurring or frequent payments"
+      },
+      {
+        "criterion": "Identify recurring payment patterns across both apps (who, amount, frequency)"
+      },
+      {
+        "criterion": "Determine whether the current month's payment has been received"
+      },
+      {
+        "criterion": "If missing, send a payment request for it via SplitPay"
+      },
+      {
+        "criterion": "Report the recurring pattern details (who, amount, frequency) and confirm the request was sent"
+      }
+    ],
+    "memory_type": "pattern_discovery"
+  },
+  {
+    "name": "mem-002",
+    "goal": "Look at my CityRide app and figure out my most common route based on my saved locations. Then request a ride along that route and tell me the route and estimated fare.",
+    "apps": [
+      "cityride"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Open CityRide and review saved locations and route templates"
+      },
+      {
+        "criterion": "Identify the most common route"
+      },
+      {
+        "criterion": "Request a ride along the identified commute route"
+      },
+      {
+        "criterion": "Report the route details and estimated fare"
+      }
+    ],
+    "memory_type": "pattern_discovery"
+  },
+  {
+    "name": "mem-003",
+    "goal": "Check my QuickBite order history to find my most frequently ordered restaurant and item, then place a reorder of my usual. Let me know the restaurant name, what I usually get, and confirm the order went through.",
+    "apps": [
+      "quickbite"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Open QuickBite and review order history"
+      },
+      {
+        "criterion": "Identify the most frequently ordered restaurant"
+      },
+      {
+        "criterion": "Identify the usual order item"
+      },
+      {
+        "criterion": "Place a reorder of the usual item from the identified restaurant"
+      },
+      {
+        "criterion": "Report the restaurant name, usual order, and confirm the order went through"
+      }
+    ],
+    "memory_type": "habit_recognition"
+  },
+  {
+    "name": "mem-004",
+    "goal": "Search through my QuickChat conversations and Mail inbox to find out what book I'm currently reading and whether any friends have mentioned it too. Then find and update my reading list in Notes. Let me know the book title, who mentioned it, and confirm the note was updated.",
+    "apps": [
+      "quickchat",
+      "mail",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Search Notes for the 'Books to Read' list to find current reading material"
+      },
+      {
+        "criterion": "Search QuickChat conversations for book-related discussions"
+      },
+      {
+        "criterion": "Search Mail inbox for any book-related mentions"
+      },
+      {
+        "criterion": "Identify the current book title and which friends mentioned it"
+      },
+      {
+        "criterion": "Update the reading list note in Notes with new information"
+      },
+      {
+        "criterion": "Report the book title, who mentioned it, and confirm the note was updated"
+      }
+    ],
+    "memory_type": "cross_app_context"
+  },
+  {
+    "name": "mem-005",
+    "goal": "Review my TrailBlaze activities to figure out my regular running schedule and favorite routes. Check the Weather for conditions during my typical run times, then message my running group with a plan for the next run. Let me know my running schedule pattern, favorite route, the weather forecast, and confirm the message was sent.",
+    "apps": [
+      "trailblaze",
+      "weather",
+      "quickchat"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Review TrailBlaze activities to discover running schedule and frequency"
+      },
+      {
+        "criterion": "Identify favorite running routes"
+      },
+      {
+        "criterion": "Check Weather app for conditions during typical run times in SF"
+      },
+      {
+        "criterion": "Identify the 'Saturday Long Run' group in QuickChat"
+      },
+      {
+        "criterion": "Message the running group with a plan for the next run including weather info"
+      },
+      {
+        "criterion": "Report running schedule pattern, favorite route, weather forecast, and confirm message sent"
+      }
+    ],
+    "memory_type": "routine_discovery"
+  },
+  {
+    "name": "mem-006",
+    "goal": "Look at my CalTrack meal logs and figure out what I typically eat for breakfast. Then order those ingredients from the right store on FreshCart. Let me know what my typical breakfast items are and confirm the grocery order was placed.",
+    "apps": [
+      "caltrack",
+      "freshcart"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Review CalTrack meal logs to analyze breakfast patterns"
+      },
+      {
+        "criterion": "Identify typical breakfast items (oatmeal, protein shake, eggs, etc.)"
+      },
+      {
+        "criterion": "Search FreshCart for matching breakfast ingredients from the correct store"
+      },
+      {
+        "criterion": "Place the grocery order on FreshCart"
+      },
+      {
+        "criterion": "Report the typical breakfast items and confirm the order was placed"
+      }
+    ],
+    "memory_type": "habit_recognition"
+  },
+  {
+    "name": "mem-007",
+    "goal": "Figure out which sports teams I follow by checking ScoreZone and TicketBox. See if any of my teams have upcoming games and check for headlines about them. Let me know the teams, upcoming game dates, and any relevant headlines.",
+    "apps": [
+      "scorezone",
+      "ticketbox"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check ScoreZone favorites to discover followed teams"
+      },
+      {
+        "criterion": "Check TicketBox purchase history for additional team interests"
+      },
+      {
+        "criterion": "Search for upcoming games for the identified teams"
+      },
+      {
+        "criterion": "Find headlines or news about the identified teams"
+      },
+      {
+        "criterion": "Report all followed teams, upcoming game dates, and at least 2 headlines about those teams"
+      }
+    ],
+    "memory_type": "preference_discovery"
+  },
+  {
+    "name": "mem-009",
+    "goal": "Review my SkyTrip past trips to figure out which cities I travel to most. Check QuickChat to see if I have contacts in those cities, then search TasteRank for restaurants in my most-visited city. Let me know my most-visited cities, any contacts found there, and restaurant recommendations.",
+    "apps": [
+      "skytrip",
+      "quickchat",
+      "tasterank"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Review SkyTrip past trips to find travel history"
+      },
+      {
+        "criterion": "Identify most-visited destinations (LAX, JFK, SEA)"
+      },
+      {
+        "criterion": "Search QuickChat contacts for people in the most-visited cities"
+      },
+      {
+        "criterion": "Search TasteRank for restaurant recommendations in the most-visited city"
+      },
+      {
+        "criterion": "Report most-visited cities, contacts found there, and restaurant recommendations"
+      }
+    ],
+    "memory_type": "travel_pattern"
+  },
+  {
+    "name": "mem-010",
+    "goal": "Go through my Notes for any upcoming events or deadlines and cross-reference with Calendar-related emails in Mail. Then set alarms or timers in the Clock app for any upcoming deadlines. Let me know what events and deadlines you found and confirm the alarms were set. Please write up a summary in CloudDocs in a new document.",
+    "apps": [
+      "notes",
+      "mail",
+      "clock",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Open Notes and search for any upcoming events or deadlines"
+      },
+      {
+        "criterion": "Open Mail and check the updates section for additional upcoming events this week"
+      },
+      {
+        "criterion": "Cross-reference Notes and Mail to build a complete list of events and deadlines"
+      },
+      {
+        "criterion": "Set alarms or timers in Clock app for upcoming deadlines (where feasible within 24 hours)"
+      },
+      {
+        "criterion": "Open CloudDocs and create a new document summarizing all events and deadlines found"
+      },
+      {
+        "criterion": "Report all events and deadlines found"
+      },
+      {
+        "criterion": "Confirm the alarms were set and the CloudDocs summary was created"
+      }
+    ],
+    "memory_type": "planning_awareness"
+  },
+  {
+    "name": "mem-013",
+    "goal": "I have a loved one's birthday coming up \u2014 check Notes, QuickChat, and Mail to figure out whose and when. Find a gift on MegaMart within the budget mentioned in my notes and make a DineSpot reservation for a birthday dinner. Let me know the person's name, birthday date, budget, the gift you chose, and the reservation confirmation.",
+    "apps": [
+      "notes",
+      "quickchat",
+      "mail",
+      "megamart",
+      "dinespot"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Search Notes for birthday-related notes"
+      },
+      {
+        "criterion": "Search QuickChat for birthday-related conversations"
+      },
+      {
+        "criterion": "Search Mail for birthday-related communications"
+      },
+      {
+        "criterion": "Identify the person's name, birthday date, and gift budget"
+      },
+      {
+        "criterion": "Search MegaMart for a gift within the identified budget"
+      },
+      {
+        "criterion": "Purchase or add the gift to cart on MegaMart"
+      },
+      {
+        "criterion": "Make a DineSpot reservation for a birthday dinner"
+      },
+      {
+        "criterion": "Report person's name, birthday date, budget, chosen gift, and reservation confirmation"
+      }
+    ],
+    "memory_type": "event_planning"
+  },
+  {
+    "name": "mem-015",
+    "goal": "Review my MegaMart order history and Mail receipts to figure out what hobby or interest I've been spending money on lately. Search MegaMart for related products and check TicketBox for any relevant events. Let me know the hobby identified, total spending, and any related events.",
+    "apps": [
+      "megamart",
+      "mail",
+      "ticketbox"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Review MegaMart order history to identify product categories"
+      },
+      {
+        "criterion": "Review Mail receipts for spending patterns"
+      },
+      {
+        "criterion": "Identify the dominant hobby/interest from spending patterns"
+      },
+      {
+        "criterion": "Calculate total spending in the identified hobby area"
+      },
+      {
+        "criterion": "Search MegaMart for related products in the hobby category"
+      },
+      {
+        "criterion": "Check TicketBox for events related to the identified hobby"
+      },
+      {
+        "criterion": "Report the hobby identified, total spending, and any related events found"
+      }
+    ],
+    "memory_type": "interest_discovery"
+  },
+  {
+    "name": "mem-016",
+    "goal": "Look at my StayFinder trip history and TasteRank restaurant lists to understand my travel and dining preferences. Find my next upcoming trip and get restaurant recommendations for that destination. Save them to a TasteRank list and a note in Notes. Let me know my dining preferences, the upcoming trip destination, and the restaurant recommendations saved.",
+    "apps": [
+      "stayfinder",
+      "tasterank",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Analyze StayFinder trip history to understand travel preferences"
+      },
+      {
+        "criterion": "Analyze TasteRank restaurant lists to understand dining preferences"
+      },
+      {
+        "criterion": "Identify dining preference patterns (cuisines, price range, ambiance)"
+      },
+      {
+        "criterion": "Find the next upcoming trip on StayFinder"
+      },
+      {
+        "criterion": "Search for restaurant recommendations near Catalina matching dining preferences"
+      },
+      {
+        "criterion": "Save restaurant recommendations to a TasteRank list"
+      },
+      {
+        "criterion": "Create or update a note in Notes with the restaurant recommendations"
+      },
+      {
+        "criterion": "Report dining preferences, trip destination, and restaurant recommendations saved"
+      }
+    ],
+    "memory_type": "preference_aggregation"
+  },
+  {
+    "name": "mem-018",
+    "goal": "Figure out what neighborhood I spend the most time in by looking at my QuickBite delivery addresses, TasteRank restaurant visits, and Mail receipts for ride destinations. Then find things to do in that area \u2014 check DineSpot for nearby restaurants and TicketBox for nearby events. Let me know the neighborhood and what's going on there.",
+    "apps": [
+      "quickbite",
+      "tasterank",
+      "dinespot",
+      "ticketbox",
+      "mail"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check QuickBite delivery addresses for location data"
+      },
+      {
+        "criterion": "Check TasteRank restaurant visits for location data"
+      },
+      {
+        "criterion": "Check Mail receipts for ride destinations and location data"
+      },
+      {
+        "criterion": "Analyze and identify the most-frequented neighborhood"
+      },
+      {
+        "criterion": "Search DineSpot for restaurants near the identified neighborhood"
+      },
+      {
+        "criterion": "Search TicketBox for events near the identified neighborhood"
+      },
+      {
+        "criterion": "Report the neighborhood identified and available activities"
+      }
+    ],
+    "memory_type": "location_pattern"
+  },
+  {
+    "name": "mem-019",
+    "goal": "Give me a full picture of my finances. Check MyBank balances, SplitPay balance and pending requests, recent MegaMart orders, and FreshCart spending. Figure out my net financial position and enter the summary in the 'Budget Tracker' document in CloudDocs. Let me know my net position with all account balances.",
+    "apps": [
+      "mybank",
+      "splitpay",
+      "megamart",
+      "freshcart",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check MyBank for all account balances (checking, savings, credit)"
+      },
+      {
+        "criterion": "Check SplitPay balance and pending requests"
+      },
+      {
+        "criterion": "Review recent MegaMart orders and spending"
+      },
+      {
+        "criterion": "Review FreshCart spending"
+      },
+      {
+        "criterion": "Calculate net financial position from all sources"
+      },
+      {
+        "criterion": "Enter the financial summary in the Budget Tracker document in CloudDocs"
+      },
+      {
+        "criterion": "Report net position with all account balances"
+      }
+    ],
+    "memory_type": "financial_overview"
+  },
+  {
+    "name": "mem-020",
+    "goal": "I want to have friends over for the big game this weekend. Check ScoreZone for my favorite teams' schedule, then look through QuickChat contacts and SplitPay history to figure out which friends are into sports \u2014 anyone I've split game tickets or bar tabs with. Message each of them individually to invite them, order snacks from FreshCart, and check TicketBox in case anyone wants to go to the actual game. Let me know the game details, which friends you identified, and confirm the invitations and snack order were sent.",
+    "apps": [
+      "scorezone",
+      "quickchat",
+      "splitpay",
+      "freshcart",
+      "ticketbox"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check ScoreZone for favorite teams' weekend schedule"
+      },
+      {
+        "criterion": "Search QuickChat contacts and conversations for sports-interested friends"
+      },
+      {
+        "criterion": "Search SplitPay history for game ticket or bar tab splits to identify sports friends"
+      },
+      {
+        "criterion": "Identify the specific friends to invite based on discovery"
+      },
+      {
+        "criterion": "Message each identified friend individually in QuickChat to invite them"
+      },
+      {
+        "criterion": "Order snacks from FreshCart for the watch party"
+      },
+      {
+        "criterion": "Check TicketBox for tickets to the actual game"
+      },
+      {
+        "criterion": "Report game details, identified friends, and confirm invitations and snack order sent"
+      }
+    ],
+    "memory_type": "social_planning"
+  },
+  {
+    "name": "mem-021",
+    "goal": "Analyze my commuting patterns and costs. Check CityRide saved routes and Mail inbox for CityRide ride receipts to find my most frequent route. Cross-reference with MyBank transactions for total CityRide spending and figure out my average weekly commute cost. Enter the findings in the Spending Dashboard in CloudSheets. Let me know my most common route, total CityRide spending, average weekly commute cost, and confirm the sheet was updated.",
+    "apps": [
+      "cityride",
+      "mybank",
+      "clouddocs",
+      "mail",
+      "cloudsheets"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check CityRide saved routes and route templates for commute patterns"
+      },
+      {
+        "criterion": "Search Mail inbox for CityRide ride receipts"
+      },
+      {
+        "criterion": "Identify the most frequent route"
+      },
+      {
+        "criterion": "Cross-reference MyBank transactions for total CityRide spending"
+      },
+      {
+        "criterion": "Calculate average weekly commute cost"
+      },
+      {
+        "criterion": "Enter findings in the Spending Dashboard in CloudSheets"
+      },
+      {
+        "criterion": "Report most common route, total spending, weekly average, and confirm the sheet was updated"
+      }
+    ],
+    "memory_type": "spending_pattern"
+  },
+  {
+    "name": "mem-022",
+    "goal": "Map out my social life across apps. Check QuickChat for my most active conversations and group chats, SplitPay history for who I split bills with most, TeamChat DMs for work friends, and TasteRank to see if friends appear in my feed. Then message my most frequent contact with a plan for this weekend. Let me know my top contacts by app and confirm the weekend plan message was sent.",
+    "apps": [
+      "quickchat",
+      "splitpay",
+      "teamchat",
+      "tasterank"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check QuickChat for most active conversations and group chats"
+      },
+      {
+        "criterion": "Check SplitPay history for most frequent bill-splitting contacts"
+      },
+      {
+        "criterion": "Check TeamChat DMs for work friend interactions"
+      },
+      {
+        "criterion": "Check TasteRank feed for friends' social activity"
+      },
+      {
+        "criterion": "Cross-reference contacts across all four apps to identify closest friends"
+      },
+      {
+        "criterion": "Identify the most frequent contact overall"
+      },
+      {
+        "criterion": "Send a weekend plan message to the most frequent contact"
+      },
+      {
+        "criterion": "Report top contacts by app and confirm the weekend message was sent"
+      }
+    ],
+    "memory_type": "relationship_mapping"
+  },
+  {
+    "name": "mem-023",
+    "goal": "Analyze my shopping habits from MegaMart order history and MyBank credit card transactions. Figure out which product categories I spend the most on, total my MegaMart spending this month, and search MegaMart for deals in my top category. Update the Monthly Expense Log in CloudSheets with the findings. Let me know the top spending categories, monthly MegaMart total, and any deals found.",
+    "apps": [
+      "megamart",
+      "mybank",
+      "clouddocs",
+      "cloudsheets"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Review MegaMart order history for product categories and spending"
+      },
+      {
+        "criterion": "Review MyBank credit card transactions for MegaMart charges"
+      },
+      {
+        "criterion": "Identify top spending categories (fitness/wellness, home/kitchen, skincare)"
+      },
+      {
+        "criterion": "Calculate total MegaMart spending for the current month"
+      },
+      {
+        "criterion": "Search MegaMart for deals in the top spending category"
+      },
+      {
+        "criterion": "Update the Monthly Expense Log in CloudSheets with findings"
+      },
+      {
+        "criterion": "Report top spending categories, monthly total, and deals found"
+      }
+    ],
+    "memory_type": "spending_pattern"
+  },
+  {
+    "name": "mem-024",
+    "goal": "Pull together my entertainment preferences. Check Cinephile for my Wishlist and Seenlist, TicketBox past tickets for events I've attended, and ScoreZone favorites for sports I follow. Then search TicketBox for upcoming events matching my interests and message Dante Morales in QuickChat about going together. Let me know my top genres, favorite teams, event history, and upcoming recommended events.",
+    "apps": [
+      "cinephile",
+      "ticketbox",
+      "scorezone",
+      "quickchat"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check Cinephile Wishlist and Seenlist for movie preferences and genres"
+      },
+      {
+        "criterion": "Check TicketBox past tickets for attended events"
+      },
+      {
+        "criterion": "Check ScoreZone favorites for followed sports teams"
+      },
+      {
+        "criterion": "Synthesize entertainment preferences across genres, sports, and events"
+      },
+      {
+        "criterion": "Search TicketBox for upcoming events matching identified interests"
+      },
+      {
+        "criterion": "Message Dante Morales in QuickChat about attending an event together"
+      },
+      {
+        "criterion": "Report top genres, favorite teams, event history, and recommended upcoming events"
+      }
+    ],
+    "memory_type": "preference_discovery"
+  },
+  {
+    "name": "mem-025",
+    "goal": "Build a comprehensive travel history from SkyTrip past trips, StayFinder trip history, CityRide rides to airports, and Mail booking confirmations. Figure out how often I travel and my most-visited destinations. Create a new CloudDocs document titled 'Travel Log' summarizing all my trips, destinations, and travel frequency. Let me know my most-visited destinations, travel frequency, and confirm the document was created.",
+    "apps": [
+      "skytrip",
+      "stayfinder",
+      "cityride",
+      "mail",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check SkyTrip past trips for flight history and destinations"
+      },
+      {
+        "criterion": "Check StayFinder trip history for accommodation bookings"
+      },
+      {
+        "criterion": "Check CityRide for rides to airports"
+      },
+      {
+        "criterion": "Check Mail for booking confirmations"
+      },
+      {
+        "criterion": "Correlate data across all sources to reconstruct complete travel history"
+      },
+      {
+        "criterion": "Identify most-visited destinations and calculate travel frequency"
+      },
+      {
+        "criterion": "Create a new CloudDocs document titled 'Travel Log'"
+      },
+      {
+        "criterion": "Report most-visited destinations, travel frequency, and confirm document created"
+      }
+    ],
+    "memory_type": "travel_pattern"
+  },
+  {
+    "name": "mem-026",
+    "goal": "Analyze my work communication load. Read through TeamChat channels (#eng-mobile, #launch-war-room, #product, #leadership) to see which projects I'm most active in. Check Mail for work email volume and CloudDocs for documents I've been working on. Create a note in Notes titled 'Work Load Analysis' ranking my projects by time investment. Let me know my top projects by activity level and confirm the note was created.",
+    "apps": [
+      "teamchat",
+      "mail",
+      "clouddocs",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Read TeamChat channels (#eng-mobile, #launch-war-room, #product, #leadership) for project activity"
+      },
+      {
+        "criterion": "Check Mail for work email volume and project-related threads"
+      },
+      {
+        "criterion": "Check CloudDocs for documents being actively worked on"
+      },
+      {
+        "criterion": "Analyze and rank projects by time investment and activity level"
+      },
+      {
+        "criterion": "Create a note in Notes titled 'Work Load Analysis' with project rankings"
+      },
+      {
+        "criterion": "Report top projects by activity level and confirm note created"
+      }
+    ],
+    "memory_type": "work_context"
+  },
+  {
+    "name": "mem-027",
+    "goal": "Do a health and fitness deep dive. Check TrailBlaze for my running frequency, distances, and PRs (5K, 10K). Review CalTrack for nutrition patterns, weight trend (182.2 vs 176 goal), and calorie compliance. Read my 'Workout Plan' in Notes and project when I'll reach my goal weight at my current rate. Update my Notes workout plan with adjusted targets. Let me know my PRs, weight trend, calorie compliance rate, projected goal date, and confirm the note was updated.",
+    "apps": [
+      "trailblaze",
+      "caltrack",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check TrailBlaze for running frequency, distances, and PRs"
+      },
+      {
+        "criterion": "Review CalTrack for nutrition patterns and calorie compliance"
+      },
+      {
+        "criterion": "Review CalTrack for weight trend (182.2 vs 176 goal)"
+      },
+      {
+        "criterion": "Read the 'Workout Plan' note in Notes"
+      },
+      {
+        "criterion": "Calculate projected goal weight achievement date based on current rate"
+      },
+      {
+        "criterion": "Update the Notes workout plan with adjusted targets"
+      },
+      {
+        "criterion": "Report PRs, weight trend, calorie compliance rate, projected goal date, and confirm note updated"
+      }
+    ],
+    "memory_type": "health_analysis"
+  },
+  {
+    "name": "mem-028",
+    "goal": "Build a complete monthly budget from scratch from this month. Check MyBank for all account balances and transaction categories, SplitPay for peer-to-peer payment patterns, MegaMart and FreshCart for shopping totals, QuickBite for food delivery costs, and CityRide for transportation spending. Categorize and total everything, then update the complete budget breakdown as new rows in a new month in the 'Spending Dashboard' in CloudSheets and update the average spending section. Cross-check against the 'League Operations Master' spreadsheet in CloudSheets for any work-reimbursable items. Let me know all categorized totals and confirm the Spending Dashboard was updated.",
+    "apps": [
+      "mybank",
+      "splitpay",
+      "megamart",
+      "freshcart",
+      "quickbite",
+      "cityride",
+      "cloudsheets"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check MyBank for all account balances (checking, savings, credit card) for this month"
+      },
+      {
+        "criterion": "Review MyBank transaction categories for this month's spending"
+      },
+      {
+        "criterion": "Check SplitPay for peer-to-peer payment patterns this month"
+      },
+      {
+        "criterion": "Check MegaMart order history for this month's shopping totals"
+      },
+      {
+        "criterion": "Check FreshCart order history for this month's grocery totals"
+      },
+      {
+        "criterion": "Check QuickBite order history for this month's food delivery costs"
+      },
+      {
+        "criterion": "Check CityRide for this month's transportation spending"
+      },
+      {
+        "criterion": "Categorize all spending into budget categories and calculate totals"
+      },
+      {
+        "criterion": "Enter the budget breakdown as new rows for the current month in 'Spending Dashboard' in CloudSheets"
+      },
+      {
+        "criterion": "Update the average spending section in the Spending Dashboard"
+      },
+      {
+        "criterion": "Cross-check against the 'League Operations Master' for work-reimbursable items"
+      },
+      {
+        "criterion": "Report all categorized totals and confirm the Spending Dashboard was updated"
+      }
+    ],
+    "memory_type": "financial_overview"
+  },
+  {
+    "name": "mem-029",
+    "goal": "Build a dining profile for me. Analyze TasteRank restaurant lists and feed for cuisine preferences, DineSpot for past reservation patterns, QuickBite order history for delivery habits, and FreshCart past orders for grocery patterns. Create a 'Dining Profile' note in Notes describing my food preferences, favorite cuisines, and dietary patterns. Let me know my top cuisines, favorite restaurants, and dietary patterns identified.",
+    "apps": [
+      "tasterank",
+      "dinespot",
+      "quickbite",
+      "freshcart",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check TasteRank restaurant lists and feed for cuisine preferences and favorite restaurants"
+      },
+      {
+        "criterion": "Check DineSpot for past reservation history and patterns"
+      },
+      {
+        "criterion": "Check QuickBite order history for delivery habits and frequently ordered items"
+      },
+      {
+        "criterion": "Check FreshCart past orders for grocery purchasing patterns and food preferences"
+      },
+      {
+        "criterion": "Synthesize findings to identify top cuisines, dietary patterns, and food preferences"
+      },
+      {
+        "criterion": "Create a 'Dining Profile' note in Notes with cuisine preferences, favorite restaurants, and dietary patterns"
+      },
+      {
+        "criterion": "Report top cuisines, favorite restaurants, and dietary patterns to the user"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ],
+    "memory_type": "preference_aggregation"
+  },
+  {
+    "name": "mem-030",
+    "goal": "Figure out my typical weekend routine. Check Clock for weekend vs weekday alarm differences, TrailBlaze for weekend activity patterns, QuickBite for weekend orders, Mail for weekend CityRide receipts, and QuickChat for weekend group chat activity (Saturday Long Run, Brunch Crew). Summarize it all in a new Notes note titled 'My Weekend Routine'. Let me know the typical weekend schedule and confirm the note was created.",
+    "apps": [
+      "clock",
+      "trailblaze",
+      "quickbite",
+      "mail",
+      "quickchat",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check Clock app for weekend alarm times versus weekday alarm differences"
+      },
+      {
+        "criterion": "Check TrailBlaze for weekend activity patterns"
+      },
+      {
+        "criterion": "Check QuickBite for weekend food delivery orders"
+      },
+      {
+        "criterion": "Check Mail for weekend CityRide ride receipts"
+      },
+      {
+        "criterion": "Check QuickChat for weekend group chat activity"
+      },
+      {
+        "criterion": "Synthesize all data into a coherent weekend routine timeline"
+      },
+      {
+        "criterion": "Create a 'My Weekend Routine' note in Notes summarizing the typical weekend schedule"
+      },
+      {
+        "criterion": "Report the typical weekend schedule to the user"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ],
+    "memory_type": "routine_discovery"
+  },
+  {
+    "name": "mem-031",
+    "goal": "Create a master calendar of all my upcoming events. Check Notes for upcoming dates and events, SkyTrip for upcoming flights (SFO to JFK, SFO to SEA, SFO to ORD, SFO to HNL), StayFinder for trip bookings (Catalina (dates shown in StayFinder)), TicketBox for ticketed events, and Mail for event confirmations. Create a comprehensive CloudDocs document titled 'Master Calendar' and set relevant alarms in Clock. Let me know all events in chronological order and confirm the document and alarms were created.",
+    "apps": [
+      "notes",
+      "skytrip",
+      "stayfinder",
+      "ticketbox",
+      "mail",
+      "clouddocs",
+      "clock"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check Notes for upcoming dates"
+      },
+      {
+        "criterion": "Check SkyTrip for upcoming flights (SFO to JFK, SFO to SEA, SFO to ORD, SFO to HNL)"
+      },
+      {
+        "criterion": "Check StayFinder for trip bookings"
+      },
+      {
+        "criterion": "Check TicketBox for upcoming ticketed events"
+      },
+      {
+        "criterion": "Check Mail for event confirmations and booking emails"
+      },
+      {
+        "criterion": "Compile all events into chronological order"
+      },
+      {
+        "criterion": "Create a 'Master Calendar' document in CloudDocs with all events"
+      },
+      {
+        "criterion": "Set Clock alarms for at least 3 of the upcoming events the day before each event"
+      },
+      {
+        "criterion": "Report all events in chronological order to the user"
+      },
+      {
+        "criterion": "Confirm both the document and alarms were created"
+      }
+    ],
+    "memory_type": "planning_awareness"
+  },
+  {
+    "name": "mem-032",
+    "goal": "Figure out which friends share specific interests with me. Check QuickChat for conversation topics with different contacts, SplitPay splits for activity-based spending (dinners, concerts, games), TrailBlaze for club members and who gives me kudos, and TasteRank feed for friends' restaurant activity. Categorize them into 'running friends', 'foodie friends', and 'event friends'. Then message my closest running friend about the next Saturday run. Let me know the categorized friend groups and confirm the message was sent.",
+    "apps": [
+      "quickchat",
+      "splitpay",
+      "trailblaze",
+      "tasterank"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check QuickChat conversations for topics discussed with different contacts"
+      },
+      {
+        "criterion": "Check SplitPay for activity-based splits (dinners, concerts, games) to identify shared interests"
+      },
+      {
+        "criterion": "Check TrailBlaze for club members and kudos to identify running friends"
+      },
+      {
+        "criterion": "Check TasteRank feed for friends' restaurant activity to identify foodie friends"
+      },
+      {
+        "criterion": "Categorize friends into 'running friends', 'foodie friends', and 'event friends'"
+      },
+      {
+        "criterion": "Identify the closest running friend from the analysis"
+      },
+      {
+        "criterion": "Message the closest running friend about the next Saturday run"
+      },
+      {
+        "criterion": "Report the categorized friend groups to the user"
+      },
+      {
+        "criterion": "Confirm the message was sent"
+      }
+    ],
+    "memory_type": "relationship_mapping"
+  },
+  {
+    "name": "mem-033",
+    "goal": "Audit all my recurring costs. Check Mail for subscription confirmations and renewal notices, MyBank credit card transactions for recurring monthly charges, and MegaMart order history for Subscribe & Save items. Total all monthly recurring costs and add a 'Subscriptions' row to the Subscription Audit in CloudSheets. Create a 'Subscription Audit' note in Notes listing each subscription, its cost, and whether to keep or cancel. Let me know each subscription found with its monthly cost and the total recurring monthly cost.",
+    "apps": [
+      "mail",
+      "mybank",
+      "megamart",
+      "notes",
+      "clouddocs",
+      "cloudsheets"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check Mail for subscription confirmations and renewal notices"
+      },
+      {
+        "criterion": "Check MyBank credit card transactions for recurring monthly charges"
+      },
+      {
+        "criterion": "Check MegaMart order history for Subscribe & Save items"
+      },
+      {
+        "criterion": "Identify and list each individual subscription with its monthly cost"
+      },
+      {
+        "criterion": "Calculate total monthly recurring cost across all subscriptions"
+      },
+      {
+        "criterion": "Add a 'Subscriptions' row to the Subscription Audit in CloudSheets"
+      },
+      {
+        "criterion": "Create a 'Subscription Audit' note in Notes listing each subscription, cost, and keep/cancel recommendation"
+      },
+      {
+        "criterion": "Report each subscription found with monthly cost and total recurring monthly cost to the user"
+      },
+      {
+        "criterion": "Confirm both the CloudSheets update and Notes note were created"
+      }
+    ],
+    "memory_type": "financial_pattern"
+  },
+  {
+    "name": "mem-034",
+    "goal": "Reconstruct the expenses from my most recent business trip. Check SkyTrip past trips for the flight details and dates, search Mail for CityRide ride receipts and hotel confirmations, and check MyBank credit card for charges during those travel dates. Total all trip expenses by category (flights, ground transport, food, hotel) and create a detailed expense report as a new CloudDocs document. Let me know the trip dates, categorized expenses, total cost, and confirm the document was created.",
+    "apps": [
+      "skytrip",
+      "cityride",
+      "mybank",
+      "mail",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check SkyTrip past trips to identify the most recent business trip with flight details and dates"
+      },
+      {
+        "criterion": "Search Mail for CityRide ride receipts during the trip dates"
+      },
+      {
+        "criterion": "Search Mail for hotel confirmations during the trip dates"
+      },
+      {
+        "criterion": "Check MyBank credit card for charges during the travel dates"
+      },
+      {
+        "criterion": "Categorize all expenses by type (flights, ground transport, food, hotel)"
+      },
+      {
+        "criterion": "Calculate total trip expenses"
+      },
+      {
+        "criterion": "Create a detailed expense report as a new CloudDocs document"
+      },
+      {
+        "criterion": "Report trip dates, categorized expenses, and total cost to the user"
+      },
+      {
+        "criterion": "Confirm the document was created"
+      }
+    ],
+    "memory_type": "expense_reconstruction"
+  },
+  {
+    "name": "mem-035",
+    "goal": "Analyze my entertainment spending across all categories. Check TicketBox for ticket purchase history and costs, ScoreZone for how many teams and sports I follow, MegaMart orders for media and gaming purchases, and cross-reference entertainment charges in MyBank credit card. Compute my total monthly entertainment budget and update the Spending Dashboard in CloudSheets. Let me know my entertainment spending by category and the monthly total.",
+    "apps": [
+      "ticketbox",
+      "scorezone",
+      "megamart",
+      "mybank",
+      "clouddocs",
+      "cloudsheets"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check TicketBox for ticket purchase history and costs"
+      },
+      {
+        "criterion": "Check ScoreZone for teams and sports followed"
+      },
+      {
+        "criterion": "Check MegaMart orders for media and gaming purchases"
+      },
+      {
+        "criterion": "Cross-reference entertainment charges in MyBank credit card"
+      },
+      {
+        "criterion": "Categorize entertainment spending (live events, sports, media/gaming, etc.)"
+      },
+      {
+        "criterion": "Compute total monthly entertainment budget"
+      },
+      {
+        "criterion": "Update the Spending Dashboard in CloudSheets with entertainment spending data"
+      },
+      {
+        "criterion": "Report entertainment spending by category and monthly total to the user"
+      },
+      {
+        "criterion": "Confirm the Spending Dashboard was updated"
+      }
+    ],
+    "memory_type": "spending_analysis"
+  },
+  {
+    "name": "mem-036",
+    "goal": "Help me understand my exercise-nutrition connection. Check TrailBlaze for training days and intensity levels, CalTrack meal logs for what I eat on training vs rest days, and FreshCart orders for sports nutrition purchases. Compare training-day calories vs rest-day calories and determine my average calorie surplus. Create a 'Training Nutrition Plan' note in Notes and message the 'Saturday Long Run' group about my nutrition findings. Let me know the calorie comparison and surplus/deficit, and confirm the note and message were created.",
+    "apps": [
+      "trailblaze",
+      "caltrack",
+      "freshcart",
+      "notes",
+      "quickchat"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check TrailBlaze for training days and intensity levels"
+      },
+      {
+        "criterion": "Check CalTrack meal logs to compare what is eaten on training days vs rest days"
+      },
+      {
+        "criterion": "Check FreshCart orders for sports nutrition purchases"
+      },
+      {
+        "criterion": "Compare training-day calories vs rest-day calories"
+      },
+      {
+        "criterion": "Calculate average calorie surplus or deficit"
+      },
+      {
+        "criterion": "Create a 'Training Nutrition Plan' note in Notes with findings and adjusted nutrition targets"
+      },
+      {
+        "criterion": "Message the 'Saturday Long Run' group in QuickChat about nutrition findings"
+      },
+      {
+        "criterion": "Report calorie comparison, surplus/deficit analysis to the user"
+      },
+      {
+        "criterion": "Confirm both the note and message were created"
+      }
+    ],
+    "memory_type": "health_analysis"
+  },
+  {
+    "name": "mem-037",
+    "goal": "Reconstruct my social calendar for the past month. Check QuickChat group chats for planned events, SplitPay transactions for splits that indicate social activities (dinners, tickets, drinks), DineSpot for past reservations, QuickBite for group-size orders, and TicketBox past tickets for events attended. Create a 'Social Calendar' document in CloudDocs mapping out when, where, and with whom I socialized. Let me know the social events identified and confirm the document was created.",
+    "apps": [
+      "quickchat",
+      "splitpay",
+      "dinespot",
+      "quickbite",
+      "ticketbox",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check QuickChat group chats for planned social events"
+      },
+      {
+        "criterion": "Check SplitPay transactions for splits indicating social activities (dinners, tickets, drinks)"
+      },
+      {
+        "criterion": "Check DineSpot for past reservations"
+      },
+      {
+        "criterion": "Check QuickBite for group-size orders"
+      },
+      {
+        "criterion": "Check TicketBox past tickets for events attended"
+      },
+      {
+        "criterion": "Reconstruct a timeline of social events with dates, locations, and attendees"
+      },
+      {
+        "criterion": "Create a 'Social Calendar' document in CloudDocs mapping out the social timeline"
+      },
+      {
+        "criterion": "Report the social events identified to the user"
+      },
+      {
+        "criterion": "Confirm the document was created"
+      }
+    ],
+    "memory_type": "social_pattern"
+  },
+  {
+    "name": "mem-039",
+    "goal": "Help me plan every detail of my Catalina trip (dates shown in StayFinder). Check StayFinder for the listing details (5 beds, 3 baths, $327/night) and SkyTrip past trips for my travel preferences. Browse TasteRank and DineSpot for restaurant recommendations near the coast, and check Weather for Los Angeles forecasts. Budget the full trip (lodging + food + activities) and update the Travel Budget in CloudSheets. Check the 'Device Testing Tasks' spreadsheet in CloudSheets to note any work deadlines during my trip. Create a detailed day-by-day itinerary in Notes and message Maya Patel in QuickChat about the trip plans. Let me know the full trip budget breakdown, restaurant picks, weather forecast, and confirm the itinerary note was created.",
+    "apps": [
+      "stayfinder",
+      "skytrip",
+      "tasterank",
+      "dinespot",
+      "weather",
+      "cloudsheets",
+      "notes",
+      "quickchat",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check StayFinder for Catalina listing details"
+      },
+      {
+        "criterion": "Check SkyTrip past trips for travel preferences"
+      },
+      {
+        "criterion": "Browse TasteRank for restaurant recommendations near the coast/Catalina area"
+      },
+      {
+        "criterion": "Check DineSpot for restaurant recommendations near the coast/Catalina area"
+      },
+      {
+        "criterion": "Check Weather for Los Angeles forecasts during the trip"
+      },
+      {
+        "criterion": "Calculate full trip budget (lodging + food + activities)"
+      },
+      {
+        "criterion": "Update Travel Budget in CloudSheets with the trip budget"
+      },
+      {
+        "criterion": "Check CloudSheets 'Device Testing Tasks' spreadsheet for work deadlines during the trip"
+      },
+      {
+        "criterion": "Create a detailed day-by-day itinerary in Notes"
+      },
+      {
+        "criterion": "Message Maya Patel in QuickChat about the trip plans"
+      },
+      {
+        "criterion": "Report full trip budget breakdown, restaurant picks, and weather forecast to the user"
+      },
+      {
+        "criterion": "Confirm the itinerary note was created"
+      }
+    ],
+    "memory_type": "trip_planning"
+  },
+  {
+    "name": "mem-040",
+    "goal": "Build a 'Life Dashboard' summarizing key metrics across all my apps. Check MyBank for financial health (net worth from checking + savings - credit), TrailBlaze and CalTrack for health metrics (weekly miles, weight trend, calorie compliance), TeamChat and Mail for work load indicators, QuickChat and SplitPay for social activity frequency, and ScoreZone for upcoming games I'm tracking. Create a comprehensive CloudDocs document titled 'Life Dashboard' with sections for Finance, Health, Work, Social, and Entertainment. Let me know the key metrics for each category and confirm the document was created.",
+    "apps": [
+      "mybank",
+      "trailblaze",
+      "caltrack",
+      "teamchat",
+      "mail",
+      "quickchat",
+      "splitpay",
+      "scorezone",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check MyBank for financial health (net worth from checking + savings - credit)"
+      },
+      {
+        "criterion": "Check TrailBlaze for health metrics (weekly miles, activity data)"
+      },
+      {
+        "criterion": "Check CalTrack for health metrics (weight trend, calorie compliance)"
+      },
+      {
+        "criterion": "Check TeamChat for work load indicators across channels"
+      },
+      {
+        "criterion": "Check Mail for work load indicators (email volume, topics)"
+      },
+      {
+        "criterion": "Check QuickChat for social activity frequency"
+      },
+      {
+        "criterion": "Check SplitPay for social activity frequency and patterns"
+      },
+      {
+        "criterion": "Check ScoreZone for upcoming games being tracked"
+      },
+      {
+        "criterion": "Create a comprehensive 'Life Dashboard' document in CloudDocs with sections for Finance, Health, Work, Social, and Entertainment"
+      },
+      {
+        "criterion": "Report key metrics for each category to the user"
+      },
+      {
+        "criterion": "Confirm the document was created"
+      }
+    ],
+    "memory_type": "life_overview"
+  },
+  {
+    "name": "mem-041",
+    "goal": "Check my Notes for the 'Movies & Shows to Watch' list and any other entertainment mentions across my notes. Search QuickChat for conversations with Grace Lin about book and movie recommendations. Based on what you find, identify my top entertainment interests and create an 'Entertainment Preferences' note in Notes. Let me know the entertainment items found and preferences identified.",
+    "apps": [
+      "notes",
+      "quickchat"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check Notes for the 'Movies & Shows to Watch' list"
+      },
+      {
+        "criterion": "Search Notes for any other entertainment mentions across all notes"
+      },
+      {
+        "criterion": "Search QuickChat for conversations with Grace Lin about book and movie recommendations"
+      },
+      {
+        "criterion": "Synthesize findings to identify top entertainment interests and preferences"
+      },
+      {
+        "criterion": "Create an 'Entertainment Preferences' note in Notes summarizing the entertainment profile"
+      },
+      {
+        "criterion": "Report entertainment items found and preferences identified to the user"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ],
+    "memory_type": "preference_discovery"
+  },
+  {
+    "name": "mem-042",
+    "goal": "Do a complete CloudDrive Workspace file audit. Browse every folder in CloudDrive (Product Strategy, Shared Assets, Archive), check each document in CloudDocs for last-edited status and content relevance, review all spreadsheets in CloudSheets, and check all presentations in CloudSlides for draft vs final status. Star critical files in CloudDrive and figure out which files are stale and which need immediate attention. Give me a summary of files by status (current, stale, needs attention), and create a summary in a CloudDocs file.",
+    "apps": [
+      "clouddrive",
+      "clouddocs",
+      "cloudsheets",
+      "cloudslides"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Open CloudDrive and browse the Product Strategy folder"
+      },
+      {
+        "criterion": "Browse the Shared Assets folder in CloudDrive"
+      },
+      {
+        "criterion": "Browse the Archive folder in CloudDrive"
+      },
+      {
+        "criterion": "Check each document in CloudDocs for last-edited status and content relevance"
+      },
+      {
+        "criterion": "Review all spreadsheets in CloudSheets"
+      },
+      {
+        "criterion": "Check all presentations in CloudSlides for draft vs final status"
+      },
+      {
+        "criterion": "Star critical files in CloudDrive"
+      },
+      {
+        "criterion": "Identify which files are stale and which need immediate attention"
+      },
+      {
+        "criterion": "Create a summary document in CloudDocs with files categorized by status (current, stale, needs attention)"
+      },
+      {
+        "criterion": "Report the complete audit summary to the user"
+      }
+    ],
+    "memory_type": "work_context"
+  },
+  {
+    "name": "mem-043",
+    "goal": "Build a travel-entertainment profile for me. Check StayFinder trip history and upcoming bookings to see what kinds of destinations I prefer, ScoreZone favorites for teams that play in cities I travel to, and TicketBox for events at my travel destinations. Figure out how to combine travel with entertainment interests. Let me know my destination preferences and matching entertainment opportunities.",
+    "apps": [
+      "stayfinder",
+      "scorezone",
+      "ticketbox"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check StayFinder trip history and upcoming bookings to identify destination preferences"
+      },
+      {
+        "criterion": "Check ScoreZone favorites for teams that play in cities the user travels to"
+      },
+      {
+        "criterion": "Check TicketBox for events at travel destinations"
+      },
+      {
+        "criterion": "Correlate travel destinations with entertainment interests to find overlap"
+      },
+      {
+        "criterion": "Report destination preferences and matching entertainment opportunities to the user"
+      },
+      {
+        "criterion": "Provide actionable recommendations for combining travel with entertainment"
+      }
+    ],
+    "memory_type": "preference_aggregation"
+  },
+  {
+    "name": "mem-044",
+    "goal": "Reconstruct my daily time allocation. Check Clock alarm times for my wake-up pattern, TrailBlaze for exercise time and duration, Mail for CityRide receipts to estimate commute timing, TeamChat channels for my work activity window, and CalTrack meal logs for my eating patterns. Map out my typical day hour by hour and create a 'Daily Schedule' note in Notes. Let me know the hour-by-hour schedule and confirm the note was created",
+    "apps": [
+      "clock",
+      "trailblaze",
+      "mail",
+      "teamchat",
+      "caltrack",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check Clock alarm times for wake-up patterns"
+      },
+      {
+        "criterion": "Check TrailBlaze for exercise time and duration"
+      },
+      {
+        "criterion": "Check Mail for CityRide receipts to estimate commute timing"
+      },
+      {
+        "criterion": "Check TeamChat channels for work activity window"
+      },
+      {
+        "criterion": "Check CalTrack for eating patterns (types of meals logged, not timing)"
+      },
+      {
+        "criterion": "Synthesize all data into an hour-by-hour typical daily schedule"
+      },
+      {
+        "criterion": "Create a 'Daily Schedule' note in Notes with the hour-by-hour breakdown"
+      },
+      {
+        "criterion": "Report the hour-by-hour schedule to the user"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ],
+    "memory_type": "routine_reconstruction"
+  },
+  {
+    "name": "mem-045",
+    "goal": "Audit my presentation portfolio by recency and cross-references. Browse all presentations in CloudSlides and note each one's last-modified date and slide count. Check CloudDrive for how they're organized into folders. Read TeamChat #eng-mobile and #launch-war-room for any mentions of specific presentations (requests, feedback, launch deadlines). Review related documents in CloudDocs. Group each presentation into one of three buckets: recently-worked (modified in the last 2 weeks), stale (older than 2 weeks with no recent chat/doc references), and actively-discussed (referenced in TeamChat or CloudDocs regardless of age). Report each presentation with its bucket and the evidence (last-modified date, slide count, any referencing channel/doc).",
+    "apps": [
+      "cloudslides",
+      "clouddrive",
+      "teamchat",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Browse all presentations in CloudSlides and capture each one's last-modified date and slide count"
+      },
+      {
+        "criterion": "Check CloudDrive folder organization for presentations"
+      },
+      {
+        "criterion": "Read TeamChat #eng-mobile and #launch-war-room for mentions of specific presentations"
+      },
+      {
+        "criterion": "Review related documents in CloudDocs for presentation references"
+      },
+      {
+        "criterion": "Bucket each presentation into recently-worked / stale / actively-discussed using the \u226414-day modification rule and cross-reference evidence"
+      },
+      {
+        "criterion": "Report each presentation with its bucket and supporting evidence (modified date, slide count, referencing channel/doc)"
+      }
+    ],
+    "memory_type": "pattern_discovery"
+  },
+  {
+    "name": "mem-046",
+    "goal": "Reconstruct my commuting and transportation habits. Check CityRide saved routes and route templates for my most common routes, search Mail for CityRide ride receipts to find trip frequency, costs, and destinations, and cross-reference with MyBank credit card transactions for CityRide charges. Calculate total monthly transportation spending, average weekly commute cost, and annual projection. Create a 'Transportation Audit' document in CloudDocs with findings and recommendations for cost savings. Let me know the most common routes, monthly spending, weekly average, annual projection, and confirm the document was created.",
+    "apps": [
+      "cityride",
+      "mail",
+      "mybank",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check CityRide saved routes and route templates for most common routes"
+      },
+      {
+        "criterion": "Search Mail for CityRide ride receipts to find trip frequency, costs, and destinations"
+      },
+      {
+        "criterion": "Cross-reference MyBank credit card transactions for CityRide charges"
+      },
+      {
+        "criterion": "Identify most common routes"
+      },
+      {
+        "criterion": "Calculate total monthly transportation spending"
+      },
+      {
+        "criterion": "Calculate average weekly commute cost"
+      },
+      {
+        "criterion": "Calculate annual projection of transportation costs"
+      },
+      {
+        "criterion": "Create a 'Transportation Audit' document in CloudDocs with findings and cost-saving recommendations"
+      },
+      {
+        "criterion": "Report most common routes, monthly spending, weekly average, and annual projection to the user"
+      },
+      {
+        "criterion": "Confirm the document was created"
+      }
+    ],
+    "memory_type": "spending_pattern"
+  },
+  {
+    "name": "mem-047",
+    "goal": "Map out my complete weekly spending footprint. Check MyBank for categorized transaction patterns, SplitPay for peer-to-peer payment frequency and amounts, QuickBite order history for food delivery habits (frequency, average order, favorite restaurants), MegaMart for online shopping categories, and FreshCart for grocery patterns. Compute weekly averages by category (food delivery, groceries, online shopping, peer payments) and create a 'Spending Habits' note in Notes with the weekly breakdown and categories where I could cut back. Let me know the weekly averages by category and confirm the note was created.",
+    "apps": [
+      "mybank",
+      "splitpay",
+      "quickbite",
+      "megamart",
+      "freshcart",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check MyBank for categorized transaction patterns"
+      },
+      {
+        "criterion": "Check SplitPay for peer-to-peer payment frequency and amounts"
+      },
+      {
+        "criterion": "Check QuickBite order history for food delivery habits (frequency, average order, favorite restaurants)"
+      },
+      {
+        "criterion": "Check MegaMart for online shopping categories and spending"
+      },
+      {
+        "criterion": "Check FreshCart for grocery purchasing patterns"
+      },
+      {
+        "criterion": "Compute weekly averages by category (food delivery, groceries, online shopping, peer payments)"
+      },
+      {
+        "criterion": "Identify categories where the user could cut back on spending"
+      },
+      {
+        "criterion": "Create a 'Spending Habits' note in Notes with weekly breakdown and recommendations"
+      },
+      {
+        "criterion": "Report weekly averages by category to the user"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ],
+    "memory_type": "financial_pattern"
+  },
+  {
+    "name": "mem-048",
+    "goal": "Map my professional network and communication style. Read through TeamChat channels (#product, #launch-war-room, #announcements) to identify which colleagues I interact with most and on which projects. Check Mail to see who sends me the most work emails and what topics dominate. Review CloudDocs to see which documents I've been working on and who they're shared with. Check my lockedin messages for contacts I work with, and cross-reference with QuickChat to find work contacts who are also personal friends. Create a 'Professional Network Map' note in Notes categorizing contacts by project, communication frequency, and relationship type. Let me know my top colleagues by interaction frequency and confirm the note was created.",
+    "apps": [
+      "teamchat",
+      "mail",
+      "clouddocs",
+      "quickchat",
+      "notes",
+      "lockedin"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Read through TeamChat channels (#product, #launch-war-room, #announcements) to identify most-interacted colleagues and projects"
+      },
+      {
+        "criterion": "Check Mail to identify who sends the most work emails and dominant topics"
+      },
+      {
+        "criterion": "Review CloudDocs for documents being worked on and who they're shared with"
+      },
+      {
+        "criterion": "Check QuickChat for work contacts who are also personal friends"
+      },
+      {
+        "criterion": "Check LockedIn messages for professional contacts"
+      },
+      {
+        "criterion": "Categorize contacts by project, communication frequency, and relationship type"
+      },
+      {
+        "criterion": "Create a 'Professional Network Map' note in Notes with categorized contacts"
+      },
+      {
+        "criterion": "Report top colleagues by interaction frequency to the user"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ],
+    "memory_type": "relationship_mapping"
+  },
+  {
+    "name": "mem-049",
+    "goal": "Figure out how my fitness and social life overlap. Check TrailBlaze for running club membership and who gives me kudos, search QuickChat for exercise-related group chats (running, workout, or fitness groups), check my lockedin messages for connections I exercise with, and review SplitPay for fitness-related splits (race entries, gym fees, sports equipment). Check Weather for typical Saturday morning conditions in SF to understand my outdoor running patterns. Create a 'Fitness Social Profile' note in Notes mapping which friends I exercise with, how often, and what activities we do together. Let me know my fitness-social connections and confirm the note was created.",
+    "apps": [
+      "trailblaze",
+      "quickchat",
+      "splitpay",
+      "weather",
+      "notes",
+      "lockedin"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check TrailBlaze for running club membership and kudos givers"
+      },
+      {
+        "criterion": "Search QuickChat for exercise-related group chats (running, workout, or fitness groups)"
+      },
+      {
+        "criterion": "Check LockedIn messages for connections the user exercises with"
+      },
+      {
+        "criterion": "Review SplitPay for fitness-related splits (race entries, gym fees, sports equipment)"
+      },
+      {
+        "criterion": "Check Weather for typical Saturday morning conditions in SF"
+      },
+      {
+        "criterion": "Synthesize fitness-social connections identifying which friends exercise together, how often, and what activities"
+      },
+      {
+        "criterion": "Create a 'Fitness Social Profile' note in Notes mapping fitness-social connections"
+      },
+      {
+        "criterion": "Report fitness-social connections to the user"
+      },
+      {
+        "criterion": "Confirm the note was created"
+      }
+    ],
+    "memory_type": "social_pattern"
+  },
+  {
+    "name": "mem-050",
+    "goal": "Build a gift-giving and social obligations tracker. Check Notes for birthday notes and related gift ideas, search QuickChat for birthday mentions, event invitations, or RSVP requests from friends and family, review MegaMart order history for past gift purchases, and check Mail for event invitations and gift order confirmations. Estimate upcoming gift and event costs for the next 3 months. Create a 'Social Obligations Calendar' document in CloudDocs with dates, gift budgets, and RSVP status for each upcoming event. Let me know all upcoming obligations with dates and estimated costs, and confirm the document was created.",
+    "apps": [
+      "notes",
+      "quickchat",
+      "megamart",
+      "mail",
+      "clouddocs"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Check Notes for birthday notes or event dates"
+      },
+      {
+        "criterion": "Search QuickChat for birthday mentions, event invitations, or RSVP requests"
+      },
+      {
+        "criterion": "Review MegaMart order history for past gift purchases"
+      },
+      {
+        "criterion": "Check Mail for event invitations and gift order confirmations"
+      },
+      {
+        "criterion": "Estimate upcoming gift and event costs for the next 3 months"
+      },
+      {
+        "criterion": "Compile all upcoming obligations with dates and budgets"
+      },
+      {
+        "criterion": "Create a 'Social Obligations Calendar' document in CloudDocs with dates, gift budgets, and RSVP status"
+      },
+      {
+        "criterion": "Report all upcoming obligations with dates and estimated costs to the user"
+      },
+      {
+        "criterion": "Confirm the document was created"
+      }
+    ],
+    "memory_type": "planning_awareness"
+  },
+  {
+    "name": "mem-051",
+    "goal": "I'm actively exploring new roles. Synthesize my job-search signal: check LockedIn saved jobs, any recruiter InMails (Rachel Torres / Netflix), my LockedIn profile (Staff Automation Engineer, Python/Go/Kubernetes), and the recruiter InMail from Rachel Torres (Netflix). Check Mail for any recruiter emails or job-alert digests. Rank the top 3 role opportunities that best match my background (Platform/DevOps/SRE leaning, Staff-level, hybrid or remote preferred). Create a 'Top Opportunities' note in Notes with each: company, role title, comp range, location, why it fits, and next step. Report my top 3 and confirm the note was saved.",
+    "apps": [
+      "lockedin",
+      "mail",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn and review saved jobs list"
+      },
+      {
+        "criterion": "Read InMail from Rachel Torres about the Netflix Platform Engineering Lead role"
+      },
+      {
+        "criterion": "Review own LockedIn profile: title, skills, experience"
+      },
+      {
+        "criterion": "Review LockedIn messages for recruiter InMail (Rachel Torres) or role-related discussions"
+      },
+      {
+        "criterion": "Open Mail and search for recruiter emails or job-alert digests"
+      },
+      {
+        "criterion": "Compare opportunities on seniority, comp range, location, and skill match"
+      },
+      {
+        "criterion": "Rank the top 3 opportunities by overall fit"
+      },
+      {
+        "criterion": "Open Notes and create a 'Top Opportunities' note"
+      },
+      {
+        "criterion": "Include for each opportunity: company, role, comp range, location, fit rationale, next step"
+      },
+      {
+        "criterion": "Report the top 3 opportunities"
+      },
+      {
+        "criterion": "Confirm the Notes note was created"
+      }
+    ]
+  },
+  {
+    "name": "mem-052",
+    "goal": "Audit my professional brand and skill signal. Review my LockedIn profile (headline, skills, experience at Meridian Technologies), feed engagement patterns on technical topics, and my conversations with senior engineers (Petra Johansson at Luminos AI, Wyatt Lin at CloudScale) about platform/scaling topics. Check my notifications for profile-view and reaction signals. Cross-reference with my TeamChat activity (#eng-mobile / #product) and technical documents in my CloudDocs workspace to identify expertise themes. Identify my top 3 expertise signals and 2 growth opportunities. Create a 'Professional Brand Summary' note in Notes with current positioning and 2-3 specific improvement suggestions. Report the top 3 expertise areas, 2 growth gaps, and confirm the note was saved.",
+    "apps": [
+      "lockedin",
+      "teamchat",
+      "clouddocs",
+      "notes"
+    ],
+    "category": "memory",
+    "difficulty": "hard",
+    "rubric": [
+      {
+        "criterion": "Open LockedIn and review own profile (headline, skills, experience)"
+      },
+      {
+        "criterion": "Review LockedIn feed engagement on technical topics"
+      },
+      {
+        "criterion": "Review LockedIn conversations with Petra Johansson (Scaling Platform Engineering panel) and Wyatt Lin (Jenkins\u2192GitHub Actions migration) on platform topics"
+      },
+      {
+        "criterion": "Check LockedIn notifications for profile-view counts and reaction signals"
+      },
+      {
+        "criterion": "Check TeamChat #eng-mobile or #product activity for technical work signals"
+      },
+      {
+        "criterion": "Check CloudDocs for technical documents in the workspace and their topics (e.g., Q2 Roadmap, Feature Spec Draft, Launch Retrospective)"
+      },
+      {
+        "criterion": "Identify top 3 expertise signals across the synthesized sources"
+      },
+      {
+        "criterion": "Identify 2 growth opportunities or skill gaps"
+      },
+      {
+        "criterion": "Open Notes and create 'Professional Brand Summary' note"
+      },
+      {
+        "criterion": "Include current positioning + 2-3 specific improvement suggestions in the note"
+      },
+      {
+        "criterion": "Report top 3 expertise areas and 2 growth gaps"
+      },
+      {
+        "criterion": "Confirm the note was saved"
+      }
+    ]
+  }
+]

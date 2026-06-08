@@ -1,0 +1,95 @@
+import SwiftUI
+import UniformTypeIdentifiers
+
+struct MoreView: View {
+    @ObservedObject var store: WorkspaceStore
+    @ObservedObject var coordinator: SpreadsheetActionCoordinator
+
+    @State private var showImporter = false
+
+    private var trashedFiles: [WorkspaceFile] {
+        store.currentData.files
+            .filter { $0.fileType == .spreadsheet && $0.trashed }
+            .sorted { $0.updatedAt > $1.updatedAt }
+    }
+
+    var body: some View {
+        NavigationStack {
+            List {
+                Section("Workspace data") {
+                    ForEach(WorkspaceSourceType.allCases) { sourceType in
+                        Button {
+                            store.switchSourceType(sourceType)
+                        } label: {
+                            HStack {
+                                Text(sourceType.title)
+                                Spacer()
+                                if store.envelope.selectedSourceType == sourceType {
+                                    Image(systemName: "checkmark")
+                                        .foregroundStyle(.blue)
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Section("Snapshot import") {
+                    Button("Import sandbox snapshot JSON") {
+                        showImporter = true
+                    }
+
+                    Button("Reload snapshot state") {
+                        store.reloadSnapshots()
+                    }
+                }
+
+                Section("Trash") {
+                    if trashedFiles.isEmpty {
+                        EmptyStateCard(
+                            title: "No trashed sheets",
+                            message: "Trashed spreadsheets can be restored from here.",
+                            systemImage: "trash",
+                            accessibilityIdentifier: AccessibilityID.emptyState("sheets_trash")
+                        )
+                    } else {
+                        ForEach(trashedFiles) { file in
+                            SpreadsheetRowView(
+                                file: file,
+                                preview: store.contentPreview(for: file),
+                                subtitle: "Trashed \(AppFormatters.shortDate.string(from: file.updatedAt))",
+                                onOpen: { openSheet(file) },
+                                onRename: { coordinator.beginRename(file: file) },
+                                onMove: { coordinator.beginMove(file: file) },
+                                onDuplicate: { _ = store.duplicateFile(id: file.id) },
+                                onShare: { coordinator.beginShare(file: file) },
+                                onTrashOrRestore: { store.restoreItem(id: file.id) }
+                            )
+                        }
+                    }
+                }
+
+                Section {
+                    Button("Reset app state") {
+                        store.resetAppState()
+                    }
+                    .foregroundStyle(.red)
+                    .accessibilityIdentifier(AccessibilityID.profileResetAppState)
+                }
+            }
+            .navigationTitle("More")
+            .fileImporter(isPresented: $showImporter, allowedContentTypes: [.json]) { result in
+                switch result {
+                case .success(let url):
+                    store.importSnapshot(from: url)
+                case .failure(let error):
+                    store.activeAlert = AppAlert(id: "sheets_import_failed", title: "Import failed", message: error.localizedDescription)
+                }
+            }
+        }
+    }
+
+    private func openSheet(_ file: WorkspaceFile) {
+        store.recordOpen(fileId: file.id, sourceApp: "CloudSheets", targetApp: "Sheets")
+        store.activeEditorRoute = EditorRoute(fileId: file.id)
+    }
+}

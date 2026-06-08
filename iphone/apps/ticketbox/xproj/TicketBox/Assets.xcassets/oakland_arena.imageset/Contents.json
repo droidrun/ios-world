@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "oakland_arena.jpg",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

@@ -1,0 +1,2107 @@
+import Foundation
+
+struct SeedData {
+    static func cuisines() -> [CuisineTag] {
+        [
+            CuisineTag(id: "american", name: "American"),
+            CuisineTag(id: "bagels", name: "Bagels"),
+            CuisineTag(id: "burmese", name: "Burmese"),
+            CuisineTag(id: "caribbean", name: "Caribbean"),
+            CuisineTag(id: "chinese", name: "Chinese"),
+            CuisineTag(id: "coffee", name: "Coffee"),
+            CuisineTag(id: "french", name: "French"),
+            CuisineTag(id: "greek", name: "Greek"),
+            CuisineTag(id: "indian", name: "Indian"),
+            CuisineTag(id: "italian", name: "Italian"),
+            CuisineTag(id: "japanese", name: "Japanese"),
+            CuisineTag(id: "korean", name: "Korean"),
+            CuisineTag(id: "mediterranean", name: "Mediterranean"),
+            CuisineTag(id: "mexican", name: "Mexican"),
+            CuisineTag(id: "seafood", name: "Seafood"),
+            CuisineTag(id: "southern", name: "Southern"),
+            CuisineTag(id: "thai", name: "Thai"),
+            CuisineTag(id: "vietnamese", name: "Vietnamese"),
+            CuisineTag(id: "peruvian", name: "Peruvian"),
+            CuisineTag(id: "spanish", name: "Spanish"),
+            CuisineTag(id: "singaporean", name: "Singaporean")
+        ]
+    }
+
+    static func neighborhoods() -> [Neighborhood] {
+        [
+            // San Francisco
+            Neighborhood(id: "mission", name: "Mission District", city: "San Francisco"),
+            Neighborhood(id: "hayes_valley", name: "Hayes Valley", city: "San Francisco"),
+            Neighborhood(id: "marina", name: "Marina District", city: "San Francisco"),
+            Neighborhood(id: "soma", name: "SoMa", city: "San Francisco"),
+            Neighborhood(id: "chinatown_sf", name: "Chinatown", city: "San Francisco"),
+            Neighborhood(id: "inner_sunset", name: "Inner Sunset", city: "San Francisco"),
+            Neighborhood(id: "outer_sunset", name: "Outer Sunset", city: "San Francisco"),
+            Neighborhood(id: "nob_hill", name: "Nob Hill", city: "San Francisco"),
+            Neighborhood(id: "north_beach", name: "North Beach", city: "San Francisco"),
+            Neighborhood(id: "lower_pac", name: "Lower Pacific Heights", city: "San Francisco"),
+            Neighborhood(id: "fillmore", name: "Fillmore", city: "San Francisco"),
+            Neighborhood(id: "japantown", name: "Japantown", city: "San Francisco"),
+            Neighborhood(id: "nopa", name: "NoPa", city: "San Francisco"),
+            Neighborhood(id: "dogpatch", name: "Dogpatch", city: "San Francisco"),
+            Neighborhood(id: "richmond", name: "Inner Richmond", city: "San Francisco"),
+            Neighborhood(id: "fidi", name: "Financial District", city: "San Francisco"),
+            Neighborhood(id: "castro", name: "Castro", city: "San Francisco"),
+            // Oakland / Berkeley
+            Neighborhood(id: "temescal", name: "Temescal", city: "Oakland"),
+            Neighborhood(id: "rockridge", name: "Rockridge", city: "Oakland"),
+            Neighborhood(id: "downtown_oak", name: "Downtown", city: "Oakland"),
+            Neighborhood(id: "north_berkeley", name: "North Berkeley", city: "Berkeley"),
+            Neighborhood(id: "downtown_berk", name: "Downtown", city: "Berkeley"),
+            // South Bay
+            Neighborhood(id: "san_jose", name: "Alum Rock", city: "San Jose"),
+            // New York
+            Neighborhood(id: "flatiron", name: "Flatiron District", city: "Manhattan"),
+            Neighborhood(id: "gv", name: "Greenwich Village", city: "Manhattan"),
+            Neighborhood(id: "les", name: "Lower East Side", city: "Manhattan"),
+            Neighborhood(id: "west_village", name: "West Village", city: "Manhattan"),
+            Neighborhood(id: "williamsburg", name: "Williamsburg", city: "Brooklyn"),
+            // International
+            Neighborhood(id: "busan", name: "Haeundae", city: "Busan"),
+            Neighborhood(id: "myeongdong", name: "Myeong-dong", city: "Seoul"),
+            Neighborhood(id: "seongsu", name: "Seongsu-dong", city: "Seoul"),
+            Neighborhood(id: "jongno", name: "Jongno-gu", city: "Seoul"),
+            Neighborhood(id: "thira", name: "Thira", city: "Greece"),
+            Neighborhood(id: "shibuya", name: "Shibuya", city: "Tokyo"),
+            Neighborhood(id: "shinjuku", name: "Shinjuku", city: "Tokyo"),
+            Neighborhood(id: "tsukiji", name: "Tsukiji", city: "Tokyo"),
+            Neighborhood(id: "le_marais", name: "Le Marais", city: "Paris"),
+            Neighborhood(id: "saint_germain", name: "Saint-Germain", city: "Paris"),
+            Neighborhood(id: "shoreditch", name: "Shoreditch", city: "London"),
+            Neighborhood(id: "roma_norte", name: "Roma Norte", city: "Mexico City"),
+            Neighborhood(id: "condesa", name: "Condesa", city: "Mexico City"),
+            Neighborhood(id: "centro_hist", name: "Centro Historico", city: "Mexico City"),
+            // LA
+            Neighborhood(id: "historic_sc", name: "Historic South Central", city: "Los Angeles"),
+            Neighborhood(id: "silver_lake", name: "Silver Lake", city: "Los Angeles"),
+            // Bangkok
+            Neighborhood(id: "silom", name: "Silom", city: "Bangkok"),
+            // Singapore
+            Neighborhood(id: "chinatown_sg", name: "Chinatown", city: "Singapore"),
+            // Hong Kong
+            Neighborhood(id: "central_hk", name: "Central", city: "Hong Kong"),
+            // Lima
+            Neighborhood(id: "miraflores", name: "Miraflores", city: "Lima"),
+            // Barcelona
+            Neighborhood(id: "el_born", name: "El Born", city: "Barcelona"),
+            // New York
+            Neighborhood(id: "chelsea", name: "Chelsea", city: "Manhattan"),
+            Neighborhood(id: "east_village", name: "East Village", city: "Manhattan"),
+            // Catalina Island
+            Neighborhood(id: "avalon", name: "Avalon", city: "Catalina Island"),
+            Neighborhood(id: "two_harbors", name: "Two Harbors", city: "Catalina Island")
+        ]
+    }
+
+    static func restaurants() -> [Restaurant] {
+        [
+            // ── San Francisco Local ──────────────────────────────
+
+            restaurant(
+                id: "tartine",
+                name: "Tartine Manufactory",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "mission", name: "Mission District", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "An airy industrial space where the pastry case alone is worth the walk, and the savory menu keeps getting sharper.",
+                dishes: ["Morning Bun", "Country Bread", "Smoked Trout Tartine", "Seasonal Galette"],
+                distanceMiles: 1.2,
+                hours: OpenHours(openHour: 8, closeHour: 17),
+                seedRating: 4.5,
+                popularity: 96,
+                photoSeed: "tartine",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Mission District, San Francisco",
+                cuisineDetails: "$$$ | Bakery, American",
+                statusLine: "1.2 mi • Open • Closes 5:00 PM",
+                beliScore: 9.1,
+                photoAssetNames: ["tr_r_tartine_0", "tr_r_tartine_1", "tr_r_tartine_2"],
+                searchHints: ["pastry", "bread", "brunch", "mission"]
+            ),
+            restaurant(
+                id: "la_taqueria",
+                name: "La Taqueria",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "mission", name: "Mission District", city: "San Francisco"),
+                priceLevel: 1,
+                blurb: "No-rice burrito gospel in a loud, crowded room where every regular has a strong opinion about salsa verde.",
+                dishes: ["Super Burrito", "Carne Asada Taco", "Carnitas Plate", "Horchata"],
+                distanceMiles: 1.5,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.6,
+                popularity: 97,
+                photoSeed: "la_taqueria",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Mission District, San Francisco",
+                cuisineDetails: "$ | Mexican",
+                statusLine: "1.5 mi • Open • Closes 9:00 PM",
+                beliScore: 9.5,
+                photoAssetNames: ["tr_r_la_taqueria_0", "tr_r_la_taqueria_1", "tr_r_la_taqueria_2"],
+                searchHints: ["burrito", "taco", "mission", "cash only"]
+            ),
+            restaurant(
+                id: "el_farolito",
+                name: "El Farolito",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "mission", name: "Mission District", city: "San Francisco"),
+                priceLevel: 1,
+                blurb: "The late-night super burrito that settles arguments and rewards indecision with a foil-wrapped masterpiece.",
+                dishes: ["Super Burrito", "Quesadilla Suiza", "Nachos", "Agua Fresca"],
+                distanceMiles: 1.8,
+                hours: OpenHours(openHour: 10, closeHour: 3),
+                seedRating: 4.4,
+                popularity: 95,
+                photoSeed: "el_farolito",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Mission District, San Francisco",
+                cuisineDetails: "$ | Mexican",
+                statusLine: "1.8 mi • Open • Closes 3:00 AM",
+                beliScore: 9.0,
+                photoAssetNames: ["tr_r_el_farolito_0", "tr_r_el_farolito_1", "tr_r_el_farolito_2"],
+                searchHints: ["burrito", "late night", "mission"]
+            ),
+            restaurant(
+                id: "rich_table",
+                name: "Rich Table",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "hayes_valley", name: "Hayes Valley", city: "San Francisco"),
+                priceLevel: 4,
+                blurb: "The sardine chips started a whole genre, but the rest of the menu keeps up without trying to go viral.",
+                dishes: ["Sardine Chips", "Porcini Doughnuts", "Dry-Aged Duck", "Seasonal Pasta"],
+                distanceMiles: 0.8,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.7,
+                popularity: 94,
+                photoSeed: "rich_table",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Hayes Valley, San Francisco",
+                cuisineDetails: "$$$$ | New American",
+                statusLine: "0.8 mi • Open • Closes 10:00 PM",
+                beliScore: 9.4,
+                photoAssetNames: ["tr_r_rich_table_0", "tr_r_rich_table_1", "tr_r_rich_table_2"],
+                searchHints: ["date night", "hayes valley", "sardine chips", "fine dining"]
+            ),
+            restaurant(
+                id: "souvla",
+                name: "Souvla",
+                cuisine: cuisine(id: "greek", name: "Greek"),
+                neighborhood: neighborhood(id: "hayes_valley", name: "Hayes Valley", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "Fast-casual Greek that punches well above its price point, especially the frozen yogurt with baklava crumble.",
+                dishes: ["Lamb Wrap", "Chicken Salad", "Greek Fries", "Frozen Yogurt"],
+                distanceMiles: 0.9,
+                hours: OpenHours(openHour: 11, closeHour: 22),
+                seedRating: 4.3,
+                popularity: 91,
+                photoSeed: "souvla",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Hayes Valley, San Francisco",
+                cuisineDetails: "$$ | Greek",
+                statusLine: "0.9 mi • Open • Closes 10:00 PM",
+                beliScore: 8.6,
+                photoAssetNames: ["tr_r_souvla_0", "tr_r_souvla_1", "tr_r_souvla_2"],
+                searchHints: ["greek", "wrap", "quick lunch", "hayes valley"]
+            ),
+            restaurant(
+                id: "mama_sf",
+                name: "Mama",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "marina", name: "Marina District", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "The brunch wait says it all. Egg-topped pizza and fresh pasta in a room that hums with Marina energy.",
+                dishes: ["Egg Pizza", "Rigatoni Bolognese", "Burrata Salad", "Affogato"],
+                distanceMiles: 2.1,
+                hours: OpenHours(openHour: 10, closeHour: 22),
+                seedRating: 4.4,
+                popularity: 92,
+                photoSeed: "mama_sf",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Marina District, San Francisco",
+                cuisineDetails: "$$$ | Italian",
+                statusLine: "2.1 mi • Open • Closes 10:00 PM",
+                beliScore: 8.8,
+                photoAssetNames: ["tr_r_mama_sf_0", "tr_r_mama_sf_1", "tr_r_mama_sf_2"],
+                searchHints: ["brunch", "pizza", "pasta", "marina"]
+            ),
+            restaurant(
+                id: "sightglass",
+                name: "Sightglass Coffee",
+                cuisine: cuisine(id: "coffee", name: "Coffee"),
+                neighborhood: neighborhood(id: "soma", name: "SoMa", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "Two-story roaster with cathedral ceilings and espresso drinks that justify opening a laptop at 8 AM on a Sunday.",
+                dishes: ["Cortado", "Affogato", "Pour Over", "Avocado Toast"],
+                distanceMiles: 0.6,
+                hours: OpenHours(openHour: 7, closeHour: 18),
+                seedRating: 4.3,
+                popularity: 88,
+                photoSeed: "sightglass",
+                isNew: false,
+                isTrending: false,
+                locationLine: "SoMa, San Francisco",
+                cuisineDetails: "$$ | Coffee",
+                statusLine: "0.6 mi • Open • Closes 6:00 PM",
+                beliScore: 8.4,
+                photoAssetNames: ["tr_r_sightglass_0", "tr_r_sightglass_1", "tr_r_sightglass_2"],
+                searchHints: ["coffee", "espresso", "soma", "remote work"]
+            ),
+            restaurant(
+                id: "z_and_y",
+                name: "Z & Y Restaurant",
+                cuisine: cuisine(id: "chinese", name: "Chinese"),
+                neighborhood: neighborhood(id: "chinatown_sf", name: "Chinatown", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "Sichuan that actually commits to the heat. The spicy popcorn chicken and cumin lamb earn their reputation.",
+                dishes: ["Spicy Popcorn Chicken", "Cumin Lamb", "Mapo Tofu", "Dan Dan Noodles"],
+                distanceMiles: 1.4,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.5,
+                popularity: 93,
+                photoSeed: "z_and_y",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Chinatown, San Francisco",
+                cuisineDetails: "$$ | Chinese, Sichuan",
+                statusLine: "1.4 mi • Open • Closes 9:30 PM",
+                beliScore: 9.0,
+                photoAssetNames: ["tr_r_z_and_y_0", "tr_r_z_and_y_1", "tr_r_z_and_y_2"],
+                searchHints: ["sichuan", "spicy", "chinatown", "group dinner"]
+            ),
+            restaurant(
+                id: "nopalito",
+                name: "Nopalito",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "nopa", name: "NoPa", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "Organic, thoughtful Mexican cooking where the carnitas are braised right and the salsas change with the season.",
+                dishes: ["Carnitas", "Pozole Rojo", "Quesadilla de Hongos", "Churros"],
+                distanceMiles: 1.6,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.5,
+                popularity: 90,
+                photoSeed: "nopalito",
+                isNew: false,
+                isTrending: false,
+                locationLine: "NoPa, San Francisco",
+                cuisineDetails: "$$ | Mexican",
+                statusLine: "1.6 mi • Open • Closes 9:00 PM",
+                beliScore: 8.9,
+                photoAssetNames: ["tr_r_nopalito_0", "tr_r_nopalito_1", "tr_r_nopalito_2"],
+                searchHints: ["carnitas", "organic", "nopa", "neighborhood spot"]
+            ),
+            restaurant(
+                id: "mister_jius",
+                name: "Mister Jiu's",
+                cuisine: cuisine(id: "chinese", name: "Chinese"),
+                neighborhood: neighborhood(id: "chinatown_sf", name: "Chinatown", city: "San Francisco"),
+                priceLevel: 4,
+                blurb: "Chinese-American fine dining that respects Chinatown history while cooking with unmistakable ambition.",
+                dishes: ["Sesame Flatbread", "Smoked Quail", "Cheung Fun", "Black Sesame Sunflower Tart"],
+                distanceMiles: 1.3,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.8,
+                popularity: 96,
+                photoSeed: "mister_jius",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Chinatown, San Francisco",
+                cuisineDetails: "$$$$ | Chinese-American",
+                statusLine: "1.3 mi • Open • Closes 10:00 PM",
+                beliScore: 9.6,
+                photoAssetNames: ["tr_r_mister_jius_0", "tr_r_mister_jius_1", "tr_r_mister_jius_2"],
+                searchHints: ["chinatown", "fine dining", "date night", "tasting menu"]
+            ),
+            restaurant(
+                id: "san_tung",
+                name: "San Tung",
+                cuisine: cuisine(id: "chinese", name: "Chinese"),
+                neighborhood: neighborhood(id: "inner_sunset", name: "Inner Sunset", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "The dry-fried chicken wings are absurdly good, and the noodle menu goes deep enough to eat here weekly.",
+                dishes: ["Dry-Fried Chicken Wings", "Dan Dan Noodles", "Wontons in Chili Oil", "Egg Flower Soup"],
+                distanceMiles: 3.2,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.6,
+                popularity: 95,
+                photoSeed: "san_tung",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Inner Sunset, San Francisco",
+                cuisineDetails: "$$ | Chinese",
+                statusLine: "3.2 mi • Open • Closes 9:30 PM",
+                beliScore: 9.2,
+                photoAssetNames: ["tr_r_san_tung_0", "tr_r_san_tung_1", "tr_r_san_tung_2"],
+                searchHints: ["chicken wings", "noodles", "sunset", "cash only"]
+            ),
+            restaurant(
+                id: "nari",
+                name: "Nari",
+                cuisine: cuisine(id: "thai", name: "Thai"),
+                neighborhood: neighborhood(id: "japantown", name: "Japantown", city: "San Francisco"),
+                priceLevel: 4,
+                blurb: "Elevated Northern Thai tasting with real finesse. The curry courses alone justify a reservation.",
+                dishes: ["Khao Soi", "Laab Muu", "Coconut Curry", "Sticky Rice Dessert"],
+                distanceMiles: 1.8,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.7,
+                popularity: 92,
+                photoSeed: "nari",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Japantown, San Francisco",
+                cuisineDetails: "$$$$ | Thai",
+                statusLine: "1.8 mi • Open • Closes 10:00 PM",
+                beliScore: 9.3,
+                photoAssetNames: ["tr_r_nari_0", "tr_r_nari_1", "tr_r_nari_2"],
+                searchHints: ["thai", "tasting menu", "japantown", "curry"]
+            ),
+            restaurant(
+                id: "burma_superstar",
+                name: "Burma Superstar",
+                cuisine: cuisine(id: "burmese", name: "Burmese"),
+                neighborhood: neighborhood(id: "richmond", name: "Inner Richmond", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "The tea leaf salad built a cult following, and everything around it holds up just as well after twenty visits.",
+                dishes: ["Tea Leaf Salad", "Coconut Chicken Noodles", "Samusa Soup", "Mango Shrimp"],
+                distanceMiles: 3.0,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.4,
+                popularity: 94,
+                photoSeed: "burma_superstar",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Inner Richmond, San Francisco",
+                cuisineDetails: "$$ | Burmese",
+                statusLine: "3.0 mi • Open • Closes 9:30 PM",
+                beliScore: 8.9,
+                photoAssetNames: ["tr_r_burma_superstar_0", "tr_r_burma_superstar_1", "tr_r_burma_superstar_2"],
+                searchHints: ["burmese", "tea leaf salad", "richmond", "no reservations"]
+            ),
+            restaurant(
+                id: "hog_island",
+                name: "Hog Island Oyster Co.",
+                cuisine: cuisine(id: "seafood", name: "Seafood"),
+                neighborhood: neighborhood(id: "fidi", name: "Financial District", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "Ferry Building institution where the oysters come straight from Tomales Bay and the Bloody Mary finishes strong.",
+                dishes: ["Sweetwater Oysters", "Manila Clam Chowder", "Grilled Cheese & Oysters", "Bloody Mary"],
+                distanceMiles: 1.0,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.5,
+                popularity: 93,
+                photoSeed: "hog_island",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Ferry Building, San Francisco",
+                cuisineDetails: "$$$ | Seafood, Oyster Bar",
+                statusLine: "1.0 mi • Open • Closes 9:00 PM",
+                beliScore: 9.0,
+                photoAssetNames: ["tr_r_hog_island_0", "tr_r_hog_island_1", "tr_r_hog_island_2"],
+                searchHints: ["oysters", "ferry building", "seafood", "happy hour"]
+            ),
+            restaurant(
+                id: "flour_water",
+                name: "Flour + Water",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "mission", name: "Mission District", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "Pasta program that stays sharp year after year. The daily changing menu is the reason to keep coming back.",
+                dishes: ["Margherita Pizza", "Daily Pasta", "Burrata", "Panna Cotta"],
+                distanceMiles: 1.4,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.6,
+                popularity: 96,
+                photoSeed: "flour_water",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Mission District, San Francisco",
+                cuisineDetails: "$$$ | Italian, Pasta",
+                statusLine: "1.4 mi • Open • Closes 10:00 PM",
+                beliScore: 9.3,
+                photoAssetNames: ["tr_r_flour_water_0", "tr_r_flour_water_1", "tr_r_flour_water_2"],
+                searchHints: ["pasta", "pizza", "mission", "date night"]
+            ),
+            restaurant(
+                id: "kin_khao",
+                name: "Kin Khao",
+                cuisine: cuisine(id: "thai", name: "Thai"),
+                neighborhood: neighborhood(id: "fidi", name: "Financial District", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "Bold Thai cooking that does not play it safe. The curries land with real heat and the flavors stay clean.",
+                dishes: ["Crab Curry", "Khao Soi", "Papaya Salad", "Coconut Cake"],
+                distanceMiles: 0.9,
+                hours: OpenHours(openHour: 11, closeHour: 22),
+                seedRating: 4.5,
+                popularity: 91,
+                photoSeed: "kin_khao",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Financial District, San Francisco",
+                cuisineDetails: "$$$ | Thai",
+                statusLine: "0.9 mi • Open • Closes 10:00 PM",
+                beliScore: 8.8,
+                photoAssetNames: ["tr_r_kin_khao_0", "tr_r_kin_khao_1", "tr_r_kin_khao_2"],
+                searchHints: ["thai", "curry", "downtown", "spicy"]
+            ),
+            restaurant(
+                id: "delfina",
+                name: "Delfina",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "mission", name: "Mission District", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "Neighborhood Italian that keeps earning its status through simplicity, consistency, and a great wine list.",
+                dishes: ["Spaghetti", "Grilled Pork Chop", "Bruschetta", "Panna Cotta"],
+                distanceMiles: 1.3,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.5,
+                popularity: 90,
+                photoSeed: "delfina",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Mission District, San Francisco",
+                cuisineDetails: "$$$ | Italian",
+                statusLine: "1.3 mi • Open • Closes 10:00 PM",
+                beliScore: 8.7,
+                photoAssetNames: ["tr_r_delfina_0", "tr_r_delfina_1", "tr_r_delfina_2"],
+                searchHints: ["italian", "pasta", "neighborhood", "mission"]
+            ),
+            restaurant(
+                id: "che_fico",
+                name: "Che Fico",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "nopa", name: "NoPa", city: "San Francisco"),
+                priceLevel: 4,
+                blurb: "Loud, celebratory, and unapologetically generous with the wood-fired dishes and the focaccia di Recco.",
+                dishes: ["Focaccia di Recco", "Cacio e Pepe", "Wood-Fired Fish", "Tiramisu"],
+                distanceMiles: 1.7,
+                hours: OpenHours(openHour: 17, closeHour: 23),
+                seedRating: 4.7,
+                popularity: 95,
+                photoSeed: "che_fico",
+                isNew: false,
+                isTrending: true,
+                locationLine: "NoPa, San Francisco",
+                cuisineDetails: "$$$$ | Italian",
+                statusLine: "1.7 mi • Open • Closes 11:00 PM",
+                beliScore: 9.4,
+                photoAssetNames: ["tr_r_che_fico_0", "tr_r_che_fico_1", "tr_r_che_fico_2"],
+                searchHints: ["italian", "wood fired", "nopa", "celebration"]
+            ),
+            restaurant(
+                id: "lazy_bear",
+                name: "Lazy Bear",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "mission", name: "Mission District", city: "San Francisco"),
+                priceLevel: 4,
+                blurb: "Communal dining with a tasting-menu backbone. The tickets sell fast because the whole experience still delivers.",
+                dishes: ["Tasting Menu", "Bear Bread", "Foie Gras Terrine", "Seasonal Dessert"],
+                distanceMiles: 1.5,
+                hours: OpenHours(openHour: 18, closeHour: 22),
+                seedRating: 4.8,
+                popularity: 93,
+                photoSeed: "lazy_bear",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Mission District, San Francisco",
+                cuisineDetails: "$$$$ | New American, Tasting Menu",
+                statusLine: "1.5 mi • Closed • Opens 6:00 PM",
+                beliScore: 9.5,
+                photoAssetNames: ["tr_r_lazy_bear_0", "tr_r_lazy_bear_1", "tr_r_lazy_bear_2"],
+                searchHints: ["tasting menu", "communal", "mission", "special occasion"]
+            ),
+
+            // ── Oakland / Berkeley ───────────────────────────────
+
+            restaurant(
+                id: "commis",
+                name: "Commis",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "temescal", name: "Temescal", city: "Oakland"),
+                priceLevel: 4,
+                blurb: "Oakland tasting menu with a quiet confidence. Every course feels considered without ever feeling stiff.",
+                dishes: ["Seasonal Tasting", "Garden Course", "Fish Course", "Petit Fours"],
+                distanceMiles: 9.2,
+                hours: OpenHours(openHour: 17, closeHour: 21),
+                seedRating: 4.9,
+                popularity: 91,
+                photoSeed: "commis",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Temescal, Oakland",
+                cuisineDetails: "$$$$ | Tasting Menu",
+                statusLine: "9.2 mi • Closed • Opens 5:00 PM",
+                beliScore: 9.7,
+                photoAssetNames: ["tr_r_commis_0", "tr_r_commis_1", "tr_r_commis_2"],
+                searchHints: ["tasting menu", "oakland", "fine dining", "michelin"]
+            ),
+            restaurant(
+                id: "chez_panisse",
+                name: "Chez Panisse",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "north_berkeley", name: "North Berkeley", city: "Berkeley"),
+                priceLevel: 4,
+                blurb: "The restaurant that started the whole local-seasonal movement and still cooks dinner like it matters.",
+                dishes: ["Set Menu Dinner", "Garden Salad", "Wood-Grilled Fish", "Fruit Galette"],
+                distanceMiles: 11.5,
+                hours: OpenHours(openHour: 17, closeHour: 21),
+                seedRating: 4.7,
+                popularity: 94,
+                photoSeed: "chez_panisse",
+                isNew: false,
+                isTrending: false,
+                locationLine: "North Berkeley, Berkeley",
+                cuisineDetails: "$$$$ | California, Farm-to-Table",
+                statusLine: "11.5 mi • Closed • Opens 5:00 PM",
+                beliScore: 9.3,
+                photoAssetNames: ["tr_r_chez_panisse_0", "tr_r_chez_panisse_1", "tr_r_chez_panisse_2"],
+                searchHints: ["farm to table", "berkeley", "classic", "prix fixe"]
+            ),
+            restaurant(
+                id: "cholita_linda",
+                name: "Cholita Linda",
+                cuisine: cuisine(id: "caribbean", name: "Caribbean"),
+                neighborhood: neighborhood(id: "temescal", name: "Temescal", city: "Oakland"),
+                priceLevel: 2,
+                blurb: "Caribbean-Latin counter spot with fish tacos that punch way above, and plantain chips that vanish immediately.",
+                dishes: ["Baja Fish Tacos", "Coconut Shrimp Plate", "Tostones", "Mango Agua Fresca"],
+                distanceMiles: 9.0,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.4,
+                popularity: 89,
+                photoSeed: "cholita_linda",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Temescal, Oakland",
+                cuisineDetails: "$$ | Caribbean, Latin",
+                statusLine: "9.0 mi • Open • Closes 9:00 PM",
+                beliScore: 8.5,
+                photoAssetNames: ["tr_r_cholita_linda_0", "tr_r_cholita_linda_1", "tr_r_cholita_linda_2"],
+                searchHints: ["fish tacos", "oakland", "counter", "caribbean"]
+            ),
+
+            // ── South Bay ────────────────────────────────────────
+
+            restaurant(
+                id: "pho_10_ly",
+                name: "Pho 10 Ly",
+                cuisine: cuisine(id: "vietnamese", name: "Vietnamese"),
+                neighborhood: neighborhood(id: "san_jose", name: "Alum Rock", city: "San Jose"),
+                priceLevel: 2,
+                blurb: "A casual pho shop that earns loyalty with a deep broth, quick service, and the exact bowl you crave at 2 PM.",
+                dishes: ["Pho Dac Biet", "Banh Cuon", "Spring Rolls", "Ca Phe Sua Da"],
+                distanceMiles: 44.0,
+                hours: OpenHours(openHour: 10, closeHour: 20),
+                seedRating: 4.4,
+                popularity: 91,
+                photoSeed: "pho_10_ly",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Alum Rock, San Jose",
+                cuisineDetails: "$$ | Vietnamese",
+                statusLine: "44 mi • Open • Closes 8:30 PM",
+                beliScore: 8.9,
+                photoAssetNames: ["tr_r_pho_10_ly_0", "tr_r_pho_10_ly_1", "tr_r_pho_10_ly_2"],
+                searchHints: ["pho", "banh mi", "noodles", "vietnamese"]
+            ),
+
+            // ── New York (Travel) ────────────────────────────────
+
+            restaurant(
+                id: "carbone",
+                name: "Carbone New York",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "gv", name: "Greenwich Village", city: "Manhattan"),
+                priceLevel: 4,
+                blurb: "Red-sauce theater done at the highest level, where the spicy rigatoni still lands even after the hype cycle.",
+                dishes: ["Spicy Rigatoni Vodka", "Veal Parmesan", "Caesar alla ZZ", "Lemon Cheesecake"],
+                distanceMiles: 2_572.0,
+                hours: OpenHours(openHour: 17, closeHour: 23),
+                seedRating: 4.7,
+                popularity: 98,
+                photoSeed: "carbone",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Greenwich Village, Manhattan",
+                cuisineDetails: "$$$$ | Italian",
+                statusLine: "2,572 mi • Closed • Opens 5:00 PM",
+                beliScore: 9.4,
+                photoAssetNames: ["tr_r_carbone_0", "tr_r_carbone_1", "tr_r_carbone_2"],
+                searchHints: ["spicy rigatoni", "italian", "celebration", "new york"]
+            ),
+            restaurant(
+                id: "katzs",
+                name: "Katz's Delicatessen",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "les", name: "Lower East Side", city: "Manhattan"),
+                priceLevel: 2,
+                blurb: "Classic pastrami, loud tables, and enough old-New-York energy to make the line feel like part of the meal.",
+                dishes: ["Pastrami on Rye", "Knish", "Matzo Ball Soup", "Cel-Ray"],
+                distanceMiles: 2_574.0,
+                hours: OpenHours(openHour: 8, closeHour: 23),
+                seedRating: 4.3,
+                popularity: 94,
+                photoSeed: "katzs",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Lower East Side, Manhattan",
+                cuisineDetails: "$$ | Deli",
+                statusLine: "2,574 mi • Open • Closes 11:00 PM",
+                beliScore: 8.8,
+                photoAssetNames: ["tr_r_katzs_0", "tr_r_katzs_1", "tr_r_katzs_2"],
+                searchHints: ["pastrami", "deli", "lower east side", "new york"]
+            ),
+            restaurant(
+                id: "lilia",
+                name: "Lilia",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "williamsburg", name: "Williamsburg", city: "Brooklyn"),
+                priceLevel: 4,
+                blurb: "A pasta-first room in Williamsburg where the agnolotti and grilled seafood still justify the reservation stress.",
+                dishes: ["Agnolotti", "Mafaldini", "Wood-Grilled Clams", "Olive Oil Cake"],
+                distanceMiles: 2_579.0,
+                hours: OpenHours(openHour: 17, closeHour: 23),
+                seedRating: 4.8,
+                popularity: 97,
+                photoSeed: "lilia",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Williamsburg, Brooklyn",
+                cuisineDetails: "$$$$ | Italian",
+                statusLine: "2,579 mi • Open • Closes 11:00 PM",
+                beliScore: 9.5,
+                photoAssetNames: ["tr_r_lilia_0", "tr_r_lilia_1", "tr_r_lilia_2"],
+                searchHints: ["pasta", "brooklyn", "italian", "new york"]
+            ),
+            restaurant(
+                id: "don_angie",
+                name: "Don Angie",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "west_village", name: "West Village", city: "Manhattan"),
+                priceLevel: 4,
+                blurb: "Compact, polished, and surprisingly fun, with laminated garlic flatbread that hits every time.",
+                dishes: ["Lasagna for Two", "Stuffed Garlic Flatbread", "Chrysanthemum Salad", "Tiramisu Sundae"],
+                distanceMiles: 2_572.0,
+                hours: OpenHours(openHour: 17, closeHour: 23),
+                seedRating: 4.8,
+                popularity: 96,
+                photoSeed: "don_angie",
+                isNew: false,
+                isTrending: true,
+                locationLine: "West Village, Manhattan",
+                cuisineDetails: "$$$$ | Italian",
+                statusLine: "2,572 mi • Closed • Opens 5:00 PM",
+                beliScore: 9.7,
+                photoAssetNames: ["tr_r_don_angie_0", "tr_r_don_angie_1", "tr_r_don_angie_2"],
+                searchHints: ["west village", "italian", "lasagna", "new york"]
+            ),
+
+            // ── Seoul (Travel) ───────────────────────────────────
+
+            restaurant(
+                id: "born_and_bred",
+                name: "Born & Bred",
+                cuisine: cuisine(id: "korean", name: "Korean"),
+                neighborhood: neighborhood(id: "seongsu", name: "Seongsu-dong", city: "Seoul"),
+                priceLevel: 4,
+                blurb: "A Seoul beef temple that feels almost choreographed, from the service timing to the marbling presentation.",
+                dishes: ["Hanwoo Tasting", "Cold Buckwheat Noodles", "Beef Tartare", "Kimchi Fried Rice"],
+                distanceMiles: 5_584.0,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.9,
+                popularity: 95,
+                photoSeed: "born_and_bred",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Seongsu-dong, Seoul",
+                cuisineDetails: "$$$$ | Korean BBQ",
+                statusLine: "5,584 mi • Open • Closes 10:00 PM",
+                beliScore: 9.6,
+                photoAssetNames: ["tr_r_born_and_bred_0", "tr_r_born_and_bred_1", "tr_r_born_and_bred_2"],
+                searchHints: ["seoul", "hanwoo", "korean bbq", "special occasion", "travel"]
+            ),
+            restaurant(
+                id: "myeongdong_kyoja",
+                name: "Myeongdong Kyoja",
+                cuisine: cuisine(id: "korean", name: "Korean"),
+                neighborhood: neighborhood(id: "myeongdong", name: "Myeong-dong", city: "Seoul"),
+                priceLevel: 2,
+                blurb: "One of those places where the menu is short, the line is long, and the mandu are still somehow underrated.",
+                dishes: ["Kalguksu", "Mandu", "Bibim Guksu", "Kimchi"],
+                distanceMiles: 5_582.0,
+                hours: OpenHours(openHour: 10, closeHour: 21),
+                seedRating: 4.6,
+                popularity: 93,
+                photoSeed: "myeongdong_kyoja",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Myeong-dong, Seoul",
+                cuisineDetails: "$$ | Korean Noodles",
+                statusLine: "5,582 mi • Open • Closes 9:00 PM",
+                beliScore: 9.1,
+                photoAssetNames: ["tr_r_myeongdong_kyoja_0", "tr_r_myeongdong_kyoja_1", "tr_r_myeongdong_kyoja_2"],
+                searchHints: ["seoul", "mandu", "noodles", "classic", "travel"]
+            ),
+            restaurant(
+                id: "onjium",
+                name: "Onjium",
+                cuisine: cuisine(id: "korean", name: "Korean"),
+                neighborhood: neighborhood(id: "jongno", name: "Jongno-gu", city: "Seoul"),
+                priceLevel: 4,
+                blurb: "A refined Seoul destination for meticulous Korean tasting menus and quietly perfect plating.",
+                dishes: ["Seasonal Hansik Course", "Pine Mushroom Rice", "Abalone Juk", "Persimmon Dessert"],
+                distanceMiles: 5_583.0,
+                hours: OpenHours(openHour: 18, closeHour: 22),
+                seedRating: 4.8,
+                popularity: 90,
+                photoSeed: "onjium",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Jongno-gu, Seoul",
+                cuisineDetails: "$$$$ | Korean Tasting Menu",
+                statusLine: "5,583 mi • Closed • Opens 6:00 PM",
+                beliScore: 9.4,
+                photoAssetNames: ["tr_r_onjium_0", "tr_r_onjium_1", "tr_r_onjium_2"],
+                searchHints: ["seoul", "fine dining", "korean", "tasting menu", "travel"]
+            ),
+            restaurant(
+                id: "haemok",
+                name: "Haemok Haeundae",
+                cuisine: cuisine(id: "seafood", name: "Seafood"),
+                neighborhood: neighborhood(id: "busan", name: "Haeundae", city: "Busan"),
+                priceLevel: 3,
+                blurb: "A Busan seafood favorite for charcoal eel sets, grilled shellfish, and a room that buzzes from lunch through dinner.",
+                dishes: ["Grilled Eel Set", "Uni Rice", "Seaweed Soup", "Raw Shrimp"],
+                distanceMiles: 5_647.0,
+                hours: OpenHours(openHour: 11, closeHour: 22),
+                seedRating: 4.9,
+                popularity: 92,
+                photoSeed: "haemok",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Haeundae, Busan",
+                cuisineDetails: "$$$ | Korean, Seafood",
+                statusLine: "5,647 mi • Closed • Opens 11:00 AM",
+                beliScore: 10.0,
+                photoAssetNames: ["tr_r_haemok_0", "tr_r_haemok_1", "tr_r_haemok_2"],
+                searchHints: ["busan", "eel", "seafood", "korea", "travel"]
+            ),
+
+            // ── Tokyo (Travel) ───────────────────────────────────
+
+            restaurant(
+                id: "narisawa",
+                name: "Narisawa",
+                cuisine: cuisine(id: "japanese", name: "Japanese"),
+                neighborhood: neighborhood(id: "shibuya", name: "Shibuya", city: "Tokyo"),
+                priceLevel: 4,
+                blurb: "Nature-forward tasting in Minami-Aoyama that turns foraged ingredients into something you remember for months.",
+                dishes: ["Forest Bread", "Soil Soup", "Charcoal-Grilled Wagyu", "Satoyama Scenery"],
+                distanceMiles: 5_351.0,
+                hours: OpenHours(openHour: 12, closeHour: 22),
+                seedRating: 4.9,
+                popularity: 96,
+                photoSeed: "narisawa",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Shibuya, Tokyo",
+                cuisineDetails: "$$$$ | Japanese, Tasting Menu",
+                statusLine: "5,351 mi • Open • Closes 10:00 PM",
+                beliScore: 9.8,
+                photoAssetNames: ["tr_r_narisawa_0", "tr_r_narisawa_1", "tr_r_narisawa_2"],
+                searchHints: ["tokyo", "tasting menu", "fine dining", "nature", "travel"]
+            ),
+            restaurant(
+                id: "tsuta",
+                name: "Tsuta",
+                cuisine: cuisine(id: "japanese", name: "Japanese"),
+                neighborhood: neighborhood(id: "shinjuku", name: "Shinjuku", city: "Tokyo"),
+                priceLevel: 2,
+                blurb: "Michelin-starred ramen that earns it with a truffle shoyu broth and hand-made noodles worth the line.",
+                dishes: ["Shoyu Soba", "Ajitama Egg", "Wonton Soba", "Rice Set"],
+                distanceMiles: 5_349.0,
+                hours: OpenHours(openHour: 11, closeHour: 15),
+                seedRating: 4.6,
+                popularity: 94,
+                photoSeed: "tsuta",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Shinjuku, Tokyo",
+                cuisineDetails: "$$ | Ramen",
+                statusLine: "5,349 mi • Open • Closes 3:00 PM",
+                beliScore: 9.2,
+                photoAssetNames: ["tr_r_tsuta_0", "tr_r_tsuta_1", "tr_r_tsuta_2"],
+                searchHints: ["ramen", "tokyo", "michelin", "noodles", "travel"]
+            ),
+
+            // ── Paris (Travel) ───────────────────────────────────
+
+            restaurant(
+                id: "le_comptoir",
+                name: "Le Comptoir du Pantheon",
+                cuisine: cuisine(id: "french", name: "French"),
+                neighborhood: neighborhood(id: "saint_germain", name: "Saint-Germain", city: "Paris"),
+                priceLevel: 3,
+                blurb: "Classic Left Bank bistro where the duck confit and the red-checkered tablecloths feel earned, not performative.",
+                dishes: ["Duck Confit", "Steak Frites", "Croque Monsieur", "Creme Brulee"],
+                distanceMiles: 5_583.0,
+                hours: OpenHours(openHour: 12, closeHour: 23),
+                seedRating: 4.5,
+                popularity: 90,
+                photoSeed: "le_comptoir",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Saint-Germain, Paris",
+                cuisineDetails: "$$$ | French Bistro",
+                statusLine: "5,583 mi • Open • Closes 11:00 PM",
+                beliScore: 9.0,
+                photoAssetNames: ["tr_r_le_comptoir_0", "tr_r_le_comptoir_1", "tr_r_le_comptoir_2"],
+                searchHints: ["paris", "bistro", "french", "classic", "travel"]
+            ),
+
+            // ── London (Travel) ──────────────────────────────────
+
+            restaurant(
+                id: "dishoom",
+                name: "Dishoom",
+                cuisine: cuisine(id: "indian", name: "Indian"),
+                neighborhood: neighborhood(id: "shoreditch", name: "Shoreditch", city: "London"),
+                priceLevel: 2,
+                blurb: "Bombay-style cafe that runs on nostalgia and black daal that tastes like it simmered for longer than your flight.",
+                dishes: ["Black Daal", "Bacon Naan Roll", "Chicken Ruby", "Chai"],
+                distanceMiles: 5_367.0,
+                hours: OpenHours(openHour: 8, closeHour: 23),
+                seedRating: 4.5,
+                popularity: 95,
+                photoSeed: "dishoom",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Shoreditch, London",
+                cuisineDetails: "$$ | Indian, Bombay Cafe",
+                statusLine: "5,367 mi • Open • Closes 11:00 PM",
+                beliScore: 9.1,
+                photoAssetNames: ["tr_r_dishoom_0", "tr_r_dishoom_1", "tr_r_dishoom_2"],
+                searchHints: ["london", "indian", "brunch", "bombay", "travel"]
+            ),
+
+            // ── Mexico City (Travel) ─────────────────────────────
+
+            restaurant(
+                id: "pujol",
+                name: "Pujol",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "roma_norte", name: "Roma Norte", city: "Mexico City"),
+                priceLevel: 4,
+                blurb: "The mole madre alone is worth the trip. Enrique Olvera's tasting menu makes you rethink what Mexican cooking can be.",
+                dishes: ["Mole Madre", "Baby Corn with Coffee Mayo", "Taco Omakase", "Cacao Dessert"],
+                distanceMiles: 1_888.0,
+                hours: OpenHours(openHour: 13, closeHour: 22),
+                seedRating: 4.9,
+                popularity: 98,
+                photoSeed: "pujol",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Roma Norte, Mexico City",
+                cuisineDetails: "$$$$ | Mexican, Tasting Menu",
+                statusLine: "1,888 mi • Open • Closes 10:00 PM",
+                beliScore: 9.9,
+                photoAssetNames: ["tr_r_pujol_0", "tr_r_pujol_1", "tr_r_pujol_2"],
+                searchHints: ["mexico city", "tasting menu", "mole", "fine dining", "travel"]
+            ),
+            restaurant(
+                id: "contramar",
+                name: "Contramar",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "roma_norte", name: "Roma Norte", city: "Mexico City"),
+                priceLevel: 3,
+                blurb: "Legendary seafood lunch spot where the tuna tostadas arrive fast and the grilled red-and-green fish is non-negotiable.",
+                dishes: ["Tuna Tostadas", "Pescado a la Talla", "Ceviche Mixto", "Mezcal Margarita"],
+                distanceMiles: 1_888.0,
+                hours: OpenHours(openHour: 11, closeHour: 18),
+                seedRating: 4.8,
+                popularity: 97,
+                photoSeed: "contramar",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Roma Norte, Mexico City",
+                cuisineDetails: "$$$ | Mexican, Seafood",
+                statusLine: "1,888 mi • Open • Closes 6:00 PM",
+                beliScore: 9.7,
+                photoAssetNames: ["tr_r_contramar_0", "tr_r_contramar_1", "tr_r_contramar_2"],
+                searchHints: ["mexico city", "seafood", "lunch", "tostada", "travel"]
+            ),
+
+            // ── Greece (Travel) ──────────────────────────────────
+
+            restaurant(
+                id: "kokkalo",
+                name: "Kokkalo",
+                cuisine: cuisine(id: "greek", name: "Greek"),
+                neighborhood: neighborhood(id: "thira", name: "Thira", city: "Greece"),
+                priceLevel: 4,
+                blurb: "A cliffside grill with sunset views, charred lamb, and the kind of dinner that turns into a three-hour hang.",
+                dishes: ["Tomahawk Lamb Chop", "Charred Octopus", "Whipped Feta", "Saganaki"],
+                distanceMiles: 6_671.0,
+                hours: OpenHours(openHour: 12, closeHour: 23),
+                seedRating: 4.6,
+                popularity: 99,
+                photoSeed: "kokkalo",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Thira, Greece",
+                cuisineDetails: "$$$$ | Greek, Seafood",
+                statusLine: "6,671 mi • Open • Closes 11:00 PM",
+                beliScore: 9.2,
+                photoAssetNames: ["tr_r_kokkalo_0", "tr_r_kokkalo_1", "tr_r_kokkalo_2"],
+                searchHints: ["santorini", "sunset", "seafood", "grill", "travel"]
+            ),
+
+            // ── LA (Travel) ─────────────────────────────────────
+
+            restaurant(
+                id: "holbox",
+                name: "Holbox",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "historic_sc", name: "Historic South Central", city: "Los Angeles"),
+                priceLevel: 2,
+                blurb: "Mariscos that taste brighter than they should, with smoked kanpachi tacos and scallop tostadas worth detouring for.",
+                dishes: ["Smoked Kanpachi Taco", "Scallop Tostada", "Ceviche Mixto", "Uni Aguachile"],
+                distanceMiles: 382.0,
+                hours: OpenHours(openHour: 11, closeHour: 16),
+                seedRating: 4.8,
+                popularity: 96,
+                photoSeed: "holbox",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Historic South Central, Los Angeles",
+                cuisineDetails: "$$ | Mexican, Seafood",
+                statusLine: "382 mi • Closed • Opens 11:00 AM",
+                beliScore: 9.9,
+                photoAssetNames: ["tr_r_holbox_0", "tr_r_holbox_1", "tr_r_holbox_2"],
+                searchHints: ["seafood", "los angeles", "mariscos", "mexican", "travel"]
+            ),
+
+            // ── More San Francisco ─────────────────────────────────
+
+            restaurant(
+                id: "zuni_cafe",
+                name: "Zuni Cafe",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "hayes_valley", name: "Hayes Valley", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "The roast chicken for two takes an hour and arrives perfect every time. A San Francisco institution that earns it nightly.",
+                dishes: ["Roast Chicken for Two", "Caesar Salad", "Shoestring Fries", "Espresso Granita"],
+                distanceMiles: 0.7,
+                hours: OpenHours(openHour: 11, closeHour: 23),
+                seedRating: 4.6,
+                popularity: 95,
+                photoSeed: "zuni_cafe",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Hayes Valley, San Francisco",
+                cuisineDetails: "$$$ | American, Mediterranean",
+                statusLine: "0.7 mi • Open • Closes 11:00 PM",
+                beliScore: 9.2,
+                photoAssetNames: ["tr_r_zuni_cafe_0", "tr_r_zuni_cafe_1", "tr_r_zuni_cafe_2"],
+                searchHints: ["roast chicken", "hayes valley", "classic", "institution"]
+            ),
+            restaurant(
+                id: "state_bird",
+                name: "State Bird Provisions",
+                cuisine: cuisine(id: "american", name: "American"),
+                neighborhood: neighborhood(id: "fillmore", name: "Fillmore", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "Dim-sum-style carts of creative American bites where every round brings a surprise worth flagging down.",
+                dishes: ["State Bird with Provisions", "Garlic Bread with Burrata", "Duck Liver Mousse", "Seasonal Pancake"],
+                distanceMiles: 1.5,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.7,
+                popularity: 94,
+                photoSeed: "state_bird",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Fillmore, San Francisco",
+                cuisineDetails: "$$$ | New American",
+                statusLine: "1.5 mi • Open • Closes 10:00 PM",
+                beliScore: 9.3,
+                photoAssetNames: ["tr_r_state_bird_0", "tr_r_state_bird_1", "tr_r_state_bird_2"],
+                searchHints: ["dim sum style", "creative", "fillmore", "date night"]
+            ),
+            restaurant(
+                id: "swan_oyster",
+                name: "Swan Oyster Depot",
+                cuisine: cuisine(id: "seafood", name: "Seafood"),
+                neighborhood: neighborhood(id: "nob_hill", name: "Nob Hill", city: "San Francisco"),
+                priceLevel: 3,
+                blurb: "Counter-only, cash-only, and worth every minute in line. The Sicilian sashimi and cracked crab are the reason locals wait.",
+                dishes: ["Sicilian Sashimi", "Cracked Crab", "Clam Chowder", "Oysters on the Half Shell"],
+                distanceMiles: 1.2,
+                hours: OpenHours(openHour: 10, closeHour: 17),
+                seedRating: 4.8,
+                popularity: 97,
+                photoSeed: "swan_oyster",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Nob Hill, San Francisco",
+                cuisineDetails: "$$$ | Seafood, Raw Bar",
+                statusLine: "1.2 mi • Open • Closes 5:30 PM",
+                beliScore: 9.6,
+                photoAssetNames: ["tr_r_swan_oyster_0", "tr_r_swan_oyster_1", "tr_r_swan_oyster_2"],
+                searchHints: ["oysters", "counter", "nob hill", "cash only", "line"]
+            ),
+            restaurant(
+                id: "dumpling_home",
+                name: "Dumpling Home",
+                cuisine: cuisine(id: "chinese", name: "Chinese"),
+                neighborhood: neighborhood(id: "soma", name: "SoMa", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "Hand-folded soup dumplings that actually hold together and a dan dan noodle that deserves more attention.",
+                dishes: ["Soup Dumplings", "Dan Dan Noodles", "Pan-Fried Pork Buns", "Crispy Scallion Pancake"],
+                distanceMiles: 0.5,
+                hours: OpenHours(openHour: 11, closeHour: 21),
+                seedRating: 4.4,
+                popularity: 90,
+                photoSeed: "dumpling_home",
+                isNew: false,
+                isTrending: false,
+                locationLine: "SoMa, San Francisco",
+                cuisineDetails: "$$ | Chinese, Dumplings",
+                statusLine: "0.5 mi • Open • Closes 9:00 PM",
+                beliScore: 8.7,
+                photoAssetNames: ["tr_r_dumpling_home_0", "tr_r_dumpling_home_1", "tr_r_dumpling_home_2"],
+                searchHints: ["dumplings", "soup dumplings", "soma", "quick lunch"]
+            ),
+            restaurant(
+                id: "marufuku",
+                name: "Marufuku Ramen",
+                cuisine: cuisine(id: "japanese", name: "Japanese"),
+                neighborhood: neighborhood(id: "japantown", name: "Japantown", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "Hakata-style tonkotsu that takes the pork broth seriously. The extra-rich option is always the right call.",
+                dishes: ["Hakata Tonkotsu", "Chicken Paitan", "Gyoza", "Karaage"],
+                distanceMiles: 1.9,
+                hours: OpenHours(openHour: 11, closeHour: 22),
+                seedRating: 4.5,
+                popularity: 93,
+                photoSeed: "marufuku",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Japantown, San Francisco",
+                cuisineDetails: "$$ | Japanese, Ramen",
+                statusLine: "1.9 mi • Open • Closes 10:00 PM",
+                beliScore: 8.9,
+                photoAssetNames: ["tr_r_marufuku_0", "tr_r_marufuku_1", "tr_r_marufuku_2"],
+                searchHints: ["ramen", "tonkotsu", "japantown", "noodles"]
+            ),
+            restaurant(
+                id: "tonys_pizza",
+                name: "Tony's Pizza Napoletana",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "north_beach", name: "North Beach", city: "San Francisco"),
+                priceLevel: 2,
+                blurb: "Thirteen styles of pizza under one roof, and the Margherita still wins world championships for a reason.",
+                dishes: ["Margherita", "Coal-Fired New Yorker", "Detroit Style", "Cal Italia"],
+                distanceMiles: 1.6,
+                hours: OpenHours(openHour: 12, closeHour: 22),
+                seedRating: 4.4,
+                popularity: 92,
+                photoSeed: "tonys_pizza",
+                isNew: false,
+                isTrending: false,
+                locationLine: "North Beach, San Francisco",
+                cuisineDetails: "$$ | Italian, Pizza",
+                statusLine: "1.6 mi • Open • Closes 10:00 PM",
+                beliScore: 8.8,
+                photoAssetNames: ["tr_r_tonys_pizza_0", "tr_r_tonys_pizza_1", "tr_r_tonys_pizza_2"],
+                searchHints: ["pizza", "north beach", "margherita", "coal fired"]
+            ),
+
+            // ── More East Bay ──────────────────────────────────────
+
+            restaurant(
+                id: "ippuku",
+                name: "Ippuku",
+                cuisine: cuisine(id: "japanese", name: "Japanese"),
+                neighborhood: neighborhood(id: "downtown_berk", name: "Downtown", city: "Berkeley"),
+                priceLevel: 3,
+                blurb: "A Berkeley izakaya with real charcoal yakitori and a shochu list that goes deeper than you expect.",
+                dishes: ["Chicken Thigh Yakitori", "Tsukune", "Grilled Shishito", "Chawanmushi"],
+                distanceMiles: 11.0,
+                hours: OpenHours(openHour: 17, closeHour: 22),
+                seedRating: 4.5,
+                popularity: 89,
+                photoSeed: "ippuku",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Downtown, Berkeley",
+                cuisineDetails: "$$$ | Japanese, Izakaya",
+                statusLine: "11.0 mi • Closed • Opens 5:00 PM",
+                beliScore: 8.8,
+                photoAssetNames: ["tr_r_ippuku_0", "tr_r_ippuku_1", "tr_r_ippuku_2"],
+                searchHints: ["yakitori", "izakaya", "berkeley", "charcoal"]
+            ),
+
+            // ── More New York ──────────────────────────────────────
+
+            restaurant(
+                id: "via_carota",
+                name: "Via Carota",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "west_village", name: "West Village", city: "Manhattan"),
+                priceLevel: 3,
+                blurb: "The kind of Greenwich Village Italian that makes you forget what time it is. Carciofi fritti and a Negroni is the correct opener.",
+                dishes: ["Carciofi Fritti", "Insalata Verde", "Raviolo", "Lemon Olive Oil Cake"],
+                distanceMiles: 2_572.0,
+                hours: OpenHours(openHour: 10, closeHour: 23),
+                seedRating: 4.7,
+                popularity: 97,
+                photoSeed: "via_carota",
+                isNew: false,
+                isTrending: true,
+                locationLine: "West Village, Manhattan",
+                cuisineDetails: "$$$ | Italian",
+                statusLine: "2,572 mi • Open • Closes 11:00 PM",
+                beliScore: 9.5,
+                photoAssetNames: ["tr_r_via_carota_0", "tr_r_via_carota_1", "tr_r_via_carota_2"],
+                searchHints: ["italian", "west village", "no reservations", "new york"]
+            ),
+            restaurant(
+                id: "los_tacos",
+                name: "Los Tacos No. 1",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "chelsea", name: "Chelsea", city: "Manhattan"),
+                priceLevel: 1,
+                blurb: "A Chelsea Market counter where the adobada and nopal tacos arrive fast and taste better than places twice the price.",
+                dishes: ["Adobada Taco", "Nopal Taco", "Quesadilla", "Agua de Horchata"],
+                distanceMiles: 2_573.0,
+                hours: OpenHours(openHour: 11, closeHour: 22),
+                seedRating: 4.5,
+                popularity: 95,
+                photoSeed: "los_tacos",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Chelsea, Manhattan",
+                cuisineDetails: "$ | Mexican, Tacos",
+                statusLine: "2,573 mi • Open • Closes 10:00 PM",
+                beliScore: 9.0,
+                photoAssetNames: ["tr_r_los_tacos_0", "tr_r_los_tacos_1", "tr_r_los_tacos_2"],
+                searchHints: ["tacos", "chelsea market", "quick", "new york"]
+            ),
+
+            // ── Bangkok (Travel) ───────────────────────────────────
+
+            restaurant(
+                id: "gaggan_anand",
+                name: "Gaggan Anand",
+                cuisine: cuisine(id: "indian", name: "Indian"),
+                neighborhood: neighborhood(id: "silom", name: "Silom", city: "Bangkok"),
+                priceLevel: 4,
+                blurb: "Progressive Indian tasting that reinvents every course with emoji-only menus and a chef who treats dinner like a show.",
+                dishes: ["Lick It Up", "Yogurt Explosion", "Charcoal Lamb Chop", "Masala Chai Finale"],
+                distanceMiles: 8_265.0,
+                hours: OpenHours(openHour: 18, closeHour: 23),
+                seedRating: 4.9,
+                popularity: 98,
+                photoSeed: "gaggan_anand",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Silom, Bangkok",
+                cuisineDetails: "$$$$ | Progressive Indian",
+                statusLine: "8,265 mi • Closed • Opens 6:00 PM",
+                beliScore: 9.8,
+                photoAssetNames: ["tr_r_gaggan_anand_0", "tr_r_gaggan_anand_1", "tr_r_gaggan_anand_2"],
+                searchHints: ["bangkok", "indian", "tasting menu", "progressive", "travel"]
+            ),
+
+            // ── Singapore (Travel) ─────────────────────────────────
+
+            restaurant(
+                id: "hawker_chan",
+                name: "Hawker Chan",
+                cuisine: cuisine(id: "singaporean", name: "Singaporean"),
+                neighborhood: neighborhood(id: "chinatown_sg", name: "Chinatown", city: "Singapore"),
+                priceLevel: 1,
+                blurb: "Michelin-starred soya sauce chicken rice at hawker prices. The glaze on the chicken has made this the most famous stall in Singapore.",
+                dishes: ["Soya Sauce Chicken Rice", "Char Siu Rice", "Wonton Noodles", "Braised Egg"],
+                distanceMiles: 8_446.0,
+                hours: OpenHours(openHour: 10, closeHour: 20),
+                seedRating: 4.5,
+                popularity: 96,
+                photoSeed: "hawker_chan",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Chinatown, Singapore",
+                cuisineDetails: "$ | Singaporean, Hawker",
+                statusLine: "8,446 mi • Open • Closes 8:00 PM",
+                beliScore: 9.1,
+                photoAssetNames: ["tr_r_hawker_chan_0", "tr_r_hawker_chan_1", "tr_r_hawker_chan_2"],
+                searchHints: ["singapore", "hawker", "chicken rice", "michelin", "travel"]
+            ),
+
+            // ── More Tokyo (Travel) ────────────────────────────────
+
+            restaurant(
+                id: "den_tokyo",
+                name: "Den",
+                cuisine: cuisine(id: "japanese", name: "Japanese"),
+                neighborhood: neighborhood(id: "shibuya", name: "Shibuya", city: "Tokyo"),
+                priceLevel: 4,
+                blurb: "Playful kaiseki that hides real technique behind humor. The signature ant-topped Dentucky Fried Chicken is unforgettable.",
+                dishes: ["Dentucky Fried Chicken", "Salad Garden", "Monaka", "Seasonal Kaiseki Course"],
+                distanceMiles: 5_351.0,
+                hours: OpenHours(openHour: 18, closeHour: 22),
+                seedRating: 4.9,
+                popularity: 97,
+                photoSeed: "den_tokyo",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Shibuya, Tokyo",
+                cuisineDetails: "$$$$ | Japanese, Kaiseki",
+                statusLine: "5,351 mi • Closed • Opens 6:00 PM",
+                beliScore: 9.9,
+                photoAssetNames: ["tr_r_den_tokyo_0", "tr_r_den_tokyo_1", "tr_r_den_tokyo_2"],
+                searchHints: ["tokyo", "kaiseki", "playful", "fine dining", "travel"]
+            ),
+
+            // ── More Mexico City (Travel) ──────────────────────────
+
+            restaurant(
+                id: "quintonil",
+                name: "Quintonil",
+                cuisine: cuisine(id: "mexican", name: "Mexican"),
+                neighborhood: neighborhood(id: "condesa", name: "Condesa", city: "Mexico City"),
+                priceLevel: 4,
+                blurb: "Seasonal Mexican tasting with a quieter confidence than its neighbors. The hoja santa and ant larvae courses are serious cooking.",
+                dishes: ["Seasonal Tasting", "Hoja Santa Course", "Corn Trilogy", "Mole Rojo"],
+                distanceMiles: 1_888.0,
+                hours: OpenHours(openHour: 13, closeHour: 22),
+                seedRating: 4.8,
+                popularity: 96,
+                photoSeed: "quintonil",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Condesa, Mexico City",
+                cuisineDetails: "$$$$ | Mexican, Tasting Menu",
+                statusLine: "1,888 mi • Open • Closes 10:00 PM",
+                beliScore: 9.6,
+                photoAssetNames: ["tr_r_quintonil_0", "tr_r_quintonil_1", "tr_r_quintonil_2"],
+                searchHints: ["mexico city", "tasting menu", "seasonal", "fine dining", "travel"]
+            ),
+
+            // ── Paris (Travel) ─────────────────────────────────────
+
+            restaurant(
+                id: "septime",
+                name: "Septime",
+                cuisine: cuisine(id: "french", name: "French"),
+                neighborhood: neighborhood(id: "le_marais", name: "Le Marais", city: "Paris"),
+                priceLevel: 4,
+                blurb: "Modern French tasting in a stripped-back room where the ingredient sourcing does the talking and every course surprises.",
+                dishes: ["Seasonal Tasting Menu", "Garden Course", "Fish Course", "Dessert Pairing"],
+                distanceMiles: 5_583.0,
+                hours: OpenHours(openHour: 19, closeHour: 23),
+                seedRating: 4.8,
+                popularity: 95,
+                photoSeed: "septime",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Le Marais, Paris",
+                cuisineDetails: "$$$$ | Modern French",
+                statusLine: "5,583 mi • Closed • Opens 7:00 PM",
+                beliScore: 9.5,
+                photoAssetNames: ["tr_r_septime_0", "tr_r_septime_1", "tr_r_septime_2"],
+                searchHints: ["paris", "french", "tasting menu", "modern", "travel"]
+            ),
+
+            // ── Hong Kong (Travel) ─────────────────────────────────
+
+            restaurant(
+                id: "the_chairman",
+                name: "The Chairman",
+                cuisine: cuisine(id: "chinese", name: "Chinese"),
+                neighborhood: neighborhood(id: "central_hk", name: "Central", city: "Hong Kong"),
+                priceLevel: 4,
+                blurb: "A Central Hong Kong restaurant that sources every ingredient with quiet obsession. The flower crab and steamed chicken are legend.",
+                dishes: ["Steamed Flower Crab", "Free-Range Chicken", "Crispy Taro", "Seasonal Vegetables"],
+                distanceMiles: 6_926.0,
+                hours: OpenHours(openHour: 12, closeHour: 22),
+                seedRating: 4.9,
+                popularity: 97,
+                photoSeed: "the_chairman",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Central, Hong Kong",
+                cuisineDetails: "$$$$ | Cantonese",
+                statusLine: "6,926 mi • Open • Closes 10:00 PM",
+                beliScore: 9.8,
+                photoAssetNames: ["tr_r_the_chairman_0", "tr_r_the_chairman_1", "tr_r_the_chairman_2"],
+                searchHints: ["hong kong", "cantonese", "fine dining", "crab", "travel"]
+            ),
+
+            // ── Lima (Travel) ──────────────────────────────────────
+
+            restaurant(
+                id: "maido",
+                name: "Maido",
+                cuisine: cuisine(id: "peruvian", name: "Peruvian"),
+                neighborhood: neighborhood(id: "miraflores", name: "Miraflores", city: "Lima"),
+                priceLevel: 4,
+                blurb: "Nikkei tasting that blends Japanese precision with Peruvian produce. The sea urchin causa and A5 anticucho stay with you.",
+                dishes: ["Sea Urchin Causa", "Nikkei Tasting Menu", "A5 Anticucho", "Lucuma Dessert"],
+                distanceMiles: 4_172.0,
+                hours: OpenHours(openHour: 12, closeHour: 22),
+                seedRating: 4.9,
+                popularity: 96,
+                photoSeed: "maido",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Miraflores, Lima",
+                cuisineDetails: "$$$$ | Peruvian-Japanese",
+                statusLine: "4,172 mi • Open • Closes 10:00 PM",
+                beliScore: 9.7,
+                photoAssetNames: ["tr_r_maido_0", "tr_r_maido_1", "tr_r_maido_2"],
+                searchHints: ["lima", "nikkei", "peruvian", "tasting menu", "travel"]
+            ),
+
+            // ── More LA ────────────────────────────────────────────
+
+            restaurant(
+                id: "bestia",
+                name: "Bestia",
+                cuisine: cuisine(id: "italian", name: "Italian"),
+                neighborhood: neighborhood(id: "historic_sc", name: "Historic South Central", city: "Los Angeles"),
+                priceLevel: 3,
+                blurb: "LA Italian that thrives on big plates, bold flavors, and a room that never slows down. The agnolotti and pizza are non-negotiable.",
+                dishes: ["Spaghetti Rustichella", "Fennel Sausage Pizza", "Bone Marrow", "Budino"],
+                distanceMiles: 382.0,
+                hours: OpenHours(openHour: 17, closeHour: 23),
+                seedRating: 4.7,
+                popularity: 96,
+                photoSeed: "bestia",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Historic South Central, Los Angeles",
+                cuisineDetails: "$$$ | Italian",
+                statusLine: "382 mi • Closed • Opens 5:00 PM",
+                beliScore: 9.3,
+                photoAssetNames: ["tr_r_bestia_0", "tr_r_bestia_1", "tr_r_bestia_2"],
+                searchHints: ["los angeles", "italian", "pasta", "dtla", "travel"]
+            ),
+
+            // ── Barcelona (Travel) ─────────────────────────────────
+
+            restaurant(
+                id: "cal_pep",
+                name: "Cal Pep",
+                cuisine: cuisine(id: "spanish", name: "Spanish"),
+                neighborhood: neighborhood(id: "el_born", name: "El Born", city: "Barcelona"),
+                priceLevel: 3,
+                blurb: "A tapas bar where you eat at the counter and trust the chef. The fried fish and clams arrive fast and disappear faster.",
+                dishes: ["Fried Whitebait", "Clams a la Plancha", "Tortilla Espanola", "Jamon Iberico"],
+                distanceMiles: 5_826.0,
+                hours: OpenHours(openHour: 13, closeHour: 23),
+                seedRating: 4.6,
+                popularity: 93,
+                photoSeed: "cal_pep",
+                isNew: false,
+                isTrending: false,
+                locationLine: "El Born, Barcelona",
+                cuisineDetails: "$$$ | Spanish, Tapas",
+                statusLine: "5,826 mi • Open • Closes 11:00 PM",
+                beliScore: 9.1,
+                photoAssetNames: ["tr_r_cal_pep_0", "tr_r_cal_pep_1", "tr_r_cal_pep_2"],
+                searchHints: ["barcelona", "tapas", "counter", "seafood", "travel"]
+            ),
+
+            // ── Catalina Island ─────────────────────────────────
+
+            restaurant(
+                id: "avalon_seafood",
+                name: "Avalon Seafood & Fish Market",
+                cuisine: cuisine(id: "seafood", name: "Seafood"),
+                neighborhood: neighborhood(id: "avalon", name: "Avalon", city: "Catalina Island"),
+                priceLevel: 2,
+                blurb: "A dockside counter where the catch is hours old and the fish tacos come with a harbor view that makes you forget the ferry ride.",
+                dishes: ["Fish Tacos", "Clam Chowder", "Grilled Swordfish Plate", "Poke Bowl"],
+                distanceMiles: 56.0,
+                hours: OpenHours(openHour: 11, closeHour: 20),
+                seedRating: 4.4,
+                popularity: 88,
+                photoSeed: "avalon_seafood",
+                isNew: false,
+                isTrending: true,
+                locationLine: "Avalon, Catalina Island",
+                cuisineDetails: "$$ | Seafood, Fish Market",
+                statusLine: "56 mi • Open • Closes 8:00 PM",
+                beliScore: 8.7,
+                photoAssetNames: ["tr_r_avalon_seafood_0", "tr_r_avalon_seafood_1", "tr_r_avalon_seafood_2"],
+                searchHints: ["catalina", "island", "seafood", "fish tacos", "harbor", "avalon"]
+            ),
+            restaurant(
+                id: "catalina_mediterranean",
+                name: "Descanso Beach Club",
+                cuisine: cuisine(id: "mediterranean", name: "Mediterranean"),
+                neighborhood: neighborhood(id: "avalon", name: "Avalon", city: "Catalina Island"),
+                priceLevel: 3,
+                blurb: "Sand-floor dining with Mediterranean plates, frozen cocktails, and a sunset that does all the heavy lifting for ambiance.",
+                dishes: ["Grilled Octopus", "Lamb Kofta Flatbread", "Ahi Crudo", "Lemon Ricotta Cake"],
+                distanceMiles: 56.5,
+                hours: OpenHours(openHour: 11, closeHour: 22),
+                seedRating: 4.3,
+                popularity: 85,
+                photoSeed: "catalina_mediterranean",
+                isNew: false,
+                isTrending: false,
+                locationLine: "Avalon, Catalina Island",
+                cuisineDetails: "$$$ | Mediterranean, Coastal",
+                statusLine: "56.5 mi • Open • Closes 10:00 PM",
+                beliScore: 8.4,
+                photoAssetNames: ["tr_r_catalina_mediterranean_0", "tr_r_catalina_mediterranean_1", "tr_r_catalina_mediterranean_2"],
+                searchHints: ["catalina", "island", "mediterranean", "beach", "sunset", "avalon"]
+            ),
+            restaurant(
+                id: "harbor_reef",
+                name: "Harbor Reef Restaurant",
+                cuisine: cuisine(id: "seafood", name: "Seafood"),
+                neighborhood: neighborhood(id: "two_harbors", name: "Two Harbors", city: "Catalina Island"),
+                priceLevel: 2,
+                blurb: "The only sit-down spot on the quiet side of the island, serving hearty seafood and burgers to hikers and boaters who earned the meal.",
+                dishes: ["Buffalo Burger", "Grilled Mahi-Mahi", "Coconut Shrimp", "Key Lime Pie"],
+                distanceMiles: 64.0,
+                hours: OpenHours(openHour: 10, closeHour: 21),
+                seedRating: 4.2,
+                popularity: 78,
+                photoSeed: "harbor_reef",
+                isNew: true,
+                isTrending: false,
+                locationLine: "Two Harbors, Catalina Island",
+                cuisineDetails: "$$ | Seafood, American",
+                statusLine: "64 mi • Open • Closes 9:00 PM",
+                beliScore: 8.1,
+                photoAssetNames: ["tr_r_harbor_reef_0", "tr_r_harbor_reef_1", "tr_r_harbor_reef_2"],
+                searchHints: ["catalina", "island", "seafood", "two harbors", "hiking", "boating"]
+            )
+        ]
+    }
+
+    static func defaultVisitLogs(restaurants: [Restaurant]) -> [VisitLog] {
+        [
+            // Recent week
+            visitLog(for: "la_taqueria", rating: 5, daysAgo: 1, note: "The super burrito was flawless. Carnitas with extra salsa verde."),
+            visitLog(for: "sightglass", rating: 4, daysAgo: 3, note: "Solid cortado and a quiet corner. Good morning."),
+            visitLog(for: "rich_table", rating: 5, daysAgo: 5, note: "Sardine chips still hit. Duck was the highlight this time."),
+
+            // Week 2
+            visitLog(for: "flour_water", rating: 5, daysAgo: 9, note: "Daily pasta was a mushroom agnolotti that stayed with me."),
+            visitLog(for: "z_and_y", rating: 4, daysAgo: 12, note: "Popcorn chicken was perfect. Dan dan noodles a bit salty tonight."),
+
+            // Week 3-4
+            visitLog(for: "san_tung", rating: 5, daysAgo: 16, note: "The wings remain the best in the city. Not close."),
+            visitLog(for: "mama_sf", rating: 4, daysAgo: 19, note: "Brunch was packed but the egg pizza delivered."),
+            visitLog(for: "nopalito", rating: 4, daysAgo: 22, note: "Pozole was deeply comforting on a foggy day."),
+
+            // Month 2
+            visitLog(for: "che_fico", rating: 5, daysAgo: 28, note: "Focaccia di Recco was the best thing on the table by a mile."),
+            visitLog(for: "nari", rating: 5, daysAgo: 32, note: "Khao soi course was transcendent. Worth every dollar."),
+            visitLog(for: "mister_jius", rating: 5, daysAgo: 36, note: "Cheung fun and smoked quail were standouts. Perfect date night."),
+            visitLog(for: "burma_superstar", rating: 4, daysAgo: 40, note: "Tea leaf salad is comfort food at this point."),
+            visitLog(for: "hog_island", rating: 4, daysAgo: 44, note: "Half dozen sweetwaters and a bloody mary. Ferry Building ritual."),
+
+            // Month 3
+            visitLog(for: "tartine", rating: 4, daysAgo: 49, note: "Morning bun was warm and perfect. Grabbed extra bread."),
+            visitLog(for: "souvla", rating: 4, daysAgo: 53, note: "Quick lamb wrap before a show. Frozen yogurt never misses."),
+            visitLog(for: "el_farolito", rating: 4, daysAgo: 57, note: "Late night super burrito after the concert. Essential."),
+            visitLog(for: "delfina", rating: 4, daysAgo: 61, note: "Simple pasta done right. The wine list keeps improving."),
+            visitLog(for: "kin_khao", rating: 4, daysAgo: 65, note: "Crab curry was the best thing I ate all week."),
+
+            // Month 4 - NY trip
+            visitLog(for: "carbone", rating: 5, daysAgo: 72, note: "Rigatoni vodka on a Tuesday night in the village. Still theatrical, still works."),
+            visitLog(for: "don_angie", rating: 5, daysAgo: 73, note: "The flatbread remains one of the safest dishes to order for the table."),
+            visitLog(for: "lilia", rating: 5, daysAgo: 74, note: "Agnolotti still feels automatic here. Worth the L train."),
+            visitLog(for: "katzs", rating: 4, daysAgo: 75, note: "Pastrami on rye. No notes. Just a perfect sandwich."),
+
+            // Month 5
+            visitLog(for: "pho_10_ly", rating: 4, daysAgo: 82, note: "Clean broth, fast table, exactly the right bowl for a weekday."),
+            visitLog(for: "lazy_bear", rating: 5, daysAgo: 88, note: "The communal format forces you to be present. Menu was excellent."),
+            visitLog(for: "commis", rating: 5, daysAgo: 93, note: "Every course felt considered. Oakland punch above everyone."),
+            visitLog(for: "cholita_linda", rating: 4, daysAgo: 97, note: "Fish tacos for a quick Oakland lunch. Tostones on the side."),
+
+            // Month 6 - Seoul trip
+            visitLog(for: "born_and_bred", rating: 5, daysAgo: 105, note: "The Hanwoo presentation was theatrical in the best way."),
+            visitLog(for: "myeongdong_kyoja", rating: 5, daysAgo: 106, note: "The short menu makes ordering easier than overthinking it."),
+            visitLog(for: "onjium", rating: 5, daysAgo: 107, note: "One of the more composed tasting menus without feeling rigid."),
+            visitLog(for: "haemok", rating: 5, daysAgo: 108, note: "Grilled eel set was the best meal in Busan. Not close."),
+
+            // Month 7
+            visitLog(for: "la_taqueria", rating: 5, daysAgo: 118, note: "Second visit this quarter. Still the best burrito in the city."),
+            visitLog(for: "san_tung", rating: 4, daysAgo: 124, note: "Wings and wontons in chili oil. Classic sunset dinner."),
+            visitLog(for: "rich_table", rating: 5, daysAgo: 130, note: "The porcini doughnuts are underrated. Always order those first."),
+            visitLog(for: "flour_water", rating: 4, daysAgo: 136, note: "Pizza was great but the pasta rotation was better last time."),
+
+            // Month 8 - Mexico City trip
+            visitLog(for: "pujol", rating: 5, daysAgo: 145, note: "Mole madre changed how I think about patience in cooking."),
+            visitLog(for: "contramar", rating: 5, daysAgo: 146, note: "Tuna tostadas arrived fast. Pescado a la talla is mandatory."),
+
+            // Month 9
+            visitLog(for: "chez_panisse", rating: 5, daysAgo: 158, note: "The simplicity is the whole point and it still works beautifully."),
+            visitLog(for: "che_fico", rating: 4, daysAgo: 165, note: "Wood-fired fish was excellent. The room is always fun."),
+            visitLog(for: "mister_jius", rating: 5, daysAgo: 172, note: "Sesame flatbread course is reason enough to go back."),
+
+            // Month 10 - Tokyo trip
+            visitLog(for: "narisawa", rating: 5, daysAgo: 185, note: "Forest bread opened the meal and I never recovered. Incredible."),
+            visitLog(for: "tsuta", rating: 5, daysAgo: 186, note: "Best ramen of my life. The truffle shoyu is earned, not gimmicky."),
+
+            // Month 11
+            visitLog(for: "tartine", rating: 4, daysAgo: 195, note: "Country bread loaf for the week. Smoked trout tartine for lunch."),
+            visitLog(for: "burma_superstar", rating: 4, daysAgo: 202, note: "Coconut chicken noodles were the move this time."),
+            visitLog(for: "nopalito", rating: 4, daysAgo: 210, note: "Carnitas plate and churros. Weeknight comfort."),
+            visitLog(for: "z_and_y", rating: 5, daysAgo: 218, note: "Brought friends. Cumin lamb stole the show."),
+
+            // Month 12 - Europe
+            visitLog(for: "kokkalo", rating: 5, daysAgo: 240, note: "Booked it for the sunset and left talking about the lamb."),
+            visitLog(for: "le_comptoir", rating: 4, daysAgo: 248, note: "Duck confit and a glass of Bordeaux. Paris doing its thing."),
+            visitLog(for: "dishoom", rating: 5, daysAgo: 255, note: "Black daal might be the single best dish in London."),
+            visitLog(for: "holbox", rating: 5, daysAgo: 265, note: "Seafood tasted brighter than lunch had any right to."),
+            visitLog(for: "sightglass", rating: 4, daysAgo: 275, note: "Pour over and people-watching. SoMa Sunday."),
+            visitLog(for: "hog_island", rating: 4, daysAgo: 290, note: "Happy hour oysters with friends visiting from out of town."),
+
+            // New restaurants
+            visitLog(for: "zuni_cafe", rating: 5, daysAgo: 7, note: "Roast chicken for two. Hour wait, zero regrets."),
+            visitLog(for: "swan_oyster", rating: 5, daysAgo: 14, note: "Counter lunch at its finest. Sicilian sashimi is the sleeper hit."),
+            visitLog(for: "state_bird", rating: 5, daysAgo: 20, note: "Every cart had something I wanted. Garlic bread with burrata is mandatory."),
+            visitLog(for: "dumpling_home", rating: 4, daysAgo: 25, note: "Soup dumplings held together perfectly. Quick, solid lunch."),
+            visitLog(for: "marufuku", rating: 4, daysAgo: 33, note: "Extra-rich tonkotsu on a cold foggy day. Exactly right."),
+            visitLog(for: "tonys_pizza", rating: 4, daysAgo: 41, note: "Margherita in North Beach. The coal-fired New Yorker surprised me."),
+            visitLog(for: "ippuku", rating: 4, daysAgo: 55, note: "Yakitori over real charcoal. Berkeley does izakaya right."),
+            visitLog(for: "via_carota", rating: 5, daysAgo: 78, note: "Carciofi fritti and a Negroni in the Village. Textbook evening."),
+            visitLog(for: "los_tacos", rating: 5, daysAgo: 79, note: "Adobada at Chelsea Market. Best quick meal in Manhattan."),
+            visitLog(for: "gaggan_anand", rating: 5, daysAgo: 115, note: "Emoji menu, zero misses. Lick It Up is as wild as they say."),
+            visitLog(for: "den_tokyo", rating: 5, daysAgo: 187, note: "Dentucky Fried Chicken made the table laugh and then shut up. Serious cooking."),
+            visitLog(for: "the_chairman", rating: 5, daysAgo: 200, note: "Flower crab in Central. Every ingredient felt hand-selected."),
+            visitLog(for: "maido", rating: 5, daysAgo: 230, note: "Nikkei tasting in Lima. The sea urchin causa was the best bite of the trip."),
+            visitLog(for: "septime", rating: 5, daysAgo: 250, note: "Modern French with zero pretension. Every course landed."),
+            visitLog(for: "bestia", rating: 5, daysAgo: 270, note: "DTLA Italian that goes big on everything. Budino is the correct finish."),
+            visitLog(for: "cal_pep", rating: 4, daysAgo: 285, note: "Counter tapas in El Born. Fried whitebait and cold beer."),
+            visitLog(for: "quintonil", rating: 5, daysAgo: 148, note: "Quieter than Pujol but the corn trilogy was extraordinary.")
+        ].compactMap { log in
+            restaurants.contains(where: { $0.id == log.restaurantID }) ? log : nil
+        }
+    }
+
+    static func defaultLists(restaurants: [Restaurant]) -> [ListCollection] {
+        let available = Set(restaurants.map(\.id))
+        return [
+            ListCollection(
+                id: "list_want_to_try",
+                name: "Want to Try",
+                restaurantIDs: [
+                    "commis", "chez_panisse", "carbone", "don_angie", "pujol",
+                    "narisawa", "born_and_bred", "onjium", "haemok", "holbox",
+                    "lazy_bear", "lilia", "hawker_chan", "quintonil"
+                ].filter { available.contains($0) }
+            ),
+            ListCollection(
+                id: "list_guides",
+                name: "Seoul Guide",
+                restaurantIDs: ["born_and_bred", "myeongdong_kyoja", "onjium", "haemok"]
+                    .filter { available.contains($0) }
+            ),
+            ListCollection(
+                id: "guide_nyc_brunch",
+                name: "NYC Brunch Guide",
+                restaurantIDs: ["carbone", "don_angie", "lilia"]
+                    .filter { available.contains($0) }
+            ),
+            ListCollection(
+                id: "guide_sf_fine_dining",
+                name: "SF Fine Dining Guide",
+                restaurantIDs: ["commis", "lazy_bear", "rich_table", "state_bird", "nari"]
+                    .filter { available.contains($0) }
+            ),
+            ListCollection(
+                id: "guide_mexico_city",
+                name: "Mexico City Guide",
+                restaurantIDs: ["pujol", "quintonil", "holbox"]
+                    .filter { available.contains($0) }
+            ),
+            ListCollection(
+                id: "list_date_night",
+                name: "Date Night",
+                restaurantIDs: ["rich_table", "che_fico", "mister_jius", "flour_water", "nari", "lazy_bear", "delfina", "state_bird", "zuni_cafe"]
+                    .filter { available.contains($0) }
+            ),
+            ListCollection(
+                id: "list_mission_crawl",
+                name: "Mission Crawl",
+                restaurantIDs: ["la_taqueria", "el_farolito", "tartine", "flour_water", "delfina", "lazy_bear"]
+                    .filter { available.contains($0) }
+            ),
+            ListCollection(
+                id: "list_travel_hits",
+                name: "Travel Hits",
+                restaurantIDs: [
+                    "kokkalo", "born_and_bred", "narisawa", "pujol", "contramar",
+                    "dishoom", "le_comptoir", "tsuta", "lilia", "carbone",
+                    "gaggan_anand", "den_tokyo", "the_chairman", "maido", "septime"
+                ].filter { available.contains($0) }
+            )
+        ]
+    }
+
+    static func friends() -> [FriendProfile] {
+        [
+            friend(id: "ari", name: "Ari Mercer", handle: "@supperatlas", avatarSeed: "ari"),
+            friend(id: "nina", name: "Nina Vale", handle: "@broththeory", avatarSeed: "nina"),
+            friend(id: "dev", name: "Dev Sato", handle: "@docktable", avatarSeed: "dev"),
+            friend(id: "zoe", name: "Zoe Park", handle: "@crumbdistrict", avatarSeed: "zoe"),
+            friend(id: "omar", name: "Omar Reed", handle: "@nightmarketed", avatarSeed: "omar"),
+            friend(id: "ivy", name: "Ivy Chen", handle: "@menuindex", avatarSeed: "ivy"),
+            friend(id: "leo", name: "Leo Hart", handle: "@afterservice", avatarSeed: "leo"),
+            friend(id: "maya", name: "Maya Lin", handle: "@countertheory", avatarSeed: "maya"),
+            friend(id: "jules", name: "Jules Romero", handle: "@seat4two", avatarSeed: "jules"),
+            friend(id: "rhea", name: "Rhea Song", handle: "@weekdayspecial", avatarSeed: "rhea"),
+            friend(id: "kei", name: "Kei Foster", handle: "@grillsignals", avatarSeed: "kei"),
+            friend(id: "lena", name: "Lena Brooks", handle: "@smallplatesclub", avatarSeed: "lena"),
+            friend(id: "maya_p", name: "Maya Patel", handle: "@platetheory", avatarSeed: "maya_p"),
+            friend(id: "nina_b", name: "Nina Brooks", handle: "@noodlearchive", avatarSeed: "nina_b"),
+            friend(id: "priya_r", name: "Priya Raman", handle: "@spicemappr", avatarSeed: "priya_r"),
+            friend(id: "camille_h", name: "Camille Hart", handle: "@lastcourse", avatarSeed: "camille_h"),
+            friend(id: "lena_o", name: "Lena Ortiz", handle: "@herbwindow", avatarSeed: "lena_o"),
+            friend(id: "kai_s", name: "Kai Santos", handle: "@plateforward", avatarSeed: "kai_s"),
+            friend(id: "ava_t", name: "Ava Torres", handle: "@morningmarkets", avatarSeed: "ava_t"),
+            friend(id: "elena_b", name: "Elena Brooks", handle: "@trailmixdiner", avatarSeed: "elena_b"),
+            friend(id: "grace_l", name: "Grace Lin", handle: "@quiettable", avatarSeed: "grace_l"),
+            friend(id: "celeste_h", name: "Celeste Huang", handle: "@dawnbowl", avatarSeed: "celeste_h")
+        ]
+    }
+
+    static func requestContactFriends(completion: @escaping ([FriendProfile]) -> Void) {
+        completion([])
+    }
+
+    static func friendLogs(restaurants: [Restaurant], friends: [FriendProfile]) -> [FriendLog] {
+        let available = Set(restaurants.map(\.id))
+        let logSpecs: [(String, String, Int, Int, String)] = [
+            ("ari", "rich_table", 5, 2, "Sardine chips are still the opening move. Duck was incredible."),
+            ("nina", "pho_10_ly", 4, 3, "Exactly the broth I want when I only have thirty quiet minutes."),
+            ("dev", "kokkalo", 5, 1, "The lamb felt almost unfair with that view."),
+            ("zoe", "holbox", 5, 4, "Still one of the best lunch detours in LA."),
+            ("omar", "haemok", 5, 6, "Worth building a whole Busan afternoon around."),
+            ("ivy", "lilia", 5, 8, "The pasta is still worth rearranging a weeknight."),
+            ("leo", "don_angie", 5, 10, "Flatbread and lasagna is the right order here."),
+            ("maya", "born_and_bred", 5, 12, "Service and timing made the whole meal feel expensive in the best way."),
+            ("jules", "che_fico", 4, 14, "Wood-fired everything and a loud room. Perfect dinner."),
+            ("rhea", "la_taqueria", 5, 15, "The super burrito needs no explanation at this point."),
+            ("kei", "mister_jius", 5, 17, "Best Chinatown fine dining and it is not close."),
+            ("lena", "onjium", 5, 20, "The kind of Seoul meal that recalibrates your standards."),
+            ("ari", "carbone", 4, 22, "Still theatrical, still works."),
+            ("nina", "san_tung", 5, 24, "Wings that convert people on the spot."),
+            ("maya", "myeongdong_kyoja", 4, 26, "The line is part of the ritual at this point."),
+            ("zoe", "nari", 5, 28, "Northern Thai tasting that actually surprises you."),
+            ("leo", "flour_water", 5, 30, "Daily pasta rotation keeps this place interesting."),
+            ("omar", "narisawa", 5, 32, "Tokyo fine dining at its most poetic."),
+            ("jules", "pujol", 5, 35, "Mole madre is reason enough to fly to Mexico City."),
+            ("kei", "born_and_bred", 5, 38, "Hanwoo done with almost absurd confidence."),
+            ("ivy", "tartine", 4, 40, "Morning bun and a coffee. Simple and right."),
+            ("rhea", "burma_superstar", 4, 42, "Tea leaf salad remains a perfect lunch."),
+            ("lena", "contramar", 5, 45, "Tuna tostadas are the single best lunch in CDMX."),
+            ("dev", "commis", 5, 48, "Oakland tasting menu that deserves more attention."),
+            ("maya", "dishoom", 5, 50, "Black daal in Shoreditch hit different after a long flight."),
+            ("ari", "zuni_cafe", 5, 5, "The roast chicken for two is the most reliable dinner in SF."),
+            ("nina", "swan_oyster", 5, 7, "Counter lunch that makes you forget restaurants have tables."),
+            ("dev", "via_carota", 5, 11, "Carciofi fritti into a Negroni. West Village at its best."),
+            ("zoe", "bestia", 5, 16, "DTLA Italian that goes loud and never apologizes."),
+            ("ivy", "den_tokyo", 5, 19, "Dentucky Fried Chicken is somehow the best joke and best dish."),
+            ("leo", "the_chairman", 5, 25, "Flower crab in Central. Worth rearranging a whole Hong Kong day."),
+            ("jules", "gaggan_anand", 5, 30, "Emoji menu, real technique. Bangkok at its most inventive."),
+            ("rhea", "state_bird", 4, 33, "Every cart is a gamble worth taking. Garlic bread won the night."),
+            ("kei", "maido", 5, 36, "Nikkei tasting that rewired how I think about fusion."),
+            ("lena", "septime", 5, 39, "Paris stripped back to ingredient quality. Every course earned.")
+        ]
+
+        return logSpecs.compactMap { friendID, restaurantID, rating, daysAgo, note in
+            guard available.contains(restaurantID) else { return nil }
+            guard friends.contains(where: { $0.id == friendID }) else { return nil }
+            return FriendLog(
+                id: UUID(),
+                friendID: friendID,
+                restaurantID: restaurantID,
+                date: Calendar.current.date(byAdding: .day, value: -daysAgo, to: Date()) ?? Date(),
+                rating: rating,
+                note: note
+            )
+        }
+    }
+
+    static func feedPosts() -> [FeedPost] {
+        [
+            FeedPost(
+                id: "feed_dev_kokkalo",
+                authorName: "Dev Sato",
+                authorHandle: "@docktable",
+                authorAvatarSeed: "dev",
+                restaurantID: "kokkalo",
+                companionNames: ["Maya Lin", "Jules Romero"],
+                notePreview: "The lamb landed somewhere between dinner and a victory lap.",
+                likeCount: 12,
+                timeLabel: "48 minutes ago",
+                visitLabel: "1 visit"
+            ),
+            FeedPost(
+                id: "feed_ari_rich_table",
+                authorName: "Ari Mercer",
+                authorHandle: "@supperatlas",
+                authorAvatarSeed: "ari",
+                restaurantID: "rich_table",
+                companionNames: ["Lena Brooks"],
+                notePreview: "Sardine chips into porcini doughnuts into duck. The whole menu flows.",
+                likeCount: 8,
+                timeLabel: "2 hours ago",
+                visitLabel: "3 visits"
+            ),
+            FeedPost(
+                id: "feed_nina_pho10ly",
+                authorName: "Nina Vale",
+                authorHandle: "@broththeory",
+                authorAvatarSeed: "nina",
+                restaurantID: "pho_10_ly",
+                companionNames: [],
+                notePreview: "Broth had that clean depth where you stop talking after the first sip.",
+                likeCount: 6,
+                timeLabel: "5 hours ago",
+                visitLabel: "2 visits"
+            ),
+            FeedPost(
+                id: "feed_maya_born_and_bred",
+                authorName: "Maya Lin",
+                authorHandle: "@countertheory",
+                authorAvatarSeed: "maya",
+                restaurantID: "born_and_bred",
+                companionNames: ["Kei Foster"],
+                notePreview: "Service was precise without turning stiff and the beef justified the whole night.",
+                likeCount: 11,
+                timeLabel: "Yesterday",
+                visitLabel: "1 visit"
+            ),
+            FeedPost(
+                id: "feed_zoe_holbox",
+                authorName: "Zoe Park",
+                authorHandle: "@crumbdistrict",
+                authorAvatarSeed: "zoe",
+                restaurantID: "holbox",
+                companionNames: ["Omar Reed"],
+                notePreview: "Holbox still feels like cheating if you care about lunch-to-joy ratio.",
+                likeCount: 9,
+                timeLabel: "Yesterday",
+                visitLabel: "2 visits"
+            ),
+            FeedPost(
+                id: "feed_leo_don_angie",
+                authorName: "Leo Hart",
+                authorHandle: "@afterservice",
+                authorAvatarSeed: "leo",
+                restaurantID: "don_angie",
+                companionNames: ["Ivy Chen", "Rhea Song"],
+                notePreview: "Flatbread into lasagna for two. The kind of West Village dinner you schedule months out.",
+                likeCount: 14,
+                timeLabel: "2 days ago",
+                visitLabel: "4 visits"
+            ),
+            FeedPost(
+                id: "feed_ivy_tartine",
+                authorName: "Ivy Chen",
+                authorHandle: "@menuindex",
+                authorAvatarSeed: "ivy",
+                restaurantID: "tartine",
+                companionNames: [],
+                notePreview: "Morning bun warm from the oven. The smoked trout tartine is quietly the best thing here.",
+                likeCount: 7,
+                timeLabel: "2 days ago",
+                visitLabel: "6 visits"
+            ),
+            FeedPost(
+                id: "feed_rhea_la_taqueria",
+                authorName: "Rhea Song",
+                authorHandle: "@weekdayspecial",
+                authorAvatarSeed: "rhea",
+                restaurantID: "la_taqueria",
+                companionNames: ["Kei Foster"],
+                notePreview: "Super burrito, no rice, extra salsa verde. The only correct order.",
+                likeCount: 10,
+                timeLabel: "3 days ago",
+                visitLabel: "8 visits"
+            ),
+            FeedPost(
+                id: "feed_kei_mister_jius",
+                authorName: "Kei Foster",
+                authorHandle: "@grillsignals",
+                authorAvatarSeed: "kei",
+                restaurantID: "mister_jius",
+                companionNames: ["Lena Brooks"],
+                notePreview: "Sesame flatbread and smoked quail are still the opening act of the year.",
+                likeCount: 16,
+                timeLabel: "3 days ago",
+                visitLabel: "2 visits"
+            ),
+            FeedPost(
+                id: "feed_lena_pujol",
+                authorName: "Lena Brooks",
+                authorHandle: "@smallplatesclub",
+                authorAvatarSeed: "lena",
+                restaurantID: "pujol",
+                companionNames: ["Jules Romero"],
+                notePreview: "Mole madre is the reason I will keep flying to CDMX. Patience made edible.",
+                likeCount: 21,
+                timeLabel: "4 days ago",
+                visitLabel: "1 visit"
+            ),
+            FeedPost(
+                id: "feed_jules_che_fico",
+                authorName: "Jules Romero",
+                authorHandle: "@seat4two",
+                authorAvatarSeed: "jules",
+                restaurantID: "che_fico",
+                companionNames: ["Dev Sato", "Ari Mercer"],
+                notePreview: "Focaccia di Recco and cacio e pepe. The table got loud. No complaints.",
+                likeCount: 13,
+                timeLabel: "5 days ago",
+                visitLabel: "3 visits"
+            ),
+            FeedPost(
+                id: "feed_omar_narisawa",
+                authorName: "Omar Reed",
+                authorHandle: "@nightmarketed",
+                authorAvatarSeed: "omar",
+                restaurantID: "narisawa",
+                companionNames: [],
+                notePreview: "Forest bread course changed how I think about a first bite. Tokyo at its most poetic.",
+                likeCount: 18,
+                timeLabel: "Last week",
+                visitLabel: "1 visit"
+            ),
+            FeedPost(
+                id: "feed_ari_zuni",
+                authorName: "Ari Mercer",
+                authorHandle: "@supperatlas",
+                authorAvatarSeed: "ari",
+                restaurantID: "zuni_cafe",
+                companionNames: ["Nina Vale"],
+                notePreview: "Roast chicken for two is the most reliable dinner in this city. An hour wait that never feels wasted.",
+                likeCount: 15,
+                timeLabel: "6 hours ago",
+                visitLabel: "5 visits"
+            ),
+            FeedPost(
+                id: "feed_nina_swan",
+                authorName: "Nina Vale",
+                authorHandle: "@broththeory",
+                authorAvatarSeed: "nina",
+                restaurantID: "swan_oyster",
+                companionNames: [],
+                notePreview: "Sicilian sashimi at the counter. Fifteen minutes in line, zero minutes of regret.",
+                likeCount: 11,
+                timeLabel: "Yesterday",
+                visitLabel: "3 visits"
+            ),
+            FeedPost(
+                id: "feed_dev_via_carota",
+                authorName: "Dev Sato",
+                authorHandle: "@docktable",
+                authorAvatarSeed: "dev",
+                restaurantID: "via_carota",
+                companionNames: ["Ivy Chen", "Leo Hart"],
+                notePreview: "Carciofi fritti into insalata verde. No reservations, no problem when you time it right.",
+                likeCount: 19,
+                timeLabel: "2 days ago",
+                visitLabel: "2 visits"
+            ),
+            FeedPost(
+                id: "feed_ivy_den",
+                authorName: "Ivy Chen",
+                authorHandle: "@menuindex",
+                authorAvatarSeed: "ivy",
+                restaurantID: "den_tokyo",
+                companionNames: ["Omar Reed"],
+                notePreview: "Dentucky Fried Chicken made the table erupt. Then the next course made everyone quiet. That range.",
+                likeCount: 22,
+                timeLabel: "3 days ago",
+                visitLabel: "1 visit"
+            ),
+            FeedPost(
+                id: "feed_jules_gaggan",
+                authorName: "Jules Romero",
+                authorHandle: "@seat4two",
+                authorAvatarSeed: "jules",
+                restaurantID: "gaggan_anand",
+                companionNames: ["Kei Foster"],
+                notePreview: "An emoji menu that somehow communicates everything. Yogurt Explosion is exactly what it sounds like.",
+                likeCount: 24,
+                timeLabel: "Last week",
+                visitLabel: "1 visit"
+            )
+        ]
+    }
+
+    static func leaderboardEntries() -> [LeaderboardEntry] {
+        [
+            leaderboard(id: "ari", rank: 1, displayName: "Ari Mercer", handle: "@supperatlas", score: 741, avatarSeed: "ari"),
+            leaderboard(id: "nina", rank: 2, displayName: "Nina Vale", handle: "@broththeory", score: 698, avatarSeed: "nina"),
+            leaderboard(id: "dev", rank: 3, displayName: "Dev Sato", handle: "@docktable", score: 645, avatarSeed: "dev"),
+            leaderboard(id: "zoe", rank: 4, displayName: "Zoe Park", handle: "@crumbdistrict", score: 612, avatarSeed: "zoe"),
+            leaderboard(id: "maya", rank: 5, displayName: "Maya Lin", handle: "@countertheory", score: 566, avatarSeed: "maya"),
+            leaderboard(id: "lena", rank: 6, displayName: "Lena Brooks", handle: "@smallplatesclub", score: 521, avatarSeed: "lena"),
+            leaderboard(id: "leo", rank: 7, displayName: "Leo Hart", handle: "@afterservice", score: 487, avatarSeed: "leo"),
+            leaderboard(id: "ivy", rank: 8, displayName: "Ivy Chen", handle: "@menuindex", score: 468, avatarSeed: "ivy"),
+            leaderboard(id: "camille_h", rank: 9, displayName: "Camille Hart", handle: "@lastcourse", score: 445, avatarSeed: "camille_h"),
+            leaderboard(id: "priya_r", rank: 10, displayName: "Priya Raman", handle: "@spicemappr", score: 412, avatarSeed: "priya_r")
+        ]
+    }
+
+    static func userProfile() -> UserProfileSummary {
+        UserProfileSummary(
+            displayName: "Jordan Avery",
+            initials: "JA",
+            handle: "@jordanavery",
+            memberSince: "Member since March 2024",
+            schoolName: nil,
+            followers: 86,
+            following: 61,
+            beliRank: 14_208,
+            beenCount: 68,
+            wantToTryCount: 14,
+            streakLabel: "8 weeks",
+            lastYearCount: 48,
+            goalYear: 2026,
+            goalOptions: [
+                GoalOption(id: "20", title: "20"),
+                GoalOption(id: "35", title: "35"),
+                GoalOption(id: "50", title: "50"),
+                GoalOption(id: "customize", title: "Customize")
+            ],
+            selectedGoalID: "50"
+        )
+    }
+
+    static func defaultFollowedFriendIDs() -> [String] {
+        ["ari", "nina", "dev", "maya", "zoe", "lena"]
+    }
+
+    static func defaultFeedInteractionState() -> FeedInteractionState {
+        FeedInteractionState(
+            likedPostIDs: ["feed_dev_kokkalo", "feed_kei_mister_jius", "feed_lena_pujol", "feed_ivy_den", "feed_jules_gaggan"],
+            savedPostIDs: ["feed_maya_born_and_bred", "feed_omar_narisawa", "feed_leo_don_angie", "feed_dev_via_carota"],
+            commentsByPostID: [
+                "feed_dev_kokkalo": ["Adding this to my Greece shortlist.", "That lamb board is ridiculous."],
+                "feed_ari_rich_table": ["Sardine chips are mandatory. How was the duck?", "Need to get back to Hayes Valley."],
+                "feed_nina_pho10ly": ["Trusted broth opinion.", "This pushed me over the edge."],
+                "feed_maya_born_and_bred": ["Need a Seoul trip built around this meal."],
+                "feed_zoe_holbox": ["Holbox lunch remains undefeated."],
+                "feed_leo_don_angie": ["The flatbread is always the right call.", "West Village on a weeknight is a mood."],
+                "feed_kei_mister_jius": ["Chinatown fine dining at its peak."],
+                "feed_lena_pujol": ["Booking a flight after this post.", "Mole madre is worth every mile."],
+                "feed_jules_che_fico": ["NoPa never disappoints.", "Focaccia di Recco is non-negotiable."],
+                "feed_omar_narisawa": ["Tokyo bucket list material."],
+                "feed_ari_zuni": ["The chicken is always the move.", "Hayes Valley institution for a reason."],
+                "feed_nina_swan": ["Counter seats only. That's commitment."],
+                "feed_dev_via_carota": ["West Village Italian done right.", "Adding this to the NY list."],
+                "feed_ivy_den": ["Need to get back to Tokyo immediately.", "The range between humor and precision is unreal."],
+                "feed_jules_gaggan": ["Booking a Bangkok trip after this.", "Emoji menu is genius."]
+            ],
+            recommendationRequests: [
+                "Looking for a low-key weeknight dinner spot in the Mission or Hayes Valley.",
+                "Best casual lunch in Oakland or Berkeley?"
+            ]
+        )
+    }
+
+    private static func friend(id: String, name: String, handle: String, avatarSeed: String) -> FriendProfile {
+        FriendProfile(id: id, name: name, handle: handle, avatarSeed: avatarSeed)
+    }
+
+    private static func leaderboard(id: String, rank: Int, displayName: String, handle: String, score: Int, avatarSeed: String) -> LeaderboardEntry {
+        LeaderboardEntry(
+            id: id,
+            rank: rank,
+            displayName: displayName,
+            handle: handle,
+            score: score,
+            avatarSeed: avatarSeed
+        )
+    }
+
+    private static func visitLog(for restaurantID: String, rating: Int, daysAgo: Int, note: String) -> VisitLog {
+        VisitLog(
+            id: UUID(),
+            restaurantID: restaurantID,
+            dateVisited: Calendar.current.date(byAdding: .day, value: -daysAgo, to: Date()) ?? Date(),
+            rating: rating,
+            dishRatings: [],
+            notes: note,
+            tags: []
+        )
+    }
+
+    private static func restaurant(
+        id: String,
+        name: String,
+        cuisine: CuisineTag,
+        neighborhood: Neighborhood,
+        priceLevel: Int,
+        blurb: String,
+        dishes: [String],
+        distanceMiles: Double,
+        hours: OpenHours,
+        seedRating: Double,
+        popularity: Int,
+        photoSeed: String,
+        isNew: Bool,
+        isTrending: Bool,
+        locationLine: String,
+        cuisineDetails: String,
+        statusLine: String,
+        beliScore: Double,
+        photoAssetNames: [String],
+        searchHints: [String]
+    ) -> Restaurant {
+        Restaurant(
+            id: id,
+            name: name,
+            cuisine: cuisine,
+            neighborhood: neighborhood,
+            priceLevel: priceLevel,
+            blurb: blurb,
+            dishes: dishes.enumerated().map { Dish(id: "\(id)_dish_\($0.offset)", name: $0.element) },
+            distanceMiles: distanceMiles,
+            hours: hours,
+            seedRating: seedRating,
+            popularity: popularity,
+            photoSeed: photoSeed,
+            isNew: isNew,
+            isTrending: isTrending,
+            locationLine: locationLine,
+            cuisineDetails: cuisineDetails,
+            statusLine: statusLine,
+            beliScore: beliScore,
+            photoAssetNames: photoAssetNames,
+            searchHints: searchHints
+        )
+    }
+
+    private static func cuisine(id: String, name: String) -> CuisineTag {
+        CuisineTag(id: id, name: name)
+    }
+
+    private static func neighborhood(id: String, name: String, city: String) -> Neighborhood {
+        Neighborhood(id: id, name: name, city: city)
+    }
+}

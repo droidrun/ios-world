@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1359BBEECF37AE36A7618769 /* CityRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B68BAF12046A1E38517053F /* CityRideApp.swift */; };
+		F5EFB538ACB685B2EE4E36B1 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16587B7085B34CDAB8BFE8B8 /* AppModels.swift */; };
+		78A9E691768B23B82DD71113 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB50B1D93C6816A0AE8B3B01 /* SeedData.swift */; };
+		D81EE3AD669167AA6E2B71E9 /* CityRideSimStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789F400A862FDB9DB68F03E1 /* CityRideSimStore.swift */; };
+		3B2B6316551E5A52F7A0459C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B6D6FC8B3FCC2CDB85EA97 /* HomeViewModel.swift */; };
+		E419EBED2F56061FE136F8F0 /* RequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664114F340F3E1F267D41BC6 /* RequestViewModel.swift */; };
+		9F51A382E61BCF0963BAFBF2 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAE50C2A03C2BE8B2FF6A /* ActivityViewModel.swift */; };
+		77DFE5CA17E28CB1F166859A /* WalletViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75E118FA297161C987DA960 /* WalletViewModel.swift */; };
+		63687915E99B48C9725E9E29 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCE9B876E0AEF96D6416B3C /* AccountViewModel.swift */; };
+		FCB18EFE485A175A9A2A4E2B /* MoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770602022B34E9D9B4D51BC6 /* MoreViewModel.swift */; };
+		675594E338F22950074D1678 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F564A12A7E617B69B0CFC9 /* RootTabView.swift */; };
+		5D1DAB2BB0D94CB3EF1FF66A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0186B5C720D4AF9924AAA574 /* HomeView.swift */; };
+		58F7800C18EDC59EFE016E61 /* RequestFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41C389FE163D8713BCF2248 /* RequestFlowView.swift */; };
+		53CD467BC1A63B60553716C7 /* TripStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05312AB8154CE1741D62CE6 /* TripStatusView.swift */; };
+		F69DCE7C2CF428BC16E89236 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FF56FD2BD8F959DD719FBF /* ActivityView.swift */; };
+		01ECD98F7CBD9958A3FE6B77 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465847208A22061E17194530 /* WalletView.swift */; };
+		3F592061772C060DAC244E60 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D902A57EDD102BD5FC70991 /* AccountView.swift */; };
+		DB1F3B5707B9829F19229E08 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C272BC37FFDE9903D6042 /* MoreView.swift */; };
+		654CEA9008549CE72C9288E0 /* AppPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589C61E513DC0F758B16EDB1 /* AppPersistence.swift */; };
+		A533B4A234FF2E71E186E7FF /* FareRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECB27C5FD7BB267CCDE6F0 /* FareRepository.swift */; };
+		E1B5D51F65272CFBDAE386B2 /* AppFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A323660FD60A7A9F81304 /* AppFormatters.swift */; };
+		A1B2C3D4E5F60123456789AA /* RouteMapGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60123456789AC /* RouteMapGeometry.swift */; };
+		A1B2C3D4E5F60123456789AB /* CityRideTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F60123456789AD /* CityRideTheme.swift */; };
+		924A6BAEBAA9519671EFCC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D4F0B0A51BF5C075A1E524 /* Assets.xcassets */; };
+		74EB2F591327A16AFC0D4003 /* fare_snapshot.json in Resources */ = {isa = PBXBuildFile; fileRef = 42FD958A7B124114C97CF572 /* fare_snapshot.json */; };
+		B2C3D4E5F60712345678AAAA /* PlanRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60712345678BBBB /* PlanRideView.swift */; };
+		C3D4E5F607123456789ACCCC /* RouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4E5F607123456789ADDDD /* RouteMapView.swift */; };
+		E5F6A7B8C9D0E1F2A3B4C5D6 /* AddressSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F6A7B8C9D0E1F2A3B4C5 /* AddressSearchService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B68BAF12046A1E38517053F /* CityRideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRideApp.swift; sourceTree = "<group>"; };
+		16587B7085B34CDAB8BFE8B8 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		FB50B1D93C6816A0AE8B3B01 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		789F400A862FDB9DB68F03E1 /* CityRideSimStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRideSimStore.swift; sourceTree = "<group>"; };
+		F3B6D6FC8B3FCC2CDB85EA97 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		664114F340F3E1F267D41BC6 /* RequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewModel.swift; sourceTree = "<group>"; };
+		AAAAAE50C2A03C2BE8B2FF6A /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		B75E118FA297161C987DA960 /* WalletViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewModel.swift; sourceTree = "<group>"; };
+		FDCE9B876E0AEF96D6416B3C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		770602022B34E9D9B4D51BC6 /* MoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewModel.swift; sourceTree = "<group>"; };
+		C3F564A12A7E617B69B0CFC9 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		0186B5C720D4AF9924AAA574 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C41C389FE163D8713BCF2248 /* RequestFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFlowView.swift; sourceTree = "<group>"; };
+		E05312AB8154CE1741D62CE6 /* TripStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripStatusView.swift; sourceTree = "<group>"; };
+		08FF56FD2BD8F959DD719FBF /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		465847208A22061E17194530 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		5D902A57EDD102BD5FC70991 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		552C272BC37FFDE9903D6042 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		589C61E513DC0F758B16EDB1 /* AppPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPersistence.swift; sourceTree = "<group>"; };
+		D6ECB27C5FD7BB267CCDE6F0 /* FareRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareRepository.swift; sourceTree = "<group>"; };
+		013A323660FD60A7A9F81304 /* AppFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFormatters.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60123456789AC /* RouteMapGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapGeometry.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F60123456789AD /* CityRideTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRideTheme.swift; sourceTree = "<group>"; };
+		81D4F0B0A51BF5C075A1E524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42FD958A7B124114C97CF572 /* fare_snapshot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fare_snapshot.json; sourceTree = "<group>"; };
+		D87FFAD67154266E3024C357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05337583C7ABA61F69FC5AE1 /* CityRide.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CityRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C3D4E5F60712345678BBBB /* PlanRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanRideView.swift; sourceTree = "<group>"; };
+		C3D4E5F607123456789ADDDD /* RouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapView.swift; sourceTree = "<group>"; };
+		D4E5F6A7B8C9D0E1F2A3B4C5 /* AddressSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		209FAC3A625D83C69ADEB15A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16587B7085B34CDAB8BFE8B8 /* AppModels.swift */,
+				FB50B1D93C6816A0AE8B3B01 /* SeedData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F357ED80203487E648855A73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				789F400A862FDB9DB68F03E1 /* CityRideSimStore.swift */,
+				F3B6D6FC8B3FCC2CDB85EA97 /* HomeViewModel.swift */,
+				664114F340F3E1F267D41BC6 /* RequestViewModel.swift */,
+				AAAAAE50C2A03C2BE8B2FF6A /* ActivityViewModel.swift */,
+				B75E118FA297161C987DA960 /* WalletViewModel.swift */,
+				FDCE9B876E0AEF96D6416B3C /* AccountViewModel.swift */,
+				770602022B34E9D9B4D51BC6 /* MoreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F3AA2E6603BBCFAB0BF93507 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0186B5C720D4AF9924AAA574 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2D78AE17184778D866A89A31 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				C41C389FE163D8713BCF2248 /* RequestFlowView.swift */,
+				B2C3D4E5F60712345678BBBB /* PlanRideView.swift */,
+				E05312AB8154CE1741D62CE6 /* TripStatusView.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		ECC516128422D2A59757BEA2 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				08FF56FD2BD8F959DD719FBF /* ActivityView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		02A1B02124201DA8D9C26692 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				465847208A22061E17194530 /* WalletView.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		C5D8A7E4B28F7B080DD9268F /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				5D902A57EDD102BD5FC70991 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BF12947A4E9D502EEEBC2593 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				552C272BC37FFDE9903D6042 /* MoreView.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		29AC9F3F890EAF73DB9E7C81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3F564A12A7E617B69B0CFC9 /* RootTabView.swift */,
+				F3AA2E6603BBCFAB0BF93507 /* Home */,
+				2D78AE17184778D866A89A31 /* Request */,
+				ECC516128422D2A59757BEA2 /* Activity */,
+				02A1B02124201DA8D9C26692 /* Wallet */,
+				C5D8A7E4B28F7B080DD9268F /* Account */,
+				BF12947A4E9D502EEEBC2593 /* More */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D4FEDD6EADF31A14E9E6C97 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				589C61E513DC0F758B16EDB1 /* AppPersistence.swift */,
+				D6ECB27C5FD7BB267CCDE6F0 /* FareRepository.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		AAE953452CCD6DDD91445CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42FD958A7B124114C97CF572 /* fare_snapshot.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		30ECEADAE77C7F66E740123C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				013A323660FD60A7A9F81304 /* AppFormatters.swift */,
+				A1B2C3D4E5F60123456789AC /* RouteMapGeometry.swift */,
+				C3D4E5F607123456789ADDDD /* RouteMapView.swift */,
+				A1B2C3D4E5F60123456789AD /* CityRideTheme.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F6A7B8C9D0E1F2A3B4C5D6E7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5F6A7B8C9D0E1F2A3B4C5 /* AddressSearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		547D009064F7C3F13BEF3460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05337583C7ABA61F69FC5AE1 /* CityRide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD3E74F4CF5FA13B89F3301 /* CityRide */ = {
+			isa = PBXGroup;
+			children = (
+				81D4F0B0A51BF5C075A1E524 /* Assets.xcassets */,
+				D87FFAD67154266E3024C357 /* Info.plist */,
+				5B68BAF12046A1E38517053F /* CityRideApp.swift */,
+				209FAC3A625D83C69ADEB15A /* Models */,
+				F357ED80203487E648855A73 /* ViewModels */,
+				29AC9F3F890EAF73DB9E7C81 /* Views */,
+				4D4FEDD6EADF31A14E9E6C97 /* Persistence */,
+				F6A7B8C9D0E1F2A3B4C5D6E7 /* Services */,
+				AAE953452CCD6DDD91445CEA /* Resources */,
+				30ECEADAE77C7F66E740123C /* Utilities */,
+			);
+			path = CityRide;
+			sourceTree = "<group>";
+		};
+		518DA81DB9B99529C0C0AEBE = {
+			isa = PBXGroup;
+			children = (
+				DAD3E74F4CF5FA13B89F3301 /* CityRide */,
+				547D009064F7C3F13BEF3460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4095C43D677F4415FF47FB8D /* CityRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F62AAE534BA46EC59716F3 /* Build configuration list for PBXNativeTarget "CityRide" */;
+			buildPhases = (
+				7A70D71C385290AF96BF1031 /* Sources */,
+				285BB1C1430063331E9F5DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityRide;
+			packageProductDependencies = (
+			);
+			productName = CityRide;
+			productReference = 05337583C7ABA61F69FC5AE1 /* CityRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4095C43D677F4415FF47FB8D = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "CityRide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 518DA81DB9B99529C0C0AEBE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4095C43D677F4415FF47FB8D /* CityRide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		285BB1C1430063331E9F5DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924A6BAEBAA9519671EFCC74 /* Assets.xcassets in Resources */,
+				74EB2F591327A16AFC0D4003 /* fare_snapshot.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A70D71C385290AF96BF1031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1359BBEECF37AE36A7618769 /* CityRideApp.swift in Sources */,
+				F5EFB538ACB685B2EE4E36B1 /* AppModels.swift in Sources */,
+				78A9E691768B23B82DD71113 /* SeedData.swift in Sources */,
+				D81EE3AD669167AA6E2B71E9 /* CityRideSimStore.swift in Sources */,
+				3B2B6316551E5A52F7A0459C /* HomeViewModel.swift in Sources */,
+				E419EBED2F56061FE136F8F0 /* RequestViewModel.swift in Sources */,
+				9F51A382E61BCF0963BAFBF2 /* ActivityViewModel.swift in Sources */,
+				77DFE5CA17E28CB1F166859A /* WalletViewModel.swift in Sources */,
+				63687915E99B48C9725E9E29 /* AccountViewModel.swift in Sources */,
+				FCB18EFE485A175A9A2A4E2B /* MoreViewModel.swift in Sources */,
+				675594E338F22950074D1678 /* RootTabView.swift in Sources */,
+				5D1DAB2BB0D94CB3EF1FF66A /* HomeView.swift in Sources */,
+				58F7800C18EDC59EFE016E61 /* RequestFlowView.swift in Sources */,
+				B2C3D4E5F60712345678AAAA /* PlanRideView.swift in Sources */,
+				53CD467BC1A63B60553716C7 /* TripStatusView.swift in Sources */,
+				F69DCE7C2CF428BC16E89236 /* ActivityView.swift in Sources */,
+				01ECD98F7CBD9958A3FE6B77 /* WalletView.swift in Sources */,
+				3F592061772C060DAC244E60 /* AccountView.swift in Sources */,
+				DB1F3B5707B9829F19229E08 /* MoreView.swift in Sources */,
+				654CEA9008549CE72C9288E0 /* AppPersistence.swift in Sources */,
+				A533B4A234FF2E71E186E7FF /* FareRepository.swift in Sources */,
+				E1B5D51F65272CFBDAE386B2 /* AppFormatters.swift in Sources */,
+				A1B2C3D4E5F60123456789AA /* RouteMapGeometry.swift in Sources */,
+				A1B2C3D4E5F60123456789AB /* CityRideTheme.swift in Sources */,
+				C3D4E5F607123456789ACCCC /* RouteMapView.swift in Sources */,
+				E5F6A7B8C9D0E1F2A3B4C5D6 /* AddressSearchService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCFB30EAE59D6917CE906371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("$(inherited)", "DEBUG=1",);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37CDDD61FED8A39EEA88C0F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		331C5106741EE8E14B752D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CityRide/CityRide.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CityRide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworld.benchmark.cityride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		256639833029BCA847F093AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CityRide/CityRide.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CityRide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworld.benchmark.cityride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2F62AAE534BA46EC59716F3 /* Build configuration list for PBXNativeTarget "CityRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331C5106741EE8E14B752D88 /* Debug */,
+				256639833029BCA847F093AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "CityRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFB30EAE59D6917CE906371 /* Debug */,
+				37CDDD61FED8A39EEA88C0F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}

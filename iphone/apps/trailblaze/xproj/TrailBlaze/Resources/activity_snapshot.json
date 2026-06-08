@@ -1,0 +1,545 @@
+{
+  "metadata" : {
+    "activityCount" : 6,
+    "athleteCount" : 4,
+    "generatedAt" : "2026-02-26T06:00:00Z",
+    "id" : "metadata_snapshot_001",
+    "lastUpdated" : "2026-02-26T06:00:00Z",
+    "name" : "Bundled Winter Snapshot",
+    "sourceType" : "snapshot",
+    "version" : "1.0"
+  },
+  "currentUserAthleteId" : "athlete_001",
+  "athletes" : [
+    {
+      "achievements" : [
+        "Winter Base Block",
+        "Local Legend"
+      ],
+      "bio" : "Stacking early miles and preserving route discipline.",
+      "city" : "San Francisco, CA",
+      "followerCount" : 244,
+      "followingCount" : 186,
+      "handle" : "@jordanavery",
+      "id" : "athlete_001",
+      "isCurrentUser" : true,
+      "name" : "Jordan Avery",
+      "personalRecords" : [
+        "5K 19:42",
+        "10K 42:18"
+      ]
+    },
+    {
+      "achievements" : [
+        "Trail Builder",
+        "Weekend Warrior"
+      ],
+      "bio" : "Climbs first, coffee second.",
+      "city" : "Oakland, CA",
+      "followerCount" : 318,
+      "followingCount" : 211,
+      "handle" : "@ava_torres",
+      "id" : "athlete_002",
+      "isCurrentUser" : false,
+      "name" : "Ava Torres",
+      "personalRecords" : [
+        "10K 41:55"
+      ]
+    },
+    {
+      "achievements" : [
+        "Bridge Repeater"
+      ],
+      "bio" : "Road miles and steady tempo power.",
+      "city" : "Berkeley, CA",
+      "followerCount" : 278,
+      "followingCount" : 144,
+      "handle" : "@mileschen",
+      "id" : "athlete_003",
+      "isCurrentUser" : false,
+      "name" : "Miles Chen",
+      "personalRecords" : [
+        "40K TT 58:44"
+      ]
+    },
+    {
+      "achievements" : [
+        "Marathon Build"
+      ],
+      "bio" : "Tempo sessions and negative splits.",
+      "city" : "San Jose, CA",
+      "followerCount" : 209,
+      "followingCount" : 132,
+      "handle" : "@priyaonpace",
+      "id" : "athlete_004",
+      "isCurrentUser" : false,
+      "name" : "Priya Kapoor",
+      "personalRecords" : [
+        "Marathon 3:18:50"
+      ]
+    }
+  ],
+  "routes" : [
+    {
+      "distanceKilometers" : 12.1,
+      "elevationGainMeters" : 186,
+      "elevationProfile" : [
+        14,
+        18,
+        33,
+        54,
+        68,
+        61,
+        43,
+        28,
+        19
+      ],
+      "estimatedTimeSeconds" : 3600,
+      "id" : "route_101",
+      "isBookmarked" : true,
+      "isSaved" : true,
+      "name" : "Crissy to Presidio Clockwise",
+      "points" : [
+        { "id" : "route_101_point_1", "latitude" : 37.806, "longitude" : -122.469 },
+        { "id" : "route_101_point_2", "latitude" : 37.802, "longitude" : -122.458 },
+        { "id" : "route_101_point_3", "latitude" : 37.798, "longitude" : -122.450 },
+        { "id" : "route_101_point_4", "latitude" : 37.802, "longitude" : -122.442 },
+        { "id" : "route_101_point_5", "latitude" : 37.808, "longitude" : -122.447 },
+        { "id" : "route_101_point_6", "latitude" : 37.810, "longitude" : -122.463 }
+      ],
+      "popularityScore" : 91,
+      "recommendedActivityType" : "run",
+      "segmentIds" : [
+        "segment_101",
+        "segment_102"
+      ],
+      "startLocation" : "Crissy Field"
+    },
+    {
+      "distanceKilometers" : 39.4,
+      "elevationGainMeters" : 544,
+      "elevationProfile" : [
+        8,
+        13,
+        22,
+        41,
+        74,
+        88,
+        72,
+        40
+      ],
+      "estimatedTimeSeconds" : 5520,
+      "id" : "route_102",
+      "isBookmarked" : false,
+      "isSaved" : false,
+      "name" : "Bridge to Hawk Hill Out-and-Back",
+      "points" : [
+        { "id" : "route_102_point_1", "latitude" : 37.795, "longitude" : -122.394 },
+        { "id" : "route_102_point_2", "latitude" : 37.804, "longitude" : -122.430 },
+        { "id" : "route_102_point_3", "latitude" : 37.818, "longitude" : -122.478 },
+        { "id" : "route_102_point_4", "latitude" : 37.832, "longitude" : -122.485 },
+        { "id" : "route_102_point_5", "latitude" : 37.861, "longitude" : -122.492 }
+      ],
+      "popularityScore" : 95,
+      "recommendedActivityType" : "ride",
+      "segmentIds" : [
+        "segment_103"
+      ],
+      "startLocation" : "Ferry Building"
+    },
+    {
+      "distanceKilometers" : 7.2,
+      "elevationGainMeters" : 38,
+      "elevationProfile" : [
+        4,
+        6,
+        8,
+        7,
+        6,
+        5,
+        4
+      ],
+      "estimatedTimeSeconds" : 3180,
+      "id" : "route_103",
+      "isBookmarked" : true,
+      "isSaved" : false,
+      "name" : "Lakefront Recovery Loop",
+      "points" : [
+        { "id" : "route_103_point_1", "latitude" : 37.809, "longitude" : -122.260 },
+        { "id" : "route_103_point_2", "latitude" : 37.804, "longitude" : -122.251 },
+        { "id" : "route_103_point_3", "latitude" : 37.798, "longitude" : -122.252 },
+        { "id" : "route_103_point_4", "latitude" : 37.801, "longitude" : -122.260 }
+      ],
+      "popularityScore" : 80,
+      "recommendedActivityType" : "walk",
+      "segmentIds" : [],
+      "startLocation" : "Lake Merritt Pergola"
+    }
+  ],
+  "segments" : [
+    {
+      "distanceKilometers" : 1.1,
+      "gradePercent" : 4.6,
+      "id" : "segment_101",
+      "leaderboard" : [
+        { "athleteId" : "leader_1", "athleteName" : "Ava Torres", "id" : "segment_101_entry_1", "rank" : 1, "timeSeconds" : 258 },
+        { "athleteId" : "leader_2", "athleteName" : "Priya Kapoor", "id" : "segment_101_entry_2", "rank" : 2, "timeSeconds" : 266 },
+        { "athleteId" : "leader_3", "athleteName" : "Jordan Avery", "id" : "segment_101_entry_3", "rank" : 3, "timeSeconds" : 274 },
+        { "athleteId" : "leader_4", "athleteName" : "Miles Chen", "id" : "segment_101_entry_4", "rank" : 4, "timeSeconds" : 281 },
+        { "athleteId" : "leader_5", "athleteName" : "Noah Patel", "id" : "segment_101_entry_5", "rank" : 5, "timeSeconds" : 287 },
+        { "athleteId" : "leader_6", "athleteName" : "Grace Lin", "id" : "segment_101_entry_6", "rank" : 6, "timeSeconds" : 294 },
+        { "athleteId" : "leader_7", "athleteName" : "Sam Rivera", "id" : "segment_101_entry_7", "rank" : 7, "timeSeconds" : 301 },
+        { "athleteId" : "leader_8", "athleteName" : "Nina Park", "id" : "segment_101_entry_8", "rank" : 8, "timeSeconds" : 309 },
+        { "athleteId" : "leader_9", "athleteName" : "Leo Grant", "id" : "segment_101_entry_9", "rank" : 9, "timeSeconds" : 315 },
+        { "athleteId" : "leader_10", "athleteName" : "Maya Scott", "id" : "segment_101_entry_10", "rank" : 10, "timeSeconds" : 320 }
+      ],
+      "name" : "Lincoln Rise",
+      "routeId" : "route_101"
+    },
+    {
+      "distanceKilometers" : 0.8,
+      "gradePercent" : -2.2,
+      "id" : "segment_102",
+      "leaderboard" : [
+        { "athleteId" : "leader_1", "athleteName" : "Jordan Avery", "id" : "segment_102_entry_1", "rank" : 1, "timeSeconds" : 105 },
+        { "athleteId" : "leader_2", "athleteName" : "Ava Torres", "id" : "segment_102_entry_2", "rank" : 2, "timeSeconds" : 108 },
+        { "athleteId" : "leader_3", "athleteName" : "Priya Kapoor", "id" : "segment_102_entry_3", "rank" : 3, "timeSeconds" : 112 },
+        { "athleteId" : "leader_4", "athleteName" : "Miles Chen", "id" : "segment_102_entry_4", "rank" : 4, "timeSeconds" : 117 },
+        { "athleteId" : "leader_5", "athleteName" : "Noah Patel", "id" : "segment_102_entry_5", "rank" : 5, "timeSeconds" : 120 },
+        { "athleteId" : "leader_6", "athleteName" : "Grace Lin", "id" : "segment_102_entry_6", "rank" : 6, "timeSeconds" : 124 },
+        { "athleteId" : "leader_7", "athleteName" : "Sam Rivera", "id" : "segment_102_entry_7", "rank" : 7, "timeSeconds" : 127 },
+        { "athleteId" : "leader_8", "athleteName" : "Nina Park", "id" : "segment_102_entry_8", "rank" : 8, "timeSeconds" : 131 },
+        { "athleteId" : "leader_9", "athleteName" : "Leo Grant", "id" : "segment_102_entry_9", "rank" : 9, "timeSeconds" : 136 },
+        { "athleteId" : "leader_10", "athleteName" : "Maya Scott", "id" : "segment_102_entry_10", "rank" : 10, "timeSeconds" : 140 }
+      ],
+      "name" : "Presidio Drop",
+      "routeId" : "route_101"
+    },
+    {
+      "distanceKilometers" : 3.6,
+      "gradePercent" : 5.2,
+      "id" : "segment_103",
+      "leaderboard" : [
+        { "athleteId" : "leader_1", "athleteName" : "Miles Chen", "id" : "segment_103_entry_1", "rank" : 1, "timeSeconds" : 682 },
+        { "athleteId" : "leader_2", "athleteName" : "Luca Marino", "id" : "segment_103_entry_2", "rank" : 2, "timeSeconds" : 691 },
+        { "athleteId" : "leader_3", "athleteName" : "Jordan Avery", "id" : "segment_103_entry_3", "rank" : 3, "timeSeconds" : 705 },
+        { "athleteId" : "leader_4", "athleteName" : "Ava Torres", "id" : "segment_103_entry_4", "rank" : 4, "timeSeconds" : 712 },
+        { "athleteId" : "leader_5", "athleteName" : "Priya Kapoor", "id" : "segment_103_entry_5", "rank" : 5, "timeSeconds" : 719 },
+        { "athleteId" : "leader_6", "athleteName" : "Noah Patel", "id" : "segment_103_entry_6", "rank" : 6, "timeSeconds" : 731 },
+        { "athleteId" : "leader_7", "athleteName" : "Grace Lin", "id" : "segment_103_entry_7", "rank" : 7, "timeSeconds" : 738 },
+        { "athleteId" : "leader_8", "athleteName" : "Sam Rivera", "id" : "segment_103_entry_8", "rank" : 8, "timeSeconds" : 745 },
+        { "athleteId" : "leader_9", "athleteName" : "Nina Park", "id" : "segment_103_entry_9", "rank" : 9, "timeSeconds" : 752 },
+        { "athleteId" : "leader_10", "athleteName" : "Leo Grant", "id" : "segment_103_entry_10", "rank" : 10, "timeSeconds" : 760 }
+      ],
+      "name" : "Bridge to Hawk Hill",
+      "routeId" : "route_102"
+    }
+  ],
+  "activities" : [
+    {
+      "activityType" : "run",
+      "athleteId" : "athlete_001",
+      "avgPaceSecondsPerKilometer" : 283,
+      "calories" : 612,
+      "clubId" : "club_101",
+      "comments" : [
+        { "athleteId" : "athlete_002", "createdAt" : "2026-02-25T14:10:00Z", "id" : "comment_101", "message" : "Looked smooth through the climb." }
+      ],
+      "distanceKilometers" : 12.1,
+      "durationSeconds" : 3424,
+      "elevationGainMeters" : 188,
+      "hasCurrentUserKudo" : false,
+      "id" : "activity_101",
+      "kudosCount" : 14,
+      "lastUpdated" : "2026-02-25T14:12:00Z",
+      "routeId" : "route_101",
+      "segmentResults" : [
+        { "id" : "activity_101_segment_1", "rank" : 4, "segmentId" : "segment_101", "timeSeconds" : 292 },
+        { "id" : "activity_101_segment_2", "rank" : 2, "segmentId" : "segment_102", "timeSeconds" : 111 }
+      ],
+      "sourceType" : "personal",
+      "splits" : [
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_1", "index" : 1 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_2", "index" : 2 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_3", "index" : 3 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_4", "index" : 4 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_5", "index" : 5 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_6", "index" : 6 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_7", "index" : 7 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_8", "index" : 8 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_9", "index" : 9 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_10", "index" : 10 },
+        { "distanceKilometers" : 1, "durationSeconds" : 283, "id" : "activity_101_split_11", "index" : 11 },
+        { "distanceKilometers" : 1.1, "durationSeconds" : 311, "id" : "activity_101_split_12", "index" : 12 }
+      ],
+      "startTime" : "2026-02-25T06:14:00Z",
+      "title" : "Crissy to Presidio Progression"
+    },
+    {
+      "activityType" : "ride",
+      "athleteId" : "athlete_003",
+      "avgPaceSecondsPerKilometer" : 140,
+      "calories" : 884,
+      "clubId" : "club_102",
+      "comments" : [
+        { "athleteId" : "athlete_001", "createdAt" : "2026-02-24T20:30:00Z", "id" : "comment_102", "message" : "Fast bridge crossing today." }
+      ],
+      "distanceKilometers" : 39.4,
+      "durationSeconds" : 5530,
+      "elevationGainMeters" : 552,
+      "hasCurrentUserKudo" : true,
+      "id" : "activity_102",
+      "kudosCount" : 27,
+      "lastUpdated" : "2026-02-24T20:31:00Z",
+      "routeId" : "route_102",
+      "segmentResults" : [
+        { "id" : "activity_102_segment_1", "rank" : 3, "segmentId" : "segment_103", "timeSeconds" : 703 }
+      ],
+      "sourceType" : "friend",
+      "splits" : [
+        { "distanceKilometers" : 5, "durationSeconds" : 701, "id" : "activity_102_split_1", "index" : 1 },
+        { "distanceKilometers" : 5, "durationSeconds" : 701, "id" : "activity_102_split_2", "index" : 2 },
+        { "distanceKilometers" : 5, "durationSeconds" : 701, "id" : "activity_102_split_3", "index" : 3 },
+        { "distanceKilometers" : 5, "durationSeconds" : 701, "id" : "activity_102_split_4", "index" : 4 },
+        { "distanceKilometers" : 5, "durationSeconds" : 701, "id" : "activity_102_split_5", "index" : 5 },
+        { "distanceKilometers" : 5, "durationSeconds" : 701, "id" : "activity_102_split_6", "index" : 6 },
+        { "distanceKilometers" : 5, "durationSeconds" : 701, "id" : "activity_102_split_7", "index" : 7 },
+        { "distanceKilometers" : 4.4, "durationSeconds" : 623, "id" : "activity_102_split_8", "index" : 8 }
+      ],
+      "startTime" : "2026-02-24T12:10:00Z",
+      "title" : "Lunch Ride to Hawk Hill"
+    },
+    {
+      "activityType" : "run",
+      "athleteId" : "athlete_002",
+      "avgPaceSecondsPerKilometer" : 298,
+      "calories" : 774,
+      "clubId" : "club_101",
+      "comments" : [],
+      "distanceKilometers" : 15.2,
+      "durationSeconds" : 4530,
+      "elevationGainMeters" : 260,
+      "hasCurrentUserKudo" : false,
+      "id" : "activity_103",
+      "kudosCount" : 22,
+      "lastUpdated" : "2026-02-23T07:44:00Z",
+      "routeId" : "route_101",
+      "segmentResults" : [
+        { "id" : "activity_103_segment_1", "rank" : 5, "segmentId" : "segment_101", "timeSeconds" : 304 }
+      ],
+      "sourceType" : "friend",
+      "splits" : [
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_1", "index" : 1 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_2", "index" : 2 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_3", "index" : 3 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_4", "index" : 4 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_5", "index" : 5 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_6", "index" : 6 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_7", "index" : 7 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_8", "index" : 8 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_9", "index" : 9 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_10", "index" : 10 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_11", "index" : 11 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_12", "index" : 12 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_13", "index" : 13 },
+        { "distanceKilometers" : 1, "durationSeconds" : 298, "id" : "activity_103_split_14", "index" : 14 },
+        { "distanceKilometers" : 1.2, "durationSeconds" : 358, "id" : "activity_103_split_15", "index" : 15 }
+      ],
+      "startTime" : "2026-02-23T06:20:00Z",
+      "title" : "Steady Long Run"
+    },
+    {
+      "activityType" : "walk",
+      "athleteId" : "athlete_004",
+      "avgPaceSecondsPerKilometer" : 496,
+      "calories" : 281,
+      "clubId" : null,
+      "comments" : [
+        { "athleteId" : "athlete_001", "createdAt" : "2026-02-22T18:03:00Z", "id" : "comment_103", "message" : "Recovery mode looks good." }
+      ],
+      "distanceKilometers" : 7.2,
+      "durationSeconds" : 3570,
+      "elevationGainMeters" : 38,
+      "hasCurrentUserKudo" : false,
+      "id" : "activity_104",
+      "kudosCount" : 8,
+      "lastUpdated" : "2026-02-22T18:04:00Z",
+      "routeId" : "route_103",
+      "segmentResults" : [],
+      "sourceType" : "friend",
+      "splits" : [
+        { "distanceKilometers" : 1, "durationSeconds" : 496, "id" : "activity_104_split_1", "index" : 1 },
+        { "distanceKilometers" : 1, "durationSeconds" : 496, "id" : "activity_104_split_2", "index" : 2 },
+        { "distanceKilometers" : 1, "durationSeconds" : 496, "id" : "activity_104_split_3", "index" : 3 },
+        { "distanceKilometers" : 1, "durationSeconds" : 496, "id" : "activity_104_split_4", "index" : 4 },
+        { "distanceKilometers" : 1, "durationSeconds" : 496, "id" : "activity_104_split_5", "index" : 5 },
+        { "distanceKilometers" : 1, "durationSeconds" : 496, "id" : "activity_104_split_6", "index" : 6 },
+        { "distanceKilometers" : 1.2, "durationSeconds" : 594, "id" : "activity_104_split_7", "index" : 7 }
+      ],
+      "startTime" : "2026-02-22T17:02:00Z",
+      "title" : "Lakefront Recovery Walk"
+    },
+    {
+      "activityType" : "indoorRide",
+      "athleteId" : "athlete_001",
+      "avgPaceSecondsPerKilometer" : 123,
+      "calories" : 690,
+      "clubId" : "club_102",
+      "comments" : [],
+      "distanceKilometers" : 27.6,
+      "durationSeconds" : 3390,
+      "elevationGainMeters" : 0,
+      "hasCurrentUserKudo" : false,
+      "id" : "activity_105",
+      "kudosCount" : 6,
+      "lastUpdated" : "2026-02-21T06:55:00Z",
+      "routeId" : null,
+      "segmentResults" : [],
+      "sourceType" : "personal",
+      "splits" : [
+        { "distanceKilometers" : 5, "durationSeconds" : 615, "id" : "activity_105_split_1", "index" : 1 },
+        { "distanceKilometers" : 5, "durationSeconds" : 615, "id" : "activity_105_split_2", "index" : 2 },
+        { "distanceKilometers" : 5, "durationSeconds" : 615, "id" : "activity_105_split_3", "index" : 3 },
+        { "distanceKilometers" : 5, "durationSeconds" : 615, "id" : "activity_105_split_4", "index" : 4 },
+        { "distanceKilometers" : 5, "durationSeconds" : 615, "id" : "activity_105_split_5", "index" : 5 },
+        { "distanceKilometers" : 2.6, "durationSeconds" : 315, "id" : "activity_105_split_6", "index" : 6 }
+      ],
+      "startTime" : "2026-02-21T05:58:00Z",
+      "title" : "Trainer Endurance Block"
+    },
+    {
+      "activityType" : "run",
+      "athleteId" : "athlete_004",
+      "avgPaceSecondsPerKilometer" : 274,
+      "calories" : 702,
+      "clubId" : "club_101",
+      "comments" : [
+        { "athleteId" : "athlete_001", "createdAt" : "2026-02-20T13:15:00Z", "id" : "comment_104", "message" : "Negative split finish was sharp." }
+      ],
+      "distanceKilometers" : 13.8,
+      "durationSeconds" : 3781,
+      "elevationGainMeters" : 142,
+      "hasCurrentUserKudo" : true,
+      "id" : "activity_106",
+      "kudosCount" : 25,
+      "lastUpdated" : "2026-02-20T13:16:00Z",
+      "routeId" : "route_101",
+      "segmentResults" : [
+        { "id" : "activity_106_segment_1", "rank" : 2, "segmentId" : "segment_101", "timeSeconds" : 271 }
+      ],
+      "sourceType" : "club",
+      "splits" : [
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_1", "index" : 1 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_2", "index" : 2 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_3", "index" : 3 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_4", "index" : 4 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_5", "index" : 5 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_6", "index" : 6 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_7", "index" : 7 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_8", "index" : 8 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_9", "index" : 9 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_10", "index" : 10 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_11", "index" : 11 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_12", "index" : 12 },
+        { "distanceKilometers" : 1, "durationSeconds" : 274, "id" : "activity_106_split_13", "index" : 13 },
+        { "distanceKilometers" : 0.8, "durationSeconds" : 219, "id" : "activity_106_split_14", "index" : 14 }
+      ],
+      "startTime" : "2026-02-20T12:02:00Z",
+      "title" : "Lunch Threshold Repeats"
+    }
+  ],
+  "clubs" : [
+    {
+      "activityIds" : [
+        "activity_101",
+        "activity_103",
+        "activity_106"
+      ],
+      "description" : "Threshold sessions and long-run accountability.",
+      "id" : "club_101",
+      "isJoined" : true,
+      "memberCount" : 132,
+      "members" : [
+        { "athleteId" : "athlete_001", "id" : "club_101_member_1", "isAdmin" : false, "weeklyDistanceKilometers" : 39.7 },
+        { "athleteId" : "athlete_002", "id" : "club_101_member_2", "isAdmin" : true, "weeklyDistanceKilometers" : 44.1 },
+        { "athleteId" : "athlete_004", "id" : "club_101_member_3", "isAdmin" : false, "weeklyDistanceKilometers" : 31.0 }
+      ],
+      "name" : "Bay Tempo Collective",
+      "weeklyLeaderboard" : [
+        { "athleteId" : "athlete_002", "athleteName" : "Ava Torres", "id" : "club_101_leader_1", "rank" : 1, "timeSeconds" : 7938 },
+        { "athleteId" : "athlete_001", "athleteName" : "Jordan Avery", "id" : "club_101_leader_2", "rank" : 2, "timeSeconds" : 7146 },
+        { "athleteId" : "athlete_004", "athleteName" : "Priya Kapoor", "id" : "club_101_leader_3", "rank" : 3, "timeSeconds" : 5580 }
+      ]
+    },
+    {
+      "activityIds" : [
+        "activity_102",
+        "activity_105"
+      ],
+      "description" : "Steady road volume and bridge climbs.",
+      "id" : "club_102",
+      "isJoined" : false,
+      "memberCount" : 168,
+      "members" : [
+        { "athleteId" : "athlete_003", "id" : "club_102_member_1", "isAdmin" : true, "weeklyDistanceKilometers" : 112.4 }
+      ],
+      "name" : "Coastal Riders SF",
+      "weeklyLeaderboard" : [
+        { "athleteId" : "athlete_003", "athleteName" : "Miles Chen", "id" : "club_102_leader_1", "rank" : 1, "timeSeconds" : 20232 },
+        { "athleteId" : "athlete_001", "athleteName" : "Jordan Avery", "id" : "club_102_leader_2", "rank" : 2, "timeSeconds" : 12960 }
+      ]
+    }
+  ],
+  "notifications" : [
+    {
+      "body" : "Ava Torres gave kudos to Crissy to Presidio Progression.",
+      "createdAt" : "2026-02-25T09:00:00Z",
+      "id" : "notification_101",
+      "isRead" : false,
+      "kind" : "kudos",
+      "relatedActivityId" : "activity_101",
+      "relatedClubId" : null,
+      "title" : "New kudos"
+    },
+    {
+      "body" : "Bay Tempo Collective posted a new long-run meetup.",
+      "createdAt" : "2026-02-24T18:15:00Z",
+      "id" : "notification_102",
+      "isRead" : false,
+      "kind" : "clubAnnouncement",
+      "relatedActivityId" : null,
+      "relatedClubId" : "club_101",
+      "title" : "Club update"
+    },
+    {
+      "body" : "You reached 68% of the February climbing challenge.",
+      "createdAt" : "2026-02-23T07:12:00Z",
+      "id" : "notification_103",
+      "isRead" : true,
+      "kind" : "challenge",
+      "relatedActivityId" : null,
+      "relatedClubId" : null,
+      "title" : "Challenge progress"
+    }
+  ],
+  "challenges" : [
+    {
+      "goal" : 40,
+      "id" : "challenge_101",
+      "isCompleted" : false,
+      "progress" : 27,
+      "reward" : "Winter run badge",
+      "subtitle" : "Run 40 km in February",
+      "title" : "Winter Run Streak"
+    },
+    {
+      "goal" : 1200,
+      "id" : "challenge_102",
+      "isCompleted" : false,
+      "progress" : 816,
+      "reward" : "Climbing badge",
+      "subtitle" : "Gain 1,200 m elevation",
+      "title" : "February Climbing"
+    }
+  ]
+}

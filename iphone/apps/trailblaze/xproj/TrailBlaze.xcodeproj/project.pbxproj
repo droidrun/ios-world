@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* TrailBlazeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* TrailBlazeApp.swift */; };
+		A10000000000000000000002 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppModels.swift */; };
+		A10000000000000000000003 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* SeedData.swift */; };
+		A10000000000000000000004 /* AppPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* AppPersistence.swift */; };
+		A10000000000000000000005 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* AppState.swift */; };
+		A10000000000000000000006 /* ScreenViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* ScreenViewModels.swift */; };
+		A10000000000000000000007 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* RecordViewModel.swift */; };
+		A10000000000000000000008 /* AccessibilityID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* AccessibilityID.swift */; };
+		A10000000000000000000009 /* AppFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* AppFormatters.swift */; };
+		A1000000000000000000000A /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* RootTabView.swift */; };
+		A1000000000000000000000B /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* CommonViews.swift */; };
+		A1000000000000000000000C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* FeedView.swift */; };
+		A1000000000000000000000D /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* RecordView.swift */; };
+		A1000000000000000000000E /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* ActivityDetailView.swift */; };
+		A1000000000000000000000F /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* RoutesView.swift */; };
+		A10000000000000000000010 /* ClubsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* ClubsView.swift */; };
+		A10000000000000000000011 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000011 /* ProfileView.swift */; };
+		A10000000000000000000012 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000012 /* NotificationsView.swift */; };
+		A10000000000000000000013 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* MoreView.swift */; };
+		A10000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000014 /* Assets.xcassets */; };
+		A10000000000000000000015 /* activity_snapshot.json in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000016 /* activity_snapshot.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* TrailBlazeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailBlazeApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* AppPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPersistence.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* ScreenViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewModels.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* AccessibilityID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityID.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* AppFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFormatters.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* ActivityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* ClubsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B10000000000000000000012 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		B10000000000000000000013 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		B10000000000000000000014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000016 /* activity_snapshot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = activity_snapshot.json; sourceTree = "<group>"; };
+		B10000000000000000000017 /* TrailBlaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailBlaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000002 /* TrailBlaze */,
+				C10000000000000000000012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C10000000000000000000002 /* TrailBlaze */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000014 /* Assets.xcassets */,
+				B10000000000000000000015 /* Info.plist */,
+				B10000000000000000000001 /* TrailBlazeApp.swift */,
+				C10000000000000000000003 /* Models */,
+				C10000000000000000000004 /* ViewModels */,
+				C10000000000000000000005 /* Views */,
+				C1000000000000000000000F /* Persistence */,
+				C10000000000000000000010 /* Resources */,
+				C10000000000000000000011 /* Utilities */,
+			);
+			path = TrailBlaze;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000002 /* AppModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000005 /* AppState.swift */,
+				B10000000000000000000007 /* RecordViewModel.swift */,
+				B10000000000000000000006 /* ScreenViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000A /* RootTabView.swift */,
+				C10000000000000000000006 /* Feed */,
+				C10000000000000000000007 /* Record */,
+				C10000000000000000000008 /* Activity */,
+				C10000000000000000000009 /* Routes */,
+				C1000000000000000000000A /* Clubs */,
+				C1000000000000000000000B /* Profile */,
+				C1000000000000000000000C /* Notifications */,
+				C1000000000000000000000D /* More */,
+				C1000000000000000000000E /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000006 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000C /* FeedView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000007 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000D /* RecordView.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000008 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000E /* ActivityDetailView.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000009 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000F /* RoutesView.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		C1000000000000000000000A /* Clubs */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000010 /* ClubsView.swift */,
+			);
+			path = Clubs;
+			sourceTree = "<group>";
+		};
+		C1000000000000000000000B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000011 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C1000000000000000000000C /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000012 /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		C1000000000000000000000D /* More */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000013 /* MoreView.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		C1000000000000000000000E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000B /* CommonViews.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C1000000000000000000000F /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000004 /* AppPersistence.swift */,
+				B10000000000000000000003 /* SeedData.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000010 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000016 /* activity_snapshot.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000011 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000008 /* AccessibilityID.swift */,
+				B10000000000000000000009 /* AppFormatters.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10000000000000000000017 /* TrailBlaze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10000000000000000000001 /* TrailBlaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10000000000000000000001 /* Build configuration list for PBXNativeTarget "TrailBlaze" */;
+			buildPhases = (
+				D10000000000000000000003 /* Sources */,
+				D10000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrailBlaze;
+			packageProductDependencies = (
+			);
+			productName = TrailBlaze;
+			productReference = B10000000000000000000017 /* TrailBlaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D10000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D10000000000000000000001 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = F10000000000000000000002 /* Build configuration list for PBXProject "TrailBlaze" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C10000000000000000000001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D10000000000000000000001 /* TrailBlaze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000014 /* Assets.xcassets in Resources */,
+				A10000000000000000000015 /* activity_snapshot.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* TrailBlazeApp.swift in Sources */,
+				A10000000000000000000002 /* AppModels.swift in Sources */,
+				A10000000000000000000003 /* SeedData.swift in Sources */,
+				A10000000000000000000004 /* AppPersistence.swift in Sources */,
+				A10000000000000000000005 /* AppState.swift in Sources */,
+				A10000000000000000000006 /* ScreenViewModels.swift in Sources */,
+				A10000000000000000000007 /* RecordViewModel.swift in Sources */,
+				A10000000000000000000008 /* AccessibilityID.swift in Sources */,
+				A10000000000000000000009 /* AppFormatters.swift in Sources */,
+				A1000000000000000000000A /* RootTabView.swift in Sources */,
+				A1000000000000000000000B /* CommonViews.swift in Sources */,
+				A1000000000000000000000C /* FeedView.swift in Sources */,
+				A1000000000000000000000D /* RecordView.swift in Sources */,
+				A1000000000000000000000E /* ActivityDetailView.swift in Sources */,
+				A1000000000000000000000F /* RoutesView.swift in Sources */,
+				A10000000000000000000010 /* ClubsView.swift in Sources */,
+				A10000000000000000000011 /* ProfileView.swift in Sources */,
+				A10000000000000000000012 /* NotificationsView.swift in Sources */,
+				A10000000000000000000013 /* MoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E10000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("$(inherited)", "DEBUG=1",);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E10000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E10000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrailBlaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworld.benchmark.trailblaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E10000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrailBlaze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosworld.benchmark.trailblaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000001 /* Build configuration list for PBXNativeTarget "TrailBlaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000003 /* Debug */,
+				E10000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F10000000000000000000002 /* Build configuration list for PBXProject "TrailBlaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10000000000000000000001 /* Debug */,
+				E10000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D10000000000000000000002 /* Project object */;
+}
